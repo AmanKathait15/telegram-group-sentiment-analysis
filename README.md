@@ -30,14 +30,15 @@
  ## python module used
  
  
- 1 textblob\
+ 1 telebot\
  2 sklearn\
  3 pandas\
  4 time\
  5 tkinter\
  6 threading\
  7 matplotlib\
- 8 numpy
+ 8 textblob\
+ 9 numpy
  
  ## installation
  
