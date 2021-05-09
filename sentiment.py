@@ -4,9 +4,15 @@ from textblob import TextBlob
 #from googletrans import Translator
 from config import *
 
+<<<<<<< HEAD
+# from matplotlib import pyplot as plt
+# import matplotlib.animation as animation
+# from random import random,randint
+=======
 #from matplotlib import pyplot as plt
 #import matplotlib.animation as animation
 from random import random,randint
+>>>>>>> 17ae8e36d1a59c81fbd0dd34e6eb1b2c27f55eb4
 
 from time import localtime , strftime
 
@@ -197,7 +203,7 @@ def echo_all(message):
 
 		print("original message : "+orig_msg)
 
-		translator = Translator(service_urls=['translate.googleapis.com'])
+		#translator = Translator(service_urls=['translate.googleapis.com'])
 
 		trans_msg = orig_msg
 
