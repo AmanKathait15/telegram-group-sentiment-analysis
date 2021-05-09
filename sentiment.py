@@ -136,9 +136,15 @@ def echo_all(message):
 
 	global index
 
-	print()
+	print("\n <<<<<<<<< Telegram Bot is started .......... >>>>>>>>>>")
 
-	index+=1
+	fp = open('files/Group.csv','r')
+
+	tmp_li = list(fp.readlines()[-1].split(','))
+
+	index = int(tmp_li[0])
+
+	index += 1
 
 	try:
 		msg_id = message.message_id
@@ -151,63 +157,93 @@ def echo_all(message):
 
 		ln = message.from_user.last_name
 
+		name = fn
+
 		if(ln!=None):
 
-			name = fn+" "+ln
-		
-		else:
-			
-			name = fn
+			name += " "+ln
+
+		fp = open('files/group_details.csv','r')
+
+		usernames = fp.readlines()[-1].split(',')
+
+		fp.close()
+
+		if(name not in usernames):
+
+			fp2 = open("files/"+name+".csv","w")
+
+			fp2.write("index,name,date_time,message,sentiment_code,sentiment,polarity")
+
+			fp2.close()
+
+			usernames[0] = str(int(usernames[0])+1)
+
+			with open('files/group_details.csv','w') as fp:
+
+				output = ""
+
+				for user in usernames:
+
+					output += user + ','
+
+				fp.write(output+name)
 
 		print("user name : "+ name)
 
 		orig_msg = message.text
 
+		orig_msg = orig_msg.replace("\n"," ")
+
 		print("original message : "+orig_msg)
 
 		translator = Translator(service_urls=['translate.googleapis.com'])
 
-		trans_msg = translator.translate(orig_msg).text
+		trans_msg = orig_msg
 
-		print("translated message : "+trans_msg)
+		# trans_msg = translator.translate(orig_msg).text
 
-		trans_msg = re.sub(r'[,]',' ',trans_msg)
+		# print("translated message : "+trans_msg)
 
-		if(translator_flag and trans_msg!=orig_msg):
+		# trans_msg = re.sub(r'[,]',' ',trans_msg)
 
-			bot.reply_to(message,trans_msg)
+		# if(translator_flag and trans_msg!=orig_msg):
 
-		if(calculator_flag):
+		# 	bot.reply_to(message,trans_msg)
 
-			try:
+		# if(calculator_flag):
+
+		# 	try:
 				
-				#exp = str(eval(exp))
+		# 		#exp = str(eval(exp))
 
-				exp = re.sub(r'[=]','==',trans_msg)
+		# 		exp = re.sub(r'[=]','==',trans_msg)
 
-				exp = re.sub(r'[\^]','**',exp)
+		# 		exp = re.sub(r'[\^]','**',exp)
 
-				exp = re.sub(r'[^0-9\*\(\)-+/%]','',exp)
+		# 		exp = re.sub(r'[^0-9\*\(\)-+/%]','',exp)
 
-				if(len(exp)>2):
+		# 		if(len(exp)>2):
 
-					bot.reply_to(message,str(eval(exp)))
+		# 			bot.reply_to(message,str(eval(exp)))
 			
-			except Exception as e:
+		# 	except Exception as e:
 				
-				print(str(e))
+		# 		print(str(e))
 
-				#raise e
+		# 		#raise e
 
 		analysis = TextBlob(trans_msg)
 
 		polarity = analysis.sentiment.polarity
 
-		with open('files/polarity.txt','w') as fp:
+		# with open('files/polarity.txt','w') as fp:
 
-			fp.write(str(index)+","+str(polarity)+"\n")
+		# 	fp.write(str(index)+","+str(polarity)+"\n")
 
 		sentiment = 'positive'
+
+		sc = '0'
 
 		if(polarity==0):
 			
@@ -215,21 +251,21 @@ def echo_all(message):
 		
 		elif(polarity < -0.5):
 			
-			sentiment = 'Very negative'
+			sentiment, sc = 'Very negative', '4'
 
 			bot.reply_to(message,'Warning !!!!! \n you are using toxic language if you continue this you will get banned .')
 		
 		elif(polarity > 0.5):
 			
-			sentiment = 'Very positive'
+			sentiment , sc = 'Very positive' , '2'
 
 		elif(polarity >0 and polarity<=0.5):
 			
-			sentiment = 'positive'
+			sentiment , sc = 'positive' , '1'
 
 		else:
 			
-			sentiment = 'negative'
+			sentiment , sc = 'negative' , '3'
 
 		output = "Sentiment : "+sentiment+"\nSentiment Score : % .2f" %(polarity)
 
@@ -239,11 +275,15 @@ def echo_all(message):
 
 		print(output)
 
-		Dict = {'neutral':0 , 'positive':1 , 'Very positive':2, 'negative':3 , 'Very negative':4}
+		fp = open("files/Group.csv","a")
 
-		fp = open("files/chat_record.csv","a")
+		fp.write("\n"+str(index)+","+str(name)+","+str(date_time)+","+trans_msg+","+sc+","+sentiment+",%.2f" %(polarity))
 
-		fp.write("\n"+str(index)+","+name+","+date_time+","+str(Dict[sentiment])+","+sentiment+",% .2f" %(polarity))+","+orig_msg
+		fp.close()
+
+		fp = open("files/"+name+".csv","a")
+
+		fp.write("\n"+str(index)+","+str(name)+","+str(date_time)+","+trans_msg+","+sc+","+sentiment+",%.2f" %(polarity))
 
 		fp.close()
 
@@ -251,6 +291,6 @@ def echo_all(message):
 		
 		print(str(e))
 
-		#raise e
+		raise e
 
 bot.polling()

@@ -2,161 +2,41 @@
 ############################## modules reuired ######################################
 
 from tkinter import *					###	used to craete GUI 
-from tkinter import ttk 				###	used to craete GUI
-from tkinter.filedialog import askdirectory		###	used to slecet path 
 
-from pytube import YouTube , Playlist 			###	used to download vedio/playlist
+from tkinter import ttk 				###	used to craete GUI
+
+from tkinter import messagebox
+
 from threading import Thread 				###	used to divide process into different threads
 
-from time import strftime,localtime,gmtime 		###	used to find local date and time 
-from urllib import request 				###	used to download thumbnail
-from pathlib import Path 				###	used to default download path in compter 
-
-import subprocess,sys,os 				###	used to craete subprocess and open other application 
-							###	like vedio/audio player browser et
+from time import strftime,localtime,gmtime 		###	used to find local date and time
 
 from matplotlib import pyplot as plt                #### used to display data in pie-chart , bar graph and scatter plot ####
 
-from random import randint
+import matplotlib.animation as animation
+
+from time import sleep
+
 import pandas as pd
+
+from random import randint
+
+from math import sqrt , ceil
+
+from numpy import array
+
+import os
 
 ############################# End of imported modules ###########################################
 
-class Application(): 
-
-    """    
-    ################# docstring for TwitterClient Class #################
-
-    varibale 	type 			use to
-
-    query 	string 		store #tag that user enter in tag_field
-
-    count 	integer		store number of tweets to fetch from twitter
-
-    ploarity 	list 			store sentiment score of all tweets range from -1 to +1
-
-    positive 	list 			store postive sentiment score of different ml model used
-
-    negative 	list 			store negative sentiment score of different ml model used
-
-    neutral 	list 			store neutral sentiment score of different ml model used
-
-    model 	string 		store model which is currently selected in combobox
-
-    nbc 	undefined   		used to store naviebayes classifier object
-
-    rf  	undefined   		used to store random forest classifier object
-
-    dt  	undefined   		used to store decission tree classifier object
-
-    ################# class function #################
-
-    function 			work / task						run/call
-
-    __init__			this function is a constructor of TwitterClient		run when TwitterClient class object is created	
-    				class and it work is to allocate memory to 
-    				TwiiterClient object and initailze class variables
-
-    authentication  		this function make connection with twitter by tweepy	run after TwitterClient object is created
-    				OAuthHamdler method with the help of credentials of
-    				twitter developer account
-
-    load_dict_smileys		this function make dictionary of emoticon with 		call inside clean_tweet function
-    				emoticon as key and meaning as value so can be 
-    				used in preprocessing phase
-
-    load_dict_contractions  	this function make dictionary of contractions with 	call inside clean_tweet function
-    				contraction like doesn't as key and meaning (does not) 
-    				as value so can be used in preprocessing phase
-
-    clean_tweet			this function is used to preprocess data . this 	call before finding ploarity of each tweet
-    				function filter tweet by removinf handle , url 
-    				, retweet tag and hash tag which not useful in 
-    				sentiment analysis and convert emoticon , emoji
-    				and contraction to thier meaning in text
-
-    get_tweet_sentiment 	used to find sentimet of tweet i.e positive , 		call inside get_tweets function
-    				negative or neutral and append sentiment score in 
-    				ploarity
-
-    get_tweets 			this function fetched tweets by using search()	call inside back_end function
-    				and then call clean_tweet() to claen tweets and
-    				find sentiment score using get_tweet_sentiment()
-    				and save this to fetched_tweet.csv file
-
-    back_end			this function start the back_end process work by 	call by main_thread function
-    				calling get_tweets function and changing labels 
-    				value so that user can Know some magic is 
-    				hapening inside
-
-    main_thread			this function divide the process into different 	run when search button is clicked in GUI
-    				threads basically it reduce the load of GUI by 
-    				calling back_end in different thread 
-
-    plot_PieChart		this function display our data in pie chart form 	run when pie chart icon clicked in GUI
-    				ie show value of +ve , -ve and 0 score in our data
-
-    plot_histogram 		this function display ploarity in histogram form 	run when histogram icon clicked in GUI
-    				so that user can visualize which sentiment score
-    				range tweet is more .
-
-    scatter_plot 		this function display polarity in scatter plot 		run when scatter plot icon clicked in GUI
-    				graph make easy to visualize flow of sentiments
-    				of twitter users on that query
-
-    select_model 		this function return the current value of model_list	run each time when mode_list current value changes
-
-    select_no_of_tweets		this function return the current value of choice 	run each time when choice current value changes
-				combobox 
-
-    select_trending_tag 	this function return the vlaue of selected trending 	run each time when trending_tag combobox current
-				tag out of top 10 					value changes
-
-    clear_tag	 		this function clear the value of tag_field 		run when clear button clicked in GUI
-
-    check_tag 			this function check tag enter is valid or not 		run when tag_field value changes
-
-    trending_tag 		this function fetch list of top 10 trending #tag 	run when program execute
-				from web and display it in trending_tag combobox
-
-    open_twitter 		this function open twitter website in default browser 	run when twitter icon is clicked in GUI
-
-    open_fetched_tweets 	this function open fetched_tweet csv file in your 	run when open fetched tweets button is clicked in GUI
-				default text editor 
-
-    open_log_file 		this function open log_file.csv 			run when open log file button is clicked in GUI
-
-    open_testing_dataset 	this function open test.csv 				run when open test dataset button is clicked in GUI
-
-    open_training_dataset 	this function open train.csv 				run when open train dataset button is clicked in GUI
-
-    check_internet 		this function check you are connected to internet 	run before creating GUI 
-				or not if not then show error message
-				as this program needs internet to fetched tweets
-
-    ################# non-class function #################
-
-    set_bg_to_<color> 		this function change the backgroud color of GUI 	run when color icon is clicked in GUI
-
-    if__name__=="__main__"      In this function most of GUI coding is done. 		execution of program begin from this function
-
-
-
-    """
+class Application():
 
     def __init__(self):  
 
     	# attempt authentication 
     	try:
 
-    		self.polarity = [[],[],[],[]]
-    		
-    		self.positive = [0,0,0,0]
-    		
-    		self.negative = [0,0,0,0]
-    		
-    		self.neutral = [0,0,0,0]
-
+            self.index = None
 
     	except Exception as e:
 
@@ -170,96 +50,243 @@ class Application():
 
             f.close()
 
-    def plot_PieChart(self):
+    def live_plot(self):
 
         if(select_user() == "Compare All"):
 
-            fig, axs = plt.subplots(2, 2)
+            n,col,Interval = randint(0,2) , select_theme() , (100,500,1000)
 
-            fp0 = open('files/sentiment'+str(0)+'.csv','r')
+            self.index = -1
 
-            total,very_positive,positive,neutral,negative,very_negative = fp0.read().split(',')
+            fig = plt.figure()
 
-            total,very_positive,positive,neutral,negative,very_negative = int(total),int(very_positive),int(positive),int(neutral),int(negative),int(very_negative)
+            axis = fig.add_subplot(1,1,1)
 
-            fp0.close()
-
-
-            labels0 = ['Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100)]
-            
-            sizes0 = [very_positive,positive,neutral,negative,very_negative]
-            
             colors = ['green','lightgreen','yellow', 'orange', 'red']
 
-            fp1 = open('files/sentiment'+str(1)+'.csv','r')
+            X,Y = [],[] #[1,2,3,4,5],[0.501,0.3,0.0,-0.2,-0.51]
 
-            total,very_positive,positive,neutral,negative,very_negative = fp1.read().split(',')
+            def animate(i):
 
-            total,very_positive,positive,neutral,negative,very_negative = int(total),int(very_positive),int(positive),int(neutral),int(negative),int(very_negative)
+                self.index+=1
 
-            fp1.close()
+                fp = open('files/Group.csv','r')
 
-            labels1 = ['Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100)]
+                last_line = list(fp.readlines()[-1].split(','))
+
+                fp.close()
+
+                #print(last_line)
+
+                x,y = int(last_line[0]),float(last_line[6])
+
+                plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[0],markersize=7)
+
+                plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[1],markersize=7)
+                
+                plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[2],markersize=7)
+                
+                plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[3],markersize=7)
+                
+                plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[4],markersize=7)
+
+                color = "green"
+
+                if(y>0.5):
+                    color = "green"
+                elif(y>0):
+                    color = "lightgreen"
+                elif(y==0):
+                    color = "yellow"
+                elif(y>-0.5):
+                    color = "orange"
+                else:
+                    color = "red"
+
+                #print(x,y,sep=" ")
+
+                X.append(x)
+
+                Y.append(y)
+
+                labels = ('Very Positive','Positive','Neutral','Negative','Very Negative')
+
+                #plt.cla()
+
+                plt.title("Live Sentiment of Telegram Group")
+
+                plt.xlabel('message id')
+
+                plt.ylabel('Polarity')
+
+                plt.legend(labels,loc='upper left')
+
+                plt.ylim([-1,1])
+
+                plt.plot(X,Y,'-ok',color=col,markerfacecolor=color,markersize=7)
+
+            ani = animation.FuncAnimation(plt.gcf(),animate, interval= Interval[randint(0,2)])
+
+            plt.show()
+
+        else:
+
+            n,col , Interval , name = randint(0,3) , select_theme() , (250,500,750,1000) , user.get()
+
+            fig = plt.figure()
+
+            axis = fig.add_subplot(1,1,1)
+
+            self.index = -1
+
+            X,Y = [],[]
+
+            df = pd.read_csv('files/'+name+'.csv')
+
+            pol = list(df['polarity']) #[0.501,0.3,0.0,-0.2,-0.51]+list(df['polarity'])
+
+            colors = ['green','lightgreen','yellow', 'orange', 'red']
+
+            plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[0],markersize=7)
+
+            plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[1],markersize=7)
             
-            sizes1 = [very_positive,positive,neutral,negative,very_negative]
+            plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[2],markersize=7)
             
-            #colors = ['green', 'orange', 'red']
-
-            fp2 = open('files/sentiment'+str(2)+'.csv','r')
-
-            total,very_positive,positive,neutral,negative,very_negative = fp2.read().split(',')
-
-            total,very_positive,positive,neutral,negative,very_negative = int(total),int(very_positive),int(positive),int(neutral),int(negative),int(very_negative)
-
-            fp2.close()
-
-            labels2 = ['Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100)]
+            plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[3],markersize=7)
             
-            sizes2 = [very_positive,positive,neutral,negative,very_negative]
-            
-            #colors = ['green', 'orange', 'red']
+            plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[4],markersize=7)
 
-            fp3 = open('files/sentiment'+str(3)+'.csv','r')
+            def animate(i):
 
-            total,very_positive,positive,neutral,negative,very_negative = fp3.read().split(',')
+                self.index+=1
 
-            total,very_positive,positive,neutral,negative,very_negative = int(total),int(very_positive),int(positive),int(neutral),int(negative),int(very_negative)
+                x,y = 0,0
 
-            fp3.close()
+                if(self.index < len(pol)):
 
-            labels3 = ['Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100)]
-            
-            sizes3 = [very_positive,positive,neutral,negative,very_negative]
-            
-            #colors = ['green', 'orange', 'red']
+                    x,y = self.index,float(pol[self.index])
 
-            patches,texts = axs[0, 0].pie(sizes0, colors=colors, startangle=90)
+                else:
 
-            axs[0, 0].legend(patches, labels0, loc="upper left")
-            
-            axs[0, 0].set_title('All select_user')
-            
-            patches,texts = axs[0, 1].pie(sizes1, colors=colors, startangle=135)
+                    x,y = self.index-1,float(pol[self.index-1])
 
-            axs[0, 1].legend(patches, labels1, loc="upper right")
-            
-            axs[0, 1].set_title('Aman Kathait')
-            
-            patches,texts = axs[1, 0].pie(sizes2, colors=colors, startangle=45)
+                    self.index-=1
 
-            axs[1, 0].legend(patches, labels2, loc="lower left")
-            
-            axs[1, 0].set_title('Akshat Negi')
-            
-            patches,texts = axs[1, 1].pie(sizes3, colors=colors, startangle=180)
+                color = "green"
 
-            axs[1, 1].legend(patches, labels3, loc="lower right")
-            
-            axs[1, 1].set_title('Shubham Semwal')
+                if(y>0.5):
+                    color = "green"
+                elif(y>0):
+                    color = "lightgreen"
+                elif(y==0):
+                    color = "yellow"
+                elif(y>-0.5):
+                    color = "orange"
+                else:
+                    color = "red"
+
+                #print(x,y,sep=" ")
+
+                X.append(x)
+
+                Y.append(y)
+
+                labels = ('Very Positive','Positive','Neutral','Negative','Very Negative')
+
+                #plt.cla()
+
+                plt.title("Live Sentiment Simulatiom of "+ name +" messages")
+
+                plt.xlabel('message id')
+
+                plt.ylabel('Polarity')
+
+                plt.legend(labels,loc='upper left')
+
+                plt.ylim([-1,1])
+
+                plt.plot(X,Y,'-ok',color=col,markerfacecolor=color,markersize=7)
+
+            ani = animation.FuncAnimation(plt.gcf(),animate, interval= Interval[randint(0,3)])
+
+            plt.show()    	
+
+    def plot_PieChart(self):
+    
+        if(select_user() == "Compare All"):
+
+            fp = open('files/Compare All.csv','w')
+
+            fp.write("Username,very_positive,positive,neutral,negative,very_negative,total\n")
+
+            fp.close()
+
+            fp = open('files/group_details.csv')
+
+            username = fp.readlines()[-1].split(',')
+
+            n = int(username[0])
+
+            grid = ceil(sqrt(n))
+
+            fig, axs = plt.subplots(grid, grid)
+
+            x,y = 0,0
+
+            angel,location = (45,90,120,180,270,300,0) , ('best','upper left','upper right','lower left','lower right')
+
+            for i in range(1,n+1):
+
+            	df = pd.read_csv('files/'+username[i]+'.csv')
+
+            	sentiment = list(df['sentiment_code'])
+
+            	total,very_positive,positive,neutral,negative,very_negative = len(sentiment),0,0,0,0,0
+
+            	for j in sentiment:
+
+            		if(j==0):
+            			neutral+=1
+            		elif(j==1):
+            			positive+=1
+            		elif(j==2):
+            			very_positive+=1
+            		elif(j==3):
+            			negative+=1
+            		else:
+            			very_negative+=1
+
+            	labels = ['Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100)]
+            	
+            	sizes = [very_positive,positive,neutral,negative,very_negative]
+            	
+            	fp = open('files/Compare All.csv','a')
+            	
+            	fp.write(username[i]+","+str(very_positive) + " [ {:.2f} % ],".format(very_positive/total*100) + str(positive)+ " [ {:.2f} % ],".format(positive/total*100) +str(neutral)+ " [ {:.2f} % ],".format(neutral/total*100) +str(negative)+ " [ {:.2f} % ],".format(negative/total*100) +str(very_negative)+ " [ {:.2f} % ],".format(very_negative/total*100) +str(total)+"\n")
+            	
+            	fp.close()
+            	
+            	colors = ['green','lightgreen','yellow', 'orange', 'red']
+
+            	if(y == grid):
+
+            		x,y = x+1,0
+
+            	#print(x,y)
+
+            	patches,texts = axs[x,y].pie(sizes, colors=colors, startangle = 90 ) #angel[randint(0,6)])
+
+            	axs[x,y].legend(patches, labels, loc = 'lower right') #location[randint(0,4)])
+            	
+            	axs[x,y].set_title(username[i])
+
+            	y = y+1
 
             # Hide x labels and tick labels for top plots and y ticks for right plots.
             for ax in axs.flat:
-                ax.label_outer()
+
+            	ax.label_outer()
 
             plt.show()
 
@@ -313,46 +340,46 @@ class Application():
 
         if(select_user() == 'Compare All'):
 
-            fig, axs = plt.subplots(2, 2)
+            fp = open('files/group_details.csv')
 
-            x = array(range(0,len(self.polarity[0])))
-            
-            y = array(self.polarity[0])
+            username = fp.readlines()[-1].split(',')
 
-            x1 = array(range(0,len(self.polarity[1])))
-            
-            y1 = array(self.polarity[1])
+            n = int(username[0])
 
-            x2 = array(range(0,len(self.polarity[2])))
-            
-            y2 = array(self.polarity[2])
+            grid = ceil(sqrt(n))
 
-            x3 = array(range(0,len(self.polarity[3])))
-            
-            y3 = array(self.polarity[3])
+            fig, axs = plt.subplots(grid, grid)
 
-            axs[0, 0].plot(x, y)
-            
-            axs[0, 0].set_title('group')
-            
-            axs[0, 1].plot(x1, y1, 'tab:orange')
-            
-            axs[0, 1].set_title('Aman Kathait')
-            
-            axs[1, 0].plot(x2, y2, 'tab:green')
-            
-            axs[1, 0].set_title('Akshat Negi')
-            
-            axs[1, 1].plot(x3, y3, 'tab:red')
-            
-            axs[1, 1].set_title('Shubham Semwal')
+            x,y = 0,0
 
-            for ax in axs.flat:
-                ax.set(xlabel='tweet number', ylabel='polarity')
+            colors = ('orange','red','green','blue','brown','pink','yellow','lightgreen','grey','lightblue')
+
+            for i in range(1,n+1):
+
+            	df = pd.read_csv('files/'+username[i]+'.csv')
+
+            	#X = list(df['index'])
+
+            	X = array(range(0,len(df['polarity'])))
+
+            	Y = list(df['polarity'])
+
+            	if(y == grid):
+
+            		x,y = x+1,0
+
+            	#print(x,y)
+
+            	axs[x,y].plot(X, Y, 'tab:'+str(colors[i-1]))
+            	
+            	axs[x,y].set_title(username[i])
+
+            	y = y + 1
 
             # Hide x labels and tick labels for top plots and y ticks for right plots.
             for ax in axs.flat:
-                ax.label_outer()
+
+            	ax.label_outer()
 
             plt.show()
 
@@ -361,6 +388,8 @@ class Application():
             #fig = plt.figure(2)
 
             fig = plt.figure(2)
+
+            colors = ('green','orange','lightblue','red','brown','yellow')
             
             axis = fig.add_subplot(1,1,1)
 
@@ -375,10 +404,14 @@ class Application():
             Y = list(df['polarity'])
 
             axis.scatter(X,Y)
+
+            #axis.plot(X,Y,'tab:'+str(colors[randint(0,5)]))
             
             plt.xlabel('tweet number')
             
             plt.ylabel('polarity')
+
+            n = randint(0,3)
             
             plt.show()
 
@@ -386,48 +419,71 @@ class Application():
 
         if(select_user() == 'Compare All'):
 
-            #fig, axs = plt.subplots(2, 2)
+            fp = open('files/group_details.csv')
 
-            fig, axs = plt.subplots(2, 2)
+            username = fp.readlines()[-1].split(',')
 
-            df = pd.read_csv('files/'+str('group')+'.csv')
+            n = int(username[0])
 
-            pol0 = list(df['polarity'])
+            grid = ceil(sqrt(n))
 
-            df = pd.read_csv('files/'+str('Aman Kathait')+'.csv')
+            fig, axs = plt.subplots(grid, grid)
 
-            pol1 = list(df['polarity'])
+            x,y = 0,0
 
-            df = pd.read_csv('files/'+str('Akshat Negi')+'.csv')
+            colors = ('orange','red','green','blue','brown','pink','yellow','lightgreen','grey')
 
-            pol2 = list(df['polarity'])
+            for i in range(1,n+1):
 
-            df = pd.read_csv('files/'+str('Shubham Semwal')+'.csv')
+            	df = pd.read_csv('files/'+username[i]+'.csv')
 
-            pol3 = list(df['polarity'])
+            	p = list(df['polarity'])
 
-            axs[0, 0].hist(pol0,bins=7,color='green',histtype = 'barstacked')
-            
-            axs[0, 0].set_title('group')
-            
-            axs[0, 1].hist(pol1,bins=7,color='brown',histtype = 'barstacked')
-            
-            axs[0, 1].set_title('Aman Kathait')
-            
-            axs[1, 0].hist(pol2,bins=7,color='red',histtype = 'barstacked')
-            
-            axs[1, 0].set_title('Akshat Negi')
-            
-            axs[1, 1].hist(pol3,bins=7,color='blue',histtype = 'barstacked')
-            
-            axs[1, 1].set_title('Shubham Semwal')
+            	pol = []
+
+            	for j in p:
+
+            		pol.append(int(j * 10))
+
+            	if(y == grid):
+
+            		x,y = x+1,0
+
+            	#N,bins,patches = 
+            	axs[x,y].hist(pol,bins=5, edgecolor='white', linewidth=1,color=colors[i-1],histtype = 'barstacked')
+
+            	axs[x,y].set_title(username[i])
+
+            	# for j in range(-10,-5):
+
+            	#     patches[j].set_facecolor('r')
+
+            	# for j in range(-5,0):
+
+            	#     patches[j].set_facecolor('0')
+
+            	# for j in range(-1,0):
+
+            	#     patches[j].set_facecolor('y')
+
+            	# for j in range(0,len(patches)):
+
+            	#     patches[j].set_facecolor('g')
+            	
+            	# axs[x,y].ylabel('number of tweets')
+            	
+            	# axs[x,y].xlabel('polarity of tweets')
+
+            	y = y + 1
 
             for ax in axs.flat:
-                ax.set(xlabel='polarity of tweets', ylabel='number of tweets')
+
+            	ax.set(xlabel='polarity of tweets', ylabel='number of tweets')
 
             # Hide x labels and tick labels for top plots and y ticks for right plots.
             for ax in axs.flat:
-                ax.label_outer()
+
+            	ax.label_outer()
 
             plt.show()
         
@@ -437,11 +493,13 @@ class Application():
 
             number = select_user()
 
+            colors = ('green','orange','lightblue','red','brown','yellow')
+
             df = pd.read_csv('files/'+str(user.get())+'.csv')
 
             pol = list(df['polarity'])
 
-            plt.hist(pol,bins=4,color='green',histtype = 'barstacked')
+            plt.hist(pol,bins=randint(4,8),color=colors[randint(0,5)],histtype = 'barstacked')
             
             plt.ylabel('number of tweets')
             
@@ -450,122 +508,142 @@ class Application():
             plt.show()
 
 
-def set_bg_to_grey():
+def change_bg(color):
 
-    root.configure(background="grey")
+    root.configure(background=color)
 
-    topframe.configure(background="grey")
+    topframe.configure(background=color)
 
-    middleframe.configure(background="grey")
+    middleframe.configure(background=color)
 
-    bottomFrame.configure(background="grey")
+    bottomFrame.configure(background=color)
 
-def set_bg_to_red():
+    ComboFrame.configure(background=color)
+	
+def back_end():
 
-    root.configure(background="red")
-
-    topframe.configure(background="red")
-
-    middleframe.configure(background="red")
-
-    bottomFrame.configure(background="red")
-
-def set_bg_to_pink():
-
-    root.configure(background="pink")
-
-    topframe.configure(background="pink")
-
-    middleframe.configure(background="pink")
-
-    bottomFrame.configure(background="pink")
-
-def set_bg_to_brown():
-
-    root.configure(background="brown")
-
-    topframe.configure(background="brown")
-
-    middleframe.configure(background="brown")
-
-    bottomFrame.configure(background="brown")
-
-
-def set_bg_to_green():
-
-    root.configure(background="green")
-
-    topframe.configure(background="green")
-
-    middleframe.configure(background="green")
-
-    bottomFrame.configure(background="green")
-
-def set_bg_to_blue():
-
-    root.configure(background="lightblue")
-
-    topframe.configure(background="lightblue")
-
-    middleframe.configure(background="lightblue")
-
-    bottomFrame.configure(background="lightblue")
-
-def set_bg_to_orange():
-
-	root.configure(background="orange")
-
-	topframe.configure(background="orange")
-
-	middleframe.configure(background="orange")
-
-	bottomFrame.configure(background="orange")
-
-def set_bg_to_violet():
-
-	root.configure(background="violet")
-
-	topframe.configure(background="violet")
-
-	middleframe.configure(background="violet")
-
-	bottomFrame.configure(background="violet")
-
-def set_bg_to_yellow():
-
-	root.configure(background="yellow")
-
-	topframe.configure(background="yellow")
-
-	middleframe.configure(background="yellow")
-
-	bottomFrame.configure(background="yellow")
-
-def set_bg_to_lightgreen():
-
-	root.configure(background="lightgreen")
-
-	topframe.configure(background="lightgreen")
-
-	middleframe.configure(background="lightgreen")
-
-	bottomFrame.configure(background="lightgreen")
+	while(flag):
+	
+		fp = open('files/Group.csv','r')
+		
+		msg = fp.readlines()[-1]
+		
+		fp.close()
+		
+		#print(msg)
+		
+		msg = list(msg.split(','))
+		
+		output = ' message id \t\t:  '+msg[0] +'\n username \t\t:  '+msg[1] +'\n time \t\t:  '+msg[2] +'\n message \t\t:  '+msg[3]+'\n sentiment \t\t:  '+msg[5]+'\n polarity \t\t:  '+msg[6]
+		
+		text.delete('1.0','end')
+		
+		text.insert(INSERT,output)
+		
+		sleep(2)
+		
+		if(msg[1] not in tmp):
+		
+			text.delete('1.0','end')
+		
+			text.insert(INSERT,"\tNew Member Added\n\n\t"+msg[1]+" joined the group ")
+			
+		if(not flag):
+		
+			break
 
 def open_telegram(event=None):
 
 	pass
 
-def main_thread(event=None):
+def open_xls():
 
-	pass
+	file_path = str(user.get())
+
+	import subprocess, sys
+
+	if sys.platform.startswith('win32'):
+
+		file_path = "files\\"+file_path+".csv"
+
+	else:
+
+		file_path = "files/"+file_path+".csv"
+
+	print(file_path)
+
+	if sys.platform.startswith('linux'):
+	    
+	    subprocess.Popen(['xdg-open', file_path],
+	                     stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	
+	elif sys.platform.startswith('win32'):
+	    
+	    os.startfile(file_path)
+	
+	elif sys.platform.startswith('cygwin'):
+	    
+	    os.startfile(file_path)
+	
+	elif sys.platform.startswith('darwin'):
+	    
+	    subprocess.Popen(['open', file_path],
+	                     stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	else:
+	    
+	    subprocess.Popen(['xdg-open', file_path],
+	                     stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+
+def chnageValues(event = None):
+
+    fp = open('files/group_details.csv','r')
+    
+    tmp = list(fp.readlines()[-1].split(','))
+    
+    fp.close()
+    
+    if(int(tmp[0]) >= len(choices['values'])):
+    
+        choices['values'] = ['Compare All']+tmp[1:]
 
 def select_user(event = None):
 
-	#global group_user_name
+    return user.get()
 
-	return user.get()
+def select_theme(event = None):
 
+    if(Theme.get() == 'seaborn-whitegrid'):
 
+        plt.style.use('seaborn-whitegrid')
+
+        return "blue"
+
+    elif(Theme.get() == 'dark_background'):
+
+        plt.style.use('dark_background') 
+
+        return "white"
+
+    elif(Theme.get() == 'ggplot'):
+
+        plt.style.use('ggplot')
+
+        return "black"
+
+    else:
+
+        plt.style.use('classic')
+
+        return "black"
+	
+def on_closing():
+
+	flag = False
+	
+	if messagebox.askokcancel("Quit", "Do you want to quit?"):
+	        
+	        root.destroy()
 
 if __name__ == '__main__':
 
@@ -576,22 +654,24 @@ if __name__ == '__main__':
 	# yd.history()
 
 	app = Application()
-
+	
+	flag = True
+	
 	root = Tk()
 
 	root.title("Telegram Group Sentiment Analysis Desktop Application ")
 
-	root.geometry("800x600")
+	root.geometry("800x650")
 
-	root.resizable(width = False , height = False)
+	#root.resizable(width = False , height = False)
 	
-	root.configure(background = "lightblue")
+	root.configure(background = "brown")
 
 	label1 = Label(root,text="Telegram Group Sentiment Analysis",fg="blue",bg="skyblue",font=("",15,"bold"))
     
 	label1.pack(side=TOP,pady=20)
 
-	topframe = Frame(root,background="lightblue")
+	topframe = Frame(root,background="brown")
 
 	topframe.pack()
 
@@ -651,75 +731,113 @@ if __name__ == '__main__':
 
 	lightgreen_image = lightgreen_image.subsample(4,4)
 
-	red_button = Button(darkcolor,image = red_image,command = set_bg_to_red)
+	red_button = Button(darkcolor,image = red_image,command = lambda: change_bg("red"))
     
 	red_button.pack(side = LEFT)
 
-	brown_button = Button(darkcolor, image = brown_image,command = set_bg_to_brown)
+	brown_button = Button(darkcolor, image = brown_image,command = lambda: change_bg("brown"))
     
 	brown_button.pack(side = LEFT)
 
-	green_button = Button(darkcolor,image = green_image,command = set_bg_to_green)
+	green_button = Button(darkcolor,image = green_image,command = lambda: change_bg("green"))
     
 	green_button.pack(side = LEFT)
 
-	orange_button = Button(darkcolor,image = orange_image,command = set_bg_to_orange)
+	orange_button = Button(darkcolor,image = orange_image,command = lambda: change_bg("orange"))
 	   
 	orange_button.pack(side = LEFT)
 
-	violet_button = Button(darkcolor,image = violet_image,command = set_bg_to_violet)
+	violet_button = Button(darkcolor,image = violet_image,command = lambda: change_bg("violet"))
 	   
 	violet_button.pack(side = LEFT)
 
-	pink_button = Button(lightcolor,image = pink_image,command = set_bg_to_pink)
+	pink_button = Button(lightcolor,image = pink_image,command = lambda: change_bg("pink"))
     
 	pink_button.pack(side = LEFT)
 
-	grey_button = Button(lightcolor, image = grey_image,command = set_bg_to_grey)
+	grey_button = Button(lightcolor, image = grey_image,command = lambda: change_bg("grey"))
     
 	grey_button.pack(side = LEFT)
 
-	blue_button = Button(lightcolor,image = blue_image,command = set_bg_to_blue)
+	blue_button = Button(lightcolor,image = blue_image,command = lambda: change_bg("lightblue"))
     
 	blue_button.pack(side = LEFT)
 
-	yellow_button = Button(lightcolor,image = yellow_image,command = set_bg_to_yellow)
+	yellow_button = Button(lightcolor,image = yellow_image,command = lambda: change_bg("yellow"))
 	   
 	yellow_button.pack(side = LEFT)
 
-	lightgreen_button = Button(lightcolor,image = lightgreen_image,command = set_bg_to_lightgreen)
+	lightgreen_button = Button(lightcolor,image = lightgreen_image,command = lambda: change_bg("lightgreen"))
 	   
 	lightgreen_button.pack(side = LEFT)
 
-	middleframe = Frame(root)
+	middleframe = Frame(root,background="brown")
 
 	middleframe.pack(pady = 10)
 
-	label3 = Label(root,text="Live dislpay of Group chat",fg="red",bg="yellow",font=("",12,"bold"))
+	label3 = Label(middleframe,text="Live dislpay of Group chat",fg="red",bg="yellow",font=("",12,"bold"))
 	
 	label3.pack(side=TOP,pady=10)
-
-	tag = Entry(root,justify=CENTER,font = ("verdana","15","bold"))
 	
-	tag.pack(side = TOP)
+	text = Text(middleframe,height=6,width=75,font=("",12,"bold"),bg="black",fg="white")
+	
+	fp = open('files/Group.csv','r')
+	
+	msg = fp.readlines()[-1]
+	
+	msg = list(msg.split(','))
+	
+	output = 'message id \t\t: '+msg[0] +'\nusername \t\t: '+msg[1] +'\ntime \t\t: '+msg[2] +'\nmessage \t\t: '+msg[3]+'\nsentiment \t\t: '+msg[4]+'\npolarity \t\t:'+msg[5]
+	
+	text.insert(INSERT,output)
+	
+	text.pack(side = TOP)
+	
+	thread1 = Thread(target = back_end)
+	
+	thread1.setDaemon(True)
+	
+	thread1.start()
 
-	label4 = Label(root,text="Select Username that details you want to see",fg="red",bg="yellow",font=("",12,"bold"))
+	label4 = Label(middleframe,text="Select Username that details you want to see",fg="red",bg="yellow",font=("",12,"bold"))
 	
 	label4.pack(side=TOP,pady=10)
 
-	Values = ['Compare All','Aman Kathait','Akshat Negi','Shubham Semwal','group']
+	Values = ['Compare All'] #,'Aman Kathait','Akshat Negi','Shubham Semwal','Group']
+
+	fp = open('files/group_details.csv')
+
+	tmp = fp.readlines()[-1].split(',')
+
+	Values += tmp[1:]
 
 	user = StringVar()
+	
+	ComboFrame = Frame(middleframe,background="brown")
+	
+	ComboFrame.pack(padx = 150)
 
-	choices = ttk.Combobox(root,textvariable = user,height=10)
+	choices = ttk.Combobox(ComboFrame,textvariable = user,height=30 , state = 'readonly',postcommand = chnageValues)
 
 	choices['values'] = Values
 	
-	choices.pack()
+	choices.pack(side = LEFT,padx=20)
 
 	choices.current(0)
 
 	choices.bind("<<ComboboxSelected>>",select_user)
+	
+	Theme = StringVar()
+	
+	theme = ttk.Combobox(ComboFrame,textvariable = Theme,height=30 , state = 'readonly')
+	
+	theme['values'] = ('default','seaborn-whitegrid','dark_background','ggplot')
+	
+	theme.pack(side = LEFT,padx=20)
+	
+	theme.current(0)
+	
+	theme.bind("<<ComboboxSelected>>",select_theme)
 
 	#################
 
@@ -727,7 +845,7 @@ if __name__ == '__main__':
 	
 	label5.pack(side=TOP,pady=10)
 
-	bottomFrame = Frame(root,background="lightblue",width=700,height=150)
+	bottomFrame = Frame(root,background="brown",width=700,height=150)
 	
 	bottomFrame.pack(side = TOP,pady = 20)
 
@@ -737,22 +855,40 @@ if __name__ == '__main__':
 	
 	histogram_image = PhotoImage(file = "image_resource/histogram.png")
 
+	xls_image = PhotoImage(file = "image_resource/xls_icon.png")
+
+	live_image = PhotoImage(file = "image_resource/live.png")
+
 	piechart_image = piechart_image.subsample(2,2)
 	
 	scatterplot_image = scatterplot_image.subsample(2,2)
 	
 	histogram_image = histogram_image.subsample(2,2)
 
+	xls_image = xls_image.subsample(2,2)
+
+	live_image = live_image.subsample(2,2)
+
 	piechart_button = Button(bottomFrame,image = piechart_image,command = app.plot_PieChart)
 	
-	piechart_button.pack(side = LEFT,padx=20)
+	piechart_button.pack(side = LEFT,padx=10)
 
 	scatterplot_button = Button(bottomFrame, image = scatterplot_image,command = app.scatter_plot)
 	
-	scatterplot_button.pack(side = LEFT,padx=20)
+	scatterplot_button.pack(side = LEFT,padx=10)
 
 	histogram_button = Button(bottomFrame,image = histogram_image,command = app.plot_histogram)
 	
-	histogram_button.pack(side = LEFT,padx=20)
+	histogram_button.pack(side = LEFT,padx=10)
+
+	xls_button = Button(bottomFrame,image = xls_image,command = open_xls)
+	
+	xls_button.pack(side = LEFT,padx=10)
+
+	live_button = Button(bottomFrame,image = live_image,command = app.live_plot)
+	
+	live_button.pack(side = LEFT,padx=10)
+	
+	root.protocol("WM_DELETE_WINDOW", on_closing)
 	
 	root.mainloop()
