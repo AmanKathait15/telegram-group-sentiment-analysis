@@ -1,15 +1,11 @@
 
 import telebot , re
 from textblob import TextBlob 
+
 #from googletrans import Translator
+
 from config import *
 
-# from matplotlib import pyplot as plt
-# import matplotlib.animation as animation
-# from random import random,randint
-
-#from matplotlib import pyplot as plt
-#import matplotlib.animation as animation
 from random import random,randint
 
 from time import localtime , strftime
