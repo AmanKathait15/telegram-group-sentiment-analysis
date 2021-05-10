@@ -78,6 +78,12 @@ def send_report(message):
 
 	bot.reply_to(message, output)
 
+	bot.send_photo(group_id, photo=open('image_resource/'+name+'_pie.png', 'rb'))
+
+	bot.send_photo(group_id, photo=open('image_resource/'+name+'_scatter.png', 'rb'))
+
+	bot.send_photo(group_id, photo=open('image_resource/'+name+'_histogram.png', 'rb'))
+
 @bot.message_handler(commands=['group_report','gr'])
 def send_group_report(message):
 
@@ -120,6 +126,12 @@ def send_group_report(message):
 	print(output)
 
 	bot.reply_to(message, output)
+
+	bot.send_photo(group_id, photo=open('image_resource/Compare_All_pie.png', 'rb'))
+
+	bot.send_photo(group_id, photo=open('image_resource/Compare_All_scatter.png', 'rb'))
+
+	bot.send_photo(group_id, photo=open('image_resource/Compare_All_histogram.png', 'rb'))
 
 @bot.message_handler(commands=['OnLiveSentiemnt', 'ols'])
 def show_sentiment(message):

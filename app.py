@@ -288,6 +288,8 @@ class Application():
 
             	ax.label_outer()
 
+            plt.savefig('image_resource/Compare_All_pie.png', bbox_inches='tight')
+
             plt.show()
 
         else:
@@ -324,6 +326,8 @@ class Application():
         	    
         	    plt.figure(1)
         	    
+        	    #plt.savefig('image_resource/'+str(user.get())+'_pie.png',bbox_inches='tight')
+        	    
         	    patches, texts = plt.pie(sizes, colors=colors, startangle=90)
         	    
         	    plt.legend(patches, labels, loc="best")
@@ -331,6 +335,8 @@ class Application():
         	    plt.title('pie - chart')
         	    
         	    plt.axis('equal')
+        	    
+        	    plt.savefig('image_resource/'+str(user.get())+'_pie.png',bbox_inches='tight')
         	    
         	    plt.show()
 
@@ -381,6 +387,8 @@ class Application():
 
             	ax.label_outer()
 
+            plt.savefig('image_resource/Compare_All_scatter.png', bbox_inches='tight')
+
             plt.show()
 
         else:
@@ -411,7 +419,7 @@ class Application():
             
             plt.ylabel('polarity')
 
-            n = randint(0,3)
+            plt.savefig('image_resource/'+str(user.get())+'_scatter.png', bbox_inches='tight')
             
             plt.show()
 
@@ -485,6 +493,8 @@ class Application():
 
             	ax.label_outer()
 
+            plt.savefig('image_resource/Compare_All_histogram.png', bbox_inches='tight')
+
             plt.show()
         
         else:
@@ -504,6 +514,8 @@ class Application():
             plt.ylabel('number of tweets')
             
             plt.xlabel('polarity of tweets')
+
+            plt.savefig('image_resource/'+str(user.get())+'_histogram.png', bbox_inches='tight')
             
             plt.show()
 
