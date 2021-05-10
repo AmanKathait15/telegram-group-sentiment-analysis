@@ -1,5 +1,8 @@
 
 import telebot , re
+
+import pandas as pd
+
 from textblob import TextBlob 
 
 #from googletrans import Translator
@@ -25,6 +28,98 @@ index = 0
 def send_welcome(message):
 
 	bot.reply_to(message, "Welcome to Sentiment bot enter text and this bot will tell the Sentiment of enter text :)")
+
+@bot.message_handler(commands=['my_report','mr'])
+def send_report(message):
+
+	fn = message.from_user.first_name
+
+	ln = message.from_user.last_name
+
+	name = fn
+
+	if(ln!=None):
+
+		name += " "+ln
+
+	df = pd.read_csv('files/Compare All.csv')
+
+	usernames = list(df['Username'])
+
+	i = usernames.index(name)
+
+	output = "\n" + str(df.loc[i]) + "\n"
+
+	df = pd.read_csv('files/'+name+'.csv')
+
+	df = df.sort_values('polarity',ascending=False)
+
+	output += "\nPositive Messages :\n\n"
+
+	pol = list(df['polarity'])
+
+	msg = list(df['message'])
+
+	for i in range(0,10):
+
+		if(pol[i]>0):
+
+			output += msg[i] + "\n"
+
+	output += "\nNegative Messages :\n\n"
+
+	for i in range(1,11):
+
+		if(pol[-i]<0):
+
+			output += msg[-i] + "\n"
+
+	print(output)
+
+	bot.reply_to(message, output)
+
+@bot.message_handler(commands=['group_report','gr'])
+def send_group_report(message):
+
+	df = pd.read_csv('files/Compare All.csv')
+
+	n = len(df['Username'])
+
+	output = "\n"
+
+	for i in range(0,n):
+
+		output += str(df.loc[i]) + "\n\n"
+
+	df = pd.read_csv('files/Group.csv')
+
+	df = df.sort_values('polarity',ascending=False)
+
+	output += "\nPositive Messages :\n\n"
+
+	pol = list(df['polarity'])
+
+	msg = list(df['message'])
+
+	for i in range(0,10):
+
+		if(pol[i]>0):
+
+			output += msg[i] + "\n"
+
+	output += "\nNegative Messages :\n\n"
+
+	for i in range(1,11):
+
+		if(pol[-i]<0):
+
+			output += msg[-i] + "\n"
+
+	print(output)
+
+	print(output)
+
+	bot.reply_to(message, output)
 
 @bot.message_handler(commands=['OnLiveSentiemnt', 'ols'])
 def show_sentiment(message):
@@ -118,12 +213,14 @@ def show_status(message):
 			 \n /off\
 			 \n /OnCalculator or /oc\
 			 \n /OffCalculator or /OC\
-			 \n /OnLiveSentiemnt or /ols\
-			 \n /OffLiveSentiemnt or /OLS\
+			 \n /OnLiveSentiment or /ols\
+			 \n /OffLiveSentiment or /OLS\
 			 \n /OnTranslator or /ot\
 			 \n /OffTranslator or /Ot\
+			 \n /my_report or /mr\
+			 \n /group_report or /gr\
 			 \n\nStatus : \
-			 \nLive Sentiemnt : "+str(sentiment_flag)+"\
+			 \nLive Sentiment : "+str(sentiment_flag)+"\
 			 \nCalculator : "+str(calculator_flag)+"\
 			 \nTranslator : "+str(translator_flag)
 
