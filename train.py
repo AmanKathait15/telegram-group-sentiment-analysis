@@ -5,9 +5,9 @@ from nltk.corpus import stopwords
 
 df = pd.read_csv('files/train_data.csv',encoding='latin-1')
 
-words = df.iloc[:,0].values
+print(df.head())
 
-print(words)
+words = df.iloc[:,0].values
 
 from sklearn.feature_extraction.text import CountVectorizer
 
@@ -15,17 +15,17 @@ vect = CountVectorizer()#stop_words = stopwords.words('english'))
 
 vect.fit(words)
 
-print(vect.vocabulary_)
+#print(vect.vocabulary_)
 
 bgw = vect.transform(words)
 
-print(bgw)
+#print(bgw)
 
 bgw = bgw.toarray()
 
 y = df.sentiment
 
-print(len(bgw),len(y))
+#print(len(bgw),len(y))
 
 # splitting X and y into training and testing sets 
 
@@ -34,6 +34,8 @@ from sklearn.model_selection import train_test_split
 
 
 X_train, X_test, y_train, y_test = train_test_split(bgw, y, test_size=0.3, random_state=1) 
+
+#print(type(X_train))
 
 
 
@@ -57,9 +59,9 @@ lr = LogisticRegression()
 
 gnb.fit(X_train, y_train)
 
-print(gnb.classes_)
+#print(gnb.classes_)
 
-print(gnb.class_count_)
+#print(gnb.class_count_)
 
 knc.fit(X_train, y_train)
 
@@ -119,6 +121,8 @@ from sklearn import metrics
 
 print("Gaussian Naive Bayes model accuracy(in %):", metrics.accuracy_score(y_test, y_pred1)*100)
 
+print("MultinomialNB model accuracy(in %):", metrics.accuracy_score(y_test, y_pred6)*100)
+
 print("KNeighborsClassifier model accuracy(in %):", metrics.accuracy_score(y_test, y_pred2)*100)
 
 print("RandomForestClassifier model accuracy(in %):", metrics.accuracy_score(y_test, y_pred3)*100)
@@ -126,5 +130,3 @@ print("RandomForestClassifier model accuracy(in %):", metrics.accuracy_score(y_t
 print("AdaBoostClassifier model accuracy(in %):", metrics.accuracy_score(y_test, y_pred4)*100)
 
 print("LogisticRegression model accuracy(in %):", metrics.accuracy_score(y_test, y_pred5)*100)
-
-print("MultinomialNB model accuracy(in %):", metrics.accuracy_score(y_test, y_pred6)*100)

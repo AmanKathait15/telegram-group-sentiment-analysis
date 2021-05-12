@@ -4290,36 +4290,3 @@ index,name,date_time,message,sentiment_code,sentiment,polarity
 4288,Manoj Rawat,06/05/2021 15:50:26,went chinatown ate lots chinese noodle,0,neutral,0.00
 4289,Aman Kathait,06/05/2021 22:34:58,what a Lovely day,1,positive,0.50
 4290,Aman Kathait,06/05/2021 22:36:04,i completed my major project today,1,positive,0.06
-4291,Aman Kathait,07/05/2021 22:44:07,what fucking wrong with u,3,negative,-0.50
-4292,Aman Kathait,07/05/2021 22:44:28,happy birthday,2,Very positive,0.80
-4293,Aman Kathait,07/05/2021 22:44:39,i completed my major project today,1,positive,0.06
-4294,Aman Kathait,07/05/2021 22:44:49,i am sad,3,negative,-0.50
-4295,Aman Kathait,07/05/2021 22:45:17,why are you angry,3,negative,-0.50
-4296,Aman Kathait,08/05/2021 16:17:15,tell me a joke,0,neutral,0.00
-4297,Aman Kathait,08/05/2021 16:17:28,i love my work,1,positive,0.50
-4298,Aman Kathait,08/05/2021 16:17:48,lets celebrate you success,1,positive,0.30
-4299,Aman Kathait,08/05/2021 16:18:50,tell me a joke,0,neutral,0.00
-4300,Aman Kathait,08/05/2021 16:18:56,i love my work,1,positive,0.50
-4301,Aman Kathait,08/05/2021 16:19:08,i am sad,3,negative,-0.50
-4302,Aman Kathait,08/05/2021 16:19:21,my heart is crying,3,negative,-0.20
-4303,Aman Kathait,08/05/2021 16:19:38,are u stupid,4,Very negative,-0.80
-4304,Aman Kathait,08/05/2021 16:19:56,i am very happy,2,Very positive,1.00
-4305,Aman Kathait,08/05/2021 16:20:08,thanks for your help,1,positive,0.20
-4306,Aman Kathait,09/05/2021 13:30:28,i am very happy,2,Very positive,1.00
-4307,Aman Kathait,09/05/2021 13:31:29,i am sad,3,negative,-0.50
-4308,Aman Kathait,09/05/2021 13:31:36,i love you,1,positive,0.50
-4309,Aman Kathait,09/05/2021 13:31:58,i am sad,3,negative,-0.50
-4310,Aman Kathait,09/05/2021 13:32:06,i am happy,2,Very positive,0.80
-4311,Aman Kathait,09/05/2021 13:32:19,i am crying,3,negative,-0.20
-4312,Aman Kathait,09/05/2021 13:32:31,you are very cute,2,Very positive,0.65
-4313,Aman Kathait,09/05/2021 13:38:26,my major project is completed,1,positive,0.06
-4314,Aman Kathait,10/05/2021 07:35:16,you are very cute,2,Very positive,0.65
-4315,Aman Kathait,10/05/2021 07:35:29,lets celebrate you success,1,positive,0.30
-4316,Aman Kathait,10/05/2021 09:52:29,my major project is completed,1,positive,0.06
-4317,Aman Kathait,10/05/2021 09:56:28,i am sad,3,negative,-0.50
-4318,Aman Kathait,10/05/2021 10:35:23,56+67,0,neutral,0.00
-4319,Aman Kathait,10/05/2021 10:35:55,l love watching romcom movies,1,positive,0.50
-4320,Aman Kathait,10/05/2021 10:36:19,45+67,0,neutral,0.00
-4321,Aman Kathait,10/05/2021 10:37:01,12+67-67*6+4^6,0,neutral,0.00
-4322,Aman Kathait,10/05/2021 10:37:18,6^2,0,neutral,0.00
-4323,Aman Kathait,10/05/2021 10:37:28,i am very happy today,2,Very positive,1.00

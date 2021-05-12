@@ -401,7 +401,7 @@ class Application():
             
             axis = fig.add_subplot(1,1,1)
 
-            number = select_user()
+            #number = select_user()
 
             name = user.get()
 

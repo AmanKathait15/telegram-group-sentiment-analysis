@@ -8,7 +8,7 @@ df = pd.read_csv('files/train_data.csv',encoding='latin-1')
 
 #df = pd.read_csv('movie_data.tsv',sep = '\t')
 
-print(np.bincount(df.sentiment))
+#print(np.bincount(df.sentiment))
 
 words = df.iloc[:,0].values
 
@@ -125,6 +125,8 @@ from sklearn import metrics
 
 print("Gaussian Naive Bayes model accuracy(in %):", metrics.accuracy_score(y_test, y_pred1)*100)
 
+print("MultinomialNB model accuracy(in %):", metrics.accuracy_score(y_test, y_pred6)*100)
+
 print("KNeighborsClassifier model accuracy(in %):", metrics.accuracy_score(y_test, y_pred2)*100)
 
 print("RandomForestClassifier model accuracy(in %):", metrics.accuracy_score(y_test, y_pred3)*100)
@@ -132,5 +134,3 @@ print("RandomForestClassifier model accuracy(in %):", metrics.accuracy_score(y_t
 print("AdaBoostClassifier model accuracy(in %):", metrics.accuracy_score(y_test, y_pred4)*100)
 
 print("LogisticRegression model accuracy(in %):", metrics.accuracy_score(y_test, y_pred5)*100)
-
-print("MultinomialNB model accuracy(in %):", metrics.accuracy_score(y_test, y_pred6)*100)
