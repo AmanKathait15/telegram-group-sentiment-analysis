@@ -1,35 +1,90 @@
 
-############################## modules reuired ######################################
+############################### modules reuired ######################################
 
 from tkinter import *					###	used to craete GUI 
 
 from tkinter import ttk 				###	used to craete GUI
 
-from tkinter import messagebox
+from tkinter import messagebox			###	to genrate message when gui is distroyed
 
 from threading import Thread 				###	used to divide process into different threads
 
-from time import strftime,localtime,gmtime 		###	used to find local date and time
+from matplotlib import pyplot as plt              	### 	used to display data in pie-chart , bar graph and scatter plot 
 
-from matplotlib import pyplot as plt                #### used to display data in pie-chart , bar graph and scatter plot ####
+import matplotlib.animation as animation		###	used plot live plot of group messages
 
-import matplotlib.animation as animation
+from time import sleep					### 	used for delay
 
-from time import sleep
+import pandas as pd					### 	used to read csv files
 
-import pandas as pd
+from random import randint				### 	used to change plot colors 
 
-from random import randint
+from math import sqrt , ceil				###	used to find perfect grid 
 
-from math import sqrt , ceil
-
-from numpy import array
-
-import os
+import os						###	used to open subprocess or different application
 
 ############################# End of imported modules ###########################################
 
 class Application():
+
+    """    
+    ################# docstring for Application Class #################
+    
+    ######### class attributes ##########
+
+    varibale    type            use to
+
+    index       integer         unique number for each message fetch
+
+    ######### class methods #############
+
+    function            work / task                             		run/call
+
+    __init__            this function is a constructor of Application        run when Application class object is created  
+                        class and it work is to allocate memory
+
+    plot_PieChart       this function display our data in pie chart form	run when pie chart icon clicked in GUI
+                    	 ie show value of very +ve , +ve , 0 , -ve and
+                    	 very -ve score in our data
+
+    plot_histogram      this function display ploarity in histogram form	run when histogram icon clicked in GUI
+                    	 so that user can visualize which sentiment score
+                    	 range tweet is more .
+
+    scatter_plot        this function display polarity in scatter plot 	run when scatter plot icon clicked in GUI
+                    	 graph make easy to visualize flow of sentiments
+                    	 of twitter users on that query
+                    	 
+    live_plot		 this function show live sentiment in graph using	run when live button is clicked in GUI 
+    			 animation and simulation of previous chats
+
+    ################# non-class function #################
+    
+    function           work / task                             		run/call
+    
+    back_end            this function start the seprate thred to read	call in main function
+                    	 csv files and update text feild in GUI if 
+                    	 any chnage occur
+    
+    chnage_vlaues	this function update the list of username in 		run each time when combobox clicked
+    			choices combobox when new user added to group
+    
+    on_closing		this function confirm user to exit GUI		run before gui is closed
+    
+    select_user	this function return the curret value of choices	call inside many function
+    			combobox
+    
+    select_theme	this function chage theme of plots			call each time when Themen combobox vkaue chnaged
+
+    chnage_bg       	this function change the backgroud color of GUI     	run when color icon is clicked in GUI
+
+    open_telegram       this function open Telegram   			run when telegram icon is clicked in GUI
+
+    open_xls     	 this function open csv file		   		run when open xls button is clicked in GUI
+
+    __main__      	In this function most of GUI coding is done.          execution of program begin from this function
+
+    """
 
     def __init__(self):  
 
@@ -366,7 +421,7 @@ class Application():
 
             	#X = list(df['index'])
 
-            	X = array(range(0,len(df['polarity'])))
+            	X = list(range(0,len(df['polarity'])))
 
             	Y = list(df['polarity'])
 
@@ -666,6 +721,8 @@ if __name__ == '__main__':
 	# yd.history()
 
 	app = Application()
+	
+	print(app.__doc__)
 	
 	flag = True
 	
