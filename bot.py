@@ -22,6 +22,48 @@ from math import sqrt , ceil
 
 ############################# End of imported modules ###########################################
 
+"""
+################# docstring for Application Class #################
+
+######### class attributes ##########
+
+varibale    		type            use to
+
+index       		integer         unique number for each message fetch
+
+bot 				telebot 		use to read chat message from chat
+
+translator_flag		boolean			if true then translate the text else not
+
+sentiment_flag 		boolean 		if true then bot reply sentiment result back in chat 
+
+calculator_flag 	boolean 		if true then arithmetic expression are evaluated using eval
+
+################# non-class function #################
+
+function           work / task                             		run/call
+
+send_welcome       welcome user with welcome message			run when /start command type in chat
+
+send_report        this function send report of user  			run when /my_report or /mr command type in chat
+		       	   (+ve,-ve) sentiment % and message
+		       	   also send different graph images and
+		       	   csv file of user
+
+
+send_group_report  this function send report of each user		run when /group_report or /gr command type in chat
+				   (+ve,-ve) sentiment % and message
+		       	   also send different graph images and
+		       	   csv file of group
+
+show_status	       this function display list of all bot		run when /status or /help command type in chat
+		       	   commands
+
+read_chat          this is the main function it read group      call each time when text message type in chat
+				   message and classify them and stored
+				   them in csv file
+"""
+
 bot = telebot.TeleBot(TOKEN)
 
 translator_flag = False
@@ -457,7 +499,7 @@ def show_status(message):
 	bot.reply_to(message,output)
 
 @bot.message_handler(func=lambda message: True)
-def echo_all(message):
+def read_chat(message):
 
 	#print(type(message))
 
