@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="../static/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+	    function showOutput() {
+
+	        var user_name = document.getElementById("Username").value;
+	        
+	        var graph = document.getElementById("Graph").value;
+
+	        var graph_type = document.getElementById(graph).textContent;
+	        
+	        var theme = document.getElementById("Theme").value;
+
+	        var img_src = "https://github.com/AmanKathait15/Heroku-Web-App/blob/master/images/user/"+ user_name+theme+graph;
+
+	        var pie_chart_def = "\"A pie chart is a circular statistical graphic, which is divided into slices to illustrate numerical proportion. In a pie chart, the arc length of each slice, is proportional to the quantity it represents\"";
+
+	        var scatter_plot_def = "\"A scatter plot is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data.\"";
+
+	        var bar_chart_def = "\"A bar chart or bar graph is a chart or graph that presents categorical data with rectangular bars with heights or lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally. A vertical bar chart is sometimes called a column chart.\"";
+
+	        var histogram_def = "\"A histogram is a graphical display of data using bars of different heights. In a histogram, each bar groups numbers into ranges. Taller bars show that more data falls in that range. A histogram displays the shape and spread of continuous sample data.\"";
+
+	        if(graph_type == 'All' && graph == '_emotion_')
+	        {
+	        	document.getElementById("image1").src= img_src+'pie.png?raw=true';
+	        	document.getElementById("image2").src= img_src+'scatter.png?raw=true';
+	        	document.getElementById("image3").src= img_src+'bar.png?raw=true';
+
+	        	document.getElementById('paragraph1').innerHTML = pie_chart_def;
+
+	        	document.getElementById('paragraph2').innerHTML = scatter_plot_def
+
+	        	document.getElementById('paragraph3').innerHTML = bar_chart_def;
+
+	        	document.getElementById('div1').style.paddingBottom = '200px';
+	        	document.getElementById('div2').style.paddingBottom = '200px';
+	        	document.getElementById('div3').style.paddingBottom = '400px';
+
+	        	document.getElementById('div1').style.paddingTop = '200px';
+	        	document.getElementById('div2').style.paddingTop = '200px';
+	        	document.getElementById('div3').style.paddingTop = '200px';
+	        }
+	        else if(graph_type == 'All' && graph == '_polarity_')
+	        {
+	        	document.getElementById("image1").src= img_src+'pie.png?raw=true';
+	        	document.getElementById("image2").src= img_src+'scatter.png?raw=true';
+	        	document.getElementById("image3").src= img_src+'histogram.png?raw=true';
+
+	        	document.getElementById('paragraph1').innerHTML = pie_chart_def;
+
+	        	document.getElementById('paragraph2').innerHTML = scatter_plot_def
+
+	        	document.getElementById('paragraph3').innerHTML = histogram_def;
+
+	        	document.getElementById('div1').style.paddingBottom = '200px';
+	        	document.getElementById('div2').style.paddingBottom = '200px';
+	        	document.getElementById('div3').style.paddingBottom = '400px';
+
+	        	document.getElementById('div1').style.paddingTop = '200px';
+	        	document.getElementById('div2').style.paddingTop = '200px';
+	        	document.getElementById('div3').style.paddingTop = '200px';
+	        }
+	        else if(graph_type == 'pie-chart')
+	        {
+	        	document.getElementById("image1").src= img_src+"?raw=true";
+
+	        	document.getElementById('paragraph1').innerHTML = pie_chart_def;
+
+	        	// document.getElementById('paragraph1').innerHTML = "";
+	        	document.getElementById('paragraph2').innerHTML = "";
+	        	document.getElementById('paragraph3').innerHTML = "";
+
+	        	// document.getElementById("image1").src = "";
+	        	document.getElementById("image2").src = "";
+	        	document.getElementById("image3").src = "";
+
+	        	document.getElementById('div1').style.paddingBottom = '0px';
+	        	document.getElementById('div2').style.paddingBottom = '0px';
+	        	document.getElementById('div3').style.paddingBottom = '400px';
+
+	        	document.getElementById('div1').style.paddingTop = '200px';
+	        	document.getElementById('div2').style.paddingTop = '0px';
+	        	document.getElementById('div3').style.paddingTop = '0px';
+	        }
+	        else if(graph_type == 'scatter-plot')
+	        {
+	        	document.getElementById("image1").src= img_src+"?raw=true";
+
+	        	document.getElementById('paragraph1').innerHTML = scatter_plot_def;
+
+	        	// document.getElementById('paragraph1').innerHTML = "";
+	        	document.getElementById('paragraph2').innerHTML = "";
+	        	document.getElementById('paragraph3').innerHTML = "";
+
+	        	// document.getElementById("image1").src = "";
+	        	document.getElementById("image2").src = "";
+	        	document.getElementById("image3").src = "";
+
+	        	document.getElementById('div1').style.paddingBottom = '0px';
+	        	document.getElementById('div2').style.paddingBottom = '0px';
+	        	document.getElementById('div3').style.paddingBottom = '400px';
+
+	        	document.getElementById('div1').style.paddingTop = '200px';
+	        	document.getElementById('div2').style.paddingTop = '0px';
+	        	document.getElementById('div3').style.paddingTop = '0px';
+
+	        }
+	        else
+	        {
+	        	document.getElementById("image1").src= img_src+"?raw=true";
+
+	        	if(graph_type == 'bar-graph')
+	        	{
+	        		document.getElementById('paragraph1').innerHTML = bar_chart_def;
+	        	}
+	        	else
+	        	{
+	        		document.getElementById('paragraph1').innerHTML = histogram_def;
+	        	}
+
+	        	// document.getElementById('paragraph1').innerHTML = "";
+	        	document.getElementById('paragraph2').innerHTML = "";
+	        	document.getElementById('paragraph3').innerHTML = "";
+
+	        	// document.getElementById("image1").src = "";
+	        	document.getElementById("image2").src = "";
+	        	document.getElementById("image3").src = "";
+
+	        	document.getElementById('div1').style.paddingBottom = '0px';
+	        	document.getElementById('div2').style.paddingBottom = '0px';
+	        	document.getElementById('div3').style.paddingBottom = '400px';
+
+	        	document.getElementById('div1').style.paddingTop = '200px';
+	        	document.getElementById('div2').style.paddingTop = '0px';
+	        	document.getElementById('div3').style.paddingTop = '0px';
+	        }
+
+	    }
+	  </script>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<h2 style="font-weight: bold; color: black;">Telegram Group Sentimental Analysis Bot</h2>
+		<p class="brandname">Machine Learning App with Flask</p>
+		</div>
+	</header>
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" style="padding-top: 40px;">
+	  
+	  <ol class="carousel-indicators">
+	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#myCarousel" data-slide-to="1"></li>
+	    <li data-target="#myCarousel" data-slide-to="2"></li>
+	    <li data-target="#myCarousel" data-slide-to="3"></li>
+	    <li data-target="#myCarousel" data-slide-to="4"></li>
+	    <li data-target="#myCarousel" data-slide-to="5"></li>
+	    <li data-target="#myCarousel" data-slide-to="6"></li>
+	  </ol>
+
+	  <div class="carousel-inner">
+	    <div class="item active">
+	      <img src="https://github.com/AmanKathait15/Heroku-Web-App/blob/master/images/web/pie.png?raw=true" alt="Los Angeles">
+	      <div class="carousel-caption">
+	      </div>
+	    </div>
+
+	    <div class="item">
+	      <img src="https://github.com/AmanKathait15/Heroku-Web-App/blob/master/images/web/bar.png?raw=true" alt="Chicago">
+	    </div>
+
+	    <div class="item">
+	      <img src="https://github.com/AmanKathait15/Heroku-Web-App/blob/master/images/web/scatter.png?raw=true" alt="New York" align="center">
+	    </div>
+
+	    <div class="item">
+	      <img src="https://github.com/AmanKathait15/Heroku-Web-App/blob/master/images/web/histo.png?raw=true" alt="New York" align="center">
+	    </div>
+
+	    <div class="item">
+	      <img src="https://github.com/AmanKathait15/Heroku-Web-App/blob/master/images/web/compare.png?raw=true" alt="New York" align="center">
+	    </div>
+
+	    <div class="item">
+	      <img src="https://github.com/AmanKathait15/Heroku-Web-App/blob/master/images/web/live.png?raw=true" alt="New York" align="center">
+	    </div>
+
+	    <div class="item">
+	      <img src="https://github.com/AmanKathait15/Heroku-Web-App/blob/master/images/web/app.png?raw=true" alt="New York" align="center">
+	    </div>
+	  </div>
+
+	  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+	<div class="ml-container" style="padding-top: 50px; padding-bottom: 50px;">	
+		<div class="box" align="center" style="background-color: pink;">
+			<img src="https://github.com/AmanKathait15/Heroku-Web-App/blob/master/images/web/user.png?raw=true" class = "icon">
+	        <p class="title">Select User</p>
+	        <select name= 'Username' class="list" id="Username">
+	            <option value="Group_">Group</option>
+	            <option value="Aman%20Kathait_">Aman Kathait</option>
+	            <option value="Akshat%20Negi_">Akshat Negi</option>
+	            <option value="Shubham%20Semwal_">Shubham Semwal</option>
+	            <option value="Compare_All_">Compare All</option>
+	        </select>
+		</div>
+		
+		<div class="box" align="center" style="background-color: orange;">
+			<img src="https://github.com/AmanKathait15/Heroku-Web-App/blob/master/images/web/graph.png?raw=true" class = "icon">
+			<p class="title">Select Graph</p>
+			<select name= 'Graph' class="list" id="Graph">
+				<optgroup label="Emotion">
+			    <option id="_emotion_pie.png" value="_emotion_pie.png">pie-chart</option>
+			    <option id="_emotion_scatter.png" value="_emotion_scatter.png">scatter-plot</option>
+			    <option id="_emotion_bar.png" value="_emotion_bar.png">bar-graph</option>
+			    <option id="_emotion_" value="_emotion_">All</option>
+			    <optgroup label="">
+			    <optgroup label="Polarity">
+			    <option id="_polarity_pie.png" value="_polarity_pie.png">pie-chart</option>
+			    <option id="_polarity_scatter.png" value="_polarity_scatter.png">scatter-plot</option>
+			    <option id="_polarity_histogram.png" value="_polarity_histogram.png">histogram-plot</option>
+			    <option id="_polarity_" value="_polarity_">All</option>
+			 </select>
+		</div>
+
+		<div class="box" align="center" style="background-color: red;">
+			<img src="https://github.com/AmanKathait15/Heroku-Web-App/blob/master/images/web/theme.jpeg?raw=true" class = "icon">
+			<p class="title">Select Theme</p>
+			<select name= 'Theme' class="list" id="Theme">
+			    <option value="classic">classic</option>
+			    <option value="seaborn-whitegrid">seaborn-whitegrid</option>
+			    <option value="ggplot">ggplot</option>
+			 </select>
+		</div>
+	</div>
+
+	<div style="padding-top: 400px; padding-left: 50px;">
+		<input type="submit" class="btn-info" value="Submit" onclick="showOutput();">
+	</div>
+	
+
+	<div style="color: brown;">
+		<div id="div1">
+			<img id="image1" src="" align="right">
+			<br><br>
+			<p id="paragraph1" style="font-size: 30px; width: 700px; font-style: italic; color: brown;"></p>
+		</div>
+		<div id="div2">
+			<img id="image2" src="" align="right">
+			<br><br>
+			<p id="paragraph2" style="font-size: 30px; width: 700px; font-style: italic; color: blue;"></p>
+		</div>
+		<div id="div3">
+			<img id="image3" src="" align="right">
+			<br><br>
+			<p id="paragraph3" style="font-size: 30px; width: 700px; font-style: italic; color: red;"></p>
+		</div>		
+	</div>		
+	
+	<div class="test-model">
+		<form action="{{ url_for('predict')}}" method="POST">
+		<p style="font-weight: bold; color: black; font-size: 20px; ">Try yourself : </p>
+		<textarea name="message" rows="5" cols="120" style="padding: 15px 15px 15px 15px;" 
+
+		placeholder="The times are difficult! Our sales have been disappointing for the past three quarters for our data analytics product suite. We have a competitive data analytics product suite in the industry. However, we are not doing a good job at selling it, and this is really frustrating."></textarea>
+		<br/><br>
+
+		<input type="submit" class="btn-info" value="predict">
+		</form>		
+	</div>
+
+	<div class="footer">
+	  <p>@Copyright All Right Reserved. </p>
+	</div>
+
+</body>
+</html>

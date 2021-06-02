@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="../static/styles.css">
+	
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<h2 style="font-weight: bold; color: black;">Telegram Group Sentimental Analysis Bot</h2>
+		<p class="brandname">Machine Learning App with Flask</p>
+		</div>
+	</header>
+
+	<div style="padding-bottom: 400px;">
+		<h1 style="text-align: center; color: brown; ">Result in Pie-Chart</h1>
+		<img src="data:image/png;base64, {{ emotion_url }}" align="right">
+		<p style="font-size: 20px; color: blue;">{{ Sentiment }}</p>
+		<p style="font-size: 20px; color: blue;">{{ Polarity }}</p>
+		<p style="font-size: 20px; color: blue;">{{ Happy }}</p>
+		<p style="font-size: 20px; color: blue;">{{ Angry }}</p>
+		<p style="font-size: 20px; color: blue;">{{ Surprise }}</p>
+		<p style="font-size: 20px; color: blue;">{{ Sad }}</p>
+		<p style="font-size: 20px; color: blue;">{{ Fear }}</p>
+	</div>
+
+	<div class="footer">
+	  <p>@Copyright All Right Reserved. </p>
+	</div>
+
+</body>
+</html>

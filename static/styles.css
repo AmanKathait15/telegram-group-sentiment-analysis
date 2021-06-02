@@ -1,0 +1,134 @@
+body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 5px;
+	background-color:#ffffff;
+}
+
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background-image: linear-gradient(to right,#17ba3a,#178244);
+	border-bottom:rgb(74, 255, 68) 3px solid;
+	height:120px;
+	width:100%;
+	padding-top:5px;
+
+}
+
+.main-header{
+			text-align:center;
+			height:100px;
+			width:100%;
+			margin:0px;
+		}
+
+
+
+.brandname{
+	
+	font-size:15px;
+	color: black;
+	margin: 10px;
+	text-align:center;
+}
+
+header h2{
+
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+
+}
+
+.btn-info {
+	background-image: linear-gradient(to right,#17ba3a,#178244);
+	height:40px;
+	width:100px;
+	border-radius: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+} /* Blue */
+.btn-info:hover {background: #17ba3a;}
+
+
+.results {
+	border-radius: 15px 50px;
+    background: #345fe4;
+    background-color: lightblue;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+    color: red;
+    align-self: left;
+}
+
+.box {
+
+	width: 33.3%;
+	float: left;
+	height: 400px;
+}
+
+.icon {
+
+	padding: 20px ;
+	padding-bottom: 10px;
+}
+
+.title {
+
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+
+.list {
+
+	font-size: 17px;
+	font-style: bold;
+	background-color: black;
+	color: white;
+}
+
+.footer {
+  /*position: fixed;*/
+  width: 100%;
+  height: 50px;
+  background-color: lightgreen;
+  text-align: center;
+}
+
+/*.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+}*/
+
+.flex {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  width: 100px;
+  background-color: red;
+}
+
+.flex:hover {
+  opacity: 0.4;
+}
+
+.flex .fa {
+  font-size: 40px;
+  color: #2f5876;
+  padding: 0px;
+}
+
+.test-model {
+
+	padding-bottom: 150px;
+	padding-left: 50px;
+}
