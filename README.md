@@ -106,6 +106,14 @@ type command in terminal : **pip install text2emotion**  check latest version [h
  
  first create an app in [Herkou](https://dashboard.heroku.com/login) then follow their guidelines step by step.
  
+ ## Further Enhancements
+
+	1. Use deeplearning model for better accuracy\
+	2. train ML model on much large dataset to improve accuracy\
+	2. Use more complex encryption and decryption while fetching chat message from Group for better security and privacy.\
+	4 Instead of file system use Nosql database like MongoDB .\
+	5 Provide additional functionality in telegram bot like auto translation of chat not written in english .\
+ 
  ## References
  
  [https://docs.python.org/3/library/tkinter.html](https://docs.python.org/3/library/tkinter.html)\
