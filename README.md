@@ -2,6 +2,10 @@
  
 "A GUI based desktop application that can monitor the activities of a telegram group by reading a text message in a group chat using Telegram bot. It then uses a supervised machine learning model to classify chats in “very positive” , “positive”, “neutral” , “negative” and “very negative” classes and further shows the result to admin in different graphs like pie chart , histogram , bar graph , scatter plot and line plot in a desktop application."
 
+## Heroku Web App 
+
+![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/webapp.png)
+
 ## Application Screenshot
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/gui.png)
@@ -33,6 +37,10 @@
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/csv1.png)
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/csv2.png)
+
+![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/bgw.png)
+
+![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/tfidf.png)
  
  
  ## python module used
