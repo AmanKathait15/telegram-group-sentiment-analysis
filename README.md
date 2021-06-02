@@ -4,19 +4,13 @@
 
 ## Heroku Web App 
 
+[tgsab-major-project.herokuapp.com](https://tgsab-major-project.herokuapp.com/)
+
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/webapp.png)
 
-## Application Screenshot
+## Desktop Application Screenshot
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/gui.png)
-
-![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/chat2.png)
-
-![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/help.png)
-
-![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/mr.png)
-
-![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/gr.png)
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/Figure_7.png)
 
@@ -34,11 +28,30 @@
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/live2.png)
 
+## Telegram Bot
+
+
+![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/chat2.png)
+
+![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/help.png)
+
+![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/mr.png)
+
+![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/gr.png)
+
+## User Records
+
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/csv1.png)
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/csv2.png)
 
+## Model Accuracy
+
+# Using Bag of Words
+
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/bgw.png)
+
+#  Using ( Tf-Idf ) term frequency–inverse document frequency
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/tfidf.png)
  
@@ -54,12 +67,15 @@
  6 threading\
  7 matplotlib\
  8 textblob\
- 9 numpy
+ 9 numpy\
+ 10 telepot\
+ 11 text2emotion\
+ 12 Flask
  
  ## installation
  
 type command in terminal : **pip install textblob**  check latest version [here](https://pypi.org/project/textblob/)<br>
-type command in terminal : **pip install matplotlib**  check latest version [here](https://pypi.org/project/matplotlib/)<br>
+type command in terminal : **pip install pyTelegramBotAPI**  check latest version [here](https://pypi.org/project/pyTelegramBotAPI/)<br>
 type command in terminal : **pip install numpy**  check latest version [here](https://pypi.org/project/numpy/)<br>
 type command in terminal : **pip install googletrans**  check latest version [here](https://pypi.org/project/googletrans/)<br>
 
