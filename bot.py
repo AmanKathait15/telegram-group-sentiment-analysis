@@ -3,6 +3,8 @@
 
 import telebot , telepot , re , os
 
+import text2emotion as te
+
 import pandas as pd
 
 from textblob import TextBlob 
@@ -18,6 +20,8 @@ from random import random,randint
 from time import localtime , strftime , sleep
 
 from math import sqrt , ceil
+
+#from flask import Flask, request,render_template,url_for
 
 
 ############################# End of imported modules ###########################################
@@ -65,6 +69,8 @@ read_chat          this is the main function it read group      call each time w
 """
 
 bot = telebot.TeleBot(TOKEN)
+
+#server = Flask(__name__)
 
 translator_flag = False
 
@@ -642,11 +648,55 @@ def read_chat(message):
 			
 			sentiment , sc = 'negative' , '3'
 
-		output = "Sentiment : "+sentiment+"\nSentiment Score : % .2f" %(polarity)
+		output = "\n\nSentiment : "+sentiment+"\nSentiment Score : % .2f" %(polarity)
+
+		emotion = te.get_emotion(orig_msg)
+
+		output += "\n\n<<<<  Emotions >>>>\n\nHappy    : " + str(emotion['Happy']) + \
+				  "\nAngry    : " + str(emotion['Angry']) + \
+				  "\nSurprise : " + str(emotion['Surprise']) + \
+				  "\nSad      : " + str(emotion['Sad']) + \
+				  "\nFear     : " + str(emotion['Fear'])
 
 		if(sentiment_flag):
 
 			bot.reply_to(message,output)
+
+			total = emotion['Happy'] + emotion['Angry'] + emotion['Surprise'] + emotion['Sad'] + emotion['Fear']
+
+			labels = ('Happy {:.2f} %'.format(emotion['Happy']/total*100) , 'Angry {:.2f} %'.format(emotion['Angry']/total*100) ,'Surprise {:.2f} %'.format(emotion['Surprise']/total*100) , 'Sad {:.2f} %'.format(emotion['Sad']/total*100) ,'Fear {:.2f} %'.format(emotion['Fear']/total*100))
+
+			sizes = (emotion['Happy'],emotion['Angry'],emotion['Surprise'],emotion['Sad'],emotion['Fear'])
+
+			colors = ('yellow', 'red' , 'orange' , 'blue' , 'black')
+
+			# Theme = randint(0,3)
+
+			# if(Theme == 0):
+
+			#     plt.style.use('seaborn-whitegrid')
+
+			# elif(Theme == 1):
+
+			#     plt.style.use('dark_background') 
+
+			# else:
+
+			#     plt.style.use('classic')
+
+			plt.figure(1)
+
+			patches, texts = plt.pie(sizes, colors=colors, startangle=90)
+
+			plt.legend(patches, labels, loc="best")
+
+			plt.title('Emotion-chart')
+
+			plt.axis('equal')
+
+			plt.savefig('image_resource/Emotions_pie.png',bbox_inches='tight')
+
+			bot.send_photo(group_id, photo=open('image_resource/Emotions_pie.png', 'rb'))
 
 		print(output)
 
@@ -668,4 +718,24 @@ def read_chat(message):
 
 		raise e
 
+
+
 bot.polling()
+
+
+# @server.route('/' + TOKEN, methods=['POST'])
+# def getMessage():
+#     json_string = request.get_data().decode('utf-8')
+#     update = telebot.types.Update.de_json(json_string)
+#     bot.process_new_updates([update])
+#     return "!", 200
+
+
+# @server.route("/")
+# def webhook():
+#     bot.remove_webhook()
+#     bot.set_webhook(url=URL + TOKEN)
+#     return "!", 200
+
+# if __name__ == "__main__":
+#     server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))

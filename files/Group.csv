@@ -4290,3 +4290,19 @@ index,name,date_time,message,sentiment_code,sentiment,polarity
 4288,Manoj Rawat,06/05/2021 15:50:26,went chinatown ate lots chinese noodle,0,neutral,0.00
 4289,Aman Kathait,06/05/2021 22:34:58,what a Lovely day,1,positive,0.50
 4290,Aman Kathait,06/05/2021 22:36:04,i completed my major project today,1,positive,0.06
+4291,Aman Kathait,19/05/2021 12:13:13,I am very happy,2,Very positive,1.00
+4292,Aman Kathait,19/05/2021 12:18:00,I am testing a bot,0,neutral,0.00
+4293,Aman Kathait,19/05/2021 12:18:28,i am very happy,2,Very positive,1.00
+4294,Aman Kathait,19/05/2021 12:18:44,i am sad,3,negative,-0.50
+4295,Aman Kathait,19/05/2021 12:19:55,what a good day to make a vedio persentation,2,Very positive,0.70
+4296,Aman Kathait,19/05/2021 12:37:45,i am happy,2,Very positive,0.80
+4297,Aman Kathait,19/05/2021 12:37:49,i am sad,3,negative,-0.50
+4298,Aman Kathait,19/05/2021 12:38:09,what a lovel day,0,neutral,0.00
+4299,Aman Kathait,19/05/2021 12:38:32,i am tired,3,negative,-0.40
+4300,Aman Kathait,26/05/2021 10:15:15,i  happy,2,Very positive,0.80
+4301,Aman Kathait,26/05/2021 10:15:38,i am sad,3,negative,-0.50
+4302,Aman Kathait,26/05/2021 10:17:03,i love watching horror movie,1,positive,0.50
+4303,Aman Kathait,26/05/2021 10:18:07,i hate action movie because they have poor story,3,negative,-0.37
+4304,Aman Kathait,26/05/2021 10:37:28,i love you,1,positive,0.50
+4305,Aman Kathait,26/05/2021 10:38:01,i  am very happy today,2,Very positive,1.00
+4306,Aman Kathait,26/05/2021 10:40:30,i love Playing video games but my mom sad that why are you playing children games , are you still a baby that moment is very frustrating . When people in this world stop judging others,3,negative,-0.17
