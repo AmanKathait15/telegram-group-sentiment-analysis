@@ -121,63 +121,139 @@ def send_report(message):
 		else:
 			very_negative+=1
 
-	labels = ('Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100))
+	# labels = ('Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100))
 
-	sizes = (very_positive,positive,neutral,negative,very_negative)
+	# sizes = (very_positive,positive,neutral,negative,very_negative)
 
-	colors = ('green','lightgreen','yellow', 'orange', 'red')
+	# colors = ('green','lightgreen','yellow', 'orange', 'red')
 
-	Theme = randint(0,3)
+	Theme = ('classic','seaborn-whitegrid','ggplot','dark_background')
 
-	if(Theme == 0):
+	ind = randint(0,3)
 
-	    plt.style.use('seaborn-whitegrid')
+	# plt.style.use(Theme[ind])
 
-	elif(Theme == 1):
+	# plt.figure(1)
 
-	    plt.style.use('dark_background') 
+	# angel = (90,180,270,360)
 
-	else:
+	# patches, texts = plt.pie(sizes, colors=colors, startangle=angel[randint(0,3)])
 
-	    plt.style.use('classic')
+	# plt.legend(patches, labels, loc="best")
 
-	plt.figure(1)
+	# plt.title('pie - chart')
 
-	patches, texts = plt.pie(sizes, colors=colors, startangle=90)
+	# plt.axis('equal')
 
-	plt.legend(patches, labels, loc="best")
+	# plt.savefig('images/user/'+name+'_'+Theme[ind]+'_polarity_pie.png',bbox_inches='tight')
 
-	plt.title('pie - chart')
+	# fig = plt.figure(2)
 
-	plt.axis('equal')
+	# axis = fig.add_subplot(1,1,1)
 
-	# plt.savefig('images/user/'+name+'_pie.png',bbox_inches='tight')
+	# X = list(df['index'])
 
-	fig = plt.figure(2)
+	# Y = list(df['polarity'])
 
-	axis = fig.add_subplot(1,1,1)
+	# axis.scatter(X,Y)
 
-	X = list(df['index'])
+	# plt.xlabel('tweet number')
 
-	Y = list(df['polarity'])
+	# plt.ylabel('polarity')
 
-	axis.scatter(X,Y)
+	# plt.savefig('images/user/'+name+'_'+Theme[ind]+'_polarity_scatter.png',bbox_inches='tight')
 
-	plt.xlabel('tweet number')
+	# plt.figure(3)
 
-	plt.ylabel('polarity')
+	# plt.hist(Y,bins=randint(4,8),color=colors[randint(0,4)],histtype = 'barstacked')
 
-	plt.savefig('images/user/'+name+'_scatter.png', bbox_inches='tight')
+	# plt.ylabel('number of tweets')
 
-	plt.figure(3)
+	# plt.xlabel('polarity of tweets')
 
-	plt.hist(Y,bins=randint(4,8),color=colors[randint(0,4)],histtype = 'barstacked')
+	# plt.savefig('images/user/'+name+'_'+Theme[ind]+'_polarity_histogram.png',bbox_inches='tight')
+	
+	# Happy = sum(df['Happy'])
+	
+	# Angry = sum(df['Angry'])
+	
+	# Surprise = sum(df['Surprise'])
+	
+	# Sad = sum(df['Sad'])
+	
+	# Fear = sum(df['Fear'])
+	
+	# total = Happy + Angry + Surprise + Sad + Fear
+	
+	# labels = ['Happy {:.2f} %'.format(Happy/total*100) , 'Angry {:.2f} %'.format(Angry/total*100) ,'Surprise {:.2f} %'.format(Surprise/total*100) , 'Sad {:.2f} %'.format(Sad/total*100) ,'Fear {:.2f} %'.format(Fear/total*100)]
+	
+	# sizes = [Happy,Angry,Surprise,Sad,Fear]
+	
+	# colors = ['yellow','red','orange', 'grey', 'black']
 
-	plt.ylabel('number of tweets')
+	# if(ind == 3):
 
-	plt.xlabel('polarity of tweets')
+	# 	colors[3],colors[4] = 'green','blue'
+	
+	# plt.figure(4)
+	
+	# angel = (90,180,270,360)
+	
+	# patches, texts = plt.pie(sizes, colors=colors, startangle= angel[randint(0,3)])
+	
+	# plt.legend(patches, labels, loc="best")
+	
+	# plt.title('Emotion-chart')
+	
+	# plt.axis('equal')
+	
+	# plt.savefig('images/user/'+name+'_'+Theme[ind]+'_emotion_pie.png',bbox_inches='tight')
+	
+	# Emotion = ['Happy', 'Angry', 'Surprise', 'Sad', 'Fear']
 
-	plt.savefig('images/user/'+name+'_histogram.png', bbox_inches='tight')
+	# plt.figure(5)
+	
+	# plt.bar(Emotion,sizes,color = colors)
+
+	# plt.ylabel('Number')
+	
+	# plt.xlabel('Emotions')
+
+	# plt.savefig('images/user/'+name+'_'+Theme[ind]+'_emotion_bar.png', bbox_inches='tight')
+
+	# fig = plt.figure(6)
+
+	# X = list(df['index'][0:100])
+
+	# Happy = list(df['Happy'][0:100])
+	
+	# Angry = list(df['Angry'][0:100])
+	
+	# Surprise = list(df['Surprise'][0:100])
+	
+	# Sad = list(df['Sad'][0:100])
+	
+	# Fear = list(df['Fear'][0:100])
+
+	# plt.scatter(X,Happy,label='Happy',color=colors[0])
+
+	# plt.scatter(X,Angry,label='Angry',color=colors[1])
+
+	# plt.scatter(X,Surprise,label='Surprise',color=colors[2])
+
+	# plt.scatter(X,Sad,label='Sad',color=colors[3])
+
+	# plt.scatter(X,Fear,label='Fear',color=colors[4])
+
+	# plt.ylim([0.1,1.2])
+	
+	# plt.xlabel('message id')
+	
+	# plt.ylabel('emotion')
+
+	# plt.legend(loc = 'upper right')
+
+	# plt.savefig('images/user/'+name+'_'+Theme[ind]+'_emotion_scatter.png', bbox_inches='tight')
 
 	output = "\nUsername : "+name+"\nTotal   : "+str(total)+"\nVery +ve : "+str(very_positive)+"\nPositive : "+str(positive)+"\nNeutral  : "+str(neutral)+"\nNegative : "+str(negative)+"\nVery -Ve : "+str(very_negative)+"\n"
 
@@ -209,15 +285,21 @@ def send_report(message):
 
 	sleep(0.5)
 
-	bot.send_photo(chat_id, photo=open('images/user/'+name+'_pie.png', 'rb'))
+	bot.send_photo(group_id, photo=open('images/user/'+name+'_'+Theme[ind]+'_polarity_pie.png', 'rb'))
 
-	bot.send_photo(chat_id, photo=open('images/user/'+name+'_scatter.png', 'rb'))
+	bot.send_photo(group_id, photo=open('images/user/'+name+'_'+Theme[ind]+'_polarity_scatter.png', 'rb'))
 
-	bot.send_photo(chat_id, photo=open('images/user/'+name+'_histogram.png', 'rb'))
+	bot.send_photo(group_id, photo=open('images/user/'+name+'_'+Theme[ind]+'_polarity_histogram.png', 'rb'))
 
-	bot2 = telepot.Bot(TOKEN)
+	bot.send_photo(group_id, photo=open('images/user/'+name+'_'+Theme[ind]+'_emotion_pie.png', 'rb'))
 
-	bot2.sendDocument(chat_id=chat_id, document=open('files/'+name+'.csv', 'rb'))
+	bot.send_photo(group_id, photo=open('images/user/'+name+'_'+Theme[ind]+'_emotion_scatter.png', 'rb'))
+
+	bot.send_photo(group_id, photo=open('images/user/'+name+'_'+Theme[ind]+'_emotion_bar.png', 'rb'))
+
+	# bot2 = telepot.Bot(TOKEN)
+
+	# bot2.sendDocument(chat_id=group_id, document=open('files/'+name+'.csv', 'rb'))
 
 @bot.message_handler(commands=['group_report','gr'])
 def send_group_report(message):
@@ -234,21 +316,11 @@ def send_group_report(message):
 
 	fig, axs = plt.subplots(grid, grid)
 
-	x,y = 0,0
+	x,y,ind = 0,0, randint(0,3)
 
-	Theme = randint(0,3)
+	Theme = ('classic','seaborn-whitegrid','ggplot','dark_background')
 
-	if(Theme == 0):
-
-	    plt.style.use('seaborn-whitegrid')
-
-	elif(Theme == 1):
-
-	    plt.style.use('dark_background') 
-
-	else:
-
-	    plt.style.use('classic')
+	plt.style.use(Theme[ind])
 
 	for i in range(1,n+1):
 
@@ -271,11 +343,11 @@ def send_group_report(message):
 			else:
 				very_negative+=1
 
-		labels = ('Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100))
+		# labels = ('Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100))
 		
-		sizes = (very_positive,positive,neutral,negative,very_negative)
+		# sizes = (very_positive,positive,neutral,negative,very_negative)
 		
-		colors = ('green','lightgreen','yellow', 'orange', 'red')
+		# colors = ('green','lightgreen','yellow', 'orange', 'red')
 
 		output += "\nUsername : "+username[i]+"\nTotal   : "+str(total)+"\nVery +ve : "+str(very_positive)+"\nPositive : "+str(positive)+"\nNeutral  : "+str(neutral)+"\nNegative : "+str(negative)+"\nVery -Ve : "+str(very_negative)+"\n"
 
@@ -285,85 +357,85 @@ def send_group_report(message):
 
 		#print(x,y)
 
-		patches,texts = axs[x,y].pie(sizes, colors=colors, startangle = 90 ) #angel[randint(0,6)])
+	# 	patches,texts = axs[x,y].pie(sizes, colors=colors, startangle = 90 ) #angel[randint(0,6)])
 
-		axs[x,y].legend(patches, labels, loc = 'lower right') #location[randint(0,4)])
+	# 	axs[x,y].legend(patches, labels, loc = 'lower right') #location[randint(0,4)])
 		
-		axs[x,y].set_title(username[i])
+	# 	axs[x,y].set_title(username[i])
 
-		y = y+1
+	# 	y = y+1
 
-	for ax in axs.flat:
+	# for ax in axs.flat:
 
-		ax.label_outer()
+	# 	ax.label_outer()
 
-	plt.savefig('images/user/Compare_All_pie.png', bbox_inches='tight')
+	# plt.savefig('images/user/Compare_All_'+Theme[ind]+'_polarity_pie.png', bbox_inches='tight')
 
-	fig, axs = plt.subplots(grid, grid)
+	# fig, axs = plt.subplots(grid, grid)
 
-	x,y = 0,0
+	# x,y = 0,0
 
-	for i in range(1,n+1):
+	# for i in range(1,n+1):
 
-		df = pd.read_csv('files/'+username[i]+'.csv')
+	# 	df = pd.read_csv('files/'+username[i]+'.csv')
 
-		X = list(range(0,len(df['polarity'])))
+	# 	X = list(range(0,len(df['polarity'])))
 
-		Y = list(df['polarity'])
+	# 	Y = list(df['polarity'])
 
-		if(y == grid):
+	# 	if(y == grid):
 
-			x,y = x+1,0
+	# 		x,y = x+1,0
 
-		axs[x,y].plot(X, Y)
+	# 	axs[x,y].plot(X, Y)
 		
-		axs[x,y].set_title(username[i])
+	# 	axs[x,y].set_title(username[i])
 
-		y = y + 1
+	# 	y = y + 1
 
-	# Hide x labels and tick labels for top plots and y ticks for right plots.
-	for ax in axs.flat:
+	# # Hide x labels and tick labels for top plots and y ticks for right plots.
+	# for ax in axs.flat:
 
-		ax.label_outer()
+	# 	ax.label_outer()
 
-	plt.savefig('images/user/Compare_All_scatter.png', bbox_inches='tight')
+	# plt.savefig('images/user/Compare_All_'+Theme[ind]+'_polarity_scatter.png', bbox_inches='tight')
 
-	fig, axs = plt.subplots(grid, grid)
+	# fig, axs = plt.subplots(grid, grid)
 
-	x,y = 0,0
+	# x,y = 0,0
 
-	for i in range(1,n+1):
+	# for i in range(1,n+1):
 
-		df = pd.read_csv('files/'+username[i]+'.csv')
+	# 	df = pd.read_csv('files/'+username[i]+'.csv')
 
-		p = list(df['polarity'])
+	# 	p = list(df['polarity'])
 
-		pol = []
+	# 	pol = []
 
-		for j in p:
+	# 	for j in p:
 
-			pol.append(int(j * 10))
+	# 		pol.append(int(j * 10))
 
-		if(y == grid):
+	# 	if(y == grid):
 
-			x,y = x+1,0
+	# 		x,y = x+1,0
 
-		#N,bins,patches = 
-		axs[x,y].hist(pol,bins=5, edgecolor='white', linewidth=1,color=colors[randint(0,4)],histtype = 'barstacked')
+	# 	#N,bins,patches = 
+	# 	axs[x,y].hist(pol,bins=5, edgecolor='white', linewidth=1,color=colors[randint(0,4)],histtype = 'barstacked')
 
-		axs[x,y].set_title(username[i])
+	# 	axs[x,y].set_title(username[i])
 
-		y = y + 1
+	# 	y = y + 1
 
-	for ax in axs.flat:
+	# for ax in axs.flat:
 
-		ax.set(xlabel='polarity of tweets', ylabel='number of tweets')
+	# 	ax.set(xlabel='polarity of tweets', ylabel='number of tweets')
 
-	for ax in axs.flat:
+	# for ax in axs.flat:
 
-		ax.label_outer()
+	# 	ax.label_outer()
 
-	plt.savefig('images/user/Compare_All_histogram.png', bbox_inches='tight')
+	# plt.savefig('images/user/Compare_All_'+Theme[ind]+'_polarity_histogram.png', bbox_inches='tight')
 
 	df = df.sort_values('polarity',ascending=False)
 
@@ -393,15 +465,21 @@ def send_group_report(message):
 
 	sleep(1)
 
-	bot.send_photo(chat_id, photo=open('images/user/Compare_All_pie.png', 'rb'))
+	bot.send_photo(group_id, photo=open('images/user/Compare_All_'+Theme[ind]+'_polarity_pie.png', 'rb'))
 
-	bot.send_photo(chat_id, photo=open('images/user/Compare_All_scatter.png', 'rb'))
+	bot.send_photo(group_id, photo=open('images/user/Compare_All_'+Theme[ind]+'_polarity_scatter.png', 'rb'))
 
-	bot.send_photo(chat_id, photo=open('images/user/Compare_All_histogram.png', 'rb'))
+	bot.send_photo(group_id, photo=open('images/user/Compare_All_'+Theme[ind]+'_polarity_histogram.png', 'rb'))
 
-	bot2 = telepot.Bot(TOKEN)
+	bot.send_photo(group_id, photo=open('images/user/Compare_All_'+Theme[ind]+'_emotion_pie.png', 'rb'))
 
-	bot2.sendDocument(chat_id=chat_id, document=open('files/Group.csv', 'rb'))
+	bot.send_photo(group_id, photo=open('images/user/Compare_All_'+Theme[ind]+'_emotion_scatter.png', 'rb'))
+
+	bot.send_photo(group_id, photo=open('images/user/Compare_All_'+Theme[ind]+'_emotion_bar.png', 'rb'))
+
+	# bot2 = telepot.Bot(TOKEN)
+
+	# bot2.sendDocument(chat_id=group_id, document=open('files/Group.csv', 'rb'))
 
 @bot.message_handler(commands=['OnLiveSentiment', 'ols'])
 def show_sentiment(message):
@@ -678,13 +756,23 @@ def read_chat(message):
 
 			total = Happy + Angry + Surprise + Sad + Fear
 
+			Theme = ('classic','seaborn-whitegrid','ggplot','dark_background')
+
+			ind = randint(0,3)
+
+			plt.style.use(Theme[ind])
+
 			labels = ('Happy {:.2f} %'.format(Happy/total*100) , 'Angry {:.2f} %'.format(Angry/total*100) ,'Surprise {:.2f} %'.format(Surprise/total*100) , 'Sad {:.2f} %'.format(Sad/total*100) ,'Fear {:.2f} %'.format(Fear/total*100))
 
 			sizes = (Happy,Angry,Surprise,Sad,Fear)
 
-			colors = ('yellow', 'red' , 'orange' , 'blue' , 'black')
+			colors = ['yellow', 'red' , 'orange' , 'blue' , 'black']
 
-			plt.figure(1)
+			if(ind == 3):
+
+				colors[3],colors[4] = 'green','blue'
+
+			plt.figure(10)
 
 			patches, texts = plt.pie(sizes, colors=colors, startangle=90)
 
@@ -696,7 +784,7 @@ def read_chat(message):
 
 			plt.savefig('images/user/Emotions_pie.png',bbox_inches='tight')
 
-			bot.send_photo(chat_id, photo=open('images/user/Emotions_pie.png', 'rb'))
+			bot.send_photo(group_id, photo=open('images/user/Emotions_pie.png', 'rb'))
 
 		print(output)
 
@@ -744,7 +832,7 @@ def read_chat(message):
 
 
 
-# bot.polling()
+# bot.polling() 		## to run bot locally 
 
 @server.route('/predict',methods=['POST'])
 def predict():

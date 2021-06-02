@@ -1,27 +1,27 @@
 
 ############################### modules reuired ######################################
 
-from tkinter import *					###	used to craete GUI 
+from tkinter import *                   ### used to craete GUI 
 
-from tkinter import ttk 				###	used to craete GUI
+from tkinter import ttk                 ### used to craete GUI
 
-from tkinter import messagebox				###	to genrate message when gui is distroyed
+from tkinter import messagebox              ### to genrate message when gui is distroyed
 
-from threading import Thread 				###	used to divide process into different threads
+from threading import Thread                ### used to divide process into different threads
 
-from matplotlib import pyplot as plt              	### 	used to display data in pie-chart , bar graph and scatter plot 
+from matplotlib import pyplot as plt                ###     used to display data in pie-chart , bar graph and scatter plot 
 
-import matplotlib.animation as animation		###	used plot live plot of group messages
+import matplotlib.animation as animation        ### used plot live plot of group messages
 
-from time import sleep					### 	used for delay
+from time import sleep                  ###     used for delay
 
-import pandas as pd					### 	used to read csv files
+import pandas as pd                 ###     used to read csv files
 
-from random import randint				### 	used to change plot colors 
+from random import randint              ###     used to change plot colors 
 
-from math import sqrt , ceil				###	used to find perfect grid 
+from math import sqrt , ceil                ### used to find perfect grid 
 
-import os						###	used to open subprocess or different application
+import os                       ### used to open subprocess or different application
 
 ############################# End of imported modules ###########################################
 
@@ -32,95 +32,95 @@ class Application():
     
     ######### class attributes ##########
 
-    varibale    	type            		use to
+    varibale        type                    use to
 
-    index       	integer         		unique number for each message fetch
+    index           integer                 unique number for each message fetch
 
-    root		tkinter.TK 			reprsent main GUI window
+    root        tkinter.TK          reprsent main GUI window
 
-    text 		tkinter.Text 			display live sentiment on GUI text field
+    text        tkinter.Text            display live sentiment on GUI text field
 
-    user		StringVar 			store current username selected in UserList combobox
+    user        StringVar           store current username selected in UserList combobox
 
-    Theme		StringVar			store current theme selected in theme combobox
+    Theme       StringVar           store current theme selected in theme combobox
 
-    UserList		tkinter.ttk.Combobox 		store list of all users in a group
+    UserList        tkinter.ttk.Combobox        store list of all users in a group
 
-    topframe		tkinter.Frame 			top frame og GUI in which darkcolor and lightcolor frame is shown
+    topframe        tkinter.Frame           top frame og GUI in which darkcolor and lightcolor frame is shown
 
-    middleframe		tkinter.Frame 			middle frame in which text feild and combobox shown
+    middleframe     tkinter.Frame           middle frame in which text feild and combobox shown
 
-    bottomframe		tkinter.Frame 			frame in which button of different plot is shown
+    bottomframe     tkinter.Frame           frame in which button of different plot is shown
 
     ######### class methods #############
 
-    function            work / task                             		run/call
+    function            work / task                                     run/call
 
     __init__            this function is a constructor of Application           run when Application class object is created  
                         class and it work is to allocate memory
 
-    plot_PieChart       this function display our data in pie chart form	run when pie chart icon clicked in GUI
-                    	ie show value of very +ve , +ve , 0 , -ve and
-                    	very -ve score in our data
+    plot_PieChart       this function display our data in pie chart form    run when pie chart icon clicked in GUI
+                        ie show value of very +ve , +ve , 0 , -ve and
+                        very -ve score in our data
 
-    plot_histogram      this function display ploarity in histogram form	run when histogram icon clicked in GUI
-                    	so that user can visualize which sentiment score
-                    	range tweet is more .
+    plot_histogram      this function display ploarity in histogram form    run when histogram icon clicked in GUI
+                        so that user can visualize which sentiment score
+                        range tweet is more .
 
-    scatter_plot        this function display polarity in scatter plot 		run when scatter plot icon clicked in GUI
-                    	graph make easy to visualize flow of sentiments
-                    	of twitter users on that query
-                    	 
-    live_plot		this function show live sentiment in graph using	run when live button is clicked in GUI 
-    			animation and simulation of previous chats
+    scatter_plot        this function display polarity in scatter plot      run when scatter plot icon clicked in GUI
+                        graph make easy to visualize flow of sentiments
+                        of twitter users on that query
+                         
+    live_plot       this function show live sentiment in graph using    run when live button is clicked in GUI 
+                animation and simulation of previous chats
 
-    back_end     	this function start the seprate thred to read		call in main function
-                   	csv files and update text feild in GUI if 
-                  	any chnage occur
+    back_end        this function start the seprate thred to read       call in main function
+                    csv files and update text feild in GUI if 
+                    any chnage occur
     
-    chnage_vlaues    	this function update the list of username in 		run each time when combobox clicked
-    		    	UserList combobox when new user added to group
+    chnage_vlaues       this function update the list of username in        run each time when combobox clicked
+                    UserList combobox when new user added to group
     
-    on_closing	     	this function confirm user to exit GUI			run before gui is closed
+    on_closing          this function confirm user to exit GUI          run before gui is closed
     
-    select_user	  	this function return the curret value of		call inside many function
-    		    	UserList combobox
+    select_user     this function return the curret value of        call inside many function
+                    UserList combobox
     
-    select_theme   	this function chage theme of plot graphs		call each time when Themen combobox vkaue chnaged
+    select_theme    this function chage theme of plot graphs        call each time when Themen combobox vkaue chnaged
 
-    chnage_bg     	this function change the backgroud color of GUI  	run when color icon is clicked in GUI
+    chnage_bg       this function change the backgroud color of GUI     run when color icon is clicked in GUI
 
-    open_telegram   	this function open Telegram   				run when telegram icon is clicked in GUI
+    open_telegram       this function open Telegram                 run when telegram icon is clicked in GUI
 
-    open_xls       	this function open csv file		   		run when open xls button is clicked in GUI
+    open_xls        this function open csv file             run when open xls button is clicked in GUI
 
-    GUI 	    	In this function most of GUI coding is done.		call in main function
+    GUI             In this function most of GUI coding is done.        call in main function
 
-    __main__        	In this object of Application class created      	execution of program begin from this function
+    __main__            In this object of Application class created         execution of program begin from this function
 
     """
 
     def __init__(self):  
 
-    	self.index = None
-    	
-    	self.root = None
-    	
-    	self.text = None
-    	
-    	self.user = None
-    	
-    	self.theme = None
-    	
-    	self.topframe = None
-    	
-    	self.middleframe = None
-    	
-    	self.bottomframe = None
-    	
-    	self.comboframe = None
-    	
-    	self.UserList = None
+        self.index = None
+        
+        self.root = None
+        
+        self.text = None
+        
+        self.user = None
+        
+        self.theme = None
+        
+        self.topframe = None
+        
+        self.middleframe = None
+        
+        self.bottomframe = None
+        
+        self.comboframe = None
+        
+        self.UserList = None
 
     def live_plot(self):
 
@@ -394,7 +394,7 @@ class Application():
 
                 ani = animation.FuncAnimation(plt.gcf(),animate, interval= Interval[randint(0,3)])
 
-                plt.show()    	
+                plt.show()      
 
     def plot_PieChart(self):
     
@@ -522,6 +522,10 @@ class Application():
                     
                     colors = ['yellow','red','orange', 'grey', 'black']
 
+                    if(self.theme.get() == 'dark_background'):
+
+                        colors[3],colors[4] = 'green','blue'
+
                     if(y == grid):
 
                         x,y = x+1,0
@@ -547,90 +551,96 @@ class Application():
 
         else:
 
-        	    if(self.select_type() == "emotion"):
-        	    
-        	    	df = pd.read_csv('files/'+str(self.user.get())+'.csv')
-        	    	
-        	    	Happy = sum(df['Happy'])
-        	    	
-        	    	Angry = sum(df['Angry'])
-        	    	
-        	    	Surprise = sum(df['Surprise'])
-        	    	
-        	    	Sad = sum(df['Sad'])
-        	    	
-        	    	Fear = sum(df['Fear'])
-        	    	
-        	    	total = Happy + Angry + Surprise + Sad + Fear
-        	    	
-        	    	labels = ['Happy {:.2f} %'.format(Happy/total*100) , 'Angry {:.2f} %'.format(Angry/total*100) ,'Surprise {:.2f} %'.format(Surprise/total*100) , 'Sad {:.2f} %'.format(Sad/total*100) ,'Fear {:.2f} %'.format(Fear/total*100)]
-        	    	
-        	    	sizes = [Happy,Angry,Surprise,Sad,Fear]
-        	    	
-        	    	colors = ['yellow','red','orange', 'grey', 'black']
-        	    	
-        	    	plt.figure(1)
-        	    	
-        	    	angel = (90,180,270,360)
-        	    	
-        	    	patches, texts = plt.pie(sizes, colors=colors, startangle= angel[randint(0,3)])
-        	    	
-        	    	plt.legend(patches, labels, loc="best")
-        	    	
-        	    	plt.title('Emotion-chart')
-        	    	
-        	    	plt.axis('equal')
-        	    	
-        	    	plt.savefig('images/user/'+self.user.get()+'_'+self.theme.get()+'_emotion_pie.png',bbox_inches='tight')
-        	    	
-        	    	plt.show()
-        	    	
-        	    else:
-        	    
-        	    	df = pd.read_csv('files/'+str(self.user.get())+'.csv')
-        	    	
-        	    	sentiment = list(df['sentiment_code'])
-        	    	
-        	    	total,very_positive,positive,neutral,negative,very_negative = len(sentiment),0,0,0,0,0
-        	    	
-        	    	for i in sentiment:
-        	    	
-        	    		if(i==0):
-        	    			neutral+=1
-        	    			
-        	    		elif(i==1):
-        	    			positive+=1
-        	    			
-        	    		elif(i==2):
-        	    			very_positive+=1
-        	    			
-        	    		elif(i==3):
-        	    			negative+=1
-        	    		else:
-        	    			very_negative+=1
-        	    			
-        	    	labels = ['Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100)]
-        	    	
-        	    	sizes = [very_positive,positive,neutral,negative,very_negative]
-        	    	
-        	    	colors = ['green','lightgreen','yellow', 'orange', 'red']
-        	    	
-        	    	plt.figure(1)
-        	    	
-        	    	angel = (90,180,270,360)
-        	    	
-        	    	patches, texts = plt.pie(sizes, colors=colors, startangle= angel[randint(0,3)])
-        	    	
-        	    	plt.legend(patches, labels, loc="best")
-        	    	
-        	    	plt.title('polarity-chart')
-        	    	
-        	    	plt.axis('equal')
-        	    	
-        	    	plt.savefig('images/user/'+str(self.user.get())+'_'+self.theme.get()+'_polarity_pie.png',bbox_inches='tight')
-        	    	
-        	    	plt.show()
-        	    	
+                if(self.select_type() == "emotion"):
+                
+                    df = pd.read_csv('files/'+str(self.user.get())+'.csv')
+                    
+                    Happy = sum(df['Happy'])
+                    
+                    Angry = sum(df['Angry'])
+                    
+                    Surprise = sum(df['Surprise'])
+                    
+                    Sad = sum(df['Sad'])
+                    
+                    Fear = sum(df['Fear'])
+                    
+                    total = Happy + Angry + Surprise + Sad + Fear
+                    
+                    labels = ['Happy {:.2f} %'.format(Happy/total*100) , 'Angry {:.2f} %'.format(Angry/total*100) ,'Surprise {:.2f} %'.format(Surprise/total*100) , 'Sad {:.2f} %'.format(Sad/total*100) ,'Fear {:.2f} %'.format(Fear/total*100)]
+                    
+                    sizes = [Happy,Angry,Surprise,Sad,Fear]
+                    
+                    colors = ['yellow','red','orange', 'grey', 'black']
+                    
+                    plt.figure(1)
+                    
+                    angel = (90,180,270,360)
+                    
+                    if(self.theme.get() == 'dark_background'):
+                    
+                        colors[3],colors[4] = 'green','blue'
+                        
+                    patches, texts = plt.pie(sizes, colors=colors, startangle= angel[randint(0,3)])
+                    
+                    plt.legend(patches, labels, loc="best")
+                    
+                    plt.title('Emotion-chart')
+                    
+                    plt.axis('equal')
+                    
+                    plt.savefig('images/user/'+self.user.get()+'_'+self.theme.get()+'_emotion_pie.png',bbox_inches='tight')
+                    
+                    plt.show()
+                    
+                    
+                    
+                else:
+                
+                    df = pd.read_csv('files/'+str(self.user.get())+'.csv')
+                    
+                    sentiment = list(df['sentiment_code'])
+                    
+                    total,very_positive,positive,neutral,negative,very_negative = len(sentiment),0,0,0,0,0
+                    
+                    for i in sentiment:
+                    
+                        if(i==0):
+                            neutral+=1
+                            
+                        elif(i==1):
+                            positive+=1
+                            
+                        elif(i==2):
+                            very_positive+=1
+                            
+                        elif(i==3):
+                            negative+=1
+                        else:
+                            very_negative+=1
+                            
+                    labels = ['Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100)]
+                    
+                    sizes = [very_positive,positive,neutral,negative,very_negative]
+                    
+                    colors = ['green','lightgreen','yellow', 'orange', 'red']
+                    
+                    plt.figure(1)
+                    
+                    angel = (90,180,270,360)
+                    
+                    patches, texts = plt.pie(sizes, colors=colors, startangle= angel[randint(0,3)])
+                    
+                    plt.legend(patches, labels, loc="best")
+                    
+                    plt.title('polarity-chart')
+                    
+                    plt.axis('equal')
+                    
+                    plt.savefig('images/user/'+str(self.user.get())+'_'+self.theme.get()+'_polarity_pie.png',bbox_inches='tight')
+                    
+                    plt.show()
+                    
 
 
 
@@ -719,15 +729,21 @@ class Application():
 
                         x,y = x+1,0
 
-                    axs[x,y].scatter(X,Happy,label='Happy',color='green')
+                    colors = ['green','red','orange','blue','black']
 
-                    axs[x,y].scatter(X,Angry,label='Angry',color='red')
+                    if(self.theme.get() == 'dark_background'):
 
-                    axs[x,y].scatter(X,Surprise,label='Surprise',color='orange')
+                        colors[4] = 'pink'
 
-                    axs[x,y].scatter(X,Sad,label='Sad',color='blue')
+                    axs[x,y].scatter(X,Happy,label='Happy',color=colors[0])
 
-                    axs[x,y].scatter(X,Fear,label='Fear',color='black')
+                    axs[x,y].scatter(X,Angry,label='Angry',color=colors[1])
+
+                    axs[x,y].scatter(X,Surprise,label='Surprise',color=colors[2])
+
+                    axs[x,y].scatter(X,Sad,label='Sad',color=colors[3])
+
+                    axs[x,y].scatter(X,Fear,label='Fear',color=colors[4])
 
                     # axs[x,y].ylim([0.1,1.2])
                     
@@ -754,8 +770,6 @@ class Application():
                 
                 axis = fig.add_subplot(1,1,1)
 
-                #number = select_user()
-
                 name = self.user.get()
 
                 df = pd.read_csv('files/'+name+'.csv')
@@ -779,8 +793,6 @@ class Application():
             else:
 
                 fig = plt.figure(2)
-                
-                #axis = fig.add_subplot(1,1,1)
 
                 name = self.user.get()
 
@@ -798,17 +810,21 @@ class Application():
                 
                 Fear = list(df['Fear'][0:100])
 
-                # axis.scatter(X,Y)
+                colors = ['green','red','orange','blue','black']
 
-                plt.scatter(X,Happy,label='Happy',color='green')
+                if(self.theme.get() == 'dark_background'):
 
-                plt.scatter(X,Angry,label='Angry',color='red')
+                    colors[4] = 'pink'
 
-                plt.scatter(X,Surprise,label='Surprise',color='orange')
+                plt.scatter(X,Happy,label='Happy',color=colors[0])
 
-                plt.scatter(X,Sad,label='Sad',color='blue')
+                plt.scatter(X,Angry,label='Angry',color=colors[1])
 
-                plt.scatter(X,Fear,label='Fear',color='black')
+                plt.scatter(X,Surprise,label='Surprise',color=colors[2])
+
+                plt.scatter(X,Sad,label='Sad',color=colors[3])
+
+                plt.scatter(X,Fear,label='Fear',color=colors[4])
 
                 plt.ylim([0.1,1.2])
                 
@@ -916,6 +932,10 @@ class Application():
 
                         x,y = x+1,0
 
+                    if(self.theme.get() == 'dark_background'):
+
+                        colors[3],colors[4] = 'green','blue'
+
                     #N,bins,patches = 
                     axs[x,y].bar(Emotion,sizes,color= colors)
 
@@ -975,6 +995,10 @@ class Application():
                 sizes = [Happy,Angry,Surprise,Sad,Fear]
                 
                 Emotion = ['Happy', 'Angry', 'Surprise', 'Sad', 'Fear']
+
+                if(self.theme.get() == 'dark_background'):
+
+                    colors[3],colors[4] = 'green','blue'
                 
                 plt.bar(Emotion,sizes,color = colors)
 
