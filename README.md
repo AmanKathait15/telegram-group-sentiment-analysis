@@ -8,6 +8,12 @@
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/webapp.png)
 
+![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/wp2.png)
+
+![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/wp3.png)
+
+
+
 # Desktop Application Screenshot
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/gui.png)
@@ -24,9 +30,9 @@
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/Figure_6.png)
 
-![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/live1.png)
-
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/live2.png)
+
+![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/live1.png)
 
 ## Telegram Bot
 
@@ -38,6 +44,7 @@
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/mr.png)
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/gr.png)
+
 
 ## User Records
 
@@ -74,6 +81,10 @@
  
  ## installation
  
+type command in terminal : **pip install -r requirement.txt**
+
+or download libraries individually
+
 type command in terminal : **pip install textblob**  check latest version [here](https://pypi.org/project/textblob/)<br>
 type command in terminal : **pip install pyTelegramBotAPI**  check latest version [here](https://pypi.org/project/pyTelegramBotAPI/)<br>
 type command in terminal : **pip install telepot**  check latest version [here](https://pypi.org/project/telepot/)<br>
