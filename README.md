@@ -2,13 +2,13 @@
  
 "A GUI based desktop application that can monitor the activities of a telegram group by reading a text message in a group chat using Telegram bot. It then uses a supervised machine learning model to classify chats in “very positive” , “positive”, “neutral” , “negative” and “very negative” classes and further shows the result to admin in different graphs like pie chart , histogram , bar graph , scatter plot and line plot in a desktop application."
 
-## Heroku Web App 
+# Heroku Web App 
 
 [tgsab-major-project.herokuapp.com](https://tgsab-major-project.herokuapp.com/)
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/webapp.png)
 
-## Desktop Application Screenshot
+# Desktop Application Screenshot
 
 ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/gui.png)
 
@@ -76,6 +76,6 @@
  
 type command in terminal : **pip install textblob**  check latest version [here](https://pypi.org/project/textblob/)<br>
 type command in terminal : **pip install pyTelegramBotAPI**  check latest version [here](https://pypi.org/project/pyTelegramBotAPI/)<br>
-type command in terminal : **pip install numpy**  check latest version [here](https://pypi.org/project/numpy/)<br>
-type command in terminal : **pip install googletrans**  check latest version [here](https://pypi.org/project/googletrans/)<br>
+type command in terminal : **pip install telepot**  check latest version [here](https://pypi.org/project/telepot/)<br>
+type command in terminal : **pip install text2emotion**  check latest version [here](https://pypi.org/project/text2emotion/)<br>
 
