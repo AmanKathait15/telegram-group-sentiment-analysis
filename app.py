@@ -110,7 +110,7 @@ class Application():
     	
     	self.user = None
     	
-    	self.Theme = None
+    	self.theme = None
     	
     	self.topframe = None
     	
@@ -126,288 +126,511 @@ class Application():
 
         if(self.select_user() == "Compare All"):
 
-            n,col,Interval = randint(0,2) , self.select_theme() , (100,500,1000)
+            if(self.select_type() == 'polarity'):
 
-            self.index = -1
+                n,col,Interval = randint(0,2) , self.select_theme() , (100,500,1000)
 
-            fig = plt.figure()
+                self.index = -1
 
-            axis = fig.add_subplot(1,1,1)
+                fig = plt.figure()
 
-            colors = ['green','lightgreen','yellow', 'orange', 'red']
+                axis = fig.add_subplot(1,1,1)
 
-            X,Y = [],[] #[1,2,3,4,5],[0.501,0.3,0.0,-0.2,-0.51]
+                colors = ['yellow','green','lightgreen', 'orange', 'red']
 
-            def animate(i):
+                X,Y = [],[] #[1,2,3,4,5],[0.501,0.3,0.0,-0.2,-0.51]
 
-                self.index+=1
+                def animate(i):
 
-                fp = open('files/Group.csv','r')
+                    self.index+=1
 
-                last_line = list(fp.readlines()[-1].split(','))
+                    fp = open('files/Group.csv','r')
 
-                fp.close()
+                    last_line = list(fp.readlines()[-1].split(','))
 
-                #print(last_line)
+                    fp.close()
 
-                x,y = int(last_line[0]),float(last_line[6])
+                    #print(last_line)
 
-                plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[0],markersize=7)
+                    x,y = int(last_line[0]),float(last_line[6])
 
-                plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[1],markersize=7)
-                
-                plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[2],markersize=7)
-                
-                plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[3],markersize=7)
-                
-                plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[4],markersize=7)
+                    sc = int(last_line[4])
 
-                color = "green"
+                    plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[0],markersize=7)
 
-                if(y>0.5):
-                    color = "green"
-                elif(y>0):
-                    color = "lightgreen"
-                elif(y==0):
-                    color = "yellow"
-                elif(y>-0.5):
-                    color = "orange"
-                else:
-                    color = "red"
+                    plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[1],markersize=7)
+                    
+                    plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[2],markersize=7)
+                    
+                    plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[3],markersize=7)
+                    
+                    plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[4],markersize=7)
 
-                #print(x,y,sep=" ")
+                    X.append(x)
 
-                X.append(x)
+                    Y.append(y)
 
-                Y.append(y)
+                    labels = ('Very Positive','Positive','Neutral','Negative','Very Negative')
 
-                labels = ('Very Positive','Positive','Neutral','Negative','Very Negative')
+                    #plt.cla()
 
-                #plt.cla()
+                    plt.title("Live Sentiment of Telegram Group")
 
-                plt.title("Live Sentiment of Telegram Group")
+                    plt.xlabel('message id')
 
-                plt.xlabel('message id')
+                    plt.ylabel('Polarity')
 
-                plt.ylabel('Polarity')
+                    plt.legend(labels,loc='upper left')
 
-                plt.legend(labels,loc='upper left')
+                    plt.ylim([-1,1])
 
-                plt.ylim([-1,1])
+                    plt.plot(X,Y,'-ok',color=col,markerfacecolor=colors[sc],markersize=7)
 
-                plt.plot(X,Y,'-ok',color=col,markerfacecolor=color,markersize=7)
+                ani = animation.FuncAnimation(plt.gcf(),animate, interval= Interval[randint(0,2)])
 
-            ani = animation.FuncAnimation(plt.gcf(),animate, interval= Interval[randint(0,2)])
+                plt.show()
 
-            plt.show()
+            else:
+
+                n,col,Interval = randint(0,2) , self.select_theme() , (100,500,1000)
+
+                self.index = -1
+
+                fig = plt.figure()
+
+                axis = fig.add_subplot(1,1,1)
+
+                colors = ['yellow','red', 'orange','blue','black']
+
+                X,Y = [],[] #[1,2,3,4,5],[0.501,0.3,0.0,-0.2,-0.51]
+
+                def animate(i):
+
+                    self.index+=1
+
+                    fp = open('files/Group.csv','r')
+
+                    last_line = list(fp.readlines()[-1].split(','))
+
+                    fp.close()
+
+                    #print(last_line)
+
+                    x,y = int(last_line[0]),float(last_line[13])
+
+                    ec = int(last_line[12])
+
+                    plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[0],markersize=7)
+
+                    plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[1],markersize=7)
+                    
+                    plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[2],markersize=7)
+                    
+                    plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[3],markersize=7)
+                    
+                    plt.plot(x,y,'-ok',color=col,markerfacecolor=colors[4],markersize=7)
+
+                    X.append(x)
+
+                    Y.append(y)
+
+                    labels = ('Happy','Angry','Surprise','Sad','Fear')
+
+                    #plt.cla()
+
+                    plt.title("Live Sentiment of Telegram Group")
+
+                    plt.xlabel('message id')
+
+                    plt.ylabel('Polarity')
+
+                    plt.legend(labels,loc='upper left')
+
+                    plt.ylim([0,1.5])
+
+                    plt.plot(X,Y,'-ok',color=col,markerfacecolor=colors[ec],markersize=7)
+
+                ani = animation.FuncAnimation(plt.gcf(),animate, interval= Interval[randint(0,2)])
+
+                plt.show()
 
         else:
 
-            n,col , Interval , name = randint(0,3) , self.select_theme() , (250,500,750,1000) , self.user.get()
+            if(self.select_type() == 'polarity'):
 
-            fig = plt.figure()
+                n,col , Interval , name = randint(0,3) , self.select_theme() , (250,500,750,1000) , self.user.get()
 
-            axis = fig.add_subplot(1,1,1)
+                fig = plt.figure()
 
-            self.index = -1
+                axis = fig.add_subplot(1,1,1)
 
-            X,Y = [],[]
+                self.index = -1
 
-            df = pd.read_csv('files/'+name+'.csv')
+                X,Y = [],[]
 
-            pol = list(df['polarity']) #[0.501,0.3,0.0,-0.2,-0.51]+list(df['polarity'])
+                df = pd.read_csv('files/'+name+'.csv')
 
-            colors = ['green','lightgreen','yellow', 'orange', 'red']
+                pol = list(df['polarity']) #[0.501,0.3,0.0,-0.2,-0.51]+list(df['polarity'])
 
-            plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[0],markersize=7)
+                sc = list(df['sentiment_code'])
 
-            plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[1],markersize=7)
-            
-            plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[2],markersize=7)
-            
-            plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[3],markersize=7)
-            
-            plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[4],markersize=7)
+                colors = ['yellow','green','lightgreen', 'orange', 'red']
 
-            def animate(i):
+                plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[0],markersize=7)
 
-                self.index+=1
+                plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[1],markersize=7)
+                
+                plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[2],markersize=7)
+                
+                plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[3],markersize=7)
+                
+                plt.plot(0,float(pol[0]),'-ok',color=col,markerfacecolor=colors[4],markersize=7)
 
-                x,y = 0,0
+                def animate(i):
 
-                if(self.index < len(pol)):
+                    self.index+=1
 
-                    x,y = self.index,float(pol[self.index])
+                    x,y = 0,0
 
-                else:
+                    if(self.index < len(pol)):
 
-                    x,y = self.index-1,float(pol[self.index-1])
+                        x,y = self.index,float(pol[self.index])
 
-                    self.index-=1
+                    else:
 
-                color = "green"
+                        x,y = self.index-1,float(pol[self.index-1])
 
-                if(y>0.5):
-                    color = "green"
-                elif(y>0):
-                    color = "lightgreen"
-                elif(y==0):
-                    color = "yellow"
-                elif(y>-0.5):
-                    color = "orange"
-                else:
-                    color = "red"
+                        self.index-=1
 
-                #print(x,y,sep=" ")
+                    X.append(x)
 
-                X.append(x)
+                    Y.append(y)
 
-                Y.append(y)
+                    labels = ('Very Positive','Positive','Neutral','Negative','Very Negative')
 
-                labels = ('Very Positive','Positive','Neutral','Negative','Very Negative')
+                    #plt.cla()
 
-                #plt.cla()
+                    plt.title("Live Sentiment Simulatiom of "+ name +" messages")
 
-                plt.title("Live Sentiment Simulatiom of "+ name +" messages")
+                    plt.xlabel('message id')
 
-                plt.xlabel('message id')
+                    plt.ylabel('Polarity')
 
-                plt.ylabel('Polarity')
+                    plt.legend(labels,loc='upper left')
 
-                plt.legend(labels,loc='upper left')
+                    plt.ylim([-1,1])
 
-                plt.ylim([-1,1])
+                    plt.plot(X,Y,'-ok',color=col,markerfacecolor=colors[sc[self.index]],markersize=7)
 
-                plt.plot(X,Y,'-ok',color=col,markerfacecolor=color,markersize=7)
+                ani = animation.FuncAnimation(plt.gcf(),animate, interval= Interval[randint(0,3)])
 
-            ani = animation.FuncAnimation(plt.gcf(),animate, interval= Interval[randint(0,3)])
+                plt.show()
 
-            plt.show()    	
+            else:
+
+                n,col , Interval , name = randint(0,3) , self.select_theme() , (750,1000,1250,1500) , self.user.get()
+
+                fig = plt.figure()
+
+                axis = fig.add_subplot(1,1,1)
+
+                self.index = -1
+
+                X,Y = [],[]
+
+                df = pd.read_csv('files/'+name+'.csv')
+
+                Eval = list(df['Value'])
+
+                ec = list(df['Emotion_code'])
+
+                colors = ['green','red','orange','blue','black']
+
+                plt.plot(0,float(Eval[0]),'-ok',color=col,markerfacecolor=colors[0],markersize=7)
+
+                plt.plot(0,float(Eval[0]),'-ok',color=col,markerfacecolor=colors[1],markersize=7)
+                
+                plt.plot(0,float(Eval[0]),'-ok',color=col,markerfacecolor=colors[2],markersize=7)
+                
+                plt.plot(0,float(Eval[0]),'-ok',color=col,markerfacecolor=colors[3],markersize=7)
+                
+                plt.plot(0,float(Eval[0]),'-ok',color=col,markerfacecolor=colors[4],markersize=7)
+
+                def animate(i):
+
+                    self.index+=1
+
+                    x,y = 0,0
+
+                    if(self.index < len(Eval)):
+
+                        x,y = self.index,float(Eval[self.index])
+
+                    else:
+
+                        x,y = self.index-1,float(Eval[self.index-1])
+
+                        self.index-=1
+
+                    X.append(x)
+
+                    Y.append(y)
+
+                    labels = ('Happy','Angry','Surprise','Sad','Fear')
+
+                    #plt.cla()
+
+                    plt.title("Live Sentiment Simulatiom of "+ name +" messages")
+
+                    plt.xlabel('message id')
+
+                    plt.ylabel('Polarity')
+
+                    plt.legend(labels,loc='upper left')
+
+                    plt.ylim([-0.5,1.5])
+
+                    plt.plot(X,Y,'-ok',color=col,markerfacecolor=colors[ec[self.index]],markersize=7)
+
+                ani = animation.FuncAnimation(plt.gcf(),animate, interval= Interval[randint(0,3)])
+
+                plt.show()    	
 
     def plot_PieChart(self):
     
         if(self.select_user() == "Compare All"):
 
-            fp = open('files/Compare All.csv','w')
+            if(self.select_type() == 'polarity'):
 
-            fp.write("Username,very_positive,positive,neutral,negative,very_negative,total\n")
+                fp = open('files/Compare All.csv','w')
 
-            fp.close()
+                fp.write("Username,very_positive,positive,neutral,negative,very_negative,total\n")
 
-            fp = open('files/group_details.csv')
+                fp.close()
 
-            username = fp.readlines()[-1].split(',')
+                fp = open('files/group_details.csv')
 
-            n = int(username[0])
+                username = fp.readlines()[-1].split(',')
 
-            grid = ceil(sqrt(n))
+                n = int(username[0])
 
-            fig, axs = plt.subplots(grid, grid)
+                grid = ceil(sqrt(n))
 
-            x,y = 0,0
+                fig, axs = plt.subplots(grid, grid)
 
-            angel,location = (45,90,120,180,270,300,0) , ('best','upper left','upper right','lower left','lower right')
+                x,y = 0,0
 
-            for i in range(1,n+1):
+                angel = (90,180,270,360)
 
-            	df = pd.read_csv('files/'+username[i]+'.csv')
+                for i in range(1,n+1):
 
-            	sentiment = list(df['sentiment_code'])
+                    df = pd.read_csv('files/'+username[i]+'.csv')
 
-            	total,very_positive,positive,neutral,negative,very_negative = len(sentiment),0,0,0,0,0
+                    sentiment = list(df['sentiment_code'])
 
-            	for j in sentiment:
+                    total,very_positive,positive,neutral,negative,very_negative = len(sentiment),0,0,0,0,0
 
-            		if(j==0):
-            			neutral+=1
-            		elif(j==1):
-            			positive+=1
-            		elif(j==2):
-            			very_positive+=1
-            		elif(j==3):
-            			negative+=1
-            		else:
-            			very_negative+=1
+                    for j in sentiment:
 
-            	labels = ['Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100)]
-            	
-            	sizes = [very_positive,positive,neutral,negative,very_negative]
-            	
-            	fp = open('files/Compare All.csv','a')
-            	
-            	fp.write(username[i]+","+str(very_positive) + " [ {:.2f} % ],".format(very_positive/total*100) + str(positive)+ " [ {:.2f} % ],".format(positive/total*100) +str(neutral)+ " [ {:.2f} % ],".format(neutral/total*100) +str(negative)+ " [ {:.2f} % ],".format(negative/total*100) +str(very_negative)+ " [ {:.2f} % ],".format(very_negative/total*100) +str(total)+"\n")
-            	
-            	fp.close()
-            	
-            	colors = ['green','lightgreen','yellow', 'orange', 'red']
+                        if(j==0):
+                            neutral+=1
+                        elif(j==1):
+                            positive+=1
+                        elif(j==2):
+                            very_positive+=1
+                        elif(j==3):
+                            negative+=1
+                        else:
+                            very_negative+=1
 
-            	if(y == grid):
+                    labels = ['Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100)]
+                    
+                    sizes = [very_positive,positive,neutral,negative,very_negative]
+                    
+                    fp = open('files/Compare All.csv','a')
+                    
+                    fp.write(username[i]+","+str(very_positive) + " [ {:.2f} % ],".format(very_positive/total*100) + str(positive)+ " [ {:.2f} % ],".format(positive/total*100) +str(neutral)+ " [ {:.2f} % ],".format(neutral/total*100) +str(negative)+ " [ {:.2f} % ],".format(negative/total*100) +str(very_negative)+ " [ {:.2f} % ],".format(very_negative/total*100) +str(total)+"\n")
+                    
+                    fp.close()
+                    
+                    colors = ['green','lightgreen','yellow', 'orange', 'red']
 
-            		x,y = x+1,0
+                    if(y == grid):
 
-            	#print(x,y)
+                        x,y = x+1,0
 
-            	patches,texts = axs[x,y].pie(sizes, colors=colors, startangle = 90 ) #angel[randint(0,6)])
+                    #print(x,y)
 
-            	axs[x,y].legend(patches, labels, loc = 'lower right') #location[randint(0,4)])
-            	
-            	axs[x,y].set_title(username[i])
+                    patches,texts = axs[x,y].pie(sizes, colors=colors, startangle = angel[randint(0,3)])
 
-            	y = y+1
+                    axs[x,y].legend(patches, labels, loc = 'lower left') #location[randint(0,4)])
+                    
+                    axs[x,y].set_title(username[i])
 
-            # Hide x labels and tick labels for top plots and y ticks for right plots.
-            for ax in axs.flat:
+                    y = y+1
 
-            	ax.label_outer()
+                # Hide x labels and tick labels for top plots and y ticks for right plots.
+                for ax in axs.flat:
 
-            plt.savefig('image_resource/Compare_All_pie.png', bbox_inches='tight')
+                    ax.label_outer()
 
-            plt.show()
+                plt.savefig('images/user/Compare_All_'+self.theme.get()+'_polarity_pie.png', bbox_inches='tight')
+
+                plt.show()
+
+            else:
+
+                fp = open('files/Compare All.csv','w')
+
+                fp.write("Username,very_positive,positive,neutral,negative,very_negative,total\n")
+
+                fp.close()
+
+                fp = open('files/group_details.csv')
+
+                username = fp.readlines()[-1].split(',')
+
+                n = int(username[0])
+
+                grid = ceil(sqrt(n))
+
+                fig, axs = plt.subplots(grid, grid)
+
+                x,y = 0,0
+
+                angel = (90,180,270,360)
+
+                for i in range(1,n+1):
+
+                    df = pd.read_csv('files/'+username[i]+'.csv')
+
+                    Happy = sum(df['Happy'])
+                    
+                    Angry = sum(df['Angry'])
+                    
+                    Surprise = sum(df['Surprise'])
+                    
+                    Sad = sum(df['Sad'])
+                    
+                    Fear = sum(df['Fear'])
+                    
+                    total = Happy + Angry + Surprise + Sad + Fear
+                    
+                    labels = ['Happy {:.2f} %'.format(Happy/total*100) , 'Angry {:.2f} %'.format(Angry/total*100) ,'Surprise {:.2f} %'.format(Surprise/total*100) , 'Sad {:.2f} %'.format(Sad/total*100) ,'Fear {:.2f} %'.format(Fear/total*100)]
+                    
+                    sizes = [Happy,Angry,Surprise,Sad,Fear]
+                    
+                    colors = ['yellow','red','orange', 'grey', 'black']
+
+                    if(y == grid):
+
+                        x,y = x+1,0
+
+                    #print(x,y)
+
+                    patches,texts = axs[x,y].pie(sizes, colors=colors, startangle = angel[randint(0,3)])
+
+                    axs[x,y].legend(patches, labels, loc = 'lower left') #location[randint(0,4)])
+                    
+                    axs[x,y].set_title(username[i])
+
+                    y = y+1
+
+                # Hide x labels and tick labels for top plots and y ticks for right plots.
+                for ax in axs.flat:
+
+                    ax.label_outer()
+
+                plt.savefig('images/user/Compare_All_'+self.theme.get()+'_emotion_pie.png', bbox_inches='tight')
+
+                plt.show()
 
         else:
 
-        	    df = pd.read_csv('files/'+str(self.user.get())+'.csv')
-
-        	    sentiment = list(df['sentiment_code'])
-
-        	    total,very_positive,positive,neutral,negative,very_negative = len(sentiment),0,0,0,0,0
-
-        	    for i in sentiment:
-
-        	    	if(i==0):
-        	    		neutral+=1
-        	    	elif(i==1):
-        	    		positive+=1
-        	    	elif(i==2):
-        	    		very_positive+=1
-        	    	elif(i==3):
-        	    		negative+=1
-        	    	else:
-        	    		very_negative+=1
-
-        	    #total,very_positive,positive,neutral,negative,very_negative = int(total),int(very_positive),int(positive),int(neutral),int(negative),int(very_negative)
-
-        	    labels = ['Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100)]
+        	    if(self.select_type() == "emotion"):
         	    
-        	    sizes = [very_positive,positive,neutral,negative,very_negative]
+        	    	df = pd.read_csv('files/'+str(self.user.get())+'.csv')
+        	    	
+        	    	Happy = sum(df['Happy'])
+        	    	
+        	    	Angry = sum(df['Angry'])
+        	    	
+        	    	Surprise = sum(df['Surprise'])
+        	    	
+        	    	Sad = sum(df['Sad'])
+        	    	
+        	    	Fear = sum(df['Fear'])
+        	    	
+        	    	total = Happy + Angry + Surprise + Sad + Fear
+        	    	
+        	    	labels = ['Happy {:.2f} %'.format(Happy/total*100) , 'Angry {:.2f} %'.format(Angry/total*100) ,'Surprise {:.2f} %'.format(Surprise/total*100) , 'Sad {:.2f} %'.format(Sad/total*100) ,'Fear {:.2f} %'.format(Fear/total*100)]
+        	    	
+        	    	sizes = [Happy,Angry,Surprise,Sad,Fear]
+        	    	
+        	    	colors = ['yellow','red','orange', 'grey', 'black']
+        	    	
+        	    	plt.figure(1)
+        	    	
+        	    	angel = (90,180,270,360)
+        	    	
+        	    	patches, texts = plt.pie(sizes, colors=colors, startangle= angel[randint(0,3)])
+        	    	
+        	    	plt.legend(patches, labels, loc="best")
+        	    	
+        	    	plt.title('Emotion-chart')
+        	    	
+        	    	plt.axis('equal')
+        	    	
+        	    	plt.savefig('images/user/'+self.user.get()+'_'+self.theme.get()+'_emotion_pie.png',bbox_inches='tight')
+        	    	
+        	    	plt.show()
+        	    	
+        	    else:
         	    
-        	    colors = ['green','lightgreen','yellow', 'orange', 'red']
-        	    
-        	    plt.figure(1)
-        	    
-        	    #plt.savefig('image_resource/'+str(self.user.get())+'_pie.png',bbox_inches='tight')
-        	    
-        	    patches, texts = plt.pie(sizes, colors=colors, startangle=90)
-        	    
-        	    plt.legend(patches, labels, loc="best")
-        	    
-        	    plt.title('pie - chart')
-        	    
-        	    plt.axis('equal')
-        	    
-        	    plt.savefig('image_resource/'+str(self.user.get())+'_pie.png',bbox_inches='tight')
-        	    
-        	    plt.show()
+        	    	df = pd.read_csv('files/'+str(self.user.get())+'.csv')
+        	    	
+        	    	sentiment = list(df['sentiment_code'])
+        	    	
+        	    	total,very_positive,positive,neutral,negative,very_negative = len(sentiment),0,0,0,0,0
+        	    	
+        	    	for i in sentiment:
+        	    	
+        	    		if(i==0):
+        	    			neutral+=1
+        	    			
+        	    		elif(i==1):
+        	    			positive+=1
+        	    			
+        	    		elif(i==2):
+        	    			very_positive+=1
+        	    			
+        	    		elif(i==3):
+        	    			negative+=1
+        	    		else:
+        	    			very_negative+=1
+        	    			
+        	    	labels = ['Very Positive {:.2f} %'.format(very_positive/total*100) , 'Positive {:.2f} %'.format(positive/total*100) ,'Neutral {:.2f} %'.format(neutral/total*100) , 'Negative {:.2f} %'.format(negative/total*100) ,'Very Negative {:.2f} %'.format(very_negative/total*100)]
+        	    	
+        	    	sizes = [very_positive,positive,neutral,negative,very_negative]
+        	    	
+        	    	colors = ['green','lightgreen','yellow', 'orange', 'red']
+        	    	
+        	    	plt.figure(1)
+        	    	
+        	    	angel = (90,180,270,360)
+        	    	
+        	    	patches, texts = plt.pie(sizes, colors=colors, startangle= angel[randint(0,3)])
+        	    	
+        	    	plt.legend(patches, labels, loc="best")
+        	    	
+        	    	plt.title('polarity-chart')
+        	    	
+        	    	plt.axis('equal')
+        	    	
+        	    	plt.savefig('images/user/'+str(self.user.get())+'_'+self.theme.get()+'_polarity_pie.png',bbox_inches='tight')
+        	    	
+        	    	plt.show()
+        	    	
 
 
 
@@ -415,174 +638,353 @@ class Application():
 
         if(self.select_user() == 'Compare All'):
 
-            fp = open('files/group_details.csv')
+            if(self.select_type() == 'polarity'):
 
-            username = fp.readlines()[-1].split(',')
+                fp = open('files/group_details.csv')
 
-            n = int(username[0])
+                username = fp.readlines()[-1].split(',')
 
-            grid = ceil(sqrt(n))
+                n = int(username[0])
 
-            fig, axs = plt.subplots(grid, grid)
+                grid = ceil(sqrt(n))
 
-            x,y = 0,0
+                fig, axs = plt.subplots(grid, grid)
 
-            colors = ('orange','red','green','blue','brown','pink','yellow','lightgreen','grey','lightblue')
+                x,y = 0,0
 
-            for i in range(1,n+1):
+                colors = ('orange','red','green','blue','brown','pink','yellow','lightgreen','grey','lightblue')
 
-            	df = pd.read_csv('files/'+username[i]+'.csv')
+                for i in range(1,n+1):
 
-            	#X = list(df['index'])
+                    df = pd.read_csv('files/'+username[i]+'.csv')
 
-            	X = list(range(0,len(df['polarity'])))
+                    #X = list(df['index'])
 
-            	Y = list(df['polarity'])
+                    X = list(range(0,len(df['polarity'])))
 
-            	if(y == grid):
+                    Y = list(df['polarity'])
 
-            		x,y = x+1,0
+                    if(y == grid):
 
-            	#print(x,y)
+                        x,y = x+1,0
 
-            	axs[x,y].plot(X, Y, 'tab:'+str(colors[i-1]))
-            	
-            	axs[x,y].set_title(username[i])
+                    #print(x,y)
 
-            	y = y + 1
+                    axs[x,y].plot(X, Y, 'tab:'+str(colors[i-1]))
+                    
+                    axs[x,y].set_title(username[i])
 
-            # Hide x labels and tick labels for top plots and y ticks for right plots.
-            for ax in axs.flat:
+                    y = y + 1
 
-            	ax.label_outer()
+                # Hide x labels and tick labels for top plots and y ticks for right plots.
+                for ax in axs.flat:
 
-            plt.savefig('image_resource/Compare_All_scatter.png', bbox_inches='tight')
+                    ax.label_outer()
 
-            plt.show()
+                plt.savefig('images/user/Compare_All_'+self.theme.get()+'_polarity_scatter.png', bbox_inches='tight')
+
+                plt.show()
+
+            else:
+
+                fp = open('files/group_details.csv')
+
+                username = fp.readlines()[-1].split(',')
+
+                n = int(username[0])
+
+                grid = ceil(sqrt(n))
+
+                fig, axs = plt.subplots(grid, grid)
+
+                x,y = 0,0
+
+                for i in range(1,n+1):
+
+                    df = pd.read_csv('files/'+username[i]+'.csv')
+
+                    X = list(df['index'][0:100])
+
+                    Happy = list(df['Happy'][0:100])
+                    
+                    Angry = list(df['Angry'][0:100])
+                    
+                    Surprise = list(df['Surprise'][0:100])
+                    
+                    Sad = list(df['Sad'][0:100])
+                    
+                    Fear = list(df['Fear'][0:100])
+
+                    if(y == grid):
+
+                        x,y = x+1,0
+
+                    axs[x,y].scatter(X,Happy,label='Happy',color='green')
+
+                    axs[x,y].scatter(X,Angry,label='Angry',color='red')
+
+                    axs[x,y].scatter(X,Surprise,label='Surprise',color='orange')
+
+                    axs[x,y].scatter(X,Sad,label='Sad',color='blue')
+
+                    axs[x,y].scatter(X,Fear,label='Fear',color='black')
+
+                    # axs[x,y].ylim([0.1,1.2])
+                    
+                    axs[x,y].set_title(username[i])
+
+                    y = y + 1
+
+                # Hide x labels and tick labels for top plots and y ticks for right plots.
+                for ax in axs.flat:
+
+                    ax.label_outer()
+
+                plt.savefig('images/user/Compare_All_'+self.theme.get()+'_emotion_scatter.png', bbox_inches='tight')
+
+                plt.show()
 
         else:
 
-            #fig = plt.figure(2)
+            if(self.select_type() == 'polarity'):
 
-            fig = plt.figure(2)
+                fig = plt.figure(2)
 
-            colors = ('green','orange','lightblue','red','brown','yellow')
-            
-            axis = fig.add_subplot(1,1,1)
+                colors = ('green','orange','lightblue','red','brown','yellow')
+                
+                axis = fig.add_subplot(1,1,1)
 
-            #number = select_user()
+                #number = select_user()
 
-            name = self.user.get()
+                name = self.user.get()
 
-            df = pd.read_csv('files/'+name+'.csv')
+                df = pd.read_csv('files/'+name+'.csv')
 
-            X = list(df['index'])
+                X = list(df['index'])
 
-            Y = list(df['polarity'])
+                Y = list(df['polarity'])
 
-            axis.scatter(X,Y)
+                axis.scatter(X,Y)
 
-            #axis.plot(X,Y,'tab:'+str(colors[randint(0,5)]))
-            
-            plt.xlabel('tweet number')
-            
-            plt.ylabel('polarity')
+                #axis.plot(X,Y,'tab:'+str(colors[randint(0,5)]))
+                
+                plt.xlabel('tweet number')
+                
+                plt.ylabel('polarity')
 
-            plt.savefig('image_resource/'+str(self.user.get())+'_scatter.png', bbox_inches='tight')
-            
-            plt.show()
+                plt.savefig('images/user/'+str(self.user.get())+'_'+self.theme.get()+'_polarity_scatter.png', bbox_inches='tight')
+                
+                plt.show()
+
+            else:
+
+                fig = plt.figure(2)
+                
+                #axis = fig.add_subplot(1,1,1)
+
+                name = self.user.get()
+
+                df = pd.read_csv('files/'+name+'.csv')
+
+                X = list(df['index'][0:100])
+
+                Happy = list(df['Happy'][0:100])
+                
+                Angry = list(df['Angry'][0:100])
+                
+                Surprise = list(df['Surprise'][0:100])
+                
+                Sad = list(df['Sad'][0:100])
+                
+                Fear = list(df['Fear'][0:100])
+
+                # axis.scatter(X,Y)
+
+                plt.scatter(X,Happy,label='Happy',color='green')
+
+                plt.scatter(X,Angry,label='Angry',color='red')
+
+                plt.scatter(X,Surprise,label='Surprise',color='orange')
+
+                plt.scatter(X,Sad,label='Sad',color='blue')
+
+                plt.scatter(X,Fear,label='Fear',color='black')
+
+                plt.ylim([0.1,1.2])
+                
+                plt.xlabel('message id')
+                
+                plt.ylabel('emotion')
+
+                plt.legend(loc = 'upper right')
+
+                plt.savefig('images/user/'+str(self.user.get())+'_'+self.theme.get()+'_emotion_scatter.png', bbox_inches='tight')
+                
+                plt.show()
 
     def plot_histogram(self):
 
         if(self.select_user() == 'Compare All'):
 
-            fp = open('files/group_details.csv')
+            if(self.select_type() == 'polarity'):
 
-            username = fp.readlines()[-1].split(',')
+                fp = open('files/group_details.csv')
 
-            n = int(username[0])
+                username = fp.readlines()[-1].split(',')
 
-            grid = ceil(sqrt(n))
+                n = int(username[0])
 
-            fig, axs = plt.subplots(grid, grid)
+                grid = ceil(sqrt(n))
 
-            x,y = 0,0
+                fig, axs = plt.subplots(grid, grid)
 
-            colors = ('orange','red','green','blue','brown','pink','yellow','lightgreen','grey')
+                x,y = 0,0
 
-            for i in range(1,n+1):
+                colors = ('orange','red','green','blue','brown','pink','yellow','lightgreen','grey')
 
-            	df = pd.read_csv('files/'+username[i]+'.csv')
+                for i in range(1,n+1):
 
-            	p = list(df['polarity'])
+                    df = pd.read_csv('files/'+username[i]+'.csv')
 
-            	pol = []
+                    p = list(df['polarity'])
 
-            	for j in p:
+                    pol = []
 
-            		pol.append(int(j * 10))
+                    for j in p:
 
-            	if(y == grid):
+                        pol.append(int(j * 10))
 
-            		x,y = x+1,0
+                    if(y == grid):
 
-            	#N,bins,patches = 
-            	axs[x,y].hist(pol,bins=5, edgecolor='white', linewidth=1,color=colors[i-1],histtype = 'barstacked')
+                        x,y = x+1,0
 
-            	axs[x,y].set_title(username[i])
+                    #N,bins,patches = 
+                    axs[x,y].hist(pol,bins=5, edgecolor='white', linewidth=1,color=colors[i-1],histtype = 'barstacked')
 
-            	# for j in range(-10,-5):
+                    axs[x,y].set_title(username[i])
 
-            	#     patches[j].set_facecolor('r')
+                    y = y + 1
 
-            	# for j in range(-5,0):
+                for ax in axs.flat:
 
-            	#     patches[j].set_facecolor('0')
+                    ax.set(xlabel='polarity of tweets', ylabel='number of tweets')
 
-            	# for j in range(-1,0):
+                # Hide x labels and tick labels for top plots and y ticks for right plots.
+                for ax in axs.flat:
 
-            	#     patches[j].set_facecolor('y')
+                    ax.label_outer()
 
-            	# for j in range(0,len(patches)):
+                plt.savefig('images/user/Compare_All_'+self.theme.get()+'_polarity_histogram.png', bbox_inches='tight')
 
-            	#     patches[j].set_facecolor('g')
-            	
-            	# axs[x,y].ylabel('number of tweets')
-            	
-            	# axs[x,y].xlabel('polarity of tweets')
+                plt.show()
 
-            	y = y + 1
+            else:
 
-            for ax in axs.flat:
+                fp = open('files/group_details.csv')
 
-            	ax.set(xlabel='polarity of tweets', ylabel='number of tweets')
+                username = fp.readlines()[-1].split(',')
 
-            # Hide x labels and tick labels for top plots and y ticks for right plots.
-            for ax in axs.flat:
+                n = int(username[0])
 
-            	ax.label_outer()
+                grid = ceil(sqrt(n))
 
-            plt.savefig('image_resource/Compare_All_histogram.png', bbox_inches='tight')
+                fig, axs = plt.subplots(grid, grid)
 
-            plt.show()
+                x,y = 0,0
+
+                colors = ['yellow','red','orange', 'grey', 'black']
+
+                Emotion = ['Happy', 'Angry', 'Surprise', 'Sad', 'Fear']
+
+                for i in range(1,n+1):
+
+                    df = pd.read_csv('files/'+username[i]+'.csv')
+
+                    Happy = sum(df['Happy'])
+                    
+                    Angry = sum(df['Angry'])
+                    
+                    Surprise = sum(df['Surprise'])
+                    
+                    Sad = sum(df['Sad'])
+                    
+                    Fear = sum(df['Fear'])
+                    
+                    sizes = [Happy,Angry,Surprise,Sad,Fear]
+
+                    if(y == grid):
+
+                        x,y = x+1,0
+
+                    #N,bins,patches = 
+                    axs[x,y].bar(Emotion,sizes,color= colors)
+
+                    axs[x,y].set_title(username[i])
+
+                    y = y + 1
+
+                for ax in axs.flat:
+
+                    ax.set(xlabel='Emotions', ylabel='Count')
+
+                # Hide x labels and tick labels for top plots and y ticks for right plots.
+                for ax in axs.flat:
+
+                    ax.label_outer()
+
+                plt.savefig('images/user/Compare_All_'+self.theme.get()+'_emotion_bar.png', bbox_inches='tight')
+
+                plt.show()
         
         else:
 
-            colors = ('green','orange','lightblue','red','brown','yellow')
+            if(self.select_type() == 'polarity'):
 
-            df = pd.read_csv('files/'+str(self.user.get())+'.csv')
+                colors = ('green','orange','lightblue','red','brown','yellow')
 
-            pol = list(df['polarity'])
+                df = pd.read_csv('files/'+str(self.user.get())+'.csv')
 
-            plt.hist(pol,bins=randint(4,8),color=colors[randint(0,5)],histtype = 'barstacked')
-            
-            plt.ylabel('number of tweets')
-            
-            plt.xlabel('polarity of tweets')
+                pol = list(df['polarity'])
 
-            plt.savefig('image_resource/'+str(self.user.get())+'_histogram.png', bbox_inches='tight')
-            
-            plt.show()
+                plt.hist(pol,bins=randint(4,8),color=colors[randint(0,5)],histtype = 'barstacked')
+                
+                plt.ylabel('number of tweets')
+                
+                plt.xlabel('polarity of tweets')
+
+                plt.savefig('images/user/'+str(self.user.get())+'_'+self.theme.get()+'_polarity_histogram.png', bbox_inches='tight')
+                
+                plt.show()
+
+            else:
+
+                colors = ['yellow','red','orange', 'grey', 'black']
+
+                df = pd.read_csv('files/'+str(self.user.get())+'.csv')
+
+                Happy = sum(df['Happy'])
+                
+                Angry = sum(df['Angry'])
+                
+                Surprise = sum(df['Surprise'])
+                
+                Sad = sum(df['Sad'])
+                
+                Fear = sum(df['Fear'])
+                
+                sizes = [Happy,Angry,Surprise,Sad,Fear]
+                
+                Emotion = ['Happy', 'Angry', 'Surprise', 'Sad', 'Fear']
+                
+                plt.bar(Emotion,sizes,color = colors)
+
+                plt.ylabel('Number')
+                
+                plt.xlabel('Emotions')
+
+                plt.savefig('images/user/'+str(self.user.get())+'_'+self.theme.get()+'_emotion_bar.png', bbox_inches='tight')
+                
+                plt.show()
 
     def change_bg(self,color):
 
@@ -610,7 +1012,18 @@ class Application():
             
             msg = list(msg.split(','))
             
-            output = ' message id \t\t:  '+msg[0] +'\n username \t\t:  '+msg[1] +'\n time \t\t:  '+msg[2] +'\n message \t\t:  '+msg[3]+'\n sentiment \t\t:  '+msg[5]+'\n polarity \t\t:  '+msg[6]
+            output = ' message id \t\t:  '+msg[0] + \
+                     '\n username \t\t:  '+msg[1] +\
+                     '\n time \t\t:  '+msg[2] +\
+                     '\n message \t\t:  '+msg[3]+\
+                     '\n sentiment \t\t:  '+msg[5]+\
+                     '\n polarity \t\t:  '+msg[6]+\
+                     '\n\n Emotions -> '+\
+                     '{ Happy : '+msg[7]+\
+                     ',Angry : '+msg[8]+\
+                     ',Surprise : '+msg[9]+\
+                     ',Sad : '+msg[10]+\
+                     ',Fear : '+msg[11]+' }'
             
             self.text.delete('1.0','end')
             
@@ -701,21 +1114,25 @@ class Application():
 
         return self.user.get()
 
+    def select_type(self,event = None):
+
+        return self.type.get()
+
     def select_theme(self,event = None):
 
-        if(self.Theme.get() == 'seaborn-whitegrid'):
+        if(self.theme.get() == 'seaborn-whitegrid'):
 
             plt.style.use('seaborn-whitegrid')
 
             return "blue"
 
-        elif(self.Theme.get() == 'dark_background'):
+        elif(self.theme.get() == 'dark_background'):
 
             plt.style.use('dark_background') 
 
             return "white"
 
-        elif(self.Theme.get() == 'ggplot'):
+        elif(self.theme.get() == 'ggplot'):
 
             plt.style.use('ggplot')
 
@@ -739,7 +1156,7 @@ class Application():
 
         self.root.title("Telegram Group Sentiment Analysis Desktop Application ")
 
-        self.root.geometry("800x650")
+        self.root.geometry("900x650")
 
         #self.root.resizable(width = False , height = False)
         
@@ -757,7 +1174,7 @@ class Application():
 
         darkcolor.pack(side = LEFT)
 
-        icon_img = PhotoImage(file="image_resource/telegram.png")
+        icon_img = PhotoImage(file="images/app/telegram.png")
 
         icon_img = icon_img.subsample(2,2)
 
@@ -769,25 +1186,25 @@ class Application():
 
         lightcolor.pack(side = LEFT)
 
-        red_image = PhotoImage(file = "image_resource/red.png")
+        red_image = PhotoImage(file = "images/app/red.png")
         
-        brown_image = PhotoImage(file = "image_resource/brown.png")
+        brown_image = PhotoImage(file = "images/app/brown.png")
         
-        pink_image = PhotoImage(file = "image_resource/pink.png")
+        pink_image = PhotoImage(file = "images/app/pink.png")
 
-        grey_image = PhotoImage(file = "image_resource/grey.png")
+        grey_image = PhotoImage(file = "images/app/grey.png")
 
-        green_image = PhotoImage(file = "image_resource/green.png")
+        green_image = PhotoImage(file = "images/app/green.png")
 
-        blue_image = PhotoImage(file = "image_resource/blue.png")
+        blue_image = PhotoImage(file = "images/app/blue.png")
 
-        violet_image = PhotoImage(file = "image_resource/violet.png")
+        violet_image = PhotoImage(file = "images/app/violet.png")
 
-        orange_image = PhotoImage(file = "image_resource/orange.png")
+        orange_image = PhotoImage(file = "images/app/orange.png")
 
-        yellow_image = PhotoImage(file = "image_resource/yellow.png")
+        yellow_image = PhotoImage(file = "images/app/yellow.png")
 
-        lightgreen_image = PhotoImage(file = "image_resource/lightgreen.png")
+        lightgreen_image = PhotoImage(file = "images/app/lightgreen.png")
 
         red_image = red_image.subsample(4,4)
         
@@ -857,7 +1274,7 @@ class Application():
         
         label3.pack(side=TOP,pady=10)
         
-        self.text = Text(self.middleframe,height=6,width=75,font=("",12,"bold"),bg="black",fg="white")
+        self.text = Text(self.middleframe,height=8,width=80,font=("",12,"bold"),bg="black",fg="white")
         
         fp = open('files/Group.csv','r')
         
@@ -899,23 +1316,35 @@ class Application():
 
         self.UserList['values'] = Values
         
-        self.UserList.pack(side = LEFT,padx=20)
+        self.UserList.pack(side = LEFT,padx=10)
 
-        self.UserList.current(0)
+        self.UserList.current(1)
 
         self.UserList.bind("<<ComboboxSelected>>",self.select_user)
+
+        self.type = StringVar()
         
-        self.Theme = StringVar()
+        Type = ttk.Combobox(self.comboframe,textvariable = self.type,height=30 , state = 'readonly')
         
-        theme = ttk.Combobox(self.comboframe,textvariable = self.Theme,height=30 , state = 'readonly')
+        Type['values'] = ('emotion','polarity')
         
-        theme['values'] = ('default','seaborn-whitegrid','dark_background','ggplot')
+        Type.pack(side = LEFT,padx=10)
         
-        theme.pack(side = LEFT,padx=20)
+        Type.current(0)
         
-        theme.current(0)
+        Type.bind("<<ComboboxSelected>>",self.select_type)
         
-        theme.bind("<<ComboboxSelected>>",self.select_theme)
+        self.theme = StringVar()
+        
+        Theme = ttk.Combobox(self.comboframe,textvariable = self.theme,height=30 , state = 'readonly')
+        
+        Theme['values'] = ('classic','seaborn-whitegrid','dark_background','ggplot')
+        
+        Theme.pack(side = LEFT,padx=10)
+        
+        Theme.current(0)
+        
+        Theme.bind("<<ComboboxSelected>>",self.select_theme)
 
         #################
 
@@ -927,15 +1356,15 @@ class Application():
         
         self.bottomframe.pack(side = TOP,pady = 20)
 
-        piechart_image = PhotoImage(file = "image_resource/piechart.png")
+        piechart_image = PhotoImage(file = "images/app/piechart.png")
         
-        scatterplot_image = PhotoImage(file = "image_resource/scatter.png")
+        scatterplot_image = PhotoImage(file = "images/app/scatter.png")
         
-        histogram_image = PhotoImage(file = "image_resource/histogram.png")
+        histogram_image = PhotoImage(file = "images/app/histogram.png")
 
-        xls_image = PhotoImage(file = "image_resource/xls_icon.png")
+        xls_image = PhotoImage(file = "images/app/xls_icon.png")
 
-        live_image = PhotoImage(file = "image_resource/live.png")
+        live_image = PhotoImage(file = "images/app/live.png")
 
         piechart_image = piechart_image.subsample(2,2)
         

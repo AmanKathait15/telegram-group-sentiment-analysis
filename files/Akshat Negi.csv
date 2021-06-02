@@ -1,886 +1,523 @@
-index,name,date_time,message,sentiment_code,sentiment,polarity
-6,Akshat Negi,06/05/2021 15:50:20,dream wait outside let stayquot listening blink makes happy,1,positive,0.40
-7,Akshat Negi,06/05/2021 15:50:20,best day today quot,2,Very positive,1.00
-9,Akshat Negi,06/05/2021 15:50:20,killed motherquot tonight maison du cinma alexiiiiina yeah,3,negative,-0.20
-13,Akshat Negi,06/05/2021 15:50:20,know still feel alonequot,0,neutral,0.00
-22,Akshat Negi,06/05/2021 15:50:20,need still miss mine dang,0,neutral,0.00
-31,Akshat Negi,06/05/2021 15:50:20,vawnt clean yer vindows surrquot dont want fucking windows cleaned pmsl love des,1,positive,0.09
-42,Akshat Negi,06/05/2021 15:50:20,way would turn car around amp runaway amp iquot phone calls produce tears best,2,Very positive,1.00
-55,Akshat Negi,06/05/2021 15:50:20,simple plan simple plan simple plan show amazing ut mcfly mcfly stm stm look like never,1,positive,0.15
-56,Akshat Negi,06/05/2021 15:50:20,sin ruin misery soul writing paper jonathan edwards almost,0,neutral,0.00
-61,Akshat Negi,06/05/2021 15:50:20,damn luckyquot wheeeeeee one fave,0,neutral,0.00
-70,Akshat Negi,06/05/2021 15:50:20,people follow dreams others hunt beat mercilessly submission quot,4,Very negative,-0.70
-72,Akshat Negi,06/05/2021 15:50:20,sometimes life less hunky vampires teen wolfs ok andy samberg mtv awards tearing thats deep,1,positive,0.08
-73,Akshat Negi,06/05/2021 15:50:20,sometimes one person missing whole world seems depopulated truer true miss baby,1,positive,0.12
-74,Akshat Negi,06/05/2021 15:50:20,ssaaiilliinngggggquot go avant avant fans hamp putting like inhanced version wrnb wdas phls grownfolks statins,0,neutral,0.00
-77,Akshat Negi,06/05/2021 15:50:20,change mind first line honey still free take chance love,1,positive,0.38
-82,Akshat Negi,06/05/2021 15:50:20,want something said ask man want something done ask woman mt,0,neutral,0.00
-83,Akshat Negi,06/05/2021 15:50:20,boyfriends got beef tell im vegetarian aint famp ing scared himquot,0,neutral,0.00
-90,Akshat Negi,06/05/2021 15:50:20,im destined great thingssss thou shall see become greatness made haha,1,positive,0.50
-95,Akshat Negi,06/05/2021 15:50:20,im going home really bursts happy tears love movie bloody much,1,positive,0.18
-101,Akshat Negi,06/05/2021 15:50:20,im lattttttttttte quot,0,neutral,0.00
-110,Akshat Negi,06/05/2021 15:50:20,view possibility outbreak human swine influenzahn programme shortened one day june quot,0,neutral,0.00
-114,Akshat Negi,06/05/2021 15:50:20,isnt amazing nice people know leaving quot,2,Very positive,0.60
-117,Akshat Negi,06/05/2021 15:50:20,spell confusing k like cute,1,positive,0.10
-123,Akshat Negi,06/05/2021 15:50:20,god mequot song da chain,0,neutral,0.00
-127,Akshat Negi,06/05/2021 15:50:20,joellen started crying went hill kaitlyn hypothetically,3,negative,-0.20
-133,Akshat Negi,06/05/2021 15:50:20,killa show dudes brazilians fav people gosto de ler posts assim ainda mais se dougie,0,neutral,0.00
-138,Akshat Negi,06/05/2021 15:50:20,kissing fun awkward balloon disagrees previous statement stand said,3,negative,-0.16
-153,Akshat Negi,06/05/2021 15:50:20,life blank page person holds pen nd writes story natasha bedingfield love tht sayin,1,positive,0.25
-155,Akshat Negi,06/05/2021 15:50:20,lifes climb views greatquot,0,neutral,0.00
-159,Akshat Negi,06/05/2021 15:50:20,live like mean love til feel quot,1,positive,0.11
-163,Akshat Negi,06/05/2021 15:50:20,love beginningquot darshan singh think think think hour meditation today,1,positive,0.50
-164,Akshat Negi,06/05/2021 15:50:20,love leavingquot thats good stuff,2,Very positive,0.60
-171,Akshat Negi,06/05/2021 15:50:20,mandatoryquot meeting couple hours ill back hat low shades,3,negative,-0.17
-177,Akshat Negi,06/05/2021 15:50:20,melvin van peebles save watergate thx rb,0,neutral,0.00
-179,Akshat Negi,06/05/2021 15:50:20,mood angry level hahaha love silver,1,positive,0.07
-183,Akshat Negi,06/05/2021 15:50:20,big redneck weddingquot killing inside horrible,3,negative,-0.50
-189,Akshat Negi,06/05/2021 15:50:20,need know would leave alonequot leave alone,0,neutral,0.00
-193,Akshat Negi,06/05/2021 15:50:20,childrenquot mountain goats awesomely pessimistic song,2,Very positive,1.00
-198,Akshat Negi,06/05/2021 15:50:20,nothing gay gay weddingquot ksz enbomk nagyon tudnak,1,positive,0.42
-204,Akshat Negi,06/05/2021 15:50:20,stop twitteringquot maryland cookies,0,neutral,0.00
-211,Akshat Negi,06/05/2021 15:50:20,take back everything ever said girl never meant word never didquot goodnight twitterererers,0,neutral,0.00
-213,Akshat Negi,06/05/2021 15:50:20,takenquot made seriously thankful dad could meet superstar get recording contract dreams night x,3,negative,-0.33
-218,Akshat Negi,06/05/2021 15:50:20,test progressquot line midterm prompt really threw students loop wrote assessment lesson,1,positive,0.20
-220,Akshat Negi,06/05/2021 15:50:20,thank youquot little words one breath less calorie yet people use less less less,3,negative,-0.17
-224,Akshat Negi,06/05/2021 15:50:20,thats acyually worst tank topquot wow,3,negative,-0.45
-230,Akshat Negi,06/05/2021 15:50:20,better program worse communicatequot r applyquot always forget via,1,positive,0.05
-242,Akshat Negi,06/05/2021 15:50:20,andybrowngolf thanks guys,1,positive,0.20
-246,Akshat Negi,06/05/2021 15:50:20,discovered nobody reads lol,2,Very positive,0.80
-247,Akshat Negi,06/05/2021 15:50:20,dannybrown check always make chuckle,0,neutral,0.00
-249,Akshat Negi,06/05/2021 15:50:20,asked take ride disco stick im filing harassment charges,0,neutral,0.00
-250,Akshat Negi,06/05/2021 15:50:20,saving keywords working today part mission,0,neutral,0.00
-253,Akshat Negi,06/05/2021 15:50:20,multitasking trying test internet connection see live demo later looks like,1,positive,0.07
-261,Akshat Negi,06/05/2021 15:50:20,watching long ass sex city movie lolol think told,1,positive,0.38
-266,Akshat Negi,06/05/2021 15:50:20,dude hittin back smacks shit outta yo ass even feel,3,negative,-0.10
-268,Akshat Negi,06/05/2021 15:50:20,another person lol single years,1,positive,0.36
-277,Akshat Negi,06/05/2021 15:50:20,hero ist einfach nur cool,1,positive,0.35
-284,Akshat Negi,06/05/2021 15:50:20,complete black booksquot arrived looking forward entertaining nights,1,positive,0.14
-290,Akshat Negi,06/05/2021 15:50:20,hangoverquot supprisingly hillarious,0,neutral,0.00
-294,Akshat Negi,06/05/2021 15:50:20,meal full meal hate myselfquot truer words never spoken ouch stomach,3,negative,-0.23
-296,Akshat Negi,06/05/2021 15:50:20,thing stopping becoming serial killer distate manual labor love quote,1,positive,0.47
-297,Akshat Negi,06/05/2021 15:50:20,opposite love hate indifference consider indifferent finally yay happy,1,positive,0.10
-303,Akshat Negi,06/05/2021 15:50:20,town without toothachequot small insignificant map mine,3,negative,-0.25
-308,Akshat Negi,06/05/2021 15:50:20,nutella banana bread well right blasphemy omg emily love u,1,positive,0.39
-316,Akshat Negi,06/05/2021 15:50:20,oh yeah board forgot minatures great moments dm history,2,Very positive,0.80
-320,Akshat Negi,06/05/2021 15:50:20,barlowgirl good song haha listening xd,1,positive,0.45
-323,Akshat Negi,06/05/2021 15:50:20,one last timequot elise estrada sad song,3,negative,-0.25
-324,Akshat Negi,06/05/2021 15:50:20,one thing clear wear halo wear halo look god one tree hill addict lmao love,1,positive,0.40
-325,Akshat Negi,06/05/2021 15:50:20,learned power sincere amp selfless contribution experience lifes deepest joy true fulfillment tony robbins,2,Very positive,0.55
-327,Akshat Negi,06/05/2021 15:50:20,halfquot choose tonight check posts twitter best move,2,Very positive,1.00
-328,Akshat Negi,06/05/2021 15:50:20,intention build tool simplicity photoshopquot contest worst metaphor could score well,4,Very negative,-1.00
-333,Akshat Negi,06/05/2021 15:50:20,people change life changes friends change bud got move demi lovato like knows whats going right,1,positive,0.29
-352,Akshat Negi,06/05/2021 15:50:20,roger federer saddened nadal wimbledonquot lt toooooo,0,neutral,0.00
-353,Akshat Negi,06/05/2021 15:50:20,roofies call floories rapies quot,0,neutral,0.00
-358,Akshat Negi,06/05/2021 15:50:20,september diequot released hardbeat records includes real booty babes remix,1,positive,0.20
-376,Akshat Negi,06/05/2021 15:50:20,gotten drunk sickest shit world,3,negative,-0.35
-377,Akshat Negi,06/05/2021 15:50:20,gotten drunk type alcohol makes feel ill next day,3,negative,-0.33
-378,Akshat Negi,06/05/2021 15:50:20,girl crush lmao u know ur straight girl u would cross line w nicki minaj,1,positive,0.27
-385,Akshat Negi,06/05/2021 15:50:20,peed girlfriend shower funny sounds chicks sense humor kind thing trust,1,positive,0.42
-386,Akshat Negi,06/05/2021 15:50:20,prank called telemarketer fun,1,positive,0.30
-387,Akshat Negi,06/05/2021 15:50:20,seen midget stripp huh saying per se honor huh wait nevermind,0,neutral,0.00
-389,Akshat Negi,06/05/2021 15:50:20,stepped algae glow feet like sparks north shore oahu,0,neutral,0.00
-391,Akshat Negi,06/05/2021 15:50:20,stood ur blind date cute u r felt guilty still,3,negative,-0.17
-392,Akshat Negi,06/05/2021 15:50:20,sighquot time math homework,0,neutral,0.00
-394,Akshat Negi,06/05/2021 15:50:20,smokin acesquot usa bout go,0,neutral,0.00
-397,Akshat Negi,06/05/2021 15:50:20,stand one knows us get used get used gonequot miss home everyone,0,neutral,0.00
-400,Akshat Negi,06/05/2021 15:50:20,sometimes want go everybody knows name always glad camequot soundtrack lovely twitter place,1,positive,0.50
-403,Akshat Negi,06/05/2021 15:50:20,sorry appears already voted user wall would know stalker,3,negative,-0.50
-404,Akshat Negi,06/05/2021 15:50:20,soulove deep episodequot comin full jackin house tunes,1,positive,0.17
-409,Akshat Negi,06/05/2021 15:50:20,stumbleupon temporarily run sites relevant please sign topics quot,1,positive,0.40
-410,Akshat Negi,06/05/2021 15:50:20,stupid stupid sir zapped forrest gump telly,4,Very negative,-0.80
-421,Akshat Negi,06/05/2021 15:50:20,talgujuhtidequot gathering erki fashion show last night great,1,positive,0.40
-423,Akshat Negi,06/05/2021 15:50:20,wanted tell one really liked could would like giving someone false hope,1,positive,0.10
-429,Akshat Negi,06/05/2021 15:50:20,tickets reserved wait,0,neutral,0.00
-430,Akshat Negi,06/05/2021 15:50:20,end st manitoba hershey,0,neutral,0.00
-436,Akshat Negi,06/05/2021 15:50:20,e really good long since one episodes really funny,1,positive,0.30
-439,Akshat Negi,06/05/2021 15:50:20,tired totally bad mood tired mention tired well tiiiiired,3,negative,-0.47
-440,Akshat Negi,06/05/2021 15:50:20,waiting breakfast cook feeling quite happy nice last exam today relax abit,1,positive,0.47
-441,Akshat Negi,06/05/2021 15:50:20,act like paying attetion yup ok uh hun ya dont say works fine,1,positive,0.46
-446,Akshat Negi,06/05/2021 15:50:20,like john mayer songs,0,neutral,0.00
-449,Akshat Negi,06/05/2021 15:50:20,cure atopic eczema causes well understood guess live forever,1,positive,0.14
-450,Akshat Negi,06/05/2021 15:50:20,theres shadow hanging mequot apt hold music describe call netregistry atm server config issue migration morning,2,Very positive,0.60
-452,Akshat Negi,06/05/2021 15:50:20,theres nothing like mama hug adabella radici true dont agree happy mothers day,2,Very positive,0.57
-455,Akshat Negi,06/05/2021 15:50:20,theres sears tower always sears tower warner always warner quot,0,neutral,0.00
-456,Akshat Negi,06/05/2021 15:50:20,pants supposed water resistant love dorks,1,positive,0.50
-457,Akshat Negi,06/05/2021 15:50:20,say look yummy amp want taste human sandwich lmfao makes,0,neutral,0.00
-459,Akshat Negi,06/05/2021 15:50:20,buttock marks quot,0,neutral,0.00
-467,Akshat Negi,06/05/2021 15:50:20,final edition boulan bronco broadcast quot,0,neutral,0.00
-468,Akshat Negi,06/05/2021 15:50:20,song called close comfortquot euh ou pas va aller taper itunes,0,neutral,0.00
-475,Akshat Negi,06/05/2021 15:50:20,upset waste think important message today,1,positive,0.10
-485,Akshat Negi,06/05/2021 15:50:21,contribution far go watch dvd wife,1,positive,0.10
-487,Akshat Negi,06/05/2021 15:50:21,even watched angels amp demons yet,0,neutral,0.00
-489,Akshat Negi,06/05/2021 15:50:21,crying cure broken heart somewhere,3,negative,-0.30
-492,Akshat Negi,06/05/2021 15:50:21,destiny child n danity kane would still b group,0,neutral,0.00
-503,Akshat Negi,06/05/2021 15:50:21,would wish upon star sins would go away poof without burden guilt,0,neutral,0.00
-509,Akshat Negi,06/05/2021 15:50:21,would unfortunately world perfect damn sapp,1,positive,0.25
-512,Akshat Negi,06/05/2021 15:50:21,would still legal smoke public places,1,positive,0.10
-516,Akshat Negi,06/05/2021 15:50:21,life would bit simpler n people suffer n people would grow old,1,positive,0.10
-523,Akshat Negi,06/05/2021 15:50:21,showtime would free channel,1,positive,0.40
-526,Akshat Negi,06/05/2021 15:50:21,us work ucla ucs wouldnt getting paycut near future,1,positive,0.05
-531,Akshat Negi,06/05/2021 15:50:21,youre much cooler devices want make sweet love hehe,1,positive,0.35
-532,Akshat Negi,06/05/2021 15:50:21,developers please note stop making great games costing small fortune,1,positive,0.28
-546,Akshat Negi,06/05/2021 15:50:21,infidel one last time khamenei baby call beeeeeen ages never answer texts tweets,0,neutral,0.00
-549,Akshat Negi,06/05/2021 15:50:21,confusing dont know whats really happening alot conflicting reports hope well,3,negative,-0.05
-553,Akshat Negi,06/05/2021 15:50:21,thinking beyonce wasted minutes time bet hyped claiming,3,negative,-0.20
-554,Akshat Negi,06/05/2021 15:50:21,timeline dipity com uptodate tho,0,neutral,0.00
-559,Akshat Negi,06/05/2021 15:50:21,rip sweet girl others killedharmed love bless,1,positive,0.42
-578,Akshat Negi,06/05/2021 15:50:21,upquot fantastic highly recommended,1,positive,0.28
-585,Akshat Negi,06/05/2021 15:50:21,walk dat walkquot thatz summer theme ever see walk agree,0,neutral,0.00
-591,Akshat Negi,06/05/2021 15:50:21,dont talk anymorequot cliff richard,0,neutral,0.00
-593,Akshat Negi,06/05/2021 15:50:21,done impossible makes us mighty one favorite quotes firefly huh cool,1,positive,0.15
-608,Akshat Negi,06/05/2021 15:50:21,armsquot left building around hr ago cant sleep without boooo another chapter horror movie mind,0,neutral,0.00
-609,Akshat Negi,06/05/2021 15:50:21,brothers going work outquot tom ed save,0,neutral,0.00
-618,Akshat Negi,06/05/2021 15:50:21,hatred carrying live coal heart far damaging good night,1,positive,0.31
-620,Akshat Negi,06/05/2021 15:50:21,iphone activation server temporarily unavailablequot,0,neutral,0.00
-621,Akshat Negi,06/05/2021 15:50:21,ipod synced unknown error occurred much ask smooth changeover,1,positive,0.17
-626,Akshat Negi,06/05/2021 15:50:21,well million dollars would spend allquot would,0,neutral,0.00
-636,Akshat Negi,06/05/2021 15:50:21,future holds depends state consciousness nowquot eckharte tolle evening everyone,0,neutral,0.00
-637,Akshat Negi,06/05/2021 15:50:21,whats red smells like blue paint red paintquot thanks mythbusters,1,positive,0.05
-638,Akshat Negi,06/05/2021 15:50:21,love little less quot,1,positive,0.05
-641,Akshat Negi,06/05/2021 15:50:21,time right make super babies write shit like tune day,1,positive,0.14
-642,Akshat Negi,06/05/2021 15:50:21,wish upon star makes difference anything heart desires come,0,neutral,0.00
-647,Akshat Negi,06/05/2021 15:50:21,said vamps funny watching trueblood,1,positive,0.25
-649,Akshat Negi,06/05/2021 15:50:21,says go back around world matter fact lt missing home lots,3,negative,-0.10
-660,Akshat Negi,06/05/2021 15:50:21,hours ago iremember trendy topic anymore oh well things change lol,2,Very positive,0.70
-670,Akshat Negi,06/05/2021 15:50:21,best time life kid ahh missed good old days,2,Very positive,0.60
-671,Akshat Negi,06/05/2021 15:50:21,old songs hear brings back good memories im p bring back certain emotions,1,positive,0.20
-672,Akshat Negi,06/05/2021 15:50:21,watching americas funniest video laughing like cccraaaazy,0,neutral,0.00
-675,Akshat Negi,06/05/2021 15:50:21,nsync shiznit miss day,0,neutral,0.00
-677,Akshat Negi,06/05/2021 15:50:21,wanted prince charming find amp ride away horses carriage,2,Very positive,0.70
-679,Akshat Negi,06/05/2021 15:50:21,bougth albl last year wait god knows long buy lvatt,3,negative,-0.03
-683,Akshat Negi,06/05/2021 15:50:21,saw porno first time yrs old didnt know suppose shove inside girl,1,positive,0.17
-690,Akshat Negi,06/05/2021 15:50:21,mankind died buried alivequot match w undertaker came back next wk dude lovequot n beat,0,neutral,0.00
-697,Akshat Negi,06/05/2021 15:50:21,used together thinking amazing found player know wasnt thought,2,Very positive,0.60
-700,Akshat Negi,06/05/2021 15:50:21,everyone one want text texting,0,neutral,0.00
-702,Akshat Negi,06/05/2021 15:50:21,twitt much load page lose followers cry sniff sniff,1,positive,0.20
-704,Akshat Negi,06/05/2021 15:50:21,try get trending people,0,neutral,0.00
-712,Akshat Negi,06/05/2021 15:50:21,queen deadquot tonights chris packhams smiths song title,0,neutral,0.00
-722,Akshat Negi,06/05/2021 15:50:21,version iphone software current versionquot also kicks,0,neutral,0.00
-723,Akshat Negi,06/05/2021 15:50:21,world changed made ivory gold curves lips rewrite history lt yeah still sneezing,0,neutral,0.00
-725,Akshat Negi,06/05/2021 15:50:21,kinds people world wake amp say good morning lord amp say good lord morning quot,2,Very positive,0.70
-731,Akshat Negi,06/05/2021 15:50:21,took socks taking shoes hahaha favorite sneak peek,1,positive,0.35
-733,Akshat Negi,06/05/2021 15:50:21,aint zquot alot ex hiphop techno ass producers got one,0,neutral,0.00
-734,Akshat Negi,06/05/2021 15:50:21,moo point like cows opinion doesnt matter moo watching friends sleepy,0,neutral,0.00
-742,Akshat Negi,06/05/2021 15:50:21,awesome cant wait next week,1,positive,0.50
-743,Akshat Negi,06/05/2021 15:50:21,doesnt supercalifragilisticexpialidocious make smile,1,positive,0.30
-754,Akshat Negi,06/05/2021 15:50:21,dead trailer amazing new survivors amp new campaigns,1,positive,0.17
-764,Akshat Negi,06/05/2021 15:50:21,see belong taylor swift hahaha got stuck song really love music video song,1,positive,0.35
-765,Akshat Negi,06/05/2021 15:50:21,watchin tick tockin pacn takin shots verse ex boo lol glad left good terms ima miss,1,positive,0.50
-769,Akshat Negi,06/05/2021 15:50:21,women form queue got much night energy juan maker gives oh lovely spam,1,positive,0.35
-770,Akshat Negi,06/05/2021 15:50:21,women produce bonding hormone point climax causes want cuddlequot fun read tnx,1,positive,0.30
-789,Akshat Negi,06/05/2021 15:50:21,beautiful matter sayquot,2,Very positive,0.85
-798,Akshat Negi,06/05/2021 15:50:21,peanut butter couple hours ago,0,neutral,0.00
-799,Akshat Negi,06/05/2021 15:50:21,ok bad misunderstood sowwy,3,negative,-0.10
-804,Akshat Negi,06/05/2021 15:50:21,waiting swim start bored cold wet weather france,3,negative,-0.40
-805,Akshat Negi,06/05/2021 15:50:21,coming sentinel saturday column cavs appears good player,2,Very positive,0.70
-808,Akshat Negi,06/05/2021 15:50:21,excited tonights game huge beat home megan,1,positive,0.13
-809,Akshat Negi,06/05/2021 15:50:21,shoutouts lt show mad love,3,negative,-0.06
-810,Akshat Negi,06/05/2021 15:50:21,iq points manners new mm commenters seem decline,1,positive,0.14
-818,Akshat Negi,06/05/2021 15:50:21,nooo sam makes cry cries damnit poh better go home tomorrow,1,positive,0.50
-824,Akshat Negi,06/05/2021 15:50:21,oz golem finally got wight oz,0,neutral,0.00
-827,Akshat Negi,06/05/2021 15:50:21,lovers raining berlin sh hope stop soon,0,neutral,0.00
-828,Akshat Negi,06/05/2021 15:50:21,today get factats us b pm uk time pm ny time pm la time,0,neutral,0.00
-829,Akshat Negi,06/05/2021 15:50:21,lt wonder founders navy recruiter,0,neutral,0.00
-843,Akshat Negi,06/05/2021 15:50:21,lol think excited older,1,positive,0.45
-845,Akshat Negi,06/05/2021 15:50:21,strikes part maintainers source system forgot mention minor change etl crash luckily failsafe worked,1,positive,0.14
-846,Akshat Negi,06/05/2021 15:50:21,escuchando electric light orchestra strange magic,1,positive,0.28
-851,Akshat Negi,06/05/2021 15:50:21,isnt goodnight goodbyequot summer finishes goodnight,0,neutral,0.00
-852,Akshat Negi,06/05/2021 15:50:21,song every broken heart love nick inspiration amazing wish could denver,1,positive,0.23
-854,Akshat Negi,06/05/2021 15:50:21,version iphone software current version impatient going wait work,3,negative,-0.10
-857,Akshat Negi,06/05/2021 15:50:21,haskell haskell question,0,neutral,0.00
-859,Akshat Negi,06/05/2021 15:50:21,today dick chaney announced supports gay marriage supports sees marriage form torture quot,1,positive,0.42
-861,Akshat Negi,06/05/2021 15:50:21,todays fortune course true love never runs smoothquot que proftico,1,positive,0.42
-862,Akshat Negi,06/05/2021 15:50:21,tonight matthew im going lady gagaquot,0,neutral,0.00
-865,Akshat Negi,06/05/2021 15:50:21,tweet beneath milky twilight quot,0,neutral,0.00
-869,Akshat Negi,06/05/2021 15:50:21,twitter min maintenance starting p junequot possible twitter would like real life maintenance,1,positive,0.07
-873,Akshat Negi,06/05/2021 15:50:21,unbrokequot really good,2,Very positive,0.70
-883,Akshat Negi,06/05/2021 15:50:21,good day thrillbilly billy ray cyrus thankgod country folk,2,Very positive,0.70
-887,Akshat Negi,06/05/2021 15:50:21,home town friends brighter brightest playing bovine thur wait myspace combrighterbrightest,0,neutral,0.00
-890,Akshat Negi,06/05/2021 15:50:21,know tuesday nz hehe share new album comes today,1,positive,0.14
-893,Akshat Negi,06/05/2021 15:50:21,cds tomorrow oh yeah pre ordered,0,neutral,0.00
-898,Akshat Negi,06/05/2021 15:50:21,daniel merriweather new album today buy stupid,3,negative,-0.33
-918,Akshat Negi,06/05/2021 15:50:21,successfully activated adobe creative suitequot,2,Very positive,0.62
-934,Akshat Negi,06/05/2021 15:50:21,mentality alert practical analyticalquot thanks fortune cookie,1,positive,0.20
-939,Akshat Negi,06/05/2021 15:50:21,totally obsessed lately wish coulda seen wa,3,negative,-0.40
-941,Akshat Negi,06/05/2021 15:50:21,let us know would like us circulate musicbandetc putting together summer ep,0,neutral,0.00
-945,Akshat Negi,06/05/2021 15:50:21,mosh pit www thesixtyone com hrs time,0,neutral,0.00
-960,Akshat Negi,06/05/2021 15:50:21,tuning battlefield music video check havent yet love,1,positive,0.50
-961,Akshat Negi,06/05/2021 15:50:21,www myspace comannieautomaticmusic final mix new track something sacred free download gift,1,positive,0.18
-962,Akshat Negi,06/05/2021 15:50:21,www myspace comrhdband,0,neutral,0.00
-963,Akshat Negi,06/05/2021 15:50:21,officially shamelessly advertise www myspace commerianag go know want,0,neutral,0.00
-971,Akshat Negi,06/05/2021 15:50:21,upquot saddest movie almost ever seen good,2,Very positive,0.70
-972,Akshat Negi,06/05/2021 15:50:21,us worldquot mitchel musso,0,neutral,0.00
-982,Akshat Negi,06/05/2021 15:50:21,sent payment thanks cashback website,1,positive,0.20
-983,Akshat Negi,06/05/2021 15:50:21,shall moved yeah rite,0,neutral,0.00
-985,Akshat Negi,06/05/2021 15:50:21,want pcd nicole im love,1,positive,0.50
-987,Akshat Negi,06/05/2021 15:50:21,still change color wherever go always alikequot,0,neutral,0.00
-989,Akshat Negi,06/05/2021 15:50:21,welcome hollywoodquot get mitchel mussos debut album today walt disney records itunes everywhere still sell cds,2,Very positive,0.80
-999,Akshat Negi,06/05/2021 15:50:21,south hampshire ha,0,neutral,0.00
-1001,Akshat Negi,06/05/2021 15:50:21,heres small video clip found showing realz thumbs,3,negative,-0.25
-1006,Akshat Negi,06/05/2021 15:50:21,new hashtag interesting rides sometimes find garage,1,positive,0.32
-1015,Akshat Negi,06/05/2021 15:50:21,ok one ralph lauren boxers,1,positive,0.50
-1024,Akshat Negi,06/05/2021 15:50:21,chipotle soft melty choco chip cookies also admit,1,positive,0.10
-1030,Akshat Negi,06/05/2021 15:50:21,guys sweatpants play baseball instrument dark curly hair brown eyes,3,negative,-0.15
-1031,Akshat Negi,06/05/2021 15:50:21,get upset michaels upset upset michaels upset,0,neutral,0.00
-1036,Akshat Negi,06/05/2021 15:50:21,youre meaning life inspirationquot thinking phils,0,neutral,0.00
-1058,Akshat Negi,06/05/2021 15:50:21,catalyst motivation recognizable change via note self need constant,1,positive,0.12
-1063,Akshat Negi,06/05/2021 15:50:21,meeting new dudes talk,1,positive,0.14
-1069,Akshat Negi,06/05/2021 15:50:21,spectaculars infamous twirl,3,negative,-0.50
-1072,Akshat Negi,06/05/2021 15:50:21,lakers hopefully game good cleveland please make proud,1,positive,0.37
-1093,Akshat Negi,06/05/2021 15:50:21,first impressions rather slow bit buggy,3,negative,-0.03
-1095,Akshat Negi,06/05/2021 15:50:21,closing noooooo internet died,0,neutral,0.00
-1096,Akshat Negi,06/05/2021 15:50:21,time week day really looking forward ab ripper didnt think possible weeks ago,1,positive,0.10
-1098,Akshat Negi,06/05/2021 15:50:21,loadshedding final promise fulfilled semi,0,neutral,0.00
-1101,Akshat Negi,06/05/2021 15:50:21,list people might come visit name bottom somewhere jesus christ scooby doo,0,neutral,0.00
-1103,Akshat Negi,06/05/2021 15:50:21,steigy politics hun obamas watching hockey,0,neutral,0.00
-1104,Akshat Negi,06/05/2021 15:50:21,callum findlay may york uk happy,2,Very positive,0.80
-1110,Akshat Negi,06/05/2021 15:50:21,great transport london rubbish,2,Very positive,0.80
-1115,Akshat Negi,06/05/2021 15:50:21,ich dreh rad holodeck ick hr dir trapsen,0,neutral,0.00
-1116,Akshat Negi,06/05/2021 15:50:21,face friday tired jam jams reading book bed waiting sleep arrive shortly ten pm,3,negative,-0.20
-1120,Akshat Negi,06/05/2021 15:50:22,fact im black cuban puertorican buh im mainly black nobody knows lol,1,positive,0.16
-1123,Akshat Negi,06/05/2021 15:50:22,worst thing gm concord pleasant hill martinez fucking uaw,3,negative,-0.29
-1125,Akshat Negi,06/05/2021 15:50:22,criminy world grow love love deal least ca considering though pa could care less,1,positive,0.13
-1129,Akshat Negi,06/05/2021 15:50:22,laughed hard lt nerd kids laugh nerdy things,1,positive,0.24
-1130,Akshat Negi,06/05/2021 15:50:22,answer answer metal lickerquot indeed metallica well done everyone,0,neutral,0.00
-1138,Akshat Negi,06/05/2021 15:50:22,website quite finished live online first attendee sign welcome attend,1,positive,0.40
-1141,Akshat Negi,06/05/2021 15:50:22,yeah seven yesterday find two quarter lol today,2,Very positive,0.80
-1147,Akshat Negi,06/05/2021 15:50:22,shut valley center girls,3,negative,-0.10
-1149,Akshat Negi,06/05/2021 15:50:22,going download apps ipod getting sick games minus solitaire love haha shutup henny,3,negative,-0.03
-1153,Akshat Negi,06/05/2021 15:50:22,everyone playing twewy bawwwwwww time shut emo kid time revenge,0,neutral,0.00
-1157,Akshat Negi,06/05/2021 15:50:22,omg shut sorry still venting person annoying none swear,4,Very negative,-0.65
-1158,Akshat Negi,06/05/2021 15:50:22,ha lead singer gave high five got one guitar pics,1,positive,0.16
-1160,Akshat Negi,06/05/2021 15:50:22,oh god shut use tissue please,0,neutral,0.00
-1164,Akshat Negi,06/05/2021 15:50:22,note self dont eat fiber one toaster pastries breakfast work,0,neutral,0.00
-1168,Akshat Negi,06/05/2021 15:50:22,fun adventure note self stay home cinco de myo saturday thanks kim lindsay fred,1,positive,0.25
-1169,Akshat Negi,06/05/2021 15:50:22,good job get way high give give high five,1,positive,0.34
-1191,Akshat Negi,06/05/2021 15:50:22,definitely bit squiffy good old conference looking ward morrow,1,positive,0.27
-1192,Akshat Negi,06/05/2021 15:50:22,bag books free raffle woo still feeling crap sadly,3,negative,-0.30
-1202,Akshat Negi,06/05/2021 15:50:22,dead take nothin ya soul thinkquot john lennon songs stuck head tonight peace,3,negative,-0.20
-1215,Akshat Negi,06/05/2021 15:50:22,come home stop pain tonight quot,0,neutral,0.00
-1217,Akshat Negi,06/05/2021 15:50:22,bird share lonely view feel good days miss home,1,positive,0.30
-1221,Akshat Negi,06/05/2021 15:50:22,working new framework site quot,1,positive,0.14
-1227,Akshat Negi,06/05/2021 15:50:22,da fuck goes back school summer,3,negative,-0.20
-1235,Akshat Negi,06/05/2021 15:50:22,must secret society one willing explain fair,1,positive,0.18
-1240,Akshat Negi,06/05/2021 15:50:22,sad got called work make day,3,negative,-0.50
-1243,Akshat Negi,06/05/2021 15:50:22,birthday saturday shame driving,0,neutral,0.00
-1252,Akshat Negi,06/05/2021 15:50:22,ive much luck lately iphome would really cheer ta much,1,positive,0.08
-1253,Akshat Negi,06/05/2021 15:50:22,got twizzlers im set tomorrows roadtrip wait first need pack,1,positive,0.25
-1256,Akshat Negi,06/05/2021 15:50:22,food still microwave busy trying win,1,positive,0.45
-1257,Akshat Negi,06/05/2021 15:50:22,many days left iwanna iphone lol want iphone touch lol soo many ppl want chances soo low knows,1,positive,0.43
-1259,Akshat Negi,06/05/2021 15:50:22,sorry need gift cert project,3,negative,-0.50
-1263,Akshat Negi,06/05/2021 15:50:22,left doggy home alone,0,neutral,0.00
-1267,Akshat Negi,06/05/2021 15:50:22,watching secret life online golfing tomorrow maybe amandanicole time misss lauren,3,negative,-0.40
-1269,Akshat Negi,06/05/2021 15:50:22,sww ft secs wind sw mph air c overcastoccasional drizzle waves,0,neutral,0.00
-1272,Akshat Negi,06/05/2021 15:50:22,worst lip syncing ever well maybe ever b plus think guy going home worst solo,4,Very negative,-1.00
-1278,Akshat Negi,06/05/2021 15:50:22,carlos cuban cafe closing friday second area restaurant seen close since started using twitter,0,neutral,0.00
-1282,Akshat Negi,06/05/2021 15:50:22,set prototype page favorite news facebook wish could put gmail work,1,positive,0.50
-1287,Akshat Negi,06/05/2021 15:50:22,one last tweet night shut discovagina xd peace outskies,0,neutral,0.00
-1289,Akshat Negi,06/05/2021 15:50:22,forget shower rain gt onto playing nhl gt shut life,0,neutral,0.00
-1292,Akshat Negi,06/05/2021 15:50:22,cryed aparant reason need hug,0,neutral,0.00
-1293,Akshat Negi,06/05/2021 15:50:22,morning everybody still bed high five sooo glad open till noon today refuse get,1,positive,0.22
-1297,Akshat Negi,06/05/2021 15:50:22,well im still think shutup mouth rock,0,neutral,0.00
-1298,Akshat Negi,06/05/2021 15:50:22,today horny yesteday lose boyfriend,0,neutral,0.00
-1299,Akshat Negi,06/05/2021 15:50:22,trey stella learn sleep bathroom business sunday ok,1,positive,0.50
-1306,Akshat Negi,06/05/2021 15:50:22,tummy hurts hate vagina want rip haha cramps,3,negative,-0.30
-1311,Akshat Negi,06/05/2021 15:50:22,note self stop talking signed,0,neutral,0.00
-1315,Akshat Negi,06/05/2021 15:50:22,belong mequot music says words,0,neutral,0.00
-1327,Akshat Negi,06/05/2021 15:50:22,left stain every one good days stronger know let goquot rob thomas,1,positive,0.35
-1328,Akshat Negi,06/05/2021 15:50:22,look good much skinnier see face face fat fat face fail,1,positive,0.13
-1345,Akshat Negi,06/05/2021 15:50:22,want yourr wifey lifey boy got going crazy loll lt songg bbq football ohhyeaaababyy xx,4,Very negative,-0.60
-1352,Akshat Negi,06/05/2021 15:50:22,anonymoususer office x must clever thing knew x,1,positive,0.17
-1356,Akshat Negi,06/05/2021 15:50:22,bullhorn tell ur friends follow come onnnnnnnnnnnn ppl,0,neutral,0.00
-1357,Akshat Negi,06/05/2021 15:50:22,thank suggested hoverclick responded knowledge tetris th geeks,0,neutral,0.00
-1358,Akshat Negi,06/05/2021 15:50:22,summer mean work get money uniquot,3,negative,-0.31
-1360,Akshat Negi,06/05/2021 15:50:22,cont top im allowed go see miley woo night xox,1,positive,0.50
-1361,Akshat Negi,06/05/2021 15:50:22,cont feel horrible worry colon cancer alone fathers day boot want cry ngl,4,Very negative,-1.00
-1382,Akshat Negi,06/05/2021 15:50:22,true reliqion jeans purple brown amp white coach sneakers brown coach purse amp brown blazer jacket im lookin type noicee,1,positive,0.17
-1384,Akshat Negi,06/05/2021 15:50:22,lame looks much sillier anything,3,negative,-0.15
-1389,Akshat Negi,06/05/2021 15:50:22,believe thing called lovequot darkness check,0,neutral,0.00
-1390,Akshat Negi,06/05/2021 15:50:22,everyone getting new iphone please give one need,1,positive,0.14
-1392,Akshat Negi,06/05/2021 15:50:22,trey songz lol feat gucci mane soulja boy next u belong snippet,1,positive,0.40
-1393,Akshat Negi,06/05/2021 15:50:22,tuesdays amp im even drunk tuesday bishes lighten,3,negative,-0.50
-1395,Akshat Negi,06/05/2021 15:50:22,im high school graduateeee summmers,1,positive,0.16
-1397,Akshat Negi,06/05/2021 15:50:22,means eaither tweeting walking tweeting stalking either way sound pretty dangerous lol,1,positive,0.21
-1401,Akshat Negi,06/05/2021 15:50:22,feel free retweet btw,1,positive,0.40
-1402,Akshat Negi,06/05/2021 15:50:22,follow add new layout coming hours wait almost,1,positive,0.14
-1412,Akshat Negi,06/05/2021 15:50:22,music dare move music cooks version,0,neutral,0.00
-1414,Akshat Negi,06/05/2021 15:50:22,paris rainy day halleluja rainy day,0,neutral,0.00
-1415,Akshat Negi,06/05/2021 15:50:22,qotd rosa sat martin could walk martin walked obama could run obama ran fly,2,Very positive,0.80
-1416,Akshat Negi,06/05/2021 15:50:22,rich lt throat infection wonlt talking next vid,1,positive,0.19
-1417,Akshat Negi,06/05/2021 15:50:22,ron burgundy voice sandwhiches bad choice,4,Very negative,-0.70
-1418,Akshat Negi,06/05/2021 15:50:22,rsi hand pain playing xbox today well,0,neutral,0.00
-1426,Akshat Negi,06/05/2021 15:50:22,still work feet killing amp still chest pains,0,neutral,0.00
-1434,Akshat Negi,06/05/2021 15:50:22,shortcut key postquot tweet compose box enter work,0,neutral,0.00
-1437,Akshat Negi,06/05/2021 15:50:22,woohoo miles done blisters sore hip finished yay,0,neutral,0.00
-1438,Akshat Negi,06/05/2021 15:50:22,sucks constant error messages invalid unamepwdquot latest even though correct,1,positive,0.07
-1439,Akshat Negi,06/05/2021 15:50:22,seems cool twitter app looks like small tweetdeck web edition cant yet upload images,1,positive,0.05
-1441,Akshat Negi,06/05/2021 15:50:22,hurricane season daaaamn miami im n da crib day,0,neutral,0.00
-1456,Akshat Negi,06/05/2021 15:50:22,corner stores family owned businesses around growin gone,0,neutral,0.00
-1473,Akshat Negi,06/05/2021 15:50:22,stuff face yummy desserts,0,neutral,0.00
-1475,Akshat Negi,06/05/2021 15:50:22,love bad little difficult understand live easy,3,negative,-0.05
-1481,Akshat Negi,06/05/2021 15:50:22,note self nvr buy expresso frm mimis uhhhhhhhhhh rn,0,neutral,0.00
-1488,Akshat Negi,06/05/2021 15:50:22,back amp exhausted note self dont drink empty stomach,3,negative,-0.17
-1489,Akshat Negi,06/05/2021 15:50:22,note self stay away benihana bad stomach ache think make food poison yet,4,Very negative,-0.70
-1490,Akshat Negi,06/05/2021 15:50:22,undisclosed jobsite name happiness goes die,2,Very positive,0.70
-1492,Akshat Negi,06/05/2021 15:50:22,via officially adding queen double entendresquot resume,0,neutral,0.00
-1494,Akshat Negi,06/05/2021 15:50:22,wow got pwned raid party trying kill one world dragons,1,positive,0.10
-1504,Akshat Negi,06/05/2021 15:50:22,beautiful beautiful day z,2,Very positive,0.85
-1510,Akshat Negi,06/05/2021 15:50:22,oh poo fun every new b amp obvious clues thats fun chris needs make one amp like cheesesteak,1,positive,0.18
-1511,Akshat Negi,06/05/2021 15:50:22,readtype thai seriously get hours sleep friday night fair,1,positive,0.18
-1512,Akshat Negi,06/05/2021 15:50:22,sneezes urghhh eeee tan topping tis good x,2,Very positive,0.70
-1513,Akshat Negi,06/05/2021 15:50:22,hills aqain makinq plans amp boo want take howfckncute amp im thinkinq bout lif fl qoood,0,neutral,0.00
-1517,Akshat Negi,06/05/2021 15:50:22,days hrs users load averages macbook think time restart,0,neutral,0.00
-1529,Akshat Negi,06/05/2021 15:50:22,helsingborg rain c typical swedish midsummer weather,3,negative,-0.17
-1536,Akshat Negi,06/05/2021 15:50:22,michael ealy ricky barbarshop,0,neutral,0.00
-1538,Akshat Negi,06/05/2021 15:50:22,ricky lake wateva happend lol,2,Very positive,0.80
-1556,Akshat Negi,06/05/2021 15:50:22,yayayayyayay finished english easy work finally shut time whaaaaap,1,positive,0.14
-1561,Akshat Negi,06/05/2021 15:50:22,tumblr told shut till tomorrow,0,neutral,0.00
-1562,Akshat Negi,06/05/2021 15:50:22,shut guys love guys confusing,1,positive,0.10
-1581,Akshat Negi,06/05/2021 15:50:22,entity go link hear progressive house mix cheers,0,neutral,0.00
-1583,Akshat Negi,06/05/2021 15:50:22,graphic shot blocks away actual protests father could nothing watch die,0,neutral,0.00
-1585,Akshat Negi,06/05/2021 15:50:22,sigh well officially job bleeding recession still time work script suppose bah lack cash,0,neutral,0.00
-1586,Akshat Negi,06/05/2021 15:50:22,stuffed ate sushi rolls many lunch,1,positive,0.50
-1588,Akshat Negi,06/05/2021 15:50:22,miss old really seem get words im know tell react,1,positive,0.15
-1592,Akshat Negi,06/05/2021 15:50:22,almost breathing well enough go run know better,1,positive,0.25
-1597,Akshat Negi,06/05/2021 15:50:22,begins scary laugh w crescendo new apple iphone leaked photos,3,negative,-0.02
-1598,Akshat Negi,06/05/2021 15:50:22,big yawn last day lazy lounging pool tomorrow plalla de geiser,3,negative,-0.08
-1605,Akshat Negi,06/05/2021 15:50:22,shut fuck massive attack radio,3,negative,-0.20
-1607,Akshat Negi,06/05/2021 15:50:22,feeling shitty need hug maybe big pile money,0,neutral,0.00
-1613,Akshat Negi,06/05/2021 15:50:22,oh heart aflutter idea coconut cups would get love note self,1,positive,0.50
-1616,Akshat Negi,06/05/2021 15:50:22,oh snap forgot today payday,0,neutral,0.00
-1622,Akshat Negi,06/05/2021 15:50:22,famous people people public property new development note self,1,positive,0.21
-1624,Akshat Negi,06/05/2021 15:50:22,telling kerry shut fuck,3,negative,-0.40
-1626,Akshat Negi,06/05/2021 15:50:22,horny missing goddess,3,negative,-0.20
-1633,Akshat Negi,06/05/2021 15:50:22,everything seems totally today need hug somebody talk lt team edwardlt,0,neutral,0.00
-1645,Akshat Negi,06/05/2021 15:50:22,anyone managed find copy book yet,0,neutral,0.00
-1655,Akshat Negi,06/05/2021 15:50:22,like dem sorty thick girls neva got one ima change dat one day lol,1,positive,0.25
-1667,Akshat Negi,06/05/2021 15:50:22,need little time wake wake story morning glory,3,negative,-0.19
-1668,Akshat Negi,06/05/2021 15:50:22,breath hands cup like glass drink cheerleaderquot good movie still idea,2,Very positive,0.70
-1669,Akshat Negi,06/05/2021 15:50:22,reluctant attempt correcting sleep pattern last attempt made unsuccessfully month ago gud nite,0,neutral,0.00
-1670,Akshat Negi,06/05/2021 15:50:22,actually sleep work tomorrow bore know love xoxo,1,positive,0.25
-1698,Akshat Negi,06/05/2021 15:50:22,miller lite pints nuggets stomp hornets hornet fans pay full price,1,positive,0.35
-1702,Akshat Negi,06/05/2021 15:50:22,gallon gas prices cali right chicago soon follow ride bike kids summer pick paper delivery route,1,positive,0.29
-1703,Akshat Negi,06/05/2021 15:50:22,call night babylon show club text details hot chicks booze special guests come,1,positive,0.30
-1705,Akshat Negi,06/05/2021 15:50:22,phone bill call cell booo,0,neutral,0.00
-1712,Akshat Negi,06/05/2021 15:50:22,eurusd stopped get u try keeps making pocket money lol,2,Very positive,0.80
-1718,Akshat Negi,06/05/2021 15:50:22,hopefully going movies today,0,neutral,0.00
-1730,Akshat Negi,06/05/2021 15:50:22,oo see science meh ppls iluv lt jess hayley taylor kaka poor movexx,3,negative,-0.40
-1740,Akshat Negi,06/05/2021 15:50:23,sigh misses gone forever,0,neutral,0.00
-1746,Akshat Negi,06/05/2021 15:50:23,symphonysoldier com omg shocked mean seriously ian people world never expected youll missed,3,negative,-0.32
-1747,Akshat Negi,06/05/2021 15:50:23,tt ride didnt play aimees request,0,neutral,0.00
-1751,Akshat Negi,06/05/2021 15:50:23,via sounds ike cross manson nin amp garbage,0,neutral,0.00
-1760,Akshat Negi,06/05/2021 15:50:23,amp studying tomorrow first day big test wish luck bye,1,positive,0.12
-1762,Akshat Negi,06/05/2021 15:50:23,amp feel like sleeping x bored bored bored nothing eat gon na strave death,3,negative,-0.50
-1766,Akshat Negi,06/05/2021 15:50:23,amp know u see u r tell cant sleep,0,neutral,0.00
-1774,Akshat Negi,06/05/2021 15:50:23,amp seemed missed following gt gt,0,neutral,0.00
-1782,Akshat Negi,06/05/2021 15:50:23,amp hes finally falling asleep awake nap darn,0,neutral,0.00
-1785,Akshat Negi,06/05/2021 15:50:23,amp thank amp inviting great time,2,Very positive,0.80
-1791,Akshat Negi,06/05/2021 15:50:23,amp yes dont home computer nice laugh deprived,1,positive,0.45
-1796,Akshat Negi,06/05/2021 15:50:23,amp amp im qettinq ready nite new better half amp amp happy b day lynnette deff qettinq nite luv u,1,positive,0.29
-1798,Akshat Negi,06/05/2021 15:50:23,amp amp tellin picked winner bitches like nelly kelly got dilemma,0,neutral,0.00
-1803,Akshat Negi,06/05/2021 15:50:23,amp amp amp amp amp amp nanas hospital,0,neutral,0.00
-1805,Akshat Negi,06/05/2021 15:50:23,amp amp time software fingered tast spent minutes looking stock already shot,3,negative,-0.10
-1809,Akshat Negi,06/05/2021 15:50:23,amp still dont know wtfck twitter im lol,2,Very positive,0.80
-1811,Akshat Negi,06/05/2021 15:50:23,via littlemiss would need youre pyramids,0,neutral,0.00
-1820,Akshat Negi,06/05/2021 15:50:23,okay im gunna shy anymore cyrus amp nick freakin made eachother,0,neutral,0.00
-1837,Akshat Negi,06/05/2021 15:50:23,hate hair hiss tee feel like shuld hang ghetto wid dis style,4,Very negative,-0.80
-1838,Akshat Negi,06/05/2021 15:50:23,feeling good goodnite twitter critters,2,Very positive,0.70
-1839,Akshat Negi,06/05/2021 15:50:23,seriously crying bella amp jacobs talk breaking dawn preggo ed asks talk,3,negative,-0.20
-1840,Akshat Negi,06/05/2021 15:50:23,sigh cant hear block party cuz meeting office theyre loud,1,positive,0.10
-1845,Akshat Negi,06/05/2021 15:50:23,channellive days going get better god willing yaye tears today cbetta,1,positive,0.38
-1846,Akshat Negi,06/05/2021 15:50:23,client flirtomatic initial us stats us operator relations appointment shiny new blog,1,positive,0.07
-1847,Akshat Negi,06/05/2021 15:50:23,cough cough cough fun,1,positive,0.30
-1849,Akshat Negi,06/05/2021 15:50:23,cough gossip girl cough lol aaaahhhh need watch going marathon next friday night,1,positive,0.40
-1850,Akshat Negi,06/05/2021 15:50:23,cough yeeaaa bb wheneva,0,neutral,0.00
-1853,Akshat Negi,06/05/2021 15:50:23,cries ever enough time eat relax barely enough time sleep im getting depressed bedtime guess,0,neutral,0.00
-1854,Akshat Negi,06/05/2021 15:50:23,crosses fingers hopes tomorrow dev team pull together cause cell jailbreak,0,neutral,0.00
-1860,Akshat Negi,06/05/2021 15:50:23,day hate mispelling words lol videos time bed got lot stuff take care tomorrow bday presents night,0,neutral,0.00
-1865,Akshat Negi,06/05/2021 15:50:23,editing new photos late aft lovies,3,negative,-0.08
-1866,Akshat Negi,06/05/2021 15:50:23,ehem going try make pastelillos excuse fluent spanish,3,negative,-0.03
-1883,Akshat Negi,06/05/2021 15:50:23,bawling get bitten sam,0,neutral,0.00
-1889,Akshat Negi,06/05/2021 15:50:23,cfl preseason football tonight however line betting untill regular schedule starts,0,neutral,0.00
-1890,Akshat Negi,06/05/2021 15:50:23,church andrea little bit txt mehhh,3,negative,-0.19
-1891,Akshat Negi,06/05/2021 15:50:23,click block tobiseworld,0,neutral,0.00
-1897,Akshat Negi,06/05/2021 15:50:23,cough people go bed early rocking fun,1,positive,0.20
-1900,Akshat Negi,06/05/2021 15:50:23,cries scuffed blackberry,0,neutral,0.00
-1906,Akshat Negi,06/05/2021 15:50:23,drowning noises officially snowed added work,0,neutral,0.00
-1915,Akshat Negi,06/05/2021 15:50:23,gasp beth agreed see star trek looks like get see,0,neutral,0.00
-1923,Akshat Negi,06/05/2021 15:50:23,grrr cat really pissed corner shes getting old,3,negative,-0.13
-1926,Akshat Negi,06/05/2021 15:50:23,hates loud trains hear maybe baby window open bake window shut,1,positive,0.05
-1928,Akshat Negi,06/05/2021 15:50:23,heading bed damn tired right lol point ive got headache goodnight guys x,1,positive,0.23
-1934,Akshat Negi,06/05/2021 15:50:23,feel good da da da da da da da hi back watching tv sitting room raining outside yeah nothing special,1,positive,0.26
-1943,Akshat Negi,06/05/2021 15:50:23,grmbl promised frend help move girlfrend stuff house big mouth,0,neutral,0.00
-1950,Akshat Negi,06/05/2021 15:50:23,upset stomach hopefully meds kick soon kind overdone week,2,Very positive,0.60
-1961,Akshat Negi,06/05/2021 15:50:23,crying corner byebye sidies come back soon,3,negative,-0.10
-1965,Akshat Negi,06/05/2021 15:50:23,jealous everyone getting see wolverine big screen tonight,0,neutral,0.00
-1978,Akshat Negi,06/05/2021 15:50:23,gt gt gt mood crying boo hoo,3,negative,-0.20
-1988,Akshat Negi,06/05/2021 15:50:23,gt sighlt life beautiful,2,Very positive,0.85
-1995,Akshat Negi,06/05/2021 15:50:23,lt digging lonely nights booo hooo,3,negative,-0.10
-1998,Akshat Negi,06/05/2021 15:50:23,lt mayercraft next year makes exoticbeachfeet sad,3,negative,-0.25
-2009,Akshat Negi,06/05/2021 15:50:23,lt sighing heavily would love still chained cooker,1,positive,0.15
-2012,Akshat Negi,06/05/2021 15:50:23,lt swears live fantasy world likes screwing around friends,1,positive,0.14
-2027,Akshat Negi,06/05/2021 15:50:23,lt ryan baby iloveyopu xxx lt days kayleigh baby lymz cntt waiit,0,neutral,0.00
-2029,Akshat Negi,06/05/2021 15:50:23,lt miss even tho u leavin week,0,neutral,0.00
-2036,Akshat Negi,06/05/2021 15:50:23,lt robert pattinson omg ahhh obsessed skins tonyy,3,negative,-0.50
-2041,Akshat Negi,06/05/2021 15:50:23,lt sighgt trying book ticket patrick watson union chapel thursday someone broken cc payments ticketbstrd,3,negative,-0.40
-2050,Akshat Negi,06/05/2021 15:50:23,ice caps suck thats got dont know said love ice caps water woo ahh love brother,1,positive,0.50
-2060,Akshat Negi,06/05/2021 15:50:23,menirukan brody dale city city angel see trnyata suaranya lebih mirip mbah surip,0,neutral,0.00
-2061,Akshat Negi,06/05/2021 15:50:23,meteoric rise def brilliant rapid rise like fits perfectly like hoodie late losing,2,Very positive,0.53
-2063,Akshat Negi,06/05/2021 15:50:23,mounts bandwagon happy rather feliz whatever alights,2,Very positive,0.80
-2066,Akshat Negi,06/05/2021 15:50:23,nods head daaamn wanted work freelance sooo baad time got,0,neutral,0.00
-2086,Akshat Negi,06/05/2021 15:50:23,shouts morning thank god waking mi see another beautiful day bout call mi mumma miss,2,Very positive,0.85
-2092,Akshat Negi,06/05/2021 15:50:23,may feel little sickquot,3,negative,-0.19
-2093,Akshat Negi,06/05/2021 15:50:23,water friendquot,0,neutral,0.00
-2103,Akshat Negi,06/05/2021 15:50:23,lady left go back israel months loss gain wishing safe travels,1,positive,0.17
-2106,Akshat Negi,06/05/2021 15:50:23,trinns avslutningquot today going funny hope,1,positive,0.25
-2113,Akshat Negi,06/05/2021 15:50:23,million miles awayquot seem itunes us,0,neutral,0.00
-2121,Akshat Negi,06/05/2021 15:50:23,sigh raining missing certain friends although rain beautiful,1,positive,0.29
-2130,Akshat Negi,06/05/2021 15:50:23,sigh life get dramatic sorry kind cuz family problem currently going house,3,negative,-0.08
-2134,Akshat Negi,06/05/2021 15:50:23,sigh dont love chippendales,1,positive,0.50
-2136,Akshat Negi,06/05/2021 15:50:23,sigh gg cuzz got go th party yay bring fone w cuzz grandparents want b social spaztastic,1,positive,0.03
-2138,Akshat Negi,06/05/2021 15:50:23,sigh come trending yet get stay trending,0,neutral,0.00
-2139,Akshat Negi,06/05/2021 15:50:23,sigh finished book want sequel,0,neutral,0.00
-2145,Akshat Negi,06/05/2021 15:50:23,sigh think funny ball today comeback central apparently paper bag bitch,1,positive,0.10
-2146,Akshat Negi,06/05/2021 15:50:23,sigh want crawl bed hug care wide awake nap miss holding,3,negative,-0.10
-2148,Akshat Negi,06/05/2021 15:50:23,sigh im love goofy fun loving bad boy,1,positive,0.24
-2150,Akshat Negi,06/05/2021 15:50:23,aquot aisle number means window seat right hope boarding minutes,1,positive,0.29
-2156,Akshat Negi,06/05/2021 15:50:23,adventures babysittingquot big buddar one greatest movies ever,1,positive,0.50
-2157,Akshat Negi,06/05/2021 15:50:23,whats wrong,3,negative,-0.50
-2163,Akshat Negi,06/05/2021 15:50:23,lonely people come sei mas eu sei que elas ficam trabalhando casa domingo,3,negative,-0.10
-2178,Akshat Negi,06/05/2021 15:50:23,starting week summit talks hear speak monday quot,0,neutral,0.00
-2181,Akshat Negi,06/05/2021 15:50:23,sigh went fire new ps game bought infamous looks great discovered controller dead got recharge,3,negative,-0.03
-2193,Akshat Negi,06/05/2021 15:50:23,sigh rain decide show move away invited tuesday party start hoped,0,neutral,0.00
-2194,Akshat Negi,06/05/2021 15:50:23,sigh sars u make want cry,0,neutral,0.00
-2200,Akshat Negi,06/05/2021 15:50:23,sigh insurance pay physical therapy,0,neutral,0.00
-2209,Akshat Negi,06/05/2021 15:50:23,auroraquot yet wow honestly im complaining,1,positive,0.35
-2215,Akshat Negi,06/05/2021 15:50:23,bingquot ing away loving better result blog search google,2,Very positive,0.55
-2219,Akshat Negi,06/05/2021 15:50:23,black keys never looked beautiful perfect rainbow never seemed dullquot sniff sniff,2,Very positive,0.56
-2226,Akshat Negi,06/05/2021 15:50:23,bridget jones edge reasonquot great move enjoyed,2,Very positive,0.65
-2228,Akshat Negi,06/05/2021 15:50:23,btvsquot x love cordy,1,positive,0.50
-2235,Akshat Negi,06/05/2021 15:50:23,butterly sky go twice high take look book reading rainbowquot reading rainbowwww loved show,1,positive,0.43
-2237,Akshat Negi,06/05/2021 15:50:23,wham oingo boingo velvet underground classic,1,positive,0.17
-2242,Akshat Negi,06/05/2021 15:50:23,sighs dear nylon suck want free music download,1,positive,0.40
-2257,Akshat Negi,06/05/2021 15:50:23,smacks head nooooo exams dont want human biology exam fridayy someone give hn swine flu please,0,neutral,0.00
-2263,Akshat Negi,06/05/2021 15:50:23,sniff sunny today get done sunny,0,neutral,0.00
-2272,Akshat Negi,06/05/2021 15:50:23,hoping swine flu arrive dealing infectious people ed know get lucky way,1,positive,0.33
-2276,Akshat Negi,06/05/2021 15:50:23,lets silent scream better way pain subside soon goin right back hospital,1,positive,0.20
-2279,Akshat Negi,06/05/2021 15:50:23,loser bestie town might able find someone else bc feel acward oh well,1,positive,0.50
-2286,Akshat Negi,06/05/2021 15:50:23,new moon shirt haben langweilig ksepopcorn ksepopcorn,1,positive,0.14
-2302,Akshat Negi,06/05/2021 15:50:23,see raining theres need go outsidequot crap home,4,Very negative,-0.80
-2309,Akshat Negi,06/05/2021 15:50:23,coffee crutch would say permanent gimp legquot wells,0,neutral,0.00
-2315,Akshat Negi,06/05/2021 15:50:23,create visual style let unique yet identifiable others orson welles,1,positive,0.16
-2317,Akshat Negi,06/05/2021 15:50:23,daddyy dont want leave anymorequot alexis jonamp kate plus awwww,1,positive,0.50
-2318,Akshat Negi,06/05/2021 15:50:23,dan hartman dream youquot know ive practicing,0,neutral,0.00
-2321,Akshat Negi,06/05/2021 15:50:23,der schatz der weissen falkenquot tv magazine also say reminds stand nevertheless entertaining film,1,positive,0.50
-2328,Akshat Negi,06/05/2021 15:50:23,makes happy makes smile quot,2,Very positive,0.55
-2329,Akshat Negi,06/05/2021 15:50:23,feel way hate hate way feel aaaw gavin quite songwriter,4,Very negative,-0.80
-2338,Akshat Negi,06/05/2021 15:50:23,shivers hell happened spring come back sunshine warmth cold weather stuff sucks,3,negative,-0.30
-2342,Akshat Negi,06/05/2021 15:50:23,sigh despite watching diet extent stomach still rumbling lunch ive managed bust carb limit,0,neutral,0.00
-2344,Akshat Negi,06/05/2021 15:50:23,sigh another saturday morning still bed sleeping usual time go work,3,negative,-0.25
-2349,Akshat Negi,06/05/2021 15:50:23,sigh deers cars mix believe shit happened,3,negative,-0.20
-2351,Akshat Negi,06/05/2021 15:50:23,sigh etsy sales soooo slow right,3,negative,-0.01
-2359,Akshat Negi,06/05/2021 15:50:23,sigh super tired maybe one day able rest,1,positive,0.14
-2360,Akshat Negi,06/05/2021 15:50:23,remember years old ah gives chills track new phoenix album,1,positive,0.12
-2368,Akshat Negi,06/05/2021 15:50:23,dont trust mequot miss jack fucking good times ict lessons eh tears bad wigger come bacck,1,positive,0.00
-2373,Akshat Negi,06/05/2021 15:50:23,duetquot mix tape,0,neutral,0.00
-2375,Akshat Negi,06/05/2021 15:50:23,days gift given rightquot song today last dayquot pretty good insight driving home vacay,1,positive,0.32
-2378,Akshat Negi,06/05/2021 15:50:23,engineers kneequot distracting many people around shaking knees argh stop see,1,positive,0.50
-2387,Akshat Negi,06/05/2021 15:50:23,ewww going use breast milk lacto lactationquot lol silly lol,1,positive,0.37
-2388,Akshat Negi,06/05/2021 15:50:23,sigh finally laptop absolutely nothing awful,3,negative,-0.27
-2391,Akshat Negi,06/05/2021 15:50:23,sigh love home outings today,1,positive,0.50
-2392,Akshat Negi,06/05/2021 15:50:23,sigh miss friends weekend needs turn around miserable,4,Very negative,-1.00
-2393,Akshat Negi,06/05/2021 15:50:23,sigh ever check blog stats hits dropped tremendously amp time spent page well flat lined,1,positive,0.07
-2397,Akshat Negi,06/05/2021 15:50:23,sigh future endeavor favorite pair lashes today good must bid farewell,1,positive,0.40
-2404,Akshat Negi,06/05/2021 15:50:23,sigh looks like left one people,0,neutral,0.00
-2405,Akshat Negi,06/05/2021 15:50:23,sigh maths exam tomorrow,0,neutral,0.00
-2407,Akshat Negi,06/05/2021 15:50:23,sigh assignment becoming uglier uglier done pencil gon na cancel handing,1,positive,0.45
-2410,Akshat Negi,06/05/2021 15:50:23,sigh luck best buy pays ton work though day would move faster discount would better,2,Very positive,0.75
-2412,Akshat Negi,06/05/2021 15:50:23,sigh satisfied drums oh well guess months guess practice,1,positive,0.50
-2416,Akshat Negi,06/05/2021 15:50:23,sigh one mother one go dog two tumors,0,neutral,0.00
-2421,Akshat Negi,06/05/2021 15:50:23,sigh sad whales least saved,3,negative,-0.40
-2435,Akshat Negi,06/05/2021 15:50:23,footloosequot bottom portion sail called foot secured footloose dances randomly wind,3,negative,-0.50
-2443,Akshat Negi,06/05/2021 15:50:23,girl beautiful eyesquot joined colleague ascendaschennai wants name help,2,Very positive,0.53
-2448,Akshat Negi,06/05/2021 15:50:23,go mom dipping storequot best ever ya,2,Very positive,1.00
-2455,Akshat Negi,06/05/2021 15:50:23,sigh poor family still team kate,3,negative,-0.40
-2459,Akshat Negi,06/05/2021 15:50:23,sigh wouldnt bamboozle right,1,positive,0.29
-2466,Akshat Negi,06/05/2021 15:50:23,sighs cant anything right today,1,positive,0.29
-2469,Akshat Negi,06/05/2021 15:50:23,sighs cant find pulp culture youtube least tunes paradizequot favourite,3,negative,-0.30
-2477,Akshat Negi,06/05/2021 15:50:23,sighs wish dermals could stay,0,neutral,0.00
-2479,Akshat Negi,06/05/2021 15:50:23,singing old man snoring snoring snoring old man snoring stay asleep,1,positive,0.10
-2485,Akshat Negi,06/05/2021 15:50:23,sniff looks like nintendo wii sent away none controllers work anymore annoying well grrr,4,Very negative,-0.75
-2486,Akshat Negi,06/05/2021 15:50:23,sniff sniff beautiful messy mop gone,1,positive,0.32
-2492,Akshat Negi,06/05/2021 15:50:23,special delivery sent wants give sexy grind,1,positive,0.35
-2501,Akshat Negi,06/05/2021 15:50:23,tired researching publishers proof reading time really boring eager start new idea,3,negative,-0.42
-2502,Akshat Negi,06/05/2021 15:50:23,totally behind everything oh snap want go comic con,3,negative,-0.08
-2507,Akshat Negi,06/05/2021 15:50:23,ugh hungry whats eat craving sum rallys fast food tonight,1,positive,0.20
-2508,Akshat Negi,06/05/2021 15:50:23,uqh ppl never fail get nerves bout go sex man,1,positive,0.25
-2510,Akshat Negi,06/05/2021 15:50:23,waiting isabelle movies movies movies,0,neutral,0.00
-2524,Akshat Negi,06/05/2021 15:50:23,gordon brown reactive proactive james parnell,0,neutral,0.00
-2528,Akshat Negi,06/05/2021 15:50:24,hang dj hang dj quot,0,neutral,0.00
-2530,Akshat Negi,06/05/2021 15:50:24,happiness found anywhere situation search hard enough itquot kate gosselin,1,positive,0.14
-2557,Akshat Negi,06/05/2021 15:50:24,talking get girl groan supposed hour ago sigh,0,neutral,0.00
-2559,Akshat Negi,06/05/2021 15:50:24,tap tap tap thing back home visiting amp family east coast cherry popped,0,neutral,0.00
-2574,Akshat Negi,06/05/2021 15:50:24,ugh still sore rm wrk yesterday gettin ready company picnic wit babes chance scattered thunderstorms,1,positive,0.20
-2575,Akshat Negi,06/05/2021 15:50:24,ugh mean incremental build instead full clobber patience,1,positive,0.02
-2576,Akshat Negi,06/05/2021 15:50:24,uh totally forgot gentoo reinstallation know backup make conf home boot nothing else,0,neutral,0.00
-2579,Akshat Negi,06/05/2021 15:50:24,watching harry potter umbridge bitch harryamp umbridge staredown steff would slap lt lt umbridge slaps harry steff oh,0,neutral,0.00
-2582,Akshat Negi,06/05/2021 15:50:24,hexy meant say hot started say sexyquot,1,positive,0.25
-2586,Akshat Negi,06/05/2021 15:50:24,home lt isquot half heart one place half another,3,negative,-0.17
-2590,Akshat Negi,06/05/2021 15:50:24,boyish girlish quiz result boyish girlish toni look,0,neutral,0.00
-2600,Akshat Negi,06/05/2021 15:50:24,certain people see palin bumper stickers buy books hehehe could put better,1,positive,0.36
-2605,Akshat Negi,06/05/2021 15:50:24,cant clay man feeling clay makes gag dont like touch itquot bahahaha love brooooke,1,positive,0.50
-2613,Akshat Negi,06/05/2021 15:50:24,weeps still crave sims wait till craigs days take look ugh another two days,0,neutral,0.00
-2626,Akshat Negi,06/05/2021 15:50:24,yawn got home long night good morning sweet dreams,1,positive,0.33
-2628,Akshat Negi,06/05/2021 15:50:24,yawn morning everyone,0,neutral,0.00
-2637,Akshat Negi,06/05/2021 15:50:24,yawn woke great sleep oh ready enter dreams gnight,1,positive,0.50
-2642,Akshat Negi,06/05/2021 15:50:24,yawns want go home mess around stuff downloaded also working hammer project,3,negative,-0.17
-2645,Akshat Negi,06/05/2021 15:50:24,want sleepover anymore sad mama,3,negative,-0.50
-2649,Akshat Negi,06/05/2021 15:50:24,feel sexiest sweatpants makeupquot cute quote,1,positive,0.50
-2651,Akshat Negi,06/05/2021 15:50:24,got caramel apple get charlie brown got rock quot,0,neutral,0.00
-2655,Akshat Negi,06/05/2021 15:50:24,hate things hate life hate mostly hate loving quot,4,Very negative,-0.52
-2656,Akshat Negi,06/05/2021 15:50:24,hear economy crashing pay cashquot,0,neutral,0.00
-2664,Akshat Negi,06/05/2021 15:50:24,let go hand worst day life quot,4,Very negative,-1.00
-2666,Akshat Negi,06/05/2021 15:50:24,like much loser amquot thanks friend,1,positive,0.20
-2668,Akshat Negi,06/05/2021 15:50:24,love much ever start liking expect friendquot,1,positive,0.35
-2672,Akshat Negi,06/05/2021 15:50:24,never thought could happier things change things changequot,0,neutral,0.00
-2674,Akshat Negi,06/05/2021 15:50:24,want whatever makes happy thats allquot mom awww moms r,2,Very positive,0.60
-2676,Akshat Negi,06/05/2021 15:50:24,promise never put anything like ever last time ever see mequot sob everytime november,0,neutral,0.00
-2681,Akshat Negi,06/05/2021 15:50:24,yawn sleeping allowed night time,0,neutral,0.00
-2685,Akshat Negi,06/05/2021 15:50:24,yawn feeling lethargic today least nice today wish mocca,1,positive,0.15
-2686,Akshat Negi,06/05/2021 15:50:24,yawnstretchsskritch everyone even kids slept little morning woke snow sigh poor plants,3,negative,-0.29
-2687,Akshat Negi,06/05/2021 15:50:24,yawns want go work boss coming soon ready face coming thursday ready,1,positive,0.20
-2692,Akshat Negi,06/05/2021 15:50:24,yawnstretchyawn im tiredddd boredum bug draining life,0,neutral,0.00
-2694,Akshat Negi,06/05/2021 15:50:24,yaywns ugg fun plus still plack things bookshelf sooner latter,1,positive,0.15
-2697,Akshat Negi,06/05/2021 15:50:24,emma keely kloee ahh spine surgery think,0,neutral,0.00
-2700,Akshat Negi,06/05/2021 15:50:24,hello twitterers nothing,0,neutral,0.00
-2701,Akshat Negi,06/05/2021 15:50:24,hmm soundtripping np mad,4,Very negative,-0.62
-2706,Akshat Negi,06/05/2021 15:50:24,good evening twitterers dinner time day gbu,2,Very positive,0.70
-2709,Akshat Negi,06/05/2021 15:50:24,forgot password twitter spent last two days trying remember last gave reset,3,negative,-0.03
-2711,Akshat Negi,06/05/2021 15:50:24,sen kids teach oops bit mean,3,negative,-0.31
-2712,Akshat Negi,06/05/2021 15:50:24,still luck someone renting us car,0,neutral,0.00
-2717,Akshat Negi,06/05/2021 15:50:24,yay trouble partition table root hd oo grub know change fstab,3,negative,-0.20
-2718,Akshat Negi,06/05/2021 15:50:24,yes know written italian photos english,0,neutral,0.00
-2730,Akshat Negi,06/05/2021 15:50:24,wow youre pretty saw midday bus stop said stricke,1,positive,0.17
-2731,Akshat Negi,06/05/2021 15:50:24,twitterquot braille,0,neutral,0.00
-2736,Akshat Negi,06/05/2021 15:50:24,late session early school run tiredamp moody,3,negative,-0.10
-2740,Akshat Negi,06/05/2021 15:50:24,sure meshichist dogvomit oy vey,1,positive,0.50
-2743,Akshat Negi,06/05/2021 15:50:24,blame compressed shredded cardboard eaten hug,0,neutral,0.00
-2750,Akshat Negi,06/05/2021 15:50:24,reports hoot rounded upquot around assumptions,0,neutral,0.00
-2751,Akshat Negi,06/05/2021 15:50:24,twatrimony good idea since everyone wants marry twat,1,positive,0.45
-2762,Akshat Negi,06/05/2021 15:50:24,rahahahahaha put little weight clothes dont fit also think taking steroids mistake,1,positive,0.11
-2763,Akshat Negi,06/05/2021 15:50:24,g bt symbol still workie,0,neutral,0.00
-2764,Akshat Negi,06/05/2021 15:50:24,maybe problem guess try copy amp see happens want kill new lappy,1,positive,0.14
-2768,Akshat Negi,06/05/2021 15:50:24,personally going explanation cheese proof gods divine intervention,0,neutral,0.00
-2771,Akshat Negi,06/05/2021 15:50:24,pretend like never heard say anything choc chips points,0,neutral,0.00
-2773,Akshat Negi,06/05/2021 15:50:24,good see people support types crafts,2,Very positive,0.70
-2774,Akshat Negi,06/05/2021 15:50:24,actually probably right,1,positive,0.14
-2775,Akshat Negi,06/05/2021 15:50:24,aha clear thx reply schooling,1,positive,0.10
-2776,Akshat Negi,06/05/2021 15:50:24,really friend met lived london family close anyway,1,positive,0.20
-2778,Akshat Negi,06/05/2021 15:50:24,far weekend busy monday part weekend saturday work day,1,positive,0.10
-2790,Akshat Negi,06/05/2021 15:50:24,link informatics media boards twitter could follow wish,0,neutral,0.00
-2797,Akshat Negi,06/05/2021 15:50:24,friends working tonight somebody make plans,0,neutral,0.00
-2799,Akshat Negi,06/05/2021 15:50:24,punch waist line facequot craving liquid cocaine,0,neutral,0.00
-2801,Akshat Negi,06/05/2021 15:50:24,shat myselfquot read james earl jones interrupted work drama poor crimson,3,negative,-0.40
-2804,Akshat Negi,06/05/2021 15:50:24,thought conan haha joe,1,positive,0.20
-2805,Akshat Negi,06/05/2021 15:50:24,wake bad dream one sidequot morning lt one pretty hard,3,negative,-0.25
-2810,Akshat Negi,06/05/2021 15:50:24,choose loaf bread flower would choose flower heartbeat love nano,1,positive,0.50
-2812,Akshat Negi,06/05/2021 15:50:24,comes im going piss somone mary eckart im loving life,2,Very positive,0.60
-2814,Akshat Negi,06/05/2021 15:50:24,u want somebody u want go somewhere u better wake upamp pay attentionquot sister act,1,positive,0.50
-2819,Akshat Negi,06/05/2021 15:50:24,text ill delete let us clearquot,3,negative,-0.50
-2842,Akshat Negi,06/05/2021 15:50:24,th day home im still sick didnt even go school miss friends,4,Very negative,-0.71
-2845,Akshat Negi,06/05/2021 15:50:24,face swollen im pain alone,0,neutral,0.00
-2853,Akshat Negi,06/05/2021 15:50:24,watching contactquot jodie foster nothing better right,1,positive,0.39
-2856,Akshat Negi,06/05/2021 15:50:24,amp everything best electronic music great poolparty guestlist see get job,2,Very positive,0.90
-2865,Akshat Negi,06/05/2021 15:50:24,access browser cameras corners every room get started,0,neutral,0.00
-2870,Akshat Negi,06/05/2021 15:50:24,changed private twitter account pretty much switcharoo,1,positive,0.15
-2871,Akshat Negi,06/05/2021 15:50:24,feel bad time cant pay aaa sucks,3,negative,-0.50
-2881,Akshat Negi,06/05/2021 15:50:24,least something thought could ride sore wrong,3,negative,-0.40
-2882,Akshat Negi,06/05/2021 15:50:24,love beautiful girl anything world,2,Very positive,0.68
-2888,Akshat Negi,06/05/2021 15:50:24,im gona early night get dead early revisequot yeah right like theres killer spider room,1,positive,0.07
-2890,Akshat Negi,06/05/2021 15:50:24,im gon na run mayorquot youre wrong color lol love wire n,1,positive,0.27
-2893,Akshat Negi,06/05/2021 15:50:24,im john connnor jesus mr bale seriously would said line terminator would gone crazy shite film,3,negative,-0.47
-2894,Akshat Negi,06/05/2021 15:50:24,im lucky im love best friendquot,2,Very positive,0.61
-2898,Akshat Negi,06/05/2021 15:50:24,im question mark wondering watching radio free roscoe,1,positive,0.40
-2904,Akshat Negi,06/05/2021 15:50:24,im standing see would give change want lose dont want let go quot,0,neutral,0.00
-2917,Akshat Negi,06/05/2021 15:50:24,grandma asked car outside said truck half naked men,3,negative,-0.06
-2934,Akshat Negi,06/05/2021 15:50:24,gon rainn week wtf,3,negative,-0.50
-2936,Akshat Negi,06/05/2021 15:50:24,feed valid confirm validity disse feedbruner entendo nada de feed vontade de chorar,0,neutral,0.00
-2938,Akshat Negi,06/05/2021 15:50:24,looks like something stupid thank joining,4,Very negative,-0.80
-2943,Akshat Negi,06/05/2021 15:50:24,big ass table take applequot,0,neutral,0.00
-2952,Akshat Negi,06/05/2021 15:50:24,time take home la la la la la jon knightquot guess whats ipod,0,neutral,0.00
-2953,Akshat Negi,06/05/2021 15:50:24,late baby turning around got hands pocket head cloudsquot hero heroine,3,negative,-0.30
-2955,Akshat Negi,06/05/2021 15:50:24,ive developed new philosophy dread one day timequot charlie brown hope good friday amp memorial day amp sun,1,positive,0.31
-2961,Akshat Negi,06/05/2021 15:50:24,small town girl living lonely world gunna take midnight train goin anywherequot,3,negative,-0.17
-2962,Akshat Negi,06/05/2021 15:50:24,cause feel mean therequot radiohead night world,3,negative,-0.31
-2965,Akshat Negi,06/05/2021 15:50:24,love dm need get use though great camera huge upgrade xti,2,Very positive,0.57
-2973,Akshat Negi,06/05/2021 15:50:24,brokeback mountain sucks,3,negative,-0.30
-2989,Akshat Negi,06/05/2021 15:50:24,always take second feel bad whenever see ad missing child,3,negative,-0.30
-2992,Akshat Negi,06/05/2021 15:50:24,almost certain going die soon hungry,1,positive,0.21
-2994,Akshat Negi,06/05/2021 15:50:24,lockin real time tweople dnt want leave got go sims time goodnight,1,positive,0.20
-3000,Akshat Negi,06/05/2021 15:50:24,get podium normal service resumed,1,positive,0.15
-3001,Akshat Negi,06/05/2021 15:50:24,im well time goodbye kiss martini kiss senses fail,3,negative,-0.50
-3002,Akshat Negi,06/05/2021 15:50:24,actual fact preventing becoming next hunch back sorry old ppl,1,positive,0.01
-3003,Akshat Negi,06/05/2021 15:50:24,eating breakfast already wait lunch wtf wonder im faf,3,negative,-0.50
-3010,Akshat Negi,06/05/2021 15:50:24,let us see webxslt skills better couple years,1,positive,0.50
-3011,Akshat Negi,06/05/2021 15:50:24,might going see bgt tour hehe get tickets woop,0,neutral,0.00
-3013,Akshat Negi,06/05/2021 15:50:24,fingers stuck handle cup,0,neutral,0.00
-3015,Akshat Negi,06/05/2021 15:50:24,grater lemon zest fail fml ill tomorrow,3,negative,-0.50
-3022,Akshat Negi,06/05/2021 15:50:24,see thing garden house bought horrible waiting glimpse another bloke coming going one day,4,Very negative,-1.00
-3023,Akshat Negi,06/05/2021 15:50:24,confused summer exams finished looking work experience also looking forward england match,3,negative,-0.40
-3032,Akshat Negi,06/05/2021 15:50:24,lately tired uninspiredquot mah,3,negative,-0.40
-3033,Akshat Negi,06/05/2021 15:50:24,let thy done give man,0,neutral,0.00
-3038,Akshat Negi,06/05/2021 15:50:24,lifes climb view great fave quote hannah montana movie,2,Very positive,0.80
-3041,Akshat Negi,06/05/2021 15:50:24,little britain abroadquot entaining short eps,3,negative,-0.09
-3048,Akshat Negi,06/05/2021 15:50:24,love fun dip cherry cokequot,1,positive,0.40
-3059,Akshat Negi,06/05/2021 15:50:24,mankind doth suckethquot want shirt,0,neutral,0.00
-3061,Akshat Negi,06/05/2021 15:50:24,marketers twitterquot group members including truly,0,neutral,0.00
-3062,Akshat Negi,06/05/2021 15:50:24,matt drive fast cus chasing dream catch going rape leave goin bed car fixed day,1,positive,0.15
-3074,Akshat Negi,06/05/2021 15:50:24,music feelings sound likequot author unknown incredibly true,1,positive,0.22
-3075,Akshat Negi,06/05/2021 15:50:24,mutant batsquot everytime see special someone huh totally relate,1,positive,0.18
-3082,Akshat Negi,06/05/2021 15:50:24,negativity gravity slows people love talking,1,positive,0.50
-3088,Akshat Negi,06/05/2021 15:50:24,let someone talk perm doesnt get fixed soon going pull b spears shave head,1,positive,0.10
-3091,Akshat Negi,06/05/2021 15:50:24,ohwow whata nother awful day gaah,4,Very negative,-1.00
-3092,Akshat Negi,06/05/2021 15:50:24,saterday work missing weekends,3,negative,-0.20
-3096,Akshat Negi,06/05/2021 15:50:24,disappointed cavs playing terribly either team wakes quickly,3,negative,-0.47
-3106,Akshat Negi,06/05/2021 15:50:24,days overdue ipod touchs average update time oh yeah wwdc coming soon know delayed tweet,3,negative,-0.15
-3119,Akshat Negi,06/05/2021 15:50:24,battery going lower lower much juice left min remaining,1,positive,0.10
-3125,Akshat Negi,06/05/2021 15:50:24,except sooo boring decided save winnings pay ticket instead spend outlets lame,4,Very negative,-0.75
-3126,Akshat Negi,06/05/2021 15:50:24,fhrt weiter arriving mannheim main station,1,positive,0.17
-3129,Akshat Negi,06/05/2021 15:50:24,ggrrrrrrrr weather good joys living sea suppose xxx whoop ricky phoned morning good hear voice,2,Very positive,0.70
-3130,Akshat Negi,06/05/2021 15:50:24,go away lena eat icecream must write something biology,0,neutral,0.00
-3131,Akshat Negi,06/05/2021 15:50:24,going tragic heartbreak right true issue tragic,3,negative,-0.22
-3135,Akshat Negi,06/05/2021 15:50:24,fabulous saturday bad thing cavs lost,3,negative,-0.15
-3140,Akshat Negi,06/05/2021 15:50:24,new moonquot trailer really excited looks much better first movie smooth special effects,1,positive,0.34
-3153,Akshat Negi,06/05/2021 15:50:24,objective c introduced dot syntaxquot talking,0,neutral,0.00
-3154,Akshat Negi,06/05/2021 15:50:24,obviously hahaha yay desperate housewives greaattt,3,negative,-0.20
-3158,Akshat Negi,06/05/2021 15:50:24,oh lord chu buy meeeeeeeeee want new new wheels,1,positive,0.14
-3163,Akshat Negi,06/05/2021 15:50:24,omg sorry dont stop pls rude word coz feel stupid girl without thinkingquot,4,Very negative,-0.53
-3172,Akshat Negi,06/05/2021 15:50:24,started week peace joy overdose trusting,2,Very positive,0.80
-3179,Akshat Negi,06/05/2021 15:50:24,seek truth amp love amp move towards human growth found purpose amp benefit self quote joe scaglione amp love,1,positive,0.33
-3182,Akshat Negi,06/05/2021 15:50:24,russias images presidency sco called whacking chinese diplomees,0,neutral,0.00
-3184,Akshat Negi,06/05/2021 15:50:24,ewu softball championship woo hoo charlie mvp finally got shirt,0,neutral,0.00
-3188,Akshat Negi,06/05/2021 15:50:24,years maths got jamie bad,4,Very negative,-0.70
-3192,Akshat Negi,06/05/2021 15:50:24,really struggled writing card,1,positive,0.20
-3195,Akshat Negi,06/05/2021 15:50:24,homework hard work im putting better get scholarship,1,positive,0.10
-3196,Akshat Negi,06/05/2021 15:50:24,waking nightmare good,2,Very positive,0.70
-3197,Akshat Negi,06/05/2021 15:50:24,suddenly understand bella new moon like hole chest,1,positive,0.07
-3199,Akshat Negi,06/05/2021 15:50:24,finished two full hours mommy daughter time amp tomorrow sunshine going hair like shirley temple,1,positive,0.35
-3205,Akshat Negi,06/05/2021 15:50:24,miss baby miss sister miss sleeping morning miss cheetos,0,neutral,0.00
-3207,Akshat Negi,06/05/2021 15:50:24,want buy noble ring haris pilton vendor noble rp character,2,Very positive,0.60
-3208,Akshat Negi,06/05/2021 15:50:24,want taste pie bwugh stupid mum let,4,Very negative,-0.80
-3211,Akshat Negi,06/05/2021 15:50:24,really sad panda really want go home,3,negative,-0.15
-3213,Akshat Negi,06/05/2021 15:50:24,shopping switzerlands beautiful city lucerne,2,Very positive,0.85
-3215,Akshat Negi,06/05/2021 15:50:24,hashbrowns mixed pork want litterally throw,0,neutral,0.00
-3216,Akshat Negi,06/05/2021 15:50:24,got crap week coming spending time studio office based paper work,4,Very negative,-0.80
-3222,Akshat Negi,06/05/2021 15:50:24,liked che although present anything unique provocative benicio del toros performance well worth hours,1,positive,0.32
-3225,Akshat Negi,06/05/2021 15:50:24,love sucks right guy anywhere even one thought right one,1,positive,0.19
-3228,Akshat Negi,06/05/2021 15:50:24,way home jst hrs go going miss harpers island tonight,0,neutral,0.00
-3230,Akshat Negi,06/05/2021 15:50:24,let others destroy quot,3,negative,-0.20
-3234,Akshat Negi,06/05/2021 15:50:24,motive live self worth live possibilitiesquot todays good day start eh,1,positive,0.32
-3235,Akshat Negi,06/05/2021 15:50:24,endangered species jonas brothersquot baha joe lame,3,negative,-0.50
-3238,Akshat Negi,06/05/2021 15:50:24,party like rock star lol cousins house blast party,2,Very positive,0.80
-3247,Akshat Negi,06/05/2021 15:50:24,puke mouthquot brilliant response jizz pants top wrong,1,positive,0.30
-3248,Akshat Negi,06/05/2021 15:50:24,put gods armor evil days come able stand anything stand firm days amp counting,3,negative,-0.23
-3256,Akshat Negi,06/05/2021 15:50:24,respectingquot people fear,0,neutral,0.00
-3257,Akshat Negi,06/05/2021 15:50:24,return favorquot playing head day funny cuz exactly feel right,1,positive,0.26
-3266,Akshat Negi,06/05/2021 15:50:24,steven pointed say tylenol ahah forreal tho say kind weird fudge,1,positive,0.05
-3276,Akshat Negi,06/05/2021 15:50:24,tired dealing cancers hoping end either way trying sleep amp happy awesome friends,1,positive,0.47
-3285,Akshat Negi,06/05/2021 15:50:24,tried chopping nearby vegetation helped loss ch means hav without csi,0,neutral,0.00
-3292,Akshat Negi,06/05/2021 15:50:24,seeing everyday made shit happened worthwhilequot aweh tyty miss muchly made day,3,negative,-0.20
-3294,Akshat Negi,06/05/2021 15:50:24,shake awake dream good things like happen people like disbelief brown eyes quot,2,Very positive,0.70
-3297,Akshat Negi,06/05/2021 15:50:24,sooo fat threw remote catch orbit caught first quot,1,positive,0.07
-3300,Akshat Negi,06/05/2021 15:50:24,shes always womanquot billy joel personal anthem,0,neutral,0.00
-3301,Akshat Negi,06/05/2021 15:50:24,shotgun range closed improvements effective june notice weather factor well suck balls,1,positive,0.25
-3304,Akshat Negi,06/05/2021 15:50:24,sighquot lengthy days week never end,0,neutral,0.00
-3316,Akshat Negi,06/05/2021 15:50:24,got strong got hold amp love yourselffffquot good ass song girl rap,2,Very positive,0.54
-3317,Akshat Negi,06/05/2021 15:50:24,want name radio station jack like person think people pay use name finally got one,0,neutral,0.00
-3323,Akshat Negi,06/05/2021 15:50:24,warning lol meditate back mins x see x wrote hrs ago,1,positive,0.40
-3337,Akshat Negi,06/05/2021 15:50:24,last day placement moz,0,neutral,0.00
-3339,Akshat Negi,06/05/2021 15:50:24,worked back laying stomach raising armslegs superman style sets hold secs,0,neutral,0.00
-3343,Akshat Negi,06/05/2021 15:50:24,fun enjoy evening outta jml xx,1,positive,0.35
-3346,Akshat Negi,06/05/2021 15:50:24,amp amp doorbell rings forever,0,neutral,0.00
-3353,Akshat Negi,06/05/2021 15:50:24,hungry scared eat cause bloated,0,neutral,0.00
-3355,Akshat Negi,06/05/2021 15:50:24,speaking boston im tireddd,0,neutral,0.00
-3359,Akshat Negi,06/05/2021 15:50:24,guess productive member society,0,neutral,0.00
-3371,Akshat Negi,06/05/2021 15:50:24,bored work arent ever,3,negative,-0.50
-3379,Akshat Negi,06/05/2021 15:50:24,somethings always ending something beginning always sad say goodbye,3,negative,-0.50
-3384,Akshat Negi,06/05/2021 15:50:24,son lawquot cmt never thought would watch channel gah damn used watch movie lot kid w little sister,3,negative,-0.19
-3398,Akshat Negi,06/05/2021 15:50:25,sticking feathers butt make chicken chuck palahniuk good morning,1,positive,0.05
-3399,Akshat Negi,06/05/2021 15:50:25,stop burning bridges drive themquot fall boy nice,2,Very positive,0.60
-3405,Akshat Negi,06/05/2021 15:50:25,symptoms thyphoid fever includes malaise anorexia abdominal pain fever insomniaquot oh boy,0,neutral,0.00
-3406,Akshat Negi,06/05/2021 15:50:25,take candle go light world seniors,1,positive,0.40
-3412,Akshat Negi,06/05/2021 15:50:25,little boys gota think got pet got responsibility dog lost look hour call quitsquot,3,negative,-0.19
-3413,Akshat Negi,06/05/2021 15:50:25,party last night awfully crazy wished taped itquot,3,negative,-0.30
-3417,Akshat Negi,06/05/2021 15:50:25,boat rockedquot ce soir ugc toison dor,0,neutral,0.00
-3421,Akshat Negi,06/05/2021 15:50:25,future foodquot hulu com go check,0,neutral,0.00
-3423,Akshat Negi,06/05/2021 15:50:25,hangoverquot existential comedy demonic intensity said stops short classic,1,positive,0.08
-3434,Akshat Negi,06/05/2021 15:50:25,rockquot pizza joint officially rocksquot pun intended need next leadership meeting would get nothing done,0,neutral,0.00
-3439,Akshat Negi,06/05/2021 15:50:25,still getting used family dinner thing mum amp dad split dad still looks mum unconditional love,1,positive,0.50
-3450,Akshat Negi,06/05/2021 15:50:25,fucking delicious must cut words,2,Very positive,1.00
-3451,Akshat Negi,06/05/2021 15:50:25,gosh love family miss much move,1,positive,0.35
-3453,Akshat Negi,06/05/2021 15:50:25,followed trekkie shop bitch even like kind shows,2,Very positive,0.60
-3463,Akshat Negi,06/05/2021 15:50:25,left side even one red spot right side neck fucking hurts,3,negative,-0.08
-3469,Akshat Negi,06/05/2021 15:50:25,unexamined life worth livingquot socrates getting vasectomy today real love wife,2,Very positive,0.53
-3475,Akshat Negi,06/05/2021 15:50:25,youquot flyleaf never gets old monday oh follow por favor please,1,positive,0.10
-3479,Akshat Negi,06/05/2021 15:50:25,theres boat leaving soon new york bus whatevs,1,positive,0.14
-3481,Akshat Negi,06/05/2021 15:50:25,theres always going another mountain always going want make move fight,0,neutral,0.00
-3482,Akshat Negi,06/05/2021 15:50:25,theres always next year kidquot thats say,0,neutral,0.00
-3483,Akshat Negi,06/05/2021 15:50:25,theres got someone hope nickelback got ta somebody,0,neutral,0.00
-3492,Akshat Negi,06/05/2021 15:50:25,schooollll weeks anyway hello full time job endless shopping,1,positive,0.11
-3494,Akshat Negi,06/05/2021 15:50:25,yes def listening little secrets passion pitquot,3,negative,-0.19
-3497,Akshat Negi,06/05/2021 15:50:25,spam bots twitter getting super annoying fix twitter,3,negative,-0.23
-3501,Akshat Negi,06/05/2021 15:50:25,worth shot lol sigh need someone generous rich like erm richard branson following twitters lol,1,positive,0.46
-3506,Akshat Negi,06/05/2021 15:50:25,may wait week give europeans chance get practice first sorry guys fault,3,negative,-0.12
-3509,Akshat Negi,06/05/2021 15:50:25,gentleness dealing mysteries life deathquot really happy like,2,Very positive,0.80
-3517,Akshat Negi,06/05/2021 15:50:25,thats disney song really ha coolquot brothers amp moms conversation haha,1,positive,0.20
-3520,Akshat Negi,06/05/2021 15:50:25,video available country due copyright restrictions three cheers defeating beauty,1,positive,0.14
-3522,Akshat Negi,06/05/2021 15:50:25,thisquot employee ltbp cant sleep probably get flack tomorrow oh well,0,neutral,0.00
-3523,Akshat Negi,06/05/2021 15:50:25,provoke north korea able escape unimaginable merciless punishment oh dear lookin good,1,positive,0.17
-3530,Akshat Negi,06/05/2021 15:50:25,troyquot one thee best movies ever,2,Very positive,1.00
-3535,Akshat Negi,06/05/2021 15:50:25,tweetpysch psychological profiling arrivedquot honestly get result,1,positive,0.30
-3540,Akshat Negi,06/05/2021 15:50:25,u dont know whoquot found next favorite band pet shop boys r really easy ears tweeps,1,positive,0.31
-3545,Akshat Negi,06/05/2021 15:50:25,top everything pack sooo degrassi fun,1,positive,0.40
-3550,Akshat Negi,06/05/2021 15:50:25,others remember need new one clockwork orange movie psychos sounds good,1,positive,0.42
-3554,Akshat Negi,06/05/2021 15:50:25,week takes hard nose dive pile rocks hurray,3,negative,-0.29
-3558,Akshat Negi,06/05/2021 15:50:25,missed saying earlier looking see results mental health gave searched,3,negative,-0.05
-3562,Akshat Negi,06/05/2021 15:50:25,another minutes bus depot terminal frankfurt bus leaving pm f,0,neutral,0.00
-3567,Akshat Negi,06/05/2021 15:50:25,well rested disneyland,0,neutral,0.00
-3568,Akshat Negi,06/05/2021 15:50:25,dealing w horrible pains morning hoping ease soon,4,Very negative,-1.00
-3571,Akshat Negi,06/05/2021 15:50:25,upquot sad movie still good,1,positive,0.10
-3575,Akshat Negi,06/05/2021 15:50:25,updates mentioning quot,0,neutral,0.00
-3577,Akshat Negi,06/05/2021 15:50:25,username short must least characters quot,3,negative,-0.15
-3581,Akshat Negi,06/05/2021 15:50:25,wantedquot human right gorgeous angelina jolie kill innocent ratties,1,positive,0.37
-3583,Akshat Negi,06/05/2021 15:50:25,belong togetherquot www qjams com ima cry,0,neutral,0.00
-3596,Akshat Negi,06/05/2021 15:50:25,u right wrong weak strong tht aly amp aj sng alwys bn catchy like chemicals reactquot,3,negative,-0.04
-3599,Akshat Negi,06/05/2021 15:50:25,wh still far sleeptalk,1,positive,0.10
-3601,Akshat Negi,06/05/2021 15:50:25,whats cooler cool ice cold lolling want listen song,3,negative,-0.12
-3607,Akshat Negi,06/05/2021 15:50:25,eating cold ramin noodles drinking water,4,Very negative,-0.60
-3610,Akshat Negi,06/05/2021 15:50:25,looks like im walking home bus flew past dangit really need car,3,negative,-0.02
-3611,Akshat Negi,06/05/2021 15:50:25,th update dedicating love life robert pattinson love handsome xo,1,positive,0.50
-3615,Akshat Negi,06/05/2021 15:50:25,warning warning fever sucks,3,negative,-0.30
-3617,Akshat Negi,06/05/2021 15:50:25,hair done afternoon wrong blonde buttery look like sybil fawlty,3,negative,-0.25
-3620,Akshat Negi,06/05/2021 15:50:25,pub amp john must left walking home drunk un stable amp hands pockets fell crap,3,negative,-0.43
-3622,Akshat Negi,06/05/2021 15:50:25,c r break need release orange soda,0,neutral,0.00
-3626,Akshat Negi,06/05/2021 15:50:25,really bad night couldnt sleep could believe eminem walked mtv awards spose ass face,4,Very negative,-0.70
-3627,Akshat Negi,06/05/2021 15:50:25,invaded dreams last night,0,neutral,0.00
-3638,Akshat Negi,06/05/2021 15:50:25,want party without someone,0,neutral,0.00
-3646,Akshat Negi,06/05/2021 15:50:25,completely exhausted ready go home pull couch,3,negative,-0.10
-3656,Akshat Negi,06/05/2021 15:50:25,downside blew moms gfs birthdays bad,4,Very negative,-0.70
-3658,Akshat Negi,06/05/2021 15:50:25,drunk ppl traffic dwindling guess shld time beds soon,3,negative,-0.50
-3659,Akshat Negi,06/05/2021 15:50:25,eew id actually forgotten toast like minutes typed like yay toast cold gross,3,negative,-0.20
-3665,Akshat Negi,06/05/2021 15:50:25,feeling better fine guess hope,1,positive,0.46
-3680,Akshat Negi,06/05/2021 15:50:25,gon na buy lil sis guitar shes wanting th birthday shhh keep dl,0,neutral,0.00
-3684,Akshat Negi,06/05/2021 15:50:25,goodnite real time lol,1,positive,0.50
-3686,Akshat Negi,06/05/2021 15:50:25,guy came door asked father home um lived father years,0,neutral,0.00
-3696,Akshat Negi,06/05/2021 15:50:25,got another ticket next time think dey ass going take license away,0,neutral,0.00
-3704,Akshat Negi,06/05/2021 15:50:25,show tonight day stay,0,neutral,0.00
-3710,Akshat Negi,06/05/2021 15:50:25,epic failure depressed congrats order,3,negative,-0.11
-3716,Akshat Negi,06/05/2021 15:50:25,th update pressure head got impressive umm awwww crap failing miserably,3,negative,-0.08
-3724,Akshat Negi,06/05/2021 15:50:25,feel ok went chilis dinner got sweet shot hot fudge browine chocolate always makes feel better,1,positive,0.40
-3728,Akshat Negi,06/05/2021 15:50:25,need tea think ill take walk run yey healthy day,0,neutral,0.00
-3731,Akshat Negi,06/05/2021 15:50:25,going post picture flogging molly amazed forgot take picture fail,3,negative,-0.50
-3759,Akshat Negi,06/05/2021 15:50:25,lying bed twitering away little berry keyboard p ah technology bar hopping tonight fun sober fun mind,1,positive,0.13
-3760,Akshat Negi,06/05/2021 15:50:25,im tryin finish narnia,0,neutral,0.00
-3762,Akshat Negi,06/05/2021 15:50:25,starting realize holy fck life pure sht screw everything idiot quot,3,negative,-0.20
-3766,Akshat Negi,06/05/2021 15:50:25,relax train get drama like bbc,0,neutral,0.00
-3777,Akshat Negi,06/05/2021 15:50:25,twitterific back two days till iphone gets updated squee,0,neutral,0.00
-3779,Akshat Negi,06/05/2021 15:50:25,another day boring location earth ugh bowling alley later today thou,3,negative,-0.50
-3781,Akshat Negi,06/05/2021 15:50:25,answer e mails comments myspace without forgetting well leave little note p nk read last blog,3,negative,-0.09
-3792,Akshat Negi,06/05/2021 15:50:25,whoop jug love theequot best line king lear ever,2,Very positive,0.75
-3793,Akshat Negi,06/05/2021 15:50:25,blowing head oh josh special one,1,positive,0.36
-3795,Akshat Negi,06/05/2021 15:50:25,unicorns fatal stain humanityquot e n l yeppers,0,neutral,0.00
-3803,Akshat Negi,06/05/2021 15:50:25,yes im cool im school ahahahaha,1,positive,0.35
-3814,Akshat Negi,06/05/2021 15:50:25,use pm call drop work w chris wont pleasant still screaming poor kiddo,1,positive,0.17
-3818,Akshat Negi,06/05/2021 15:50:25,back act colder sydney still great home though,1,positive,0.40
-3834,Akshat Negi,06/05/2021 15:50:25,cant fall asleep lol listening pop music amp duffy great singer,2,Very positive,0.80
-3836,Akshat Negi,06/05/2021 15:50:25,checked help section controls found charge spin dash game makes sad,3,negative,-0.45
-3840,Akshat Negi,06/05/2021 15:50:25,cuz myspace many frends u dnt cares ur opinion sooo uhhh,1,positive,0.50
-3849,Akshat Negi,06/05/2021 15:50:25,like restriction set top boxes e g cisco supported providers current one get network access,1,positive,0.25
-3850,Akshat Negi,06/05/2021 15:50:25,lol one word mentioned wonder day bring,2,Very positive,0.80
-3858,Akshat Negi,06/05/2021 15:50:25,misses old best mate things changed hate,1,positive,0.10
-3863,Akshat Negi,06/05/2021 15:50:25,laptop means web coding bed fml san francisco ca,0,neutral,0.00
-3873,Akshat Negi,06/05/2021 15:50:25,take something internet like trying take pee swimming poolquot watching newsradio hulu,0,neutral,0.00
-3884,Akshat Negi,06/05/2021 15:50:25,need let eyebrows grow know face mom,0,neutral,0.00
-3890,Akshat Negi,06/05/2021 15:50:25,assassinated johalonosquot,0,neutral,0.00
-3891,Akshat Negi,06/05/2021 15:50:25,best still lie forgetting rest nights deny listening patd writing fun,2,Very positive,0.65
-3893,Akshat Negi,06/05/2021 15:50:25,young blood spills tonightquot fantastic snog estk,1,positive,0.25
-3894,Akshat Negi,06/05/2021 15:50:25,amazon com order shippedquot,0,neutral,0.00
-3898,Akshat Negi,06/05/2021 15:50:25,ghetto whenquot ur mom pregnant time via niece amd sister grade,1,positive,0.33
-3900,Akshat Negi,06/05/2021 15:50:25,leffe momentsquot allts,0,neutral,0.00
-3905,Akshat Negi,06/05/2021 15:50:25,doesnt know little bit desperate,3,negative,-0.39
-3908,Akshat Negi,06/05/2021 15:50:25,drop seriously dude drop plz went dnt want drop u ill put u lmao mum embarressed much xd,3,negative,-0.01
-3912,Akshat Negi,06/05/2021 15:50:25,exciting week week cant wait,1,positive,0.30
-3913,Akshat Negi,06/05/2021 15:50:25,feels like im going lose mind,0,neutral,0.00
-3915,Akshat Negi,06/05/2021 15:50:25,security reason session timedout gt coz trying understand stupid password policy like enter,4,Very negative,-0.80
-3917,Akshat Negi,06/05/2021 15:50:25,forgotmissed though gutted,0,neutral,0.00
-3922,Akshat Negi,06/05/2021 15:50:25,got little bit tan today,3,negative,-0.19
-3927,Akshat Negi,06/05/2021 15:50:25,looked completely ease say thanks thisquot joy smiles giggles give return,1,positive,0.37
-3928,Akshat Negi,06/05/2021 15:50:25,said enough advantages nd serves th sets wants get away tennis incredibly nice humble,1,positive,0.15
-3929,Akshat Negi,06/05/2021 15:50:25,headed grocery makes every weekend years sigh fun hate grocery,3,negative,-0.25
-3931,Akshat Negi,06/05/2021 15:50:25,hello world hope listening forgive young speaking turn theres someone missing ugh,3,negative,-0.05
-3933,Akshat Negi,06/05/2021 15:50:25,fighting losing battle stomach,0,neutral,0.00
-3939,Akshat Negi,06/05/2021 15:50:25,packing amp last minute tune sorting tryin squeeze,0,neutral,0.00
-3944,Akshat Negi,06/05/2021 15:50:25,red red wine stay close,0,neutral,0.00
-3951,Akshat Negi,06/05/2021 15:50:25,sheesh iran times like wish superheroes real,1,positive,0.20
-3954,Akshat Negi,06/05/2021 15:50:25,exhilarating cant even spell listening jam may something,2,Very positive,0.70
-3956,Akshat Negi,06/05/2021 15:50:25,much today hope rains garden gets water hose broken using watering fun,1,positive,0.03
-3964,Akshat Negi,06/05/2021 15:50:25,youre poison running veins dance party car wut wut,0,neutral,0.00
-3966,Akshat Negi,06/05/2021 15:50:25,youre worth losing self esteem clever words mean nothing line ive heard movie quot,1,positive,0.05
-3969,Akshat Negi,06/05/2021 15:50:25,new followers thank much,1,positive,0.17
-3974,Akshat Negi,06/05/2021 15:50:25,party hahah sis wont shut,0,neutral,0.00
-3975,Akshat Negi,06/05/2021 15:50:25,note self never go bottle wine b get later shifts flop,0,neutral,0.00
-3976,Akshat Negi,06/05/2021 15:50:25,thats emails sorted back destruction totally enjoying bathroom replacement job quot,1,positive,0.25
-3977,Akshat Negi,06/05/2021 15:50:25,note self leave graphics days due date,3,negative,-0.12
-3998,Akshat Negi,06/05/2021 15:50:26,also enjoy playing harmless pranks co workers excited reaction,1,positive,0.39
-3999,Akshat Negi,06/05/2021 15:50:26,pregnant th week mario baby end january,1,positive,0.33
-4008,Akshat Negi,06/05/2021 15:50:26,personally fill sister mary margarets something yrs catholic school done,0,neutral,0.00
-4017,Akshat Negi,06/05/2021 15:50:26,ill leave twitterville teyana taylor holla everyone noon try wake b,3,negative,-0.50
-4021,Akshat Negi,06/05/2021 15:50:26,sum breakfast pool metsnats game,3,negative,-0.40
-4028,Akshat Negi,06/05/2021 15:50:26,model answers might wrong,3,negative,-0.50
-4038,Akshat Negi,06/05/2021 15:50:26,tomorrow leaving beautiful beach,2,Very positive,0.85
-4045,Akshat Negi,06/05/2021 15:50:26,sexy song puts peaceful mood thats probably still sleepy get wake back peace,1,positive,0.25
-4050,Akshat Negi,06/05/2021 15:50:26,well fun closed store almost hours ago heading home,1,positive,0.10
-4055,Akshat Negi,06/05/2021 15:50:26,good job procrastinating morning delivering neighborhood newsletters really want,1,positive,0.45
-4059,Akshat Negi,06/05/2021 15:50:26,wishing independently wealthy instead sitting work,1,positive,0.50
-4061,Akshat Negi,06/05/2021 15:50:26,jakarta street traffic jam everywhere,0,neutral,0.00
-4062,Akshat Negi,06/05/2021 15:50:26,finished fishing unfortunatly catch anything,0,neutral,0.00
-4064,Akshat Negi,06/05/2021 15:50:26,hey looks great way,2,Very positive,0.80
-4073,Akshat Negi,06/05/2021 15:50:26,looking forward seeing leinster going meet final,0,neutral,0.00
-4080,Akshat Negi,06/05/2021 15:50:26,laptop actually right next im lazy turn,1,positive,0.01
-4085,Akshat Negi,06/05/2021 15:50:26,went beach today soraya cried whole time kenny randy got swept waves muahahaha,1,positive,0.20
-4090,Akshat Negi,06/05/2021 15:50:26,penney thank letting night,0,neutral,0.00
-4091,Akshat Negi,06/05/2021 15:50:26,working new site www kaleytuning net,1,positive,0.07
-4094,Akshat Negi,06/05/2021 15:50:26,wow exhausted suddenly,3,negative,-0.10
-4099,Akshat Negi,06/05/2021 15:50:26,people reply tweets makes unhappy,4,Very negative,-0.60
-4100,Akshat Negi,06/05/2021 15:50:26,spin right round baby right round like record baby right round round round,3,negative,-0.02
-4104,Akshat Negi,06/05/2021 15:50:26,say last night great laughs great friends one particularly cute young lady lifes rolling along nicely,1,positive,0.47
-4109,Akshat Negi,06/05/2021 15:50:26,cool runs ima trying bestest,1,positive,0.35
-4128,Akshat Negi,06/05/2021 15:50:26,last note self today watch yes man stop complaining theres going party tonight,0,neutral,0.00
-4131,Akshat Negi,06/05/2021 15:50:26,horny man oh yea virgin island play licking beaver sounds like fun yummmy,1,positive,0.30
-4153,Akshat Negi,06/05/2021 15:50:26,oh obamas speech day today amazing dad got teary eyed,2,Very positive,0.60
-4156,Akshat Negi,06/05/2021 15:50:26,oh yes city riverside snapped picture intersection van buren trautwein got pix today mail,0,neutral,0.00
-4159,Akshat Negi,06/05/2021 15:50:26,date boy want gf girl wonders say anythin admire afar love life like crappy teen movie,1,positive,0.25
-4165,Akshat Negi,06/05/2021 15:50:26,cause way awesomer big sister shes still way awesome,1,positive,0.50
-4168,Akshat Negi,06/05/2021 15:50:26,pissed imagine think came chile lost fans worth flight awesome,2,Very positive,0.65
-4173,Akshat Negi,06/05/2021 15:50:26,shut ciara opening britney london days,0,neutral,0.00
-4176,Akshat Negi,06/05/2021 15:50:26,hate coursework tempest shut,4,Very negative,-0.80
-4182,Akshat Negi,06/05/2021 15:50:26,note self remember dm,0,neutral,0.00
-4198,Akshat Negi,06/05/2021 15:50:26,annoyed sec life site playing,3,negative,-0.25
-4207,Akshat Negi,06/05/2021 15:50:26,sick hate last podcast belgrade clubbing,4,Very negative,-0.50
-4208,Akshat Negi,06/05/2021 15:50:26,since people trying get tickets online past minutes didnt expect crowds,3,negative,-0.25
-4217,Akshat Negi,06/05/2021 15:50:26,sorry meant guitar hero bad corbin blu isnt,4,Very negative,-0.60
-4227,Akshat Negi,06/05/2021 15:50:26,wont turn til saturday,0,neutral,0.00
-4230,Akshat Negi,06/05/2021 15:50:26,single also released world wide believe actually happening excited,1,positive,0.05
-4235,Akshat Negi,06/05/2021 15:50:26,end good long day fun games sun eventually came looking ward seeing little spoon tommoz,1,positive,0.19
-4241,Akshat Negi,06/05/2021 15:50:26,say goodbye say sorrys great buyer,2,Very positive,0.80
-4246,Akshat Negi,06/05/2021 15:50:26,need drink know apreciate fact,0,neutral,0.00
-4247,Akshat Negi,06/05/2021 15:50:26,away hrs took hrs quicklyread updates still e mails check sunday night,0,neutral,0.00
-4250,Akshat Negi,06/05/2021 15:50:26,im actually filming tweet right,1,positive,0.14
-4256,Akshat Negi,06/05/2021 15:50:26,jus left frm imma miss,0,neutral,0.00
-4264,Akshat Negi,06/05/2021 15:50:26,theres also piggly wiggly another grocery store always heard called pigquot,0,neutral,0.00
-4270,Akshat Negi,06/05/2021 15:50:26,bodes well recital exam wednesday,0,neutral,0.00
-4273,Akshat Negi,06/05/2021 15:50:26,tired finished last days ft myers driving back tampa catch flight sad moz,3,negative,-0.23
-4276,Akshat Negi,06/05/2021 15:50:26,took bout minutes finda ticket find st beer realize exactly needed,1,positive,0.25
-4278,Akshat Negi,06/05/2021 15:50:26,tweet ya lr hard tweet u feel lyk ur one tweetng n ds planet huhuhu,3,negative,-0.29
-4280,Akshat Negi,06/05/2021 15:50:26,unless u got glazed krispy kreme donuts maybe ill consider,3,negative,-0.50
+index,name,date_time,message,sentiment_code,sentiment,polarity,Happy,Angry,Surprise,Sad,Fear,Emotion_code,Value
+1,Akshat Negi,31/05/2021 12:37:43,event filmed flip camera expensive cameras need apply,3,negative,-0.50,0.0,1.0,0.0,0.0,0.0,1,1.00
+4,Akshat Negi,31/05/2021 12:37:43,drops help wirelesssg starbucks,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+12,Akshat Negi,31/05/2021 12:37:44,whats called merge couple pictures get detail different exposure levels remind,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+27,Akshat Negi,31/05/2021 12:37:45,happy w dinner arrangements three us endet private dining room via yep lame,1,positive,0.10,0.5,0.0,0.0,0.0,0.5,0,0.50
+30,Akshat Negi,31/05/2021 12:37:46,watched highlights super final worried worried bulls looked like men lions like boys,1,positive,0.17,0.0,0.0,0.2,0.4,0.4,0,0.40
+32,Akshat Negi,31/05/2021 12:37:46,mountains forests savannah deserts tropical beaches cold beaches everything whatever want,4,Very negative,-0.60,0.0,0.0,0.5,0.5,0.0,0,0.00
+34,Akshat Negi,31/05/2021 12:37:46,yay may watch requiem breakfast,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+35,Akshat Negi,31/05/2021 12:37:46,mission today keep trending topic,0,neutral,0.00,0,0,0,0,0,0,0.00
+37,Akshat Negi,31/05/2021 12:37:46,forget post forums fb mission success,1,positive,0.30,0.0,0.5,0.0,0.5,0.0,0,0.00
+53,Akshat Negi,31/05/2021 12:37:48,told friend get food bc u want look fat teehee,0,neutral,0.00,0.5,0.0,0.0,0.5,0.0,0,0.00
+58,Akshat Negi,31/05/2021 12:37:49,wondered money actually goes give charity greedy motherfucker,0,neutral,0.00,0.17,0.17,0.33,0.0,0.33,0,0.33
+60,Akshat Negi,31/05/2021 12:37:49,tried everything p tablets ones nothing really works anyone heard laser light treatment,1,positive,0.30,0.0,0.0,0.25,0.25,0.5,0,0.50
+68,Akshat Negi,31/05/2021 12:37:49,may find today well domestic front,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+69,Akshat Negi,31/05/2021 12:37:50,like finale going bed,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+75,Akshat Negi,31/05/2021 12:37:50,yeah fine waiting rest european sanctuary fans wake,1,positive,0.21,0.5,0.0,0.5,0.0,0.0,0,0.00
+76,Akshat Negi,31/05/2021 12:37:50,aim put smiles faces today,0,neutral,0.00,0.33,0.33,0.0,0.33,0.0,0,0.00
+78,Akshat Negi,31/05/2021 12:37:50,prawns yukky mush tea even yukkier,0,neutral,0.00,0,0,0,0,0,0,0.00
+80,Akshat Negi,31/05/2021 12:37:51,completely trending topics,1,positive,0.10,0,0,0,0,0,0,0.00
+93,Akshat Negi,31/05/2021 12:37:52,whats going soccer live gt,1,positive,0.14,0.0,0.0,0.0,0.0,1.0,0,1.00
+97,Akshat Negi,31/05/2021 12:37:52,issue new req fyi level,1,positive,0.14,0,0,0,0,0,0,0.00
+99,Akshat Negi,31/05/2021 12:37:53,got editing software nick trending topic nice work,2,Very positive,0.60,0.5,0.0,0.0,0.0,0.5,0,0.50
+112,Akshat Negi,31/05/2021 12:37:54,selena gomez celine dion xd alright think done night folks lol gnight babies,2,Very positive,0.80,0.0,0.0,1.0,0.0,0.0,2,1.00
+114,Akshat Negi,31/05/2021 12:37:54,oprahs money id invite bank account,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+119,Akshat Negi,31/05/2021 12:37:55,waking early morning holidays,1,positive,0.10,0,0,0,0,0,0,0.00
+124,Akshat Negi,31/05/2021 12:37:55,shining halloween exorcist pans labyrinth crash juno forgot mainly scary movies,3,negative,-0.50,0.0,0.2,0.2,0.2,0.4,0,0.40
+130,Akshat Negi,31/05/2021 12:37:56,quot twitter commodore quot talk teck nostalgia wish still commodore,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+137,Akshat Negi,31/05/2021 12:37:56,havent recieved iphone yet,0,neutral,0.00,0,0,0,0,0,0,0.00
+138,Akshat Negi,31/05/2021 12:37:57,need iphone gs g broke today,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+148,Akshat Negi,31/05/2021 12:37:57,totally pick want iphone stuck broken sony ericsson case coming,3,negative,-0.20,0.0,0.0,0.67,0.0,0.33,2,0.67
+155,Akshat Negi,31/05/2021 12:37:58,would rite id job money instead job thats convenient employer,0,neutral,0.00,0.2,0.0,0.0,0.0,0.8,0,0.80
+161,Akshat Negi,31/05/2021 12:37:59,bruce willis would come ichat,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+163,Akshat Negi,31/05/2021 12:37:59,drs would understand chronic pain amp tolerance pain medications amp treat pain adequately yeah dreaming,1,positive,0.33,0.0,0.0,0.5,0.0,0.5,0,0.50
+167,Akshat Negi,31/05/2021 12:38:00,could call whomever whatever whenever exists perfect world,2,Very positive,1.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+168,Akshat Negi,31/05/2021 12:38:00,could watch every movie via bootleg,3,negative,-0.40,0.0,0.0,1.0,0.0,0.0,2,1.00
+169,Akshat Negi,31/05/2021 12:38:00,would able trust partner,1,positive,0.50,0.0,0.0,0.0,0.0,1.0,0,1.00
+172,Akshat Negi,31/05/2021 12:38:00,would old twitter account bac,1,positive,0.10,0.0,0.0,0.0,0.33,0.67,0,0.67
+173,Akshat Negi,31/05/2021 12:38:00,would luke warm christian learned bible study last night forgive father,1,positive,0.20,0.0,0.0,0.0,0.0,1.0,0,1.00
+176,Akshat Negi,31/05/2021 12:38:00,would b pain right joint problems,1,positive,0.29,0.0,0.0,0.0,0.0,1.0,0,1.00
+181,Akshat Negi,31/05/2021 12:38:01,days left dorney june finals summer vaca,0,neutral,0.00,0.67,0.0,0.0,0.0,0.33,0,0.67
+183,Akshat Negi,31/05/2021 12:38:01,fans please help creators amp producer reach weekend thx,0,neutral,0.00,0.0,0.0,0.5,0.25,0.25,2,0.50
+194,Akshat Negi,31/05/2021 12:38:02,ended working lot project sometimes help,0,neutral,0.00,0.0,0.0,0.25,0.25,0.5,0,0.50
+202,Akshat Negi,31/05/2021 12:38:03,waiting new stitches knee heal watching news wish home ny worried friends,1,positive,0.14,0.2,0.0,0.4,0.4,0.0,0,0.00
+204,Akshat Negi,31/05/2021 12:38:03,mothers world doesnt know cook salsa willing try children,1,positive,0.25,0,0,0,0,0,0,0.00
+205,Akshat Negi,31/05/2021 12:38:03,sure hell hope never get country poor british folk,1,positive,0.03,0.0,0.0,0.0,0.0,1.0,0,1.00
+207,Akshat Negi,31/05/2021 12:38:03,would miss things past,3,negative,-0.25,0.0,0.0,0.25,0.5,0.25,3,0.50
+211,Akshat Negi,31/05/2021 12:38:04,would illegal girls pretend lesbians dance,3,negative,-0.50,0.0,0.0,0.33,0.0,0.67,0,0.67
+214,Akshat Negi,31/05/2021 12:38:04,sade would go tour never seen perform live,1,positive,0.14,0.0,0.0,0.0,0.0,1.0,0,1.00
+233,Akshat Negi,31/05/2021 12:38:06,quot im going tell quot time,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+237,Akshat Negi,31/05/2021 12:38:07,need help know everything need lot help think know everything,0,neutral,0.00,0.0,0.0,0.5,0.5,0.0,0,0.00
+241,Akshat Negi,31/05/2021 12:38:07,evidently canceled congrats authors life story next normal,1,positive,0.13,0.0,0.0,0.0,0.5,0.5,0,0.50
+243,Akshat Negi,31/05/2021 12:38:07,faves time bed good nightday see faves time bed,2,Very positive,0.70,1.0,0.0,0.0,0.0,0.0,0,1.00
+247,Akshat Negi,31/05/2021 12:38:08,shit buy mark webber cos thought would rise thus went,3,negative,-0.20,0.0,0.0,0.5,0.0,0.5,0,0.50
+254,Akshat Negi,31/05/2021 12:38:09,dont seem render newlines works,0,neutral,0.00,0.0,0.0,0.33,0.33,0.33,0,0.33
+255,Akshat Negi,31/05/2021 12:38:09,cant get tweetdeck work,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+263,Akshat Negi,31/05/2021 12:38:10,americans learn lot watching events tehran behold sacrifice patriots must make true freedom,1,positive,0.35,0.0,0.0,0.25,0.75,0.0,3,0.75
+267,Akshat Negi,31/05/2021 12:38:10,saw mousavi shot revolutionary guard troops rally,0,neutral,0.00,0.0,0.0,0.33,0.33,0.33,0,0.33
+275,Akshat Negi,31/05/2021 12:38:11,world without internet barely lol dont know id without sad,1,positive,0.15,0.0,0.0,0.0,1.0,0.0,3,1.00
+277,Akshat Negi,31/05/2021 12:38:11,carolina math class th grade watching twin towers go,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+279,Akshat Negi,31/05/2021 12:38:11,ehh last month im little month old started making memories,3,negative,-0.03,0.0,0.0,0.0,1.0,0.0,3,1.00
+285,Akshat Negi,31/05/2021 12:38:12,hoping someone would follow,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+286,Akshat Negi,31/05/2021 12:38:12,forgot yl pw bbyxvivian lies js tried log oj didnt work,0,neutral,0.00,0.0,0.5,0.0,0.0,0.5,0,0.50
+290,Akshat Negi,31/05/2021 12:38:13,part david lloyds class full students instructor rpm spinning,1,positive,0.35,0.0,0.0,1.0,0.0,0.0,2,1.00
+293,Akshat Negi,31/05/2021 12:38:13,content likely used targeted advertising owner,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+300,Akshat Negi,31/05/2021 12:38:14,amazing glad got see amp see,2,Very positive,0.55,0.5,0.0,0.5,0.0,0.0,0,0.00
+301,Akshat Negi,31/05/2021 12:38:14,yu yaki broads hate holdin yall tracks tugether via bobbypins,4,Very negative,-0.80,0.0,0.0,0.0,0.5,0.5,0,0.50
+304,Akshat Negi,31/05/2021 12:38:14,debbie gibson lost eyes hey happy funny weekend,2,Very positive,0.53,0.25,0.0,0.5,0.25,0.0,2,0.50
+307,Akshat Negi,31/05/2021 12:38:14,st main hunter hush changed main x idea w poor st main clueless abt specs etc,1,positive,0.02,0.0,0.0,0.0,0.4,0.6,0,0.60
+315,Akshat Negi,31/05/2021 12:38:15,first kiss crazy years ago shyest guy n world b lmao,1,positive,0.08,0.0,0.0,0.5,0.0,0.5,0,0.50
+316,Akshat Negi,31/05/2021 12:38:15,first time ever going times square nyc heaven wish lived,1,positive,0.25,0.0,0.0,0.6,0.0,0.4,2,0.60
+327,Akshat Negi,31/05/2021 12:38:17,trying failing using pogo stick,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+338,Akshat Negi,31/05/2021 12:38:18,penny sweets actually cost p,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+339,Akshat Negi,31/05/2021 12:38:18,people still bought cassettes used tape radio quality shit,3,negative,-0.20,0.0,0.0,0.5,0.0,0.5,0,0.50
+343,Akshat Negi,31/05/2021 12:38:18,pen pals back elementary school,1,positive,0.15,0.0,0.0,0.0,1.0,0.0,3,1.00
+347,Akshat Negi,31/05/2021 12:38:19,im going watch support thats,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+350,Akshat Negi,31/05/2021 12:38:19,im attempting start trend friends awesome love joe,2,Very positive,0.75,0.67,0.0,0.33,0.0,0.0,0,0.67
+363,Akshat Negi,31/05/2021 12:38:21,hosting reject bstat plugin,0,neutral,0.00,0,0,0,0,0,0,0.00
+367,Akshat Negi,31/05/2021 12:38:21,live stream work firefox,1,positive,0.14,0.0,0.0,0.0,0.0,1.0,0,1.00
+372,Akshat Negi,31/05/2021 12:38:21,soo stuck othr b u got freakin girlfriend things changed,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+379,Akshat Negi,31/05/2021 12:38:22,sorry wife also moonying lovely lady dare deserve,0,neutral,0.00,0.33,0.0,0.0,0.33,0.33,0,0.33
+386,Akshat Negi,31/05/2021 12:38:23,dominance apple laptops continues grow year sun apples bickering java osx really screwed us,1,positive,0.20,0.0,0.0,1.0,0.0,0.0,2,1.00
+387,Akshat Negi,31/05/2021 12:38:23,party good party w hotel even better working tomorrow office afterdark back city,1,positive,0.40,0.33,0.0,0.33,0.0,0.33,0,0.33
+389,Akshat Negi,31/05/2021 12:38:23,ily australia come back shows,0,neutral,0.00,0,0,0,0,0,0,0.00
+391,Akshat Negi,31/05/2021 12:38:23,love love brothers haha p,1,positive,0.40,0.67,0.0,0.33,0.0,0.0,0,0.67
+400,Akshat Negi,31/05/2021 12:38:24,xbox live hmm might dust facebook account also ace twitter integrated wheres myspace,1,positive,0.14,0.0,0.5,0.0,0.25,0.25,1,0.50
+404,Akshat Negi,31/05/2021 12:38:24,perf record pahole buildperfvmlinux gt devnull lets try using perf tools something perf tools,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+406,Akshat Negi,31/05/2021 12:38:25,lt lt lt tried learn day stocks trading friday slow best day take lesson,1,positive,0.35,0.5,0.0,0.25,0.0,0.25,0,0.50
+408,Akshat Negi,31/05/2021 12:38:25,gizzle gave white rose time tell,1,positive,0.30,0.0,0.0,0.0,0.33,0.67,0,0.67
+413,Akshat Negi,31/05/2021 12:38:25,quot love bagsquot feed hungry person www surrender com donate feed makes god,1,positive,0.50,0.33,0.0,0.33,0.33,0.0,0,0.00
+418,Akshat Negi,31/05/2021 12:38:26,trip australia hard money,3,negative,-0.29,0.0,1.0,0.0,0.0,0.0,1,1.00
+422,Akshat Negi,31/05/2021 12:38:26,worth pizza coupons ftw,1,positive,0.30,0.0,0.0,0.0,0.0,1.0,0,1.00
+425,Akshat Negi,31/05/2021 12:38:26,shirt turkoglu going free agent grr turk,3,negative,-0.15,0.5,0.0,0.0,0.0,0.5,0,0.50
+427,Akshat Negi,31/05/2021 12:38:27,apply dream school send application,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+432,Akshat Negi,31/05/2021 12:38:27,amp ot watching game favorite guy yr old brother,1,positive,0.07,0.33,0.0,0.67,0.0,0.0,2,0.67
+435,Akshat Negi,31/05/2021 12:38:27,anyone know download saturdays tt giro ditalia forgot sky,0,neutral,0.00,0.0,1.0,0.0,0.0,0.0,1,1.00
+437,Akshat Negi,31/05/2021 12:38:28,video mono sound left one duplicate onto right channel mac osx cheers,1,positive,0.23,0.33,0.0,0.0,0.0,0.67,0,0.67
+440,Akshat Negi,31/05/2021 12:38:28,want hear duh particularly months amp josey,3,negative,-0.07,0,0,0,0,0,0,0.00
+446,Akshat Negi,31/05/2021 12:38:29,bench rog sheridaaan need reinforced bench awj nugget hellish world player year,0,neutral,0.00,0,0,0,0,0,0,0.00
+448,Akshat Negi,31/05/2021 12:38:29,quot jump aroundquot house pain good times good times,2,Very positive,0.70,0.67,0.0,0.33,0.0,0.0,0,0.67
+450,Akshat Negi,31/05/2021 12:38:29,rainy evening filled letter writing internet poker bad wine sad tragedy,3,negative,-0.27,0.0,0.0,0.0,0.67,0.33,3,0.67
+453,Akshat Negi,31/05/2021 12:38:29,think afford hire someone yard work mr superstar look,0,neutral,0.00,0.0,0.0,0.33,0.0,0.67,0,0.67
+462,Akshat Negi,31/05/2021 12:38:30,game pitching duel good way really ugly way,3,negative,-0.13,0.25,0.0,0.25,0.5,0.0,3,0.50
+465,Akshat Negi,31/05/2021 12:38:31,gen testing af unicode quot amp asdf zxcv asdf qwerty,0,neutral,0.00,0,0,0,0,0,0,0.00
+466,Akshat Negi,31/05/2021 12:38:31,removed configuation file site accident got ta reinstall everything,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+469,Akshat Negi,31/05/2021 12:38:31,amp shout man course jay z tearin tha place always thats tha main event missed,1,positive,0.17,0.0,0.0,0.2,0.4,0.4,0,0.40
+473,Akshat Negi,31/05/2021 12:38:32,amp way good morning excellent sun shiny wonderful happy day,2,Very positive,0.88,0.8,0.0,0.2,0.0,0.0,0,0.80
+477,Akshat Negi,31/05/2021 12:38:32,amp dont im going survive take away hard saymyspacetwitters better u ull ok ive gottwitter day,1,positive,0.24,0.2,0.4,0.2,0.0,0.2,1,0.40
+480,Akshat Negi,31/05/2021 12:38:32,amp mad rained randomly oh umbrella miss u,4,Very negative,-0.56,0.0,0.33,0.0,0.33,0.33,0,0.33
+482,Akshat Negi,31/05/2021 12:38:32,amp likely temp jobintern gives feel coindustry jumping could want hindsight,0,neutral,0.00,0.0,0.0,0.33,0.0,0.67,0,0.67
+486,Akshat Negi,31/05/2021 12:38:33,amp thundering really loud eeek,1,positive,0.10,0.0,0.0,1.0,0.0,0.0,2,1.00
+490,Akshat Negi,31/05/2021 12:38:33,amp rebecca training steph today,0,neutral,0.00,0,0,0,0,0,0,0.00
+491,Akshat Negi,31/05/2021 12:38:33,amp remind pick move heavy things ever gettin old really makes chest killlllll,1,positive,0.03,0.0,0.0,0.6,0.4,0.0,2,0.60
+502,Akshat Negi,31/05/2021 12:38:34,lovely lovely lovely night spent w tim super yay,1,positive,0.35,1.0,0.0,0.0,0.0,0.0,0,1.00
+504,Akshat Negi,31/05/2021 12:38:34,thanks reach give nose kiss,1,positive,0.20,0.0,0.0,0.0,0.0,1.0,0,1.00
+507,Akshat Negi,31/05/2021 12:38:35,ends hrs mins pm uk time pm ny pm la time,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+509,Akshat Negi,31/05/2021 12:38:35,making watch game rivalry game split run youre broadcasting live elsewhere,3,negative,-0.22,0.0,0.0,0.33,0.67,0.0,3,0.67
+511,Akshat Negi,31/05/2021 12:38:35,hummingbird tweetadder dont know dont care gt,0,neutral,0.00,0,0,0,0,0,0,0.00
+513,Akshat Negi,31/05/2021 12:38:35,share bummed store ran donuts mid afternoon amp never got resupplied,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+517,Akshat Negi,31/05/2021 12:38:36,lightning talk ms sketch pad,0,neutral,0.00,0,0,0,0,0,0,0.00
+523,Akshat Negi,31/05/2021 12:38:36,quot stars lidquot radiolab need google lot happens relaxing,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+525,Akshat Negi,31/05/2021 12:38:36,seem singing climb andd cool,1,positive,0.35,0.5,0.0,0.0,0.5,0.0,0,0.00
+527,Akshat Negi,31/05/2021 12:38:37,young l u already know,1,positive,0.10,0,0,0,0,0,0,0.00
+530,Akshat Negi,31/05/2021 12:38:37,coffeeshop sound track,1,positive,0.40,0,0,0,0,0,0,0.00
+537,Akshat Negi,31/05/2021 12:38:37,going go metal listen korn x,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+544,Akshat Negi,31/05/2021 12:38:38,listening jay z quot brooklyn go hardquot damn right bitches,1,positive,0.29,0.0,0.0,0.0,0.0,1.0,0,1.00
+545,Akshat Negi,31/05/2021 12:38:38,listening cruxshawdows amp vnv nation saw cruxshadows live amp seeing vnv nation live july,1,positive,0.14,0,0,0,0,0,0,0.00
+547,Akshat Negi,31/05/2021 12:38:38,marilyn manson arma goddamn motherfuckin geddon,0,neutral,0.00,0,0,0,0,0,0,0.00
+554,Akshat Negi,31/05/2021 12:38:39,soulja boy kiss thru phone amp anything alphabeat rekindling love,1,positive,0.50,1.0,0.0,0.0,0.0,0.0,0,1.00
+559,Akshat Negi,31/05/2021 12:38:39,vote times mcfly www musiqtone com want nice spread world,2,Very positive,0.60,0.5,0.0,0.0,0.0,0.5,0,0.50
+560,Akshat Negi,31/05/2021 12:38:40,yellowcard fffffffttttttttttwwwwwwwww,0,neutral,0.00,0,0,0,0,0,0,0.00
+562,Akshat Negi,31/05/2021 12:38:40,ones got plan spending day pool,0,neutral,0.00,0.33,0.0,0.0,0.0,0.67,0,0.67
+563,Akshat Negi,31/05/2021 12:38:40,playlist music playing metallica fade black,3,negative,-0.17,0.0,0.0,0.0,0.0,1.0,0,1.00
+579,Akshat Negi,31/05/2021 12:38:42,good pianists country music chocolate xx,2,Very positive,0.70,1.0,0.0,0.0,0.0,0.0,0,1.00
+583,Akshat Negi,31/05/2021 12:38:42,quot hequot touch magical nothing like cuddling massaged time miss quot hequot touch,1,positive,0.50,0.0,0.0,0.0,1.0,0.0,3,1.00
+589,Akshat Negi,31/05/2021 12:38:43,man cook mean really cook hmm hmm good,1,positive,0.20,0.5,0.0,0.5,0.0,0.0,0,0.00
+592,Akshat Negi,31/05/2021 12:38:43,beef amp noodles homemade noodles slow stewed wbeef yum,3,negative,-0.30,0,0,0,0,0,0,0.00
+595,Akshat Negi,31/05/2021 12:38:43,darkness brownies n friends im goody two shoes,0,neutral,0.00,0.5,0.0,0.0,0.0,0.5,0,0.50
+597,Akshat Negi,31/05/2021 12:38:43,funny boys amp british accents,1,positive,0.12,0.0,0.0,1.0,0.0,0.0,2,1.00
+599,Akshat Negi,31/05/2021 12:38:43,getting distracted twitter plenty right go,1,positive,0.29,0.0,0.0,0.0,0.67,0.33,3,0.67
+600,Akshat Negi,31/05/2021 12:38:43,good looking models blue denim jeans,1,positive,0.35,0.33,0.0,0.0,0.33,0.33,0,0.33
+601,Akshat Negi,31/05/2021 12:38:44,ha video games wii psp ps pc games name miss rock baaaand,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+610,Akshat Negi,31/05/2021 12:38:45,amp woke cake w candles lit doorstep amp guys keep going could ask better friends,1,positive,0.50,0.25,0.0,0.25,0.0,0.5,0,0.50
+618,Akshat Negi,31/05/2021 12:38:45,amp amp night continues w fav mazie kristina ericka amp amp robin,0,neutral,0.00,0,0,0,0,0,0,0.00
+624,Akshat Negi,31/05/2021 12:38:46,amp going lie degrees thanks leavin sweater molly brrrrr,1,positive,0.20,0.0,0.0,0.0,0.0,1.0,0,1.00
+628,Akshat Negi,31/05/2021 12:38:47,gt husband clients swa vegas show always take good care thanks,1,positive,0.45,0.5,0.0,0.0,0.5,0.0,0,0.00
+630,Akshat Negi,31/05/2021 12:38:47,gt installing windows macmini,0,neutral,0.00,0,0,0,0,0,0,0.00
+631,Akshat Negi,31/05/2021 12:38:47,gt brother laptop cant edit forgot run scans whilst lost cod damm annying,0,neutral,0.00,0.0,0.33,0.33,0.33,0.0,0,0.00
+633,Akshat Negi,31/05/2021 12:38:47,must boring followers least tyra banks following fake real care,3,negative,-0.32,0.0,0.0,0.0,0.75,0.25,3,0.75
+637,Akshat Negi,31/05/2021 12:38:47,using cuss words bad weakness gt lt,4,Very negative,-0.70,0.33,0.33,0.0,0.33,0.0,0,0.00
+643,Akshat Negi,31/05/2021 12:38:48,kids begging snuggles oh running chix bouncy pony tails oh wife course bouncy tail,0,neutral,0.00,0.5,0.0,0.0,0.5,0.0,0,0.00
+644,Akshat Negi,31/05/2021 12:38:48,myweakness sit somewhere lots girls got self confidence body shape,0,neutral,0.00,0.0,0.0,0.25,0.25,0.5,0,0.50
+647,Akshat Negi,31/05/2021 12:38:49,praline pecan ice cream warm apple pie mmmmmmm,2,Very positive,0.60,0.0,0.0,0.0,0.0,1.0,0,1.00
+652,Akshat Negi,31/05/2021 12:38:49,slow dancing tim mcgraw,3,negative,-0.30,0.0,0.0,0.0,0.0,1.0,0,1.00
+654,Akshat Negi,31/05/2021 12:38:49,twitter myspace amp facebook aint got shit know owwww,3,negative,-0.20,0.0,0.0,0.5,0.5,0.0,0,0.00
+657,Akshat Negi,31/05/2021 12:38:49,drools might sway mind could maybe possibly hmmm,0,neutral,0.00,0.0,0.5,0.5,0.0,0.0,0,0.00
+658,Akshat Negi,31/05/2021 12:38:49,still scrolling issues,0,neutral,0.00,0,0,0,0,0,0,0.00
+664,Akshat Negi,31/05/2021 12:38:50,dress code unmentionables approved,0,neutral,0.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+665,Akshat Negi,31/05/2021 12:38:50,people please take break speaking springleap com focus conference sheesh,0,neutral,0.00,0.0,0.0,0.5,0.25,0.25,2,0.50
+670,Akshat Negi,31/05/2021 12:38:50,e starting care nintendo,0,neutral,0.00,0,0,0,0,0,0,0.00
+671,Akshat Negi,31/05/2021 12:38:51,also weekends today taos quot hippiequot bill whaley taos summer love events kkob see radio,1,positive,0.50,0.67,0.0,0.0,0.0,0.33,0,0.67
+680,Akshat Negi,31/05/2021 12:38:51,reppin fav gosspip blog site,0,neutral,0.00,0,0,0,0,0,0,0.00
+682,Akshat Negi,31/05/2021 12:38:52,trending topic makes quite happy spend far much time,1,positive,0.37,0.33,0.0,0.0,0.33,0.33,0,0.33
+683,Akshat Negi,31/05/2021 12:38:52,let slip thru hands sorry,3,negative,-0.50,0.0,0.0,0.0,0.67,0.33,3,0.67
+685,Akshat Negi,31/05/2021 12:38:52,mmm yum search virtual sex,0,neutral,0.00,0,0,0,0,0,0,0.00
+691,Akshat Negi,31/05/2021 12:38:52,til close missing westfest tonight wish back michigan,3,negative,-0.10,0.5,0.0,0.0,0.5,0.0,0,0.00
+693,Akshat Negi,31/05/2021 12:38:53,ufone se uk canada blah blah blah blah blah yeh acha ad naheen hay except creative fun ads ufone,1,positive,0.40,1.0,0.0,0.0,0.0,0.0,0,1.00
+698,Akshat Negi,31/05/2021 12:38:53,girlbook app project management tool za dekleta ane car,0,neutral,0.00,0,0,0,0,0,0,0.00
+701,Akshat Negi,31/05/2021 12:38:53,blocked work computer quot websense category quot gamesquot filteredquot gusta,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+719,Akshat Negi,31/05/2021 12:38:55,im wcing magic againnnnn nice get wcng exp,2,Very positive,0.55,0.5,0.0,0.5,0.0,0.0,0,0.00
+723,Akshat Negi,31/05/2021 12:38:56,hehe tesla amp magnus interesting chemistry lol,2,Very positive,0.65,0.5,0.0,0.0,0.0,0.5,0,0.50
+725,Akshat Negi,31/05/2021 12:38:56,gt besides comedic timing scriptwriting first rate dont banish quot name earlquot runs,1,positive,0.25,0.0,0.0,0.33,0.33,0.33,0,0.33
+727,Akshat Negi,31/05/2021 12:38:56,says hi bbs hope soon bedroom kisses bye,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+728,Akshat Negi,31/05/2021 12:38:56,says hi bbs hope room nice conversation play kisses bye,2,Very positive,0.60,0.2,0.0,0.2,0.0,0.6,0,0.60
+729,Akshat Negi,31/05/2021 12:38:57,help needed local radiator repair shops,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+734,Akshat Negi,31/05/2021 12:38:57,cover types photography possible laaah events portraits sports travel guess main ones,1,positive,0.08,0.0,0.0,0.2,0.0,0.8,0,0.80
+742,Akshat Negi,31/05/2021 12:38:58,st social event plays live twitterfeed feel u guys scary u gr job tho go u,3,negative,-0.11,0.0,0.0,0.0,0.0,1.0,0,1.00
+747,Akshat Negi,31/05/2021 12:38:58,would amazing iphone garden linked speakers millions tracks demand sadly,1,positive,0.05,0.0,0.0,0.5,0.0,0.5,0,0.50
+748,Akshat Negi,31/05/2021 12:38:58,one biggest joys european,0,neutral,0.00,0,0,0,0,0,0,0.00
+754,Akshat Negi,31/05/2021 12:38:59,feel like ill never lucky fuck life,3,negative,-0.36,0.67,0.0,0.0,0.0,0.33,0,0.67
+756,Akshat Negi,31/05/2021 12:38:59,double daily disappointment,3,negative,-0.20,0.0,0.0,0.0,1.0,0.0,3,1.00
+759,Akshat Negi,31/05/2021 12:38:59,glad see twitterific fixed enjoying mountains,1,positive,0.37,1.0,0.0,0.0,0.0,0.0,0,1.00
+760,Akshat Negi,31/05/2021 12:38:59,yet give free iphone gift card sad,3,negative,-0.05,0.33,0.0,0.0,0.33,0.33,0,0.33
+762,Akshat Negi,31/05/2021 12:39:00,hmmm watched ep prison break w see wha ending would like,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+764,Akshat Negi,31/05/2021 12:39:00,project wrong work due today amp boss redo days work hours iphone would make day,3,negative,-0.31,0.33,0.0,0.0,0.17,0.5,0,0.50
+773,Akshat Negi,31/05/2021 12:39:01,gt gt gt tweet amp send url ask donate panties auction deal,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+774,Akshat Negi,31/05/2021 12:39:01,gt gt gt gt gt gt lt lt lt dope poet gorgeous girlll make sure u show follow friday love,2,Very positive,0.57,0.4,0.0,0.2,0.2,0.2,0,0.40
+777,Akshat Negi,31/05/2021 12:39:01,gt lt stomach giving probs since last week thought juz minor tingie apparently,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+784,Akshat Negi,31/05/2021 12:39:02,lt miles go course hit friday rush hour,0,neutral,0.00,0.5,0.5,0.0,0.0,0.0,0,0.00
+787,Akshat Negi,31/05/2021 12:39:02,lt gbye second year old self replace patch,1,positive,0.05,0.0,0.0,0.0,0.0,1.0,0,1.00
+791,Akshat Negi,31/05/2021 12:39:03,lt crying twilight saga audio cd burned play cd players,3,negative,-0.20,0.0,0.0,0.0,0.5,0.5,0,0.50
+795,Akshat Negi,31/05/2021 12:39:03,lt phone hannah cheesin,0,neutral,0.00,0,0,0,0,0,0,0.00
+798,Akshat Negi,31/05/2021 12:39:03,iphone contest come baby come come papa,0,neutral,0.00,0,0,0,0,0,0,0.00
+799,Akshat Negi,31/05/2021 12:39:03,jailbreak iphone yooouuu,0,neutral,0.00,0,0,0,0,0,0,0.00
+806,Akshat Negi,31/05/2021 12:39:04,one billion like one infinity,0,neutral,0.00,0,0,0,0,0,0,0.00
+810,Akshat Negi,31/05/2021 12:39:05,may th celebration fab cafe tonight think go wanted chewbacca,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+812,Akshat Negi,31/05/2021 12:39:05,someone working polling hours fml,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+814,Akshat Negi,31/05/2021 12:39:05,im gorilla playing air tonight drums im proud,2,Very positive,0.80,0.5,0.0,0.0,0.0,0.5,0,0.50
+818,Akshat Negi,31/05/2021 12:39:05,india bubbaiye wink wink,0,neutral,0.00,0,0,0,0,0,0,0.00
+820,Akshat Negi,31/05/2021 12:39:06,google group discuss next technight interested join amp suggest ideas,1,positive,0.12,0.5,0.0,0.5,0.0,0.0,0,0.00
+821,Akshat Negi,31/05/2021 12:39:06,apps opened yesterday btw amp supposed announce fellows ysterday tedgloobal fellows anncement,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+823,Akshat Negi,31/05/2021 12:39:06,recommend everyone ever met drink,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+829,Akshat Negi,31/05/2021 12:39:06,friends finally tweet pick children school,0,neutral,0.00,0.5,0.0,0.0,0.0,0.5,0,0.50
+830,Akshat Negi,31/05/2021 12:39:07,pepsi cola company forms company surely touched lives many,1,positive,0.50,0.0,0.0,0.0,1.0,0.0,3,1.00
+831,Akshat Negi,31/05/2021 12:39:07,get front lens want models feel shooting selfportrait better photog,1,positive,0.50,0.0,0.0,0.33,0.0,0.67,0,0.67
+836,Akshat Negi,31/05/2021 12:39:07,anticlockwise jct stationary reports jct amp got avoid like plague,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+837,Akshat Negi,31/05/2021 12:39:07,left min early cancelled next train,1,positive,0.03,0,0,0,0,0,0,0.00
+840,Akshat Negi,31/05/2021 12:39:07,dont know bout trey songz mike tyson ramp b sings amp raps get familiar,1,positive,0.38,0.0,0.5,0.0,0.5,0.0,0,0.00
+854,Akshat Negi,31/05/2021 12:39:09,lt pants firmly attached hips,3,negative,-0.20,0.33,0.0,0.33,0.0,0.33,0,0.33
+860,Akshat Negi,31/05/2021 12:39:09,lt lt jbuck sweepstakes,0,neutral,0.00,0,0,0,0,0,0,0.00
+864,Akshat Negi,31/05/2021 12:39:10,lt lt lt lt made tyouwish,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+867,Akshat Negi,31/05/2021 12:39:10,lt stuff like makes happy work rocnation,2,Very positive,0.80,0.25,0.25,0.0,0.25,0.25,0,0.25
+870,Akshat Negi,31/05/2021 12:39:10,lt new banner cuuutttee,1,positive,0.14,0,0,0,0,0,0,0.00
+878,Akshat Negi,31/05/2021 12:39:11,lt lvatt mustve listened whole cd times already give take doesnt get less exciting,1,positive,0.11,0.0,0.0,0.0,0.33,0.67,0,0.67
+883,Akshat Negi,31/05/2021 12:39:12,lt im mcfly mood lol amazing im listening girl right nowww,2,Very positive,0.56,0.0,0.0,0.5,0.25,0.25,2,0.50
+888,Akshat Negi,31/05/2021 12:39:12,lt ss hot korean boys day,1,positive,0.25,0.5,0.0,0.0,0.5,0.0,0,0.00
+890,Akshat Negi,31/05/2021 12:39:13,let change setting people still whitelisted change usernames,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+891,Akshat Negi,31/05/2021 12:39:13,blag sales people twitter,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+892,Akshat Negi,31/05/2021 12:39:13,disastrous combination didnt need relaunch often,4,Very negative,-0.70,0.0,0.0,0.0,0.5,0.5,0,0.50
+893,Akshat Negi,31/05/2021 12:39:13,please note someone sent character dm cool,1,positive,0.35,0.2,0.0,0.0,0.2,0.6,0,0.60
+895,Akshat Negi,31/05/2021 12:39:13,ever played naked twister havent got yet,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+899,Akshat Negi,31/05/2021 12:39:13,happening tonight pole dancing guys girls mardi gras utama pm,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+902,Akshat Negi,31/05/2021 12:39:14,henry hatsworth puzzling adventure quality ds game everyone ds try think mario rockmanx,3,negative,-0.40,0.0,0.0,0.67,0.0,0.33,2,0.67
+904,Akshat Negi,31/05/2021 12:39:14,e ness black white footlocker tees closet,3,negative,-0.08,0.0,0.0,0.0,0.0,1.0,0,1.00
+911,Akshat Negi,31/05/2021 12:39:15,says ever done biggest sin go hot hell,1,positive,0.25,0.0,0.0,0.67,0.33,0.0,2,0.67
+912,Akshat Negi,31/05/2021 12:39:15,says lets enjoy nice weekend together lets make things better together,1,positive,0.50,0.25,0.0,0.38,0.38,0.0,0,0.00
+914,Akshat Negi,31/05/2021 12:39:15,game come get raffle tickets support olive crest great prizes ramps food,1,positive,0.20,0.33,0.33,0.0,0.0,0.33,0,0.33
+915,Akshat Negi,31/05/2021 12:39:15,good pool news red rock amp always welcomes locals w free palazzo ventian f enjoy,1,positive,0.38,0.57,0.14,0.0,0.14,0.14,0,0.57
+916,Akshat Negi,31/05/2021 12:39:15,oh amp entry starts free drinks w concert usually around,1,positive,0.08,1.0,0.0,0.0,0.0,0.0,0,1.00
+921,Akshat Negi,31/05/2021 12:39:16,lt make sure u tune watch dun dun show shes fckin movie lol,2,Very positive,0.65,0.0,0.4,0.2,0.2,0.2,1,0.40
+923,Akshat Negi,31/05/2021 12:39:16,lt wishes road america,0,neutral,0.00,0,0,0,0,0,0,0.00
+926,Akshat Negi,31/05/2021 12:39:16,quot ah rhyno wey yuh dis ah fine yuhquot smh fri going live bad going miss,3,negative,-0.05,0.2,0.0,0.0,0.4,0.4,0,0.40
+927,Akshat Negi,31/05/2021 12:39:17,quot coz deep quot really hmmm well bad ice cream trick,3,negative,-0.17,0.0,0.0,0.67,0.33,0.0,2,0.67
+928,Akshat Negi,31/05/2021 12:39:17,quot reasonquot following,0,neutral,0.00,0,0,0,0,0,0,0.00
+934,Akshat Negi,31/05/2021 12:39:17,quot je te promets quot zaho favourite song moment,0,neutral,0.00,0.5,0.0,0.0,0.0,0.5,0,0.50
+935,Akshat Negi,31/05/2021 12:39:17,quot great smile quot thank got comment demiquot single la la land music video haha really good smile,1,positive,0.37,0.67,0.0,0.17,0.0,0.17,0,0.67
+953,Akshat Negi,31/05/2021 12:39:19,mtv music awards live u want watch cant wait till tomorow taped live cus edited,1,positive,0.14,0.0,0.33,0.67,0.0,0.0,2,0.67
+959,Akshat Negi,31/05/2021 12:39:20,birds flying around airport cute,1,positive,0.50,0.33,0.33,0.0,0.0,0.33,0,0.33
+975,Akshat Negi,31/05/2021 12:39:21,job blows deep breaths clayton,0,neutral,0.00,0.0,0.0,0.67,0.0,0.33,2,0.67
+977,Akshat Negi,31/05/2021 12:39:22,going amazing weather weekend feels like april june,2,Very positive,0.60,0.33,0.0,0.33,0.0,0.33,0,0.33
+978,Akshat Negi,31/05/2021 12:39:22,heads creative partnerships pens motion mention accompanying funding,1,positive,0.50,0.0,0.0,0.0,0.0,1.0,0,1.00
+979,Akshat Negi,31/05/2021 12:39:22,crocked installation office forced uninstall grrr,3,negative,-0.50,0.0,0.5,0.0,0.0,0.5,0,0.50
+984,Akshat Negi,31/05/2021 12:39:22,sending us back pencil paper camp,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+991,Akshat Negi,31/05/2021 12:39:23,pleasure guys hope tweet next year good fight good night til,1,positive,0.47,0.6,0.0,0.0,0.2,0.2,0,0.60
+992,Akshat Negi,31/05/2021 12:39:23,liverpool used win trophies pmsl things better come united,2,Very positive,0.65,0.0,0.0,1.0,0.0,0.0,2,1.00
+996,Akshat Negi,31/05/2021 12:39:24,loves orange soda kel lovs orange soda doooo lol,2,Very positive,0.80,1.0,0.0,0.0,0.0,0.0,0,1.00
+1004,Akshat Negi,31/05/2021 12:39:25,quot quot e mail miley want write cant,0,neutral,0.00,0,0,0,0,0,0,0.00
+1006,Akshat Negi,31/05/2021 12:39:25,quot quot best love give e mail want write cant,2,Very positive,0.75,0.33,0.0,0.33,0.0,0.33,0,0.33
+1007,Akshat Negi,31/05/2021 12:39:25,quot quot e mail miley want write cant,0,neutral,0.00,0,0,0,0,0,0,0.00
+1010,Akshat Negi,31/05/2021 12:39:25,quot students beaten last night dorm died today university wore black today repost iran,3,negative,-0.08,0.0,0.0,0.5,0.0,0.5,0,0.50
+1024,Akshat Negi,31/05/2021 12:39:27,quot always nice talking jacob quot,2,Very positive,0.60,0.5,0.0,0.0,0.5,0.0,0,0.00
+1025,Akshat Negi,31/05/2021 12:39:27,quot daddy took boot quot oh love tarzan seen long always cry much movie though,1,positive,0.22,0.2,0.0,0.2,0.4,0.2,3,0.40
+1026,Akshat Negi,31/05/2021 12:39:27,quot every story ever told part youquot yellowcard go,0,neutral,0.00,0.0,0.0,0.5,0.5,0.0,0,0.00
+1029,Akshat Negi,31/05/2021 12:39:28,quot cursing name quot literal right song lyrics sfshkfhskjfhksdjfh,1,positive,0.29,0.0,0.0,0.0,0.0,1.0,0,1.00
+1032,Akshat Negi,31/05/2021 12:39:28,sucks layin watchin doggy wish got better,1,positive,0.10,0.0,0.0,1.0,0.0,0.0,2,1.00
+1035,Akshat Negi,31/05/2021 12:39:28,time last year still dublin one bestest close friends know p year leeds trade,0,neutral,0.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+1036,Akshat Negi,31/05/2021 12:39:28,much needed feel free thank lord,1,positive,0.30,1.0,0.0,0.0,0.0,0.0,0,1.00
+1043,Akshat Negi,31/05/2021 12:39:29,time n da da e da airtrain dance jfk,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1044,Akshat Negi,31/05/2021 12:39:29,time get dressed lol go outside scare people real world,1,positive,0.33,0.0,0.0,0.0,1.0,0.0,3,1.00
+1047,Akshat Negi,31/05/2021 12:39:29,mobile coming new phones outdate current phone right get,1,positive,0.14,0.0,0.0,0.5,0.0,0.5,0,0.50
+1049,Akshat Negi,31/05/2021 12:39:29,today completed year current organization today go office bad,3,negative,-0.35,0.0,0.0,0.0,1.0,0.0,3,1.00
+1052,Akshat Negi,31/05/2021 12:39:30,today going loooong day want weekend back,0,neutral,0.00,0.5,0.0,0.0,0.0,0.5,0,0.50
+1054,Akshat Negi,31/05/2021 12:39:30,today day last school day costume ready bit saddd im going miss guys much,1,positive,0.13,0.6,0.0,0.0,0.2,0.2,0,0.60
+1056,Akshat Negi,31/05/2021 12:39:30,today sucks like week,3,negative,-0.30,0,0,0,0,0,0,0.00
+1057,Akshat Negi,31/05/2021 12:39:30,todays getting worse moment im going finish packing study fall asleep,3,negative,-0.40,0.0,0.25,0.0,0.25,0.5,0,0.50
+1062,Akshat Negi,31/05/2021 12:39:31,donkey kong attempt concluded sooooo close still better ever,1,positive,0.50,0.33,0.0,0.67,0.0,0.0,2,0.67
+1069,Akshat Negi,31/05/2021 12:39:31,lost iphone dm u found maybe lost ladies room upstairs,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+1074,Akshat Negi,31/05/2021 12:39:32,another june writing goal get people consider shameless plug fri nite writing challenge,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+1076,Akshat Negi,31/05/2021 12:39:32,india vs south africa begins time even worth watch sad indian cricket,3,negative,-0.10,0.0,0.0,0.33,0.33,0.33,0,0.33
+1083,Akshat Negi,31/05/2021 12:39:33,kimberley oh man nd person say lol,2,Very positive,0.80,0.0,0.0,1.0,0.0,0.0,2,1.00
+1085,Akshat Negi,31/05/2021 12:39:33,william park would buy st anal scene dvd heartbeat yo,0,neutral,0.00,0.0,0.0,0.0,0.33,0.67,0,0.67
+1086,Akshat Negi,31/05/2021 12:39:33,wafflehouse even made sweet tea yet,1,positive,0.35,0.0,0.0,0.0,1.0,0.0,3,1.00
+1089,Akshat Negi,31/05/2021 12:39:33,souljaboy crank iwie verarsche,0,neutral,0.00,0,0,0,0,0,0,0.00
+1093,Akshat Negi,31/05/2021 12:39:33,quot aphquot cute funny,1,positive,0.38,0.5,0.0,0.5,0.0,0.0,0,0.00
+1094,Akshat Negi,31/05/2021 12:39:33,quot human dancersquot,0,neutral,0.00,0,0,0,0,0,0,0.00
+1096,Akshat Negi,31/05/2021 12:39:34,quot lady quot everyone thinks sound like woman phone gosh im gay,1,positive,0.41,0.5,0.0,0.5,0.0,0.0,0,0.00
+1100,Akshat Negi,31/05/2021 12:39:34,quot bad luck picks company invitation quot think thatttt ps im unavailable rsvp dont love good days,1,positive,0.17,0.67,0.0,0.17,0.17,0.0,0,0.67
+1107,Akshat Negi,31/05/2021 12:39:35,quot beatquot assassins creed little closure indeed,3,negative,-0.19,0.0,0.0,1.0,0.0,0.0,2,1.00
+1109,Akshat Negi,31/05/2021 12:39:35,quot stormquot count best song ever done compare others haha,2,Very positive,0.60,0.0,0.0,0.67,0.0,0.33,2,0.67
+1112,Akshat Negi,31/05/2021 12:39:35,quot better understand little misunderstand lotquot good mornong,1,positive,0.34,0.5,0.0,0.5,0.0,0.0,0,0.00
+1117,Akshat Negi,31/05/2021 12:39:36,quot blip fm undergoing maintenance quot sorry music tweets shaking already,3,negative,-0.50,0.0,0.0,0.5,0.5,0.0,0,0.00
+1123,Akshat Negi,31/05/2021 12:39:37,missed spot today someone putting online,0,neutral,0.00,0.0,0.0,0.0,0.67,0.33,3,0.67
+1125,Akshat Negi,31/05/2021 12:39:37,thats main part done clean consolidation projects done,1,positive,0.27,0.0,0.0,0.0,0.0,1.0,0,1.00
+1127,Akshat Negi,31/05/2021 12:39:37,twitter hour downtime tomorrow survive without twitter,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1131,Akshat Negi,31/05/2021 12:39:38,see course see every reply might drown stream ideally would let u choose clientside,2,Very positive,0.90,0.0,0.33,0.0,0.33,0.33,0,0.33
+1138,Akshat Negi,31/05/2021 12:39:38,nd break venetian deep stack break,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1149,Akshat Negi,31/05/2021 12:39:39,two summer classes damn,0,neutral,0.00,0.5,0.0,0.5,0.0,0.0,0,0.00
+1151,Akshat Negi,31/05/2021 12:39:39,seems like expensive shipping ever whats anyway ordered another bag,3,negative,-0.50,0.0,0.0,0.5,0.5,0.0,0,0.00
+1154,Akshat Negi,31/05/2021 12:39:40,q stopped cent loss hmmm long short stopped today,3,negative,-0.03,0.0,0.5,0.0,0.0,0.5,0,0.50
+1156,Akshat Negi,31/05/2021 12:39:40,sqnm closed today volume almost million let us keep going,3,negative,-0.10,0.33,0.0,0.0,0.33,0.33,0,0.33
+1157,Akshat Negi,31/05/2021 12:39:40,tsys nice shakeout support dma although recent quarter eps disappoints,1,positive,0.30,0.33,0.0,0.0,0.67,0.0,3,0.67
+1160,Akshat Negi,31/05/2021 12:39:40,amp chivers friends againnnnnnnnnn xd yay im bored packing,3,negative,-0.50,0.5,0.0,0.0,0.5,0.0,0,0.00
+1163,Akshat Negi,31/05/2021 12:39:41,amp drew consecutive games beer pong till got tired amp yancey replaced p going never,3,negative,-0.40,0.0,0.0,0.0,0.0,1.0,0,1.00
+1169,Akshat Negi,31/05/2021 12:39:41,amp get text everyone except one person really want talk fall hard quick,1,positive,0.08,0.0,0.67,0.33,0.0,0.0,1,0.67
+1173,Akshat Negi,31/05/2021 12:39:42,amp im major need new cookware dinnerware basically im sucky housewife making,1,positive,0.10,0.0,0.0,0.0,0.5,0.5,0,0.50
+1176,Akshat Negi,31/05/2021 12:39:42,amp amp running work got big project im working update u later,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1180,Akshat Negi,31/05/2021 12:39:43,amp may mileynileymustin war begin dnt u guy c ur ppl hating eachother wrongg,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+1184,Akshat Negi,31/05/2021 12:39:43,amp chips side dish wow im healthy health plus actually isnt healthy,1,positive,0.28,0.0,0.0,0.5,0.5,0.0,0,0.00
+1187,Akshat Negi,31/05/2021 12:39:43,amp sorry teplying u guys yesterday reply later,3,negative,-0.25,0.0,0.0,0.0,1.0,0.0,3,1.00
+1189,Akshat Negi,31/05/2021 12:39:44,amp epic journey begun monsoon savannah lost itinerary amp gate record breaking min b take good sign hope,1,positive,0.40,0.2,0.0,0.2,0.2,0.4,0,0.40
+1191,Akshat Negi,31/05/2021 12:39:44,amp exactly decided stand better alone anyways,1,positive,0.38,0.0,0.0,0.25,0.25,0.5,0,0.50
+1196,Akshat Negi,31/05/2021 12:39:44,amp know phone call today fucking hurt something could worked given chance,4,Very negative,-0.60,0.2,0.0,0.0,0.2,0.6,0,0.60
+1199,Akshat Negi,31/05/2021 12:39:45,amp amp going perfect even know dreams real anything become reality ipromise,2,Very positive,0.60,0.0,0.0,0.0,0.67,0.33,3,0.67
+1201,Akshat Negi,31/05/2021 12:39:45,amp amp see butterflies returnn lt midland rockedd cant wait party summer grounded,0,neutral,0.00,0.33,0.0,0.67,0.0,0.0,2,0.67
+1205,Akshat Negi,31/05/2021 12:39:46,amp bang back divine weekend really miss feelin small vacation friends en fun,1,positive,0.06,0.5,0.0,0.25,0.25,0.0,0,0.50
+1210,Akshat Negi,31/05/2021 12:39:46,amp never gotten closure maybe closure moving onamp happy would like optimistic amp hope actually,1,positive,0.40,0.25,0.0,0.25,0.0,0.5,0,0.50
+1211,Akshat Negi,31/05/2021 12:39:46,amp waving madly tweet twitters peeps pc issues missed everyone love amp blessings,3,negative,-0.06,0.4,0.0,0.0,0.4,0.2,0,0.20
+1215,Akshat Negi,31/05/2021 12:39:47,gt old school pc advertisement commodore pc haha,1,positive,0.15,0,0,0,0,0,0,0.00
+1222,Akshat Negi,31/05/2021 12:39:48,twitter freezing poor fucking computer sigh back later,3,negative,-0.25,0.33,0.0,0.0,0.67,0.0,3,0.67
+1225,Akshat Negi,31/05/2021 12:39:48,typing couple tutorials tweaking wordpress code next post come tweak form style subscribe plugin,0,neutral,0.00,0.0,0.0,0.0,0.67,0.33,3,0.67
+1226,Akshat Negi,31/05/2021 12:39:48,typo lets try happy sunday watching quot earth madequot palio indians,2,Very positive,0.80,0.25,0.0,0.5,0.25,0.0,2,0.50
+1228,Akshat Negi,31/05/2021 12:39:48,ugh want everything okay,1,positive,0.50,0.0,0.0,0.0,1.0,0.0,3,1.00
+1230,Akshat Negi,31/05/2021 12:39:49,uhm science verrrry boring long grrr,4,Very negative,-0.58,0.0,0.33,0.0,0.33,0.33,0,0.33
+1235,Akshat Negi,31/05/2021 12:39:49,unfortunately quot mattiquot available friendly url facebook gt got like,1,positive,0.09,0.5,0.0,0.0,0.5,0.0,0,0.00
+1236,Akshat Negi,31/05/2021 12:39:49,ur callin big dummy seeee ppl go mental housue cuz ppl lik u ruin livs sayn meanie stuff angel,3,negative,-0.05,0.0,0.5,0.0,0.5,0.0,0,0.00
+1239,Akshat Negi,31/05/2021 12:39:50,via sanjay dutt gets parents name tattooed chest sanju baba retarded,4,Very negative,-0.80,0.0,0.0,0.0,0.0,1.0,0,1.00
+1243,Akshat Negi,31/05/2021 12:39:50,wait need work things see u minutes thats studio,0,neutral,0.00,0.0,0.0,0.67,0.0,0.33,2,0.67
+1245,Akshat Negi,31/05/2021 12:39:50,want sessions ronnie da bomb u know,0,neutral,0.00,0,0,0,0,0,0,0.00
+1248,Akshat Negi,31/05/2021 12:39:51,wants go ajax experience,1,positive,0.20,0,0,0,0,0,0,0.00
+1254,Akshat Negi,31/05/2021 12:39:51,quot cannedquot abcs schedule bad news,4,Very negative,-0.70,0.0,0.0,0.0,1.0,0.0,3,1.00
+1255,Akshat Negi,31/05/2021 12:39:51,quot cant stevie wonder quot gabe called sleepypants gaby,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1261,Akshat Negi,31/05/2021 12:39:52,quot clearly life cavalcade misfortunequot says whine amp evn stream obsolete iphone,1,positive,0.10,0.0,0.0,0.5,0.0,0.5,0,0.50
+1264,Akshat Negi,31/05/2021 12:39:53,quot comedy central reverter back nickelodeon ntl digitalquot new indication stayed late enough working,3,negative,-0.03,0.0,0.25,0.25,0.25,0.25,0,0.25
+1266,Akshat Negi,31/05/2021 12:39:53,quot cosatu icasa ordered cover legal costsquot haha beautiful,1,positive,0.42,0.5,0.0,0.0,0.0,0.5,0,0.50
+1268,Akshat Negi,31/05/2021 12:39:53,quot daddyquot got air conditioner,0,neutral,0.00,0,0,0,0,0,0,0.00
+1273,Akshat Negi,31/05/2021 12:39:54,quot math minus youquot quot get friends much hotter quot ahhh remember love jonas brothers,1,positive,0.20,0.67,0.0,0.33,0.0,0.0,0,0.67
+1275,Akshat Negi,31/05/2021 12:39:54,quot like bread quot quot beard quot wtf confused com advert,3,negative,-0.45,0.0,0.33,0.0,0.33,0.33,0,0.33
+1276,Akshat Negi,31/05/2021 12:39:54,quot ears hang low wait would ears hang low oh forgot elephants quot always intelligent,1,positive,0.27,0.0,0.17,0.17,0.5,0.17,3,0.50
+1277,Akshat Negi,31/05/2021 12:39:54,quot regret quot dont,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1290,Akshat Negi,31/05/2021 12:39:56,watching miley mandy show girls crazy love p,3,negative,-0.05,0.25,0.0,0.5,0.0,0.25,2,0.50
+1295,Akshat Negi,31/05/2021 12:39:56,welcome next couple weeks crazy busy less weeks till marathon,1,positive,0.03,0.33,0.0,0.0,0.0,0.67,0,0.67
+1297,Akshat Negi,31/05/2021 12:39:56,well think become actor rather convicing,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+1298,Akshat Negi,31/05/2021 12:39:56,well ima go emo cry thanks guys thanks,1,positive,0.20,0,0,0,0,0,0,0.00
+1299,Akshat Negi,31/05/2021 12:39:57,miss rodney harrison please pull brett favre,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1310,Akshat Negi,31/05/2021 12:39:57,aires probably asleep clock like mean airs clock west side haha know,3,negative,-0.06,0.0,0.5,0.0,0.0,0.5,0,0.50
+1312,Akshat Negi,31/05/2021 12:39:58,gt anyone going selling tickets really want go,1,positive,0.20,0.0,0.0,0.5,0.0,0.5,0,0.50
+1314,Akshat Negi,31/05/2021 12:39:58,gt take stroll maybe snack get ingredients dinner ideas x,0,neutral,0.00,0,0,0,0,0,0,0.00
+1321,Akshat Negi,31/05/2021 12:39:59,gt dlt thanks everyone wished happy birthday esp sisters love guys enjoyed bday def time lay,1,positive,0.50,1.0,0.0,0.0,0.0,0.0,0,1.00
+1322,Akshat Negi,31/05/2021 12:39:59,gt stil took shopping,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1324,Akshat Negi,31/05/2021 12:39:59,gt shiverslt huge spider room mean biiig one mind outside inside,1,positive,0.03,0.0,0.0,0.5,0.0,0.5,0,0.50
+1326,Akshat Negi,31/05/2021 12:39:59,lt arrongt probably quite creative piku,1,positive,0.50,0.0,0.0,0.0,0.0,1.0,0,1.00
+1330,Akshat Negi,31/05/2021 12:40:00,lt feels sad followers must boring,4,Very negative,-0.75,0.0,0.0,0.0,1.0,0.0,3,1.00
+1333,Akshat Negi,31/05/2021 12:40:00,lt huge gadget geek early adopter answer quot quot lol,1,positive,0.43,0,0,0,0,0,0,0.00
+1337,Akshat Negi,31/05/2021 12:40:00,lt moving norway oslo saturday,0,neutral,0.00,0,0,0,0,0,0,0.00
+1341,Akshat Negi,31/05/2021 12:40:01,quot hottie bodyquot points kick shes ginger already got like points fair,2,Very positive,0.70,0.0,0.0,1.0,0.0,0.0,2,1.00
+1350,Akshat Negi,31/05/2021 12:40:02,busy tweet know im busy tweet im entertained lol,1,positive,0.33,0.0,0.0,0.0,0.0,1.0,0,1.00
+1351,Akshat Negi,31/05/2021 12:40:02,iphone update taking long,3,negative,-0.05,0.0,0.0,0.5,0.0,0.5,0,0.50
+1353,Akshat Negi,31/05/2021 12:40:02,twitter acting weird follow want follow lists wacky,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1356,Akshat Negi,31/05/2021 12:40:02,working way pm dis week,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1362,Akshat Negi,31/05/2021 12:40:03,wishes friends twitter gosh,0,neutral,0.00,0.5,0.0,0.0,0.5,0.0,0,0.00
+1365,Akshat Negi,31/05/2021 12:40:03,woke major heartburn owww,1,positive,0.06,0.0,1.0,0.0,0.0,0.0,1,1.00
+1375,Akshat Negi,31/05/2021 12:40:04,quot dreamin things never happenquot,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1378,Akshat Negi,31/05/2021 12:40:05,quot emancipate mental slavery none free mindquot bob marley,1,positive,0.15,1.0,0.0,0.0,0.0,0.0,0,1.00
+1384,Akshat Negi,31/05/2021 12:40:05,quot even sweetest thing earth hurt quot toothache hahaha message mhenggay,1,positive,0.20,0.0,0.0,0.67,0.33,0.0,2,0.67
+1391,Akshat Negi,31/05/2021 12:40:06,quot everyone wants cockblock quot best fraaaaand,2,Very positive,0.60,0.0,0.0,1.0,0.0,0.0,2,1.00
+1395,Akshat Negi,31/05/2021 12:40:07,quot fading awayquot demon hunter,0,neutral,0.00,0,0,0,0,0,0,0.00
+1398,Akshat Negi,31/05/2021 12:40:07,work two hours want stay home dance sing along music,0,neutral,0.00,0.0,0.25,0.0,0.25,0.5,0,0.50
+1399,Akshat Negi,31/05/2021 12:40:07,work rawr showered jersey yesterday volumizing shampoo looks like lioness,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1400,Akshat Negi,31/05/2021 12:40:08,work tomorrow lazy day completly passed jog weird usually eat hungry hmm,3,negative,-0.33,0.2,0.2,0.0,0.2,0.4,0,0.40
+1406,Akshat Negi,31/05/2021 12:40:08,sounds spring im going soooo many music festivals next year soon im lol,1,positive,0.43,0.0,0.0,0.5,0.0,0.5,0,0.50
+1409,Akshat Negi,31/05/2021 12:40:08,yall never help im depressed imma eat currreal amp turkey sammmich,0,neutral,0.00,0.0,0.0,0.33,0.33,0.33,0,0.33
+1411,Akshat Negi,31/05/2021 12:40:09,yay ice cream truck playing pretty music outside office window,1,positive,0.12,0.5,0.0,0.0,0.0,0.5,0,0.50
+1412,Akshat Negi,31/05/2021 12:40:09,yay watching sunrise bright n early tommorrow mitsu kenz gg sleep,1,positive,0.40,0.5,0.0,0.5,0.0,0.0,0,0.00
+1416,Akshat Negi,31/05/2021 12:40:09,yes look shit u made riots inocent yrs old girl father struggling take dgt bck life,3,negative,-0.05,0.0,0.0,0.33,0.33,0.33,0,0.33
+1419,Akshat Negi,31/05/2021 12:40:10,remind write izzy lol aka zoo,2,Very positive,0.80,0,0,0,0,0,0,0.00
+1420,Akshat Negi,31/05/2021 12:40:10,yumm love chicken fried rice,3,negative,-0.05,0.5,0.0,0.0,0.0,0.5,0,0.50
+1426,Akshat Negi,31/05/2021 12:40:10,dropped metal measuring spoons rotating garbage disposal wah fave set ms poons,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1431,Akshat Negi,31/05/2021 12:40:11,thinking xhr move would work space available,1,positive,0.40,0.0,0.0,0.33,0.0,0.67,0,0.67
+1435,Akshat Negi,31/05/2021 12:40:11,pairs converse counting wh else loves converse much favorite black monochrome hi amp lows,1,positive,0.17,0.5,0.0,0.0,0.25,0.25,0,0.50
+1437,Akshat Negi,31/05/2021 12:40:11,identica currently rather severe problems concerning performance availability gateway twitter laconica,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+1438,Akshat Negi,31/05/2021 12:40:12,identica group quot joinquot buttons working,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+1441,Akshat Negi,31/05/2021 12:40:12,listening tech abfahrt hinwil links berge rechts seen week old daughter likes thanks fm,1,positive,0.15,0,0,0,0,0,0,0.00
+1451,Akshat Negi,31/05/2021 12:40:14,question baby hospital tour plugin laptop quot pls unplug equipment quot,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1453,Akshat Negi,31/05/2021 12:40:14,lt doin action kids wish ya nice sunday see ya,1,positive,0.35,0.67,0.0,0.0,0.0,0.33,0,0.67
+1454,Akshat Negi,31/05/2021 12:40:14,lt everyone wanted list say outlandish things happen true,1,positive,0.35,0.0,0.0,1.0,0.0,0.0,2,1.00
+1462,Akshat Negi,31/05/2021 12:40:15,lt keep trying show list ppl following read directly,1,positive,0.05,0,0,0,0,0,0,0.00
+1465,Akshat Negi,31/05/2021 12:40:15,lt need day jus sayin,0,neutral,0.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+1474,Akshat Negi,31/05/2021 12:40:16,lt sunday mornings made good coffeebreakfast bread gon na little yoga bit morning,1,positive,0.26,0.5,0.0,0.0,0.5,0.0,0,0.00
+1480,Akshat Negi,31/05/2021 12:40:17,lt c b major headache today sucked,1,positive,0.06,0.0,0.0,0.0,0.0,1.0,0,1.00
+1482,Akshat Negi,31/05/2021 12:40:17,consigo baixar fix face,0,neutral,0.00,0,0,0,0,0,0,0.00
+1484,Akshat Negi,31/05/2021 12:40:17,well part ea press conference talked topical,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1489,Akshat Negi,31/05/2021 12:40:18,sizzling spicy smoldering,0,neutral,0.00,0.0,1.0,0.0,0.0,0.0,1,1.00
+1495,Akshat Negi,31/05/2021 12:40:18,say via quot put sleepquot,0,neutral,0.00,0.0,0.0,0.5,0.5,0.0,0,0.00
+1506,Akshat Negi,31/05/2021 12:40:20,lt chelsea yaaay glad reunited,1,positive,0.50,1.0,0.0,0.0,0.0,0.0,0,1.00
+1508,Akshat Negi,31/05/2021 12:40:20,lt agt cuma test doang,0,neutral,0.00,0,0,0,0,0,0,0.00
+1512,Akshat Negi,31/05/2021 12:40:20,lt grandygt whats worse cubs fan selling rvs nicer house,3,negative,-0.40,0.0,0.0,0.0,1.0,0.0,3,1.00
+1514,Akshat Negi,31/05/2021 12:40:20,lt completely drained paypal account damn etsy ebay must great things,1,positive,0.45,0.33,0.0,0.33,0.0,0.33,0,0.33
+1517,Akshat Negi,31/05/2021 12:40:21,lt jem hey hope everyone started friday fun let start shout outs whooohoooo,1,positive,0.30,0.17,0.17,0.33,0.17,0.17,2,0.33
+1524,Akshat Negi,31/05/2021 12:40:21,quot academically course quot miss already,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1525,Akshat Negi,31/05/2021 12:40:22,quot passed th grade quot sorry moms tried got three little sisters trained hahahaha,3,negative,-0.16,0.0,0.0,0.0,1.0,0.0,3,1.00
+1529,Akshat Negi,31/05/2021 12:40:22,quot eeep omg jeff jonas hot quot xd lmao,1,positive,0.42,0.0,0.0,0.5,0.5,0.0,0,0.00
+1532,Akshat Negi,31/05/2021 12:40:22,quot flyin crashin bad real bad michael jackson mad real mad joe jackson quot b e utiful,4,Very negative,-0.82,0.0,0.33,0.0,0.67,0.0,3,0.67
+1537,Akshat Negi,31/05/2021 12:40:23,quot fire anatoliaquot fired costumes destroyed poor situation,3,negative,-0.40,0.0,0.0,0.0,0.0,1.0,0,1.00
+1540,Akshat Negi,31/05/2021 12:40:23,quot fly mequot jonas brothers,2,Very positive,0.80,0.0,0.0,1.0,0.0,0.0,2,1.00
+1542,Akshat Negi,31/05/2021 12:40:24,quot second think u took shape unicornquot step brothers,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1546,Akshat Negi,31/05/2021 12:40:24,quot friends soul different bodies quot plato,0,neutral,0.00,0.5,0.0,0.5,0.0,0.0,0,0.00
+1552,Akshat Negi,31/05/2021 12:40:25,quot girl look fine gunquot nicest thing someone week,1,positive,0.42,0.33,0.0,0.67,0.0,0.0,2,0.67
+1554,Akshat Negi,31/05/2021 12:40:25,quot go mommy go quot viki leaving morning show absolute radio,1,positive,0.20,0.0,0.0,0.0,0.0,1.0,0,1.00
+1557,Akshat Negi,31/05/2021 12:40:25,quot good morning sunshine earth says hello quot hehe,2,Very positive,0.70,0.33,0.0,0.67,0.0,0.0,2,0.67
+1559,Akshat Negi,31/05/2021 12:40:26,quot gosh hunny put weight quot quot errrr thank quot,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1570,Akshat Negi,31/05/2021 12:40:27,quot overloaded global interestquot argh overloaded hour,0,neutral,0.00,0,0,0,0,0,0,0.00
+1573,Akshat Negi,31/05/2021 12:40:28,quot quot im really glad life quot quot really come quot quot awesome judge quot take notes friends,2,Very positive,0.57,0.33,0.0,0.5,0.0,0.17,2,0.50
+1575,Akshat Negi,31/05/2021 12:40:28,quot aww guys made innnkquot finding nemo gt every pixar movie ever made,1,positive,0.30,0.0,0.0,0.33,0.67,0.0,3,0.67
+1576,Akshat Negi,31/05/2021 12:40:28,quot quot hi mandy really pretty love miley mandy show write back pls,1,positive,0.25,0.67,0.0,0.33,0.0,0.0,0,0.67
+1577,Akshat Negi,31/05/2021 12:40:28,quot bugs suck yuck quot,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1580,Akshat Negi,31/05/2021 12:40:29,quot quot miley write write miley miley never answered miley write,0,neutral,0.00,0,0,0,0,0,0,0.00
+1583,Akshat Negi,31/05/2021 12:40:29,quot years pounds mamp msquot lack self restraint upset stomach eaten apple kiwi laura put lunch,0,neutral,0.00,0.0,0.0,0.0,0.2,0.8,0,0.80
+1586,Akshat Negi,31/05/2021 12:40:29,quot faulty penis freaks lolquot thejlu,0,neutral,0.00,0,0,0,0,0,0,0.00
+1588,Akshat Negi,31/05/2021 12:40:30,quot walk rememberquot made cry sad,3,negative,-0.50,0.0,0.0,0.0,1.0,0.0,3,1.00
+1592,Akshat Negi,31/05/2021 12:40:30,quot tom looks like hard ass beckett looks like boobsquot meghan via inevermenttobrag hate,4,Very negative,-0.55,0.0,0.5,0.0,0.5,0.0,0,0.00
+1596,Akshat Negi,31/05/2021 12:40:31,quot hangoverquot good movie pretty funny one k watch transformers next week nd back mgl watch ice age,1,positive,0.24,0.33,0.17,0.5,0.0,0.0,2,0.50
+1599,Akshat Negi,31/05/2021 12:40:31,quot hardly home always reppinquot back sb,3,negative,-0.15,0.0,0.0,0.0,1.0,0.0,3,1.00
+1600,Akshat Negi,31/05/2021 12:40:31,quot found jesus quot quot know missing quot lmao,1,positive,0.20,0.0,0.0,0.0,1.0,0.0,3,1.00
+1602,Akshat Negi,31/05/2021 12:40:31,quot beamed mention namequot fuck miss dude bad,4,Very negative,-0.55,0.5,0.0,0.0,0.5,0.0,0,0.00
+1604,Akshat Negi,31/05/2021 12:40:32,quot pleasequot mm good day,2,Very positive,0.70,1.0,0.0,0.0,0.0,0.0,0,1.00
+1607,Akshat Negi,31/05/2021 12:40:32,quot name wendy leonnard forecasts extremely accurate quot hahaha nerd wizards,1,positive,0.30,0.0,0.0,0.0,0.0,1.0,0,1.00
+1608,Akshat Negi,31/05/2021 12:40:32,quot heres another song radio quot,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1609,Akshat Negi,31/05/2021 12:40:32,quot hes everything story words page history hes air breathe water thirst forquot,0,neutral,0.00,0.0,0.2,0.0,0.4,0.4,0,0.40
+1610,Akshat Negi,31/05/2021 12:40:32,quot hes youquot dvd alright love jennifer connelly brilliant amp gorgeous actress,2,Very positive,0.70,1.0,0.0,0.0,0.0,0.0,0,1.00
+1611,Akshat Negi,31/05/2021 12:40:32,quot hes youquot sparked good life advice personal tales stepmom feel much enlightened,1,positive,0.30,0.33,0.0,0.0,0.0,0.67,0,0.67
+1614,Akshat Negi,31/05/2021 12:40:33,quot hey jude make bad take sad song make better quot,3,negative,-0.23,0.0,0.0,0.33,0.67,0.0,3,0.67
+1616,Akshat Negi,31/05/2021 12:40:33,quot hey could see arms spread wide starboard bowquot love okay need go bed,1,positive,0.30,0.25,0.0,0.25,0.25,0.25,0,0.25
+1620,Akshat Negi,31/05/2021 12:40:34,quot super human moronquot haha twilight comentary,1,positive,0.18,0,0,0,0,0,0,0.00
+1625,Akshat Negi,31/05/2021 12:40:34,quot acting stupid getting drunkquot day awesome bad two us miss two,3,negative,-0.12,0.25,0.0,0.25,0.5,0.0,3,0.50
+1634,Akshat Negi,31/05/2021 12:40:36,quot girls well beautiful would write song quot taylor swift quot hey stephenquot,2,Very positive,0.85,0.25,0.0,0.5,0.0,0.25,2,0.50
+1641,Akshat Negi,31/05/2021 12:40:36,quot american pie quot funny da part goin da lake damn commerical,1,positive,0.12,0.0,0.0,1.0,0.0,0.0,2,1.00
+1642,Akshat Negi,31/05/2021 12:40:36,quot existing connection forcibly closed remote hostquot sound good,1,positive,0.22,1.0,0.0,0.0,0.0,0.0,0,1.00
+1644,Akshat Negi,31/05/2021 12:40:37,quot know gets better take hand drag headfirst fearlessquot swift,1,positive,0.20,0.0,0.0,1.0,0.0,0.0,2,1.00
+1646,Akshat Negi,31/05/2021 12:40:37,quot ill hold hand like hold mine quot line song written special person,3,negative,-0.07,0.0,0.0,0.5,0.0,0.5,0,0.50
+1648,Akshat Negi,31/05/2021 12:40:37,quot end love take equals love makequot tadinho justin,1,positive,0.50,1.0,0.0,0.0,0.0,0.0,0,1.00
+1649,Akshat Negi,31/05/2021 12:40:37,quot wont pms roflquot well swear brittany wont haha,1,positive,0.20,0.0,1.0,0.0,0.0,0.0,1,1.00
+1658,Akshat Negi,31/05/2021 12:40:38,welcome twitter hope enjoy movie place,2,Very positive,0.60,0.4,0.0,0.0,0.2,0.4,0,0.40
+1659,Akshat Negi,31/05/2021 12:40:38,princess jared almost ready closeup,1,positive,0.20,1.0,0.0,0.0,0.0,0.0,0,1.00
+1672,Akshat Negi,31/05/2021 12:40:39,kicks missus wants chocolate chucking may considered driving get,1,positive,0.20,0.0,0.0,0.25,0.25,0.5,0,0.50
+1674,Akshat Negi,31/05/2021 12:40:39,nooooo chris omg almost crying shaz,3,negative,-0.20,0.0,0.0,1.0,0.0,0.0,2,1.00
+1677,Akshat Negi,31/05/2021 12:40:40,much rocket ticket moon find online,1,positive,0.20,0,0,0,0,0,0,0.00
+1687,Akshat Negi,31/05/2021 12:40:41,quot kidding think chuck could afford pro quot haha great line,1,positive,0.50,0.4,0.0,0.2,0.0,0.4,0,0.40
+1697,Akshat Negi,31/05/2021 12:40:42,quot bad words crutch lead tattoos peircings quot hahahaha,3,negative,-0.25,0.0,0.5,0.0,0.5,0.0,0,0.00
+1699,Akshat Negi,31/05/2021 12:40:42,quot battery fully chargedquot,0,neutral,0.00,0,0,0,0,0,0,0.00
+1701,Akshat Negi,31/05/2021 12:40:42,quot mine forever go stay like ilyquot,0,neutral,0.00,0.0,1.0,0.0,0.0,0.0,1,1.00
+1703,Akshat Negi,31/05/2021 12:40:43,quot everyone else already takenquot,0,neutral,0.00,0,0,0,0,0,0,0.00
+1710,Akshat Negi,31/05/2021 12:40:43,quot hope dream soul awakequot early,1,positive,0.10,0.0,0.0,0.5,0.0,0.5,0,0.50
+1715,Akshat Negi,31/05/2021 12:40:44,quot send someone mail message thing still trying work outquot lol,2,Very positive,0.80,0.0,0.0,0.33,0.0,0.67,0,0.67
+1719,Akshat Negi,31/05/2021 12:40:44,quot happyquot mahalo photography maria balais amp friend,0,neutral,0.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+1725,Akshat Negi,31/05/2021 12:40:45,quot parked diagonally parallel universequot,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1726,Akshat Negi,31/05/2021 12:40:45,quot believe every human finite number heart beats intend waste mine running around exercises quot,3,negative,-0.10,0.0,0.0,0.2,0.4,0.4,0,0.40
+1729,Akshat Negi,31/05/2021 12:40:45,quot tell future giving numberquot know know cheap flirtin funny,1,positive,0.22,0.0,0.0,0.33,0.33,0.33,0,0.33
+1732,Akshat Negi,31/05/2021 12:40:46,quot help like partyquot soo relate pinks bad influence,4,Very negative,-0.70,0.0,0.0,0.5,0.5,0.0,0,0.00
+1737,Akshat Negi,31/05/2021 12:40:46,quot know smile friends cry ever quot,1,positive,0.30,0.67,0.0,0.33,0.0,0.0,0,0.67
+1739,Akshat Negi,31/05/2021 12:40:46,signing awesome beautiful day live trance best,2,Very positive,0.75,0.4,0.0,0.4,0.0,0.2,0,0.20
+1740,Akshat Negi,31/05/2021 12:40:47,twitterers dying good room us spam haha go simon,1,positive,0.45,0.33,0.0,0.0,0.0,0.67,0,0.67
+1744,Akshat Negi,31/05/2021 12:40:47,seen danneel genevieve,0,neutral,0.00,0,0,0,0,0,0,0.00
+1748,Akshat Negi,31/05/2021 12:40:47,bs got back bestbuy got geforce gt,0,neutral,0.00,0,0,0,0,0,0,0.00
+1749,Akshat Negi,31/05/2021 12:40:47,anyone else spoiling dinner eating way many free mentos mmmmm mentos,1,positive,0.45,0.5,0.0,0.0,0.0,0.5,0,0.50
+1750,Akshat Negi,31/05/2021 12:40:48,ur pussy dry make condom burn rugs burn ur dick aint fun,1,positive,0.12,0.25,0.0,0.0,0.75,0.0,3,0.75
+1753,Akshat Negi,31/05/2021 12:40:48,two last sessions going,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1754,Akshat Negi,31/05/2021 12:40:48,looks geekier time around,0,neutral,0.00,0,0,0,0,0,0,0.00
+1769,Akshat Negi,31/05/2021 12:40:50,dcd seniors good good enough,1,positive,0.47,1.0,0.0,0.0,0.0,0.0,0,1.00
+1771,Akshat Negi,31/05/2021 12:40:50,haha diversity l l screw subo,1,positive,0.20,0,0,0,0,0,0,0.00
+1779,Akshat Negi,31/05/2021 12:40:51,kid stavros flatley looks like chunk goonies,0,neutral,0.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+1786,Akshat Negi,31/05/2021 12:40:51,com offering free advertising members limited time sign message get started,1,positive,0.16,0.25,0.0,0.25,0.0,0.5,0,0.50
+1787,Akshat Negi,31/05/2021 12:40:51,hide already well hidden like nerdy ninja,3,negative,-0.17,0.0,1.0,0.0,0.0,0.0,1,1.00
+1791,Akshat Negi,31/05/2021 12:40:52,goodbye iad see ya hours frisco looks like might leaving time,0,neutral,0.00,0.0,0.5,0.0,0.5,0.0,0,0.00
+1792,Akshat Negi,31/05/2021 12:40:52,sweet time carbon shoes euro would big,1,positive,0.17,0.0,0.0,0.0,0.0,1.0,0,1.00
+1795,Akshat Negi,31/05/2021 12:40:52,ahhhhaahaha theyre trending topics lt themm,0,neutral,0.00,0,0,0,0,0,0,0.00
+1798,Akshat Negi,31/05/2021 12:40:52,quot like monday wish sunday cause fun day quot freaking jam little miss,1,positive,0.06,0.67,0.0,0.0,0.33,0.0,0,0.67
+1802,Akshat Negi,31/05/2021 12:40:53,quot give heart determination courage pushed away wrong time feelsquot,3,negative,-0.50,0.0,0.2,0.0,0.2,0.6,0,0.60
+1818,Akshat Negi,31/05/2021 12:40:55,quot like night without dark would never see stars quot going work pleasure cause sun shining,3,negative,-0.15,0.2,0.0,0.0,0.2,0.6,0,0.60
+1820,Akshat Negi,31/05/2021 12:40:56,quot love hip hop moroccoquot screening tonight bk museum want tell girl ur things,1,positive,0.50,0.25,0.0,0.5,0.25,0.0,2,0.50
+1827,Akshat Negi,31/05/2021 12:40:56,love bsb much forever ever,1,positive,0.35,0.5,0.0,0.5,0.0,0.0,0,0.00
+1829,Akshat Negi,31/05/2021 12:40:56,would love see bandwidth bill though could chuckle,1,positive,0.50,0.33,0.0,0.0,0.33,0.33,0,0.33
+1834,Akshat Negi,31/05/2021 12:40:57,telecoms launch overpriced payment take certapay amp,0,neutral,0.00,0,0,0,0,0,0,0.00
+1837,Akshat Negi,31/05/2021 12:40:57,air win tickets london c britney win hp notebook passes dubai ice rink,2,Very positive,0.80,0,0,0,0,0,0,0.00
+1844,Akshat Negi,31/05/2021 12:40:58,let us spread chester love yeaaaah,1,positive,0.50,0.33,0.0,0.0,0.33,0.33,0,0.33
+1847,Akshat Negi,31/05/2021 12:40:58,realize short one episode great time anyway thanks see next week,1,positive,0.25,0.33,0.33,0.0,0.33,0.0,0,0.00
+1851,Akshat Negi,31/05/2021 12:40:59,theyre really super cute little polka dot stripe flower diapers hehehe ok done mommyness coming,1,positive,0.29,0.33,0.0,0.67,0.0,0.0,2,0.67
+1852,Akshat Negi,31/05/2021 12:40:59,thought trade probably best band saw set short failed grab one cds,1,positive,0.17,0.0,0.17,0.33,0.0,0.5,0,0.50
+1855,Akshat Negi,31/05/2021 12:40:59,midst update running recent build letting update mgr thing,0,neutral,0.00,0.0,0.0,0.33,0.33,0.33,0,0.33
+1857,Akshat Negi,31/05/2021 12:41:00,actually dexy midnight runner come eileen ring tone,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1858,Akshat Negi,31/05/2021 12:41:00,follow followers followers im guilty,3,negative,-0.50,1.0,0.0,0.0,0.0,0.0,0,1.00
+1860,Akshat Negi,31/05/2021 12:41:00,anyone know save data fked hd read previous tweets get details,3,negative,-0.17,0,0,0,0,0,0,0.00
+1864,Akshat Negi,31/05/2021 12:41:00,heres todays like girls mech suits,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1871,Akshat Negi,31/05/2021 12:41:01,consisted roast lamb spuds rabbit food mush apples time pringles,0,neutral,0.00,0,0,0,0,0,0,0.00
+1872,Akshat Negi,31/05/2021 12:41:01,djangodash com site gateway time nginx whatup,0,neutral,0.00,0,0,0,0,0,0,0.00
+1874,Akshat Negi,31/05/2021 12:41:01,enjoying show much sharon,1,positive,0.35,1.0,0.0,0.0,0.0,0.0,0,1.00
+1878,Akshat Negi,31/05/2021 12:41:02,quot believequot raheem devaughn im zone,0,neutral,0.00,0,0,0,0,0,0,0.00
+1880,Akshat Negi,31/05/2021 12:41:02,quot bicycle bicycle want ride bicycle want ride bikequot bicycle race queen stuck head,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1884,Akshat Negi,31/05/2021 12:41:02,quot bluffin muffinquot people realizing means step gaga game people,3,negative,-0.40,0,0,0,0,0,0,0.00
+1887,Akshat Negi,31/05/2021 12:41:03,quot borderline amazingquot new favorite phrasesaying,1,positive,0.32,1.0,0.0,0.0,0.0,0.0,0,1.00
+1890,Akshat Negi,31/05/2021 12:41:03,quot break mold extraordinary quot dove chocolates moment,1,positive,0.33,0.33,0.0,0.33,0.0,0.33,0,0.33
+1900,Akshat Negi,31/05/2021 12:41:04,quot somewhere went wrong strong love like song forget itquot,1,positive,0.14,0.5,0.25,0.0,0.0,0.25,0,0.50
+1902,Akshat Negi,31/05/2021 12:41:05,quot far awayquot love starting day indiefolk,1,positive,0.20,0.67,0.0,0.0,0.0,0.33,0,0.67
+1903,Akshat Negi,31/05/2021 12:41:05,quot cool run hand hair absent mindedly making want quot taylor swift,1,positive,0.35,0.25,0.0,0.25,0.5,0.0,3,0.50
+1906,Akshat Negi,31/05/2021 12:41:05,quot byequot anticlimax cheers thanks ooh upbeat strings oh cut ads darn,1,positive,0.20,0.67,0.0,0.33,0.0,0.0,0,0.67
+1912,Akshat Negi,31/05/2021 12:41:06,quot suspect poor blackberry users seriously going eat hearts hah quot eeeeyerrr kena say dawnkey,3,negative,-0.37,0.0,0.0,0.33,0.17,0.5,0,0.50
+1913,Akshat Negi,31/05/2021 12:41:06,quot think learn love learn life service others quot isaac hanson exactly love band,1,positive,0.50,0.4,0.0,0.2,0.0,0.4,0,0.40
+1914,Akshat Negi,31/05/2021 12:41:06,quot thought funny officer quot,1,positive,0.25,0.0,0.0,1.0,0.0,0.0,2,1.00
+1915,Akshat Negi,31/05/2021 12:41:06,quot want get close big change day jesus calls namequot got song stuck head,0,neutral,0.00,0.5,0.0,0.0,0.0,0.5,0,0.50
+1918,Akshat Negi,31/05/2021 12:41:06,quot want go fucking petting zoo quot rofl p taken petting zoo,1,positive,0.10,0.25,0.5,0.25,0.0,0.0,1,0.50
+1921,Akshat Negi,31/05/2021 12:41:07,quot alays love lizz quot pff nothing hate guys say amp kissing girl lucas hate,3,negative,-0.37,0.2,0.0,0.4,0.4,0.0,0,0.00
+1925,Akshat Negi,31/05/2021 12:41:07,quot forget brazilquot amazing forget cant wait see,2,Very positive,0.60,0.0,0.5,0.5,0.0,0.0,0,0.00
+1927,Akshat Negi,31/05/2021 12:41:08,quot id stay like forever could quot blah miss already,0,neutral,0.00,0.0,0.5,0.0,0.5,0.0,0,0.00
+1930,Akshat Negi,31/05/2021 12:41:08,quot dirt racing quot missing racing boys lt,3,negative,-0.20,0.0,0.0,0.0,0.33,0.67,0,0.67
+1946,Akshat Negi,31/05/2021 12:41:10,fact marine world got big ass whale slide ball pit n middle cargo nets,0,neutral,0.00,0.0,0.0,0.33,0.33,0.33,0,0.33
+1947,Akshat Negi,31/05/2021 12:41:10,chicks wear pushup bra u think big breast,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1948,Akshat Negi,31/05/2021 12:41:10,girls try get listen weak ass love songs,1,positive,0.06,0.33,0.0,0.33,0.33,0.0,0,0.00
+1954,Akshat Negi,31/05/2021 12:41:11,get hair min later rain starts happened,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1967,Akshat Negi,31/05/2021 12:41:12,quot five years quot jamie,0,neutral,0.00,0,0,0,0,0,0,0.00
+1968,Akshat Negi,31/05/2021 12:41:13,quot u dream u itquot x walt disney share dream see cheers lou ann,0,neutral,0.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+1975,Akshat Negi,31/05/2021 12:41:13,quot ill love forever quot hahah xd apparently thats say people want haha,1,positive,0.06,0.5,0.0,0.5,0.0,0.0,0,0.00
+1976,Akshat Negi,31/05/2021 12:41:14,quot im battle divaquot quot im supergirl quot lilly haha,1,positive,0.20,0,0,0,0,0,0,0.00
+1980,Akshat Negi,31/05/2021 12:41:14,quot im finally going get mother head year see quot howard stern concerning decades therapy motherhood,0,neutral,0.00,0.0,0.0,0.0,0.25,0.75,0,0.75
+1997,Akshat Negi,31/05/2021 12:41:17,quot cancer youve swamped make time creative endeavor today way calmer quot wait tomorrow,1,positive,0.50,0.0,0.0,0.5,0.5,0.0,0,0.00
+1998,Akshat Negi,31/05/2021 12:41:17,quot cant help failing remember forget youquot,0,neutral,0.00,0.0,0.5,0.5,0.0,0.0,0,0.00
+2001,Akshat Negi,31/05/2021 12:41:17,quot caribbean gardenquot new markets busy listing,1,positive,0.12,0.0,0.0,0.0,0.0,1.0,0,1.00
+2003,Akshat Negi,31/05/2021 12:41:18,quot chat bleuquot like woow bad home next weekend see quot chat noirquot merde shall dl quot gt,3,negative,-0.35,0.0,0.0,0.0,1.0,0.0,3,1.00
+2004,Akshat Negi,31/05/2021 12:41:18,quot chile calientequot love color,1,positive,0.50,0.5,0.0,0.0,0.5,0.0,0,0.00
+2006,Akshat Negi,31/05/2021 12:41:18,quot city emberquot awesome finish book read next one ones time bed possibly knows really xd,1,positive,0.30,0.0,0.0,0.67,0.0,0.33,2,0.67
+2008,Akshat Negi,31/05/2021 12:41:19,quot come fly love truly limitless pure spirit living truthsquot unknown mere words deployed w force,1,positive,0.18,0.2,0.2,0.0,0.2,0.4,0,0.40
+2010,Akshat Negi,31/05/2021 12:41:19,quot come swann ugly bastard quot via realise proust could arouse passion,4,Very negative,-0.70,0.0,0.33,0.0,0.67,0.0,3,0.67
+2015,Akshat Negi,31/05/2021 12:41:20,quot cool quot mobile phone broken amp temporarily use dads old nokia,1,positive,0.02,0.5,0.0,0.5,0.0,0.0,0,0.00
+2019,Akshat Negi,31/05/2021 12:41:21,quot cuz penny amp like rooolllll windows quot love,1,positive,0.50,1.0,0.0,0.0,0.0,0.0,0,1.00
+2020,Akshat Negi,31/05/2021 12:41:21,quot dquot brysonlopez hey handsome hope well thinking stalker either lol,2,Very positive,0.65,0.25,0.0,0.5,0.0,0.25,2,0.50
+2024,Akshat Negi,31/05/2021 12:41:22,trenton starts crack leaks good,2,Very positive,0.70,1.0,0.0,0.0,0.0,0.0,0,1.00

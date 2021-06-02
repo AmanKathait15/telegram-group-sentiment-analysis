@@ -1,890 +1,508 @@
-index,name,date_time,message,sentiment_code,sentiment,polarity
-8,Aman Kathait,06/05/2021 15:50:20,hear roar big machinequot,0,neutral,0.00
-10,Aman Kathait,06/05/2021 15:50:20,killed lights killer britney spears,3,negative,-0.20
-12,Aman Kathait,06/05/2021 15:50:20,know stay itll cause pain cant let u goquot oh true,1,positive,0.35
-15,Aman Kathait,06/05/2021 15:50:20,like think jesus mischevious badger hahahaha,1,positive,0.20
-23,Aman Kathait,06/05/2021 15:50:20,ready hear say quit enoughquot new,1,positive,0.17
-30,Aman Kathait,06/05/2021 15:50:20,think know hes going break tell sorry know love quot,0,neutral,0.00
-45,Aman Kathait,06/05/2021 15:50:20,r ghosts goingg hahaha charm school luv,1,positive,0.20
-51,Aman Kathait,06/05/2021 15:50:20,shall show angels swords gets triptych glad friends,1,positive,0.50
-78,Aman Kathait,06/05/2021 15:50:20,fever nasal congestion runny nose sore throat cough please stay homequot director unsw health services,0,neutral,0.00
-79,Aman Kathait,06/05/2021 15:50:20,like cats much get cat scan know maybe,1,positive,0.20
-103,Aman Kathait,06/05/2021 15:50:20,im ur biggest fan ill follow u u love papa paparazziquot love song,1,positive,0.17
-105,Aman Kathait,06/05/2021 15:50:20,im wore like waist band old underwearquot lil jon,1,positive,0.10
-112,Aman Kathait,06/05/2021 15:50:20,invisible bow arrow freequot,0,neutral,0.00
-113,Aman Kathait,06/05/2021 15:50:20,awe everything sees wayquot,0,neutral,0.00
-120,Aman Kathait,06/05/2021 15:50:20,monumentalquot seems hip thing say days guess working right company right time,1,positive,0.29
-135,Aman Kathait,06/05/2021 15:50:20,kinda sucks knowing happiness doesnt existed life almost lovers fine frenzy lt goodbye almost loverquot wat u mean,1,positive,0.13
-136,Aman Kathait,06/05/2021 15:50:20,kiss phonequot worst song lyrics heard years however guy writes songs zombies,4,Very negative,-1.00
-141,Aman Kathait,06/05/2021 15:50:20,last school week lifequot dont make cry,0,neutral,0.00
-146,Aman Kathait,06/05/2021 15:50:20,let twitter datquot,0,neutral,0.00
-148,Aman Kathait,06/05/2021 15:50:20,let true love decide togetherquot bonita frase,1,positive,0.42
-151,Aman Kathait,06/05/2021 15:50:20,letting go hardest part whoever said lying,0,neutral,0.00
-152,Aman Kathait,06/05/2021 15:50:20,life understood backwards must lived forwards quot,0,neutral,0.00
-154,Aman Kathait,06/05/2021 15:50:20,lifequot would returning third season detective crews ace,0,neutral,0.00
-157,Aman Kathait,06/05/2021 15:50:20,lindsay looks like pretty one look like yr old sister distinguishing sister,1,positive,0.17
-161,Aman Kathait,06/05/2021 15:50:20,losing youquot busted forgot much loved song,2,Very positive,0.70
-162,Aman Kathait,06/05/2021 15:50:20,lostquot juliet died nnoo look like back since lead v lost becoming sausage fest,1,positive,0.23
-167,Aman Kathait,06/05/2021 15:50:20,loved face kristen dropped popcorn ah young lovequot ted best,2,Very positive,0.60
-170,Aman Kathait,06/05/2021 15:50:20,mama goes man line day haha,1,positive,0.20
-172,Aman Kathait,06/05/2021 15:50:20,manele betonquot urmareste pe twitter cool,1,positive,0.35
-188,Aman Kathait,06/05/2021 15:50:20,names pitt ass talkin way shit watchin pulp fiction,3,negative,-0.20
-194,Aman Kathait,06/05/2021 15:50:20,distance place lapse time lessen friendship thoroughly persuaded others worth quot,1,positive,0.30
-202,Aman Kathait,06/05/2021 15:50:20,statements bad wink faces goodquot love liiz,3,negative,-0.10
-214,Aman Kathait,06/05/2021 15:50:20,takin care businessquot bachman turner overdrive yes,0,neutral,0.00
-215,Aman Kathait,06/05/2021 15:50:20,teach u lessonquot plan,0,neutral,0.00
-221,Aman Kathait,06/05/2021 15:50:20,kind noise illegal mom referring someone blaring bass traffic behind us got ta love,1,positive,0.01
-222,Aman Kathait,06/05/2021 15:50:20,still counts one gimli,0,neutral,0.00
-228,Aman Kathait,06/05/2021 15:50:20,age woman mean thing best tunes played oldest fiddles ralph waldo emerson,1,positive,0.34
-229,Aman Kathait,06/05/2021 15:50:20,author previous update cool awesome good looking hilarious someone sounds full,1,positive,0.46
-233,Aman Kathait,06/05/2021 15:50:20,thx thanks makin laugh smile today,1,positive,0.27
-239,Aman Kathait,06/05/2021 15:50:20,shes uniting catholic women race ethnicity background,0,neutral,0.00
-240,Aman Kathait,06/05/2021 15:50:20,comically insane zombie forgot mention earlier,3,negative,-0.50
-243,Aman Kathait,06/05/2021 15:50:20,guy made homesite topstyle feeddemon,0,neutral,0.00
-251,Aman Kathait,06/05/2021 15:50:20,nothing amazing vocal,2,Very positive,0.60
-257,Aman Kathait,06/05/2021 15:50:20,definitely new favorite show thank telling watch,1,positive,0.32
-259,Aman Kathait,06/05/2021 15:50:20,spam filter must taking long smoke break getting ton crap today,3,negative,-0.43
-267,Aman Kathait,06/05/2021 15:50:20,still feel tingle days later,0,neutral,0.00
-275,Aman Kathait,06/05/2021 15:50:20,best system organize whole life tasks lists must done ideas,2,Very positive,0.60
-283,Aman Kathait,06/05/2021 15:50:20,companyquot city romancequot new chapters submitted literotica eroticarepublic posted soon,1,positive,0.14
-289,Aman Kathait,06/05/2021 15:50:20,greatest pleasure life people say gtg nice day may god bless us xx ryro,2,Very positive,0.80
-299,Aman Kathait,06/05/2021 15:50:20,stormquot stuck head since june th gone far,1,positive,0.10
-307,Aman Kathait,06/05/2021 15:50:20,love lovequot quote got attention,1,positive,0.50
-309,Aman Kathait,06/05/2021 15:50:20,land land land hear word lord california praying brother sisters praying,0,neutral,0.00
-313,Aman Kathait,06/05/2021 15:50:20,oh like join marines already got future set going give need join realize strong quot,1,positive,0.22
-330,Aman Kathait,06/05/2021 15:50:20,payback pain pie remember plan hahaha,1,positive,0.20
-332,Aman Kathait,06/05/2021 15:50:20,penetratequot naughty word,3,negative,-0.15
-339,Aman Kathait,06/05/2021 15:50:20,plastic loveless letterquot came ipod thanks shuffle function reminding much like magic dirt,1,positive,0.30
-341,Aman Kathait,06/05/2021 15:50:20,pokerfacequot head go away trousers hehe,0,neutral,0.00
-344,Aman Kathait,06/05/2021 15:50:20,principal williams aheh banes aheh pim pell thank kenan,0,neutral,0.00
-345,Aman Kathait,06/05/2021 15:50:20,prison break final breakquot huuuuuuu trar,0,neutral,0.00
-355,Aman Kathait,06/05/2021 15:50:20,scream want small mailman none mailman friends hear movie makes miss boy,3,negative,-0.25
-359,Aman Kathait,06/05/2021 15:50:20,served reheated salsbury steak little slice lovequot haha love adam sandler,1,positive,0.17
-363,Aman Kathait,06/05/2021 15:50:20,told willy dancequot reaction love himmmmn,1,positive,0.50
-365,Aman Kathait,06/05/2021 15:50:20,sighquot another day another load homework join loads biting ankles,0,neutral,0.00
-370,Aman Kathait,06/05/2021 15:50:20,broken withfor summer hated day aferwards flirting someone else,4,Very negative,-0.65
-371,Aman Kathait,06/05/2021 15:50:20,cried point ur eyes qot extremely biqamp puffy,3,negative,-0.12
-374,Aman Kathait,06/05/2021 15:50:20,faked orgasm well person u fcking like yah daddy ill plzs,3,negative,-0.50
-382,Aman Kathait,06/05/2021 15:50:20,murdered someone cause god told,0,neutral,0.00
-384,Aman Kathait,06/05/2021 15:50:20,needed someone bad unfortunately yes im needing right na na,3,negative,-0.30
-399,Aman Kathait,06/05/2021 15:50:20,something never nothing miss tessie,0,neutral,0.00
-408,Aman Kathait,06/05/2021 15:50:20,stop running cause without got nothing sound trippin lol,2,Very positive,0.60
-414,Aman Kathait,06/05/2021 15:50:20,susan boylequot fans understand adam lambertquot fans feel,0,neutral,0.00
-415,Aman Kathait,06/05/2021 15:50:20,suzannes diary nicholasquot james patterson got love far,1,positive,0.30
-424,Aman Kathait,06/05/2021 15:50:20,wondered heck dog cat really feels could imagine cat packed litter amp left,1,positive,0.10
-432,Aman Kathait,06/05/2021 15:50:20,day ruined interesting read quick fan hackslash,1,positive,0.42
-433,Aman Kathait,06/05/2021 15:50:20,shitful day sick might go doc tomorrow worse hack cough awes,4,Very negative,-0.56
-435,Aman Kathait,06/05/2021 15:50:20,probably need sleep got college classes go tomorrow goodnight xbox live folks microsoft,1,positive,0.14
-442,Aman Kathait,06/05/2021 15:50:20,network better live tweeting moving around enough tweeters though,1,positive,0.21
-447,Aman Kathait,06/05/2021 15:50:20,love spending money cant save cuz love spending problem help,1,positive,0.50
-461,Aman Kathait,06/05/2021 15:50:20,theyre homorific homorific hahahah,0,neutral,0.00
-462,Aman Kathait,06/05/2021 15:50:20,thick pig shit went oxfordquot helenas cantab friends description boyfriend yesterday,3,negative,-0.25
-474,Aman Kathait,06/05/2021 15:50:20,achieve impossible precisely unthinkable must thought robbins expand horizons today hagd,3,negative,-0.36
-481,Aman Kathait,06/05/2021 15:50:20,season finalist kellie pickler monkey anymore,3,negative,-0.05
-482,Aman Kathait,06/05/2021 15:50:20,stuck close space long periods time ppl rank breath poor hygene,3,negative,-0.42
-484,Aman Kathait,06/05/2021 15:50:20,dude snores like truck acts like wrong kicking sleep,3,negative,-0.50
-490,Aman Kathait,06/05/2021 15:50:21,chemistry would gone really well yesterday exams would exist,1,positive,0.20
-491,Aman Kathait,06/05/2021 15:50:21,cilicia ashley charlene erica jennifer star jade rest would still friends miss,0,neutral,0.00
-495,Aman Kathait,06/05/2021 15:50:21,could sync damn iphone linux broke trying update virtualbox,0,neutral,0.00
-497,Aman Kathait,06/05/2021 15:50:21,would masters fml got procrastinators disease insert pout,0,neutral,0.00
-505,Aman Kathait,06/05/2021 15:50:21,would sore right would full stomach would asleep hours ago,1,positive,0.32
-524,Aman Kathait,06/05/2021 15:50:21,big mac would dollar menu,0,neutral,0.00
-540,Aman Kathait,06/05/2021 15:50:21,irans supreme leader ayatollah ali khamenei called ahmadinejads win divine assessmentquot usatoday,2,Very positive,0.80
-541,Aman Kathait,06/05/2021 15:50:21,aftr khameneis speech twitterin iranians feel way british people hope,0,neutral,0.00
-545,Aman Kathait,06/05/2021 15:50:21,see mans gaping bum going sick,4,Very negative,-0.71
-550,Aman Kathait,06/05/2021 15:50:21,tehran mousavi lakers true blood kobe atamp iphone,1,positive,0.35
-558,Aman Kathait,06/05/2021 15:50:21,vote following follow follow follow cuties,0,neutral,0.00
-568,Aman Kathait,06/05/2021 15:50:21,transformers first premiere later early evening empire cinema yaaayyy im flat broke date less pssh grrrrreeaatt,1,positive,0.03
-570,Aman Kathait,06/05/2021 15:50:21,tweetie bought momentquot,0,neutral,0.00
-571,Aman Kathait,06/05/2021 15:50:21,twenty four hours empty brain got finger trigger wayquot work time,3,negative,-0.10
-573,Aman Kathait,06/05/2021 15:50:21,twitterersquot pllls stop killing people heart hold looove hugh laurie brilliant n house great show,2,Very positive,0.85
-575,Aman Kathait,06/05/2021 15:50:21,understanding apple part software heart saw pirates silicone valleyquot film,0,neutral,0.00
-597,Aman Kathait,06/05/2021 15:50:21,tell secretquot much fun sleeping sexy,1,positive,0.40
-599,Aman Kathait,06/05/2021 15:50:21,thank god glossy magazinesquot haha fanthomas er genialt,1,positive,0.20
-601,Aman Kathait,06/05/2021 15:50:21,thanks adventure go new one gets every time,1,positive,0.17
-605,Aman Kathait,06/05/2021 15:50:21,st ppl whisper love sprinklesquot sprinkles store day receive free red velvet wish near sprinkles,1,positive,0.25
-607,Aman Kathait,06/05/2021 15:50:21,ancient lost scrolls watsonquot snort,0,neutral,0.00
-612,Aman Kathait,06/05/2021 15:50:21,cw renewed show third season expected air fall yay,3,negative,-0.05
-615,Aman Kathait,06/05/2021 15:50:21,future always beginning,0,neutral,0.00
-619,Aman Kathait,06/05/2021 15:50:21,hubble mission thus one shuttles last hurrahs nothing quite like happen time soon quot,0,neutral,0.00
-624,Aman Kathait,06/05/2021 15:50:21,really need rainsquot overused melbourne us comedians poking fun comedy fest,1,positive,0.25
-625,Aman Kathait,06/05/2021 15:50:21,eaten beans though catered free said shit night quot,1,positive,0.10
-627,Aman Kathait,06/05/2021 15:50:21,well knew deff didnt want kids guess raccoonsquot hehee,0,neutral,0.00
-629,Aman Kathait,06/05/2021 15:50:21,well problem take eyeliner shove assquot lt friends,0,neutral,0.00
-630,Aman Kathait,06/05/2021 15:50:21,driving road wonder know trying hard get caught taylor swift,3,negative,-0.29
-635,Aman Kathait,06/05/2021 15:50:21,twitter really tried still get must getting old,1,positive,0.15
-640,Aman Kathait,06/05/2021 15:50:21,make every second count cuz miss whenever around sad music playing sighhh,3,negative,-0.25
-655,Aman Kathait,06/05/2021 15:50:21,stand chair stool brush teeth,0,neutral,0.00
-658,Aman Kathait,06/05/2021 15:50:21,sad found millivanilli sell outs,3,negative,-0.50
-663,Aman Kathait,06/05/2021 15:50:21,first happy time borat wld say,2,Very positive,0.53
-665,Aman Kathait,06/05/2021 15:50:21,pogs yoyos sherbert straws gogos school man things fun always got banned,1,positive,0.30
-676,Aman Kathait,06/05/2021 15:50:21,alicia keys first came everyone thought lesbian becuz braids shes one sexiest,1,positive,0.25
-678,Aman Kathait,06/05/2021 15:50:21,st seen parade almost died,3,negative,-0.25
-682,Aman Kathait,06/05/2021 15:50:21,hit car afterschool sorry babes,3,negative,-0.50
-684,Aman Kathait,06/05/2021 15:50:21,used look forward saturday mornings live amp kickingquot smtv livequot,1,positive,0.14
-685,Aman Kathait,06/05/2021 15:50:21,used loads money stupid recession,4,Very negative,-0.80
-686,Aman Kathait,06/05/2021 15:50:21,used wear school uniform hmm loved cape,2,Very positive,0.70
-692,Aman Kathait,06/05/2021 15:50:21,people ignorant think always right tell story never happened,1,positive,0.29
-703,Aman Kathait,06/05/2021 15:50:21,looks sexy new pic could lick computer screen lol bonjour goodmorning guten morgen privet hola ciao,1,positive,0.48
-709,Aman Kathait,06/05/2021 15:50:21,old saying true breaking hard breaking easy break stand confident,1,positive,0.22
-713,Aman Kathait,06/05/2021 15:50:21,roof roof roof fire takn old school favorite old school song rap,1,positive,0.23
-720,Aman Kathait,06/05/2021 15:50:21,time come say goodbye sun setting sky truth turned lie overquot junior cert day help,0,neutral,0.00
-721,Aman Kathait,06/05/2021 15:50:21,uninvitedquot worst attempt scary movie failed seen let know thought cool,3,negative,-0.41
-729,Aman Kathait,06/05/2021 15:50:21,monks humans hahaha,1,positive,0.20
-738,Aman Kathait,06/05/2021 15:50:21,muchbetter wait album song head day dont even know iloveu,0,neutral,0.00
-739,Aman Kathait,06/05/2021 15:50:21,favorites fly much better boys rock marry nick,2,Very positive,0.65
-753,Aman Kathait,06/05/2021 15:50:21,got rough copy ep google docs sadly going able wanted ep,3,negative,-0.03
-759,Aman Kathait,06/05/2021 15:50:21,pt per min cheetahs getting back thanks ferris another bet buster,1,positive,0.10
-767,Aman Kathait,06/05/2021 15:50:21,windows recovered serious errorquot oh dear,3,negative,-0.33
-771,Aman Kathait,06/05/2021 15:50:21,wonderful nightquot missing twitches amp,1,positive,0.40
-772,Aman Kathait,06/05/2021 15:50:21,workquot four letter word least pays wow,3,negative,-0.10
-777,Aman Kathait,06/05/2021 15:50:21,yawnquot time bed,0,neutral,0.00
-781,Aman Kathait,06/05/2021 15:50:21,yeah sounds boring think boring times ones remember loved awesome day babe,3,negative,-0.08
-786,Aman Kathait,06/05/2021 15:50:21,yesquot wonderful word,2,Very positive,1.00
-787,Aman Kathait,06/05/2021 15:50:21,yesterday hurricane blew away long red cape priscilla ahn freaking amazing,1,positive,0.18
-791,Aman Kathait,06/05/2021 15:50:21,special hope tht frnds always forever guess tht alld epends youquot hellogoodbye,1,positive,0.36
-792,Aman Kathait,06/05/2021 15:50:21,unfaithful children belong come home jer awwwwww,4,Very negative,-0.60
-797,Aman Kathait,06/05/2021 15:50:21,getting trending getting burnt,0,neutral,0.00
-813,Aman Kathait,06/05/2021 15:50:21,howeva cologne berlin,0,neutral,0.00
-817,Aman Kathait,06/05/2021 15:50:21,hope get tired cranky,3,negative,-0.40
-823,Aman Kathait,06/05/2021 15:50:21,men cheaters boys man cheat,0,neutral,0.00
-835,Aman Kathait,06/05/2021 15:50:21,come soon progress pic moved much since th,1,positive,0.20
-838,Aman Kathait,06/05/2021 15:50:21,itz beauty itz bootyquot lol sad part dont know came,1,positive,0.15
-847,Aman Kathait,06/05/2021 15:50:21,monday isnt difficult jake epstein alexz johnson enjoy,3,negative,-0.05
-848,Aman Kathait,06/05/2021 15:50:21,monday every breath take time favt,0,neutral,0.00
-853,Aman Kathait,06/05/2021 15:50:21,version software current version boo getting iphone os highlight day,0,neutral,0.00
-860,Aman Kathait,06/05/2021 15:50:21,today thought never met carrie bradshaw,0,neutral,0.00
-871,Aman Kathait,06/05/2021 15:50:21,twitterquot dee twitterquot dumb stand,3,negative,-0.38
-877,Aman Kathait,06/05/2021 15:50:21,upquot good company,2,Very positive,0.70
-880,Aman Kathait,06/05/2021 15:50:21,upquot reeaaaaaalllllllllyyy sad movie,3,negative,-0.50
-885,Aman Kathait,06/05/2021 15:50:21,like seal love songs choice best work kiss rosequot,2,Very positive,0.75
-895,Aman Kathait,06/05/2021 15:50:21,anberlin time confusion,0,neutral,0.00
-896,Aman Kathait,06/05/2021 15:50:21,anything katy perry know might sounds weird love voice,0,neutral,0.00
-897,Aman Kathait,06/05/2021 15:50:21,brittany nicole amazing covers,2,Very positive,0.60
-899,Aman Kathait,06/05/2021 15:50:21,fear reaper blue oyster cult,0,neutral,0.00
-900,Aman Kathait,06/05/2021 15:50:21,everyone follow love music great band,2,Very positive,0.65
-903,Aman Kathait,06/05/2021 15:50:21,gt gt gt thats day im excited lool,1,positive,0.38
-913,Aman Kathait,06/05/2021 15:50:21,people around dont believe youquot sir never man,0,neutral,0.00
-915,Aman Kathait,06/05/2021 15:50:21,dyed color love dad p brown hair,1,positive,0.50
-923,Aman Kathait,06/05/2021 15:50:21,look perfect quot,2,Very positive,1.00
-929,Aman Kathait,06/05/2021 15:50:21,think yo shit smell mrs p uquot lil wayne sounds songs,3,negative,-0.20
-930,Aman Kathait,06/05/2021 15:50:21,want thingamabobs got twenty cares big deal want quot,0,neutral,0.00
-931,Aman Kathait,06/05/2021 15:50:21,girlfriend sooo fine shawty gorgeous gorgeous quot,2,Very positive,0.61
-932,Aman Kathait,06/05/2021 15:50:21,healing lies within resistance hmmmmm guess lot healing happy monday friends,2,Very positive,0.80
-933,Aman Kathait,06/05/2021 15:50:21,horny kittyquot following,0,neutral,0.00
-935,Aman Kathait,06/05/2021 15:50:21,one want ewh ewh ewh honey love song radio,1,positive,0.50
-937,Aman Kathait,06/05/2021 15:50:21,youre jerkquot official video lovin,0,neutral,0.00
-938,Aman Kathait,06/05/2021 15:50:21,youre late late late says alice cant hurry bun cant hurry lovequot answers white bun smart girl amp wait quot,3,negative,-0.14
-948,Aman Kathait,06/05/2021 15:50:21,second waste rocket moon grace holds back scene aesthetic arms maine,3,negative,-0.07
-949,Aman Kathait,06/05/2021 15:50:21,puzzle heart nothings gon na change love westlife today tuesday anyway,1,positive,0.50
-952,Aman Kathait,06/05/2021 15:50:21,still continues lt one time kid adorable,1,positive,0.50
-956,Aman Kathait,06/05/2021 15:50:21,cab risky business love cab even mums crazy half drunk ass loud friends ruin,3,negative,-0.13
-959,Aman Kathait,06/05/2021 15:50:21,world making electricity,0,neutral,0.00
-966,Aman Kathait,06/05/2021 15:50:21,walk way thousand violins begin play,0,neutral,0.00
-968,Aman Kathait,06/05/2021 15:50:21,change characters u want need earn moneybonus change clothes,0,neutral,0.00
-970,Aman Kathait,06/05/2021 15:50:21,upquot outstanding start finish family movie life things arent seem amp better,1,positive,0.50
-975,Aman Kathait,06/05/2021 15:50:21,virlquot black dog nearly awesome remember years ago,1,positive,0.42
-977,Aman Kathait,06/05/2021 15:50:21,way much canada bashing offended comment someone left video simpsons online,1,positive,0.10
-980,Aman Kathait,06/05/2021 15:50:21,betas betas betas betas betas betas boom boom boom betas stomp yard,0,neutral,0.00
-981,Aman Kathait,06/05/2021 15:50:21,given god souls amp christ flesh brennan manning,0,neutral,0.00
-990,Aman Kathait,06/05/2021 15:50:21,welcome titanium mobile closed betaquot time,1,positive,0.35
-994,Aman Kathait,06/05/2021 15:50:21,misting bored already jose looks good pic,1,positive,0.10
-995,Aman Kathait,06/05/2021 15:50:21,swingers got condoms quot,0,neutral,0.00
-996,Aman Kathait,06/05/2021 15:50:21,th july nothing,0,neutral,0.00
-997,Aman Kathait,06/05/2021 15:50:21,heartquot like stuck hear,0,neutral,0.00
-1007,Aman Kathait,06/05/2021 15:50:21,hot blonde girl isnt shallow likes,3,negative,-0.03
-1011,Aman Kathait,06/05/2021 15:50:21,hmm choc chip cookies amp ferrero rocher milkshake,0,neutral,0.00
-1014,Aman Kathait,06/05/2021 15:50:21,weed weed oh say weed,0,neutral,0.00
-1017,Aman Kathait,06/05/2021 15:50:21,see many times one comes,1,positive,0.50
-1025,Aman Kathait,06/05/2021 15:50:21,chocolate amp scrapbooking especially day,0,neutral,0.00
-1039,Aman Kathait,06/05/2021 15:50:21,zach touched boobquot boobquot,0,neutral,0.00
-1040,Aman Kathait,06/05/2021 15:50:21,got sad news today field coaching session granny passed away peace last,3,negative,-0.25
-1042,Aman Kathait,06/05/2021 15:50:21,b pato banton dont sniff coke gt sniff coke smoke sensimilla gt boa msica pros amigos,0,neutral,0.00
-1047,Aman Kathait,06/05/2021 15:50:21,kill lights amp amp take time baby call hollywood add www myspace comstayrock theyre amazing,2,Very positive,0.60
-1049,Aman Kathait,06/05/2021 15:50:21,maintained struggle overwhelming odds stay focus baby,1,positive,0.50
-1053,Aman Kathait,06/05/2021 15:50:21,carl asked many laps bob said tell laps worry aka shut drive,1,positive,0.50
-1061,Aman Kathait,06/05/2021 15:50:21,note self stop wiki bot running weekends stop spamming fact devtestprod,0,neutral,0.00
-1065,Aman Kathait,06/05/2021 15:50:21,boyfriend love death man gets wants,1,positive,0.35
-1066,Aman Kathait,06/05/2021 15:50:21,new sexy females followin follow,1,positive,0.32
-1075,Aman Kathait,06/05/2021 15:50:21,well netprophet followers thus far lunch gone like hotcakes crumbs,1,positive,0.10
-1077,Aman Kathait,06/05/2021 15:50:21,moon bad get see jacob pedophile another two movies,4,Very negative,-0.70
-1081,Aman Kathait,06/05/2021 15:50:21,twitter damn day nighty night barbie bitchquot,0,neutral,0.00
-1085,Aman Kathait,06/05/2021 15:50:21,pc version manage convince publisher awesome seductive powers please give us,2,Very positive,1.00
-1088,Aman Kathait,06/05/2021 15:50:21,people follow shall follow,0,neutral,0.00
-1092,Aman Kathait,06/05/2021 15:50:21,hey nsw supporters cut losses go enjoy,1,positive,0.40
-1097,Aman Kathait,06/05/2021 15:50:21,congrats movie life pacman interested create fund,1,positive,0.25
-1112,Aman Kathait,06/05/2021 15:50:21,hahaha thats funny guys somethin invented actionmcfly fan site,1,positive,0.23
-1114,Aman Kathait,06/05/2021 15:50:21,r redwood city sprint store sold im waiting port systems crashing load,0,neutral,0.00
-1118,Aman Kathait,06/05/2021 15:50:21,tip office speakers perfect way kickstart week,2,Very positive,1.00
-1124,Aman Kathait,06/05/2021 15:50:22,cheered another great far back grading papers,1,positive,0.30
-1134,Aman Kathait,06/05/2021 15:50:22,rockys amp left amp coming back signed yr deal brumbees ta great season,1,positive,0.27
-1143,Aman Kathait,06/05/2021 15:50:22,woke omg horny sadly alone,3,negative,-0.50
-1145,Aman Kathait,06/05/2021 15:50:22,note self bring camera last days freshman year must capture every precious moment,1,positive,0.25
-1152,Aman Kathait,06/05/2021 15:50:22,dads truck shut omg raining hard wtf haha fuckfuvkfuvk noooo ahaha againnnnnn ha,3,negative,-0.20
-1166,Aman Kathait,06/05/2021 15:50:22,shut put money mouth thats get waking vegas,0,neutral,0.00
-1181,Aman Kathait,06/05/2021 15:50:22,bay area rides want ride please sc gt la santa cruz anyone perhaps going l,0,neutral,0.00
-1182,Aman Kathait,06/05/2021 15:50:22,also saw anne marie deluise pop either ep peters directing either way awesome,2,Very positive,1.00
-1183,Aman Kathait,06/05/2021 15:50:22,tweeple flickr please join group contribute pool,0,neutral,0.00
-1187,Aman Kathait,06/05/2021 15:50:22,mommy shes sick worries please keep ur prayers,4,Very negative,-0.71
-1190,Aman Kathait,06/05/2021 15:50:22,buffalo banks actually checking coin rolls see canadian coins included,0,neutral,0.00
-1195,Aman Kathait,06/05/2021 15:50:22,think know believe end little consequence consequence quot,3,negative,-0.19
-1197,Aman Kathait,06/05/2021 15:50:22,trusting everything life reflects falling place easily often miraculously shakti gawain,1,positive,0.43
-1201,Aman Kathait,06/05/2021 15:50:22,see beauty around let detail remind lift head praisequot got home,0,neutral,0.00
-1208,Aman Kathait,06/05/2021 15:50:22,would rather trust deceived quot,0,neutral,0.00
-1213,Aman Kathait,06/05/2021 15:50:22,everyone moving asked curious kid front theater noboby likes yelled ludicrous girl back,3,negative,-0.05
-1225,Aman Kathait,06/05/2021 15:50:22,yes manquot fantastic movie omg,1,positive,0.40
-1226,Aman Kathait,06/05/2021 15:50:22,yesterday already happened tomorrow yet come right gift thats call present joe family,1,positive,0.14
-1231,Aman Kathait,06/05/2021 15:50:22,ok im celeb hater im kida obsessive spencer pratt one biggest wankers time,1,positive,0.50
-1232,Aman Kathait,06/05/2021 15:50:22,stoke west ham results going way,0,neutral,0.00
-1234,Aman Kathait,06/05/2021 15:50:22,get invite denied access boo,0,neutral,0.00
-1241,Aman Kathait,06/05/2021 15:50:22,starting think american cousins like mancunian girl,0,neutral,0.00
-1245,Aman Kathait,06/05/2021 15:50:22,love anymore want give phone,1,positive,0.50
-1262,Aman Kathait,06/05/2021 15:50:22,odds better worse winning lotto wonder least free,1,positive,0.14
-1264,Aman Kathait,06/05/2021 15:50:22,metropolitan park twin theatre,0,neutral,0.00
-1265,Aman Kathait,06/05/2021 15:50:22,trending topics ages happy,2,Very positive,0.80
-1274,Aman Kathait,06/05/2021 15:50:22,aus loose first wkt second ball wi,1,positive,0.06
-1277,Aman Kathait,06/05/2021 15:50:22,competition saturday feel ready yet,1,positive,0.20
-1281,Aman Kathait,06/05/2021 15:50:22,scary texans fail test insurers rules road scored,3,negative,-0.50
-1284,Aman Kathait,06/05/2021 15:50:22,x paid taxes viewable windos,0,neutral,0.00
-1295,Aman Kathait,06/05/2021 15:50:22,frustrating day potentials need hug sad,3,negative,-0.45
-1296,Aman Kathait,06/05/2021 15:50:22,high saturday good day,1,positive,0.43
-1300,Aman Kathait,06/05/2021 15:50:22,song stuck head shut amp let goooo quot,0,neutral,0.00
-1302,Aman Kathait,06/05/2021 15:50:22,shut bad thoughts let win,1,positive,0.05
-1312,Aman Kathait,06/05/2021 15:50:22,tweety bird needs shut fuck imma go smack shit outta,3,negative,-0.30
-1317,Aman Kathait,06/05/2021 15:50:22,came breeeeeze sunday morningquot,0,neutral,0.00
-1319,Aman Kathait,06/05/2021 15:50:22,turn sun still going shinequot schoooool tomorrow need summer,0,neutral,0.00
-1322,Aman Kathait,06/05/2021 15:50:22,either fix stand learning deal fact nothing ever perfect,2,Very positive,1.00
-1330,Aman Kathait,06/05/2021 15:50:22,opened eyes made realise could see could write would care afraid didnt try,4,Very negative,-0.60
-1331,Aman Kathait,06/05/2021 15:50:22,pms alotquot wtf first im guy guys dumb,3,negative,-0.21
-1336,Aman Kathait,06/05/2021 15:50:22,work lunacyquot tutor,0,neutral,0.00
-1339,Aman Kathait,06/05/2021 15:50:22,logic logical piece shit statement day,1,positive,0.02
-1342,Aman Kathait,06/05/2021 15:50:22,opinion neither required wantedquot anyone else,0,neutral,0.00
-1344,Aman Kathait,06/05/2021 15:50:22,crazy wild monkey sex haha jk,3,negative,-0.09
-1346,Aman Kathait,06/05/2021 15:50:22,keep drink give money,0,neutral,0.00
-1347,Aman Kathait,06/05/2021 15:50:22,ugly one something beautiful ohh whatta tune propper love kooks,1,positive,0.22
-1349,Aman Kathait,06/05/2021 15:50:22,holding thumb nose deadgirl friday th need something ensure good night sleep,2,Very positive,0.70
-1355,Aman Kathait,06/05/2021 15:50:22,btw one chaser get creative,1,positive,0.50
-1359,Aman Kathait,06/05/2021 15:50:22,say eloquently enjoy last days freedom destiny fate way,1,positive,0.20
-1365,Aman Kathait,06/05/2021 15:50:22,cont helloquot replied hey momquot end lol lmao,2,Very positive,0.70
-1371,Aman Kathait,06/05/2021 15:50:22,contd anyway side heaven nice dave,2,Very positive,0.60
-1376,Aman Kathait,06/05/2021 15:50:22,enough computers row sit next friends,0,neutral,0.00
-1378,Aman Kathait,06/05/2021 15:50:22,since stolen make tv series moon replaced artist impression painted balloon,0,neutral,0.00
-1379,Aman Kathait,06/05/2021 15:50:22,would love wearing cookie loves milkquot sold size though,1,positive,0.50
-1381,Aman Kathait,06/05/2021 15:50:22,tivo record f fox week cant make new season pass see fox shows speed fox races,1,positive,0.14
-1383,Aman Kathait,06/05/2021 15:50:22,wow background interesting reminds harry potters hogwarts tokio hotel wizards magic,1,positive,0.37
-1385,Aman Kathait,06/05/2021 15:50:22,night yay excited even never saw lauren really broadens horizon,1,positive,0.29
-1387,Aman Kathait,06/05/2021 15:50:22,uuupps dm comes back back working,0,neutral,0.00
-1406,Aman Kathait,06/05/2021 15:50:22,ice cube voice today good day takin yall kisses muah nite nite,2,Very positive,0.70
-1409,Aman Kathait,06/05/2021 15:50:22,mac like boss awesome compatible system budget ambil dell di injeg injeg,2,Very positive,1.00
-1413,Aman Kathait,06/05/2021 15:50:22,completley twitter less break going go eat fruitamp fibre watch doogie study udy udy,3,negative,-0.17
-1428,Aman Kathait,06/05/2021 15:50:22,today sucha bad day hours late prac tchr kept picking told hui jia yao du shu okiie,3,negative,-0.50
-1430,Aman Kathait,06/05/2021 15:50:22,iphone crashes sometimes u press send composing tweet u compose whole tweet,1,positive,0.20
-1446,Aman Kathait,06/05/2021 15:50:22,pro like far thanks silver ui rox lol hi,1,positive,0.37
-1450,Aman Kathait,06/05/2021 15:50:22,twitters mis grandes amigos alla en venezuela follow,0,neutral,0.00
-1454,Aman Kathait,06/05/2021 15:50:22,amos one knows meant good couldnt get gilbert tickets,2,Very positive,0.70
-1464,Aman Kathait,06/05/2021 15:50:22,give back abba dancing queen live,1,positive,0.07
-1466,Aman Kathait,06/05/2021 15:50:22,need put jelly babies away eaten almost whole bag,1,positive,0.20
-1474,Aman Kathait,06/05/2021 15:50:22,lt thats feel except actually great mood,2,Very positive,0.80
-1485,Aman Kathait,06/05/2021 15:50:22,shut put money mouth thats get waking vegas,0,neutral,0.00
-1487,Aman Kathait,06/05/2021 15:50:22,im wondering octopus copilate octopuss vagina penis looks like im curious hahahahaha,1,positive,0.05
-1495,Aman Kathait,06/05/2021 15:50:22,www tecnasty com kutie wouldnt work yr kutie,0,neutral,0.00
-1498,Aman Kathait,06/05/2021 15:50:22,chemistry going choose english find chem kind boring end going help people lt choose chemgt,3,negative,-0.13
-1500,Aman Kathait,06/05/2021 15:50:22,fuck e practice soo bored w goldie hallway w e day running schedule,3,negative,-0.45
-1506,Aman Kathait,06/05/2021 15:50:22,ill update twitter tomorrow hope chat guys,3,negative,-0.50
-1532,Aman Kathait,06/05/2021 15:50:22,alegend tweet alegend let friends know legends,0,neutral,0.00
-1533,Aman Kathait,06/05/2021 15:50:22,cousin marsha wasnt cousin id surely die,1,positive,0.50
-1540,Aman Kathait,06/05/2021 15:50:22,beats ironing washing hoovering polishing gardening watching ruddy wonderpets,0,neutral,0.00
-1542,Aman Kathait,06/05/2021 15:50:22,note self english essay pay attention class,0,neutral,0.00
-1543,Aman Kathait,06/05/2021 15:50:22,think someone area party shut doof doof music,0,neutral,0.00
-1544,Aman Kathait,06/05/2021 15:50:22,think make interesting instrument note self got tune bit,1,positive,0.50
-1550,Aman Kathait,06/05/2021 15:50:22,back hurts note self camping blows,0,neutral,0.00
-1553,Aman Kathait,06/05/2021 15:50:22,mind people talking throat killing shut whole day please,1,positive,0.20
-1554,Aman Kathait,06/05/2021 15:50:22,mogwai reminded live music always better note self bring earplugs nin,1,positive,0.32
-1558,Aman Kathait,06/05/2021 15:50:22,oh snap bars stores open statutory holidays stupid retarded laws,4,Very negative,-0.53
-1569,Aman Kathait,06/05/2021 15:50:22,gon na watch jt snl tonight fan music think hilarious jizz pants way funny,1,positive,0.38
-1571,Aman Kathait,06/05/2021 15:50:22,issue style sample magazine published please read,0,neutral,0.00
-1572,Aman Kathait,06/05/2021 15:50:22,wont say da name da person cant belived ur acting way u r say peace wif u god bless u x,0,neutral,0.00
-1574,Aman Kathait,06/05/2021 15:50:22,happy dance love free stuff invitation send ads,2,Very positive,0.57
-1579,Aman Kathait,06/05/2021 15:50:22,cleaning house never signed gave birth kids perpetually cleaning,3,negative,-0.05
-1589,Aman Kathait,06/05/2021 15:50:22,th twitter update im hungry bet eat,0,neutral,0.00
-1595,Aman Kathait,06/05/2021 15:50:22,awake getting ready go beach missing joey,0,neutral,0.00
-1608,Aman Kathait,06/05/2021 15:50:22,gave bud university president high five instead shaking hands lol,1,positive,0.48
-1610,Aman Kathait,06/05/2021 15:50:22,note self watch jimmy kimmel tonight everyone go get new cd today,1,positive,0.14
-1619,Aman Kathait,06/05/2021 15:50:22,omg shut birds sun even yet,0,neutral,0.00
-1623,Aman Kathait,06/05/2021 15:50:22,feeling whole week going suck,1,positive,0.20
-1627,Aman Kathait,06/05/2021 15:50:22,oh god oh god horrible person need hug,4,Very negative,-1.00
-1628,Aman Kathait,06/05/2021 15:50:22,note self must list fabrics buttons mmm later,0,neutral,0.00
-1629,Aman Kathait,06/05/2021 15:50:22,heading bakers need hug,0,neutral,0.00
-1634,Aman Kathait,06/05/2021 15:50:22,addiction need twitter rehab,0,neutral,0.00
-1639,Aman Kathait,06/05/2021 15:50:22,alpha sucks even researchers information provided less get totally useless,3,negative,-0.32
-1642,Aman Kathait,06/05/2021 15:50:22,follow im friend less lol,1,positive,0.32
-1657,Aman Kathait,06/05/2021 15:50:22,like submit awesome song recommendations time week,2,Very positive,1.00
-1659,Aman Kathait,06/05/2021 15:50:22,buy respect go bark another tree obnoxious freak shows good morning,2,Very positive,0.70
-1662,Aman Kathait,06/05/2021 15:50:22,tick playing pants gross feel violated,0,neutral,0.00
-1665,Aman Kathait,06/05/2021 15:50:22,everything finacially dont,0,neutral,0.00
-1674,Aman Kathait,06/05/2021 15:50:22,clears throat nick dryly stating congrats championship still hate lakers knew orlando going delivery,4,Very negative,-0.80
-1688,Aman Kathait,06/05/2021 15:50:22,g lazy sundays always best recluse wkend far revising playing bap enjoy seeing one,1,positive,0.31
-1692,Aman Kathait,06/05/2021 15:50:22,ticket parking street expired registration,0,neutral,0.00
-1699,Aman Kathait,06/05/2021 15:50:22,gas crazy gas prices going makes wish bought turbo diesel,4,Very negative,-0.60
-1707,Aman Kathait,06/05/2021 15:50:22,cheapest delivery order sam amp max celebration special really want really need uk store,1,positive,0.25
-1714,Aman Kathait,06/05/2021 15:50:22,gbpjpy covered short position giving back session gains perfect lesson consequences cutting losses quick,1,positive,0.15
-1715,Aman Kathait,06/05/2021 15:50:22,hl announces private placement heads straight toilet bowl,1,positive,0.06
-1721,Aman Kathait,06/05/2021 15:50:22,jess watching mtv movie awards,0,neutral,0.00
-1722,Aman Kathait,06/05/2021 15:50:22,kelly slept hours woooow well rested,0,neutral,0.00
-1723,Aman Kathait,06/05/2021 15:50:22,l ice grande half sweet french vanilla soy milk starbucks means summaas coming,1,positive,0.06
-1724,Aman Kathait,06/05/2021 15:50:22,mcfly fans x jbros fans like hooligans haha win,1,positive,0.50
-1725,Aman Kathait,06/05/2021 15:50:22,must tell love job love job love job love job,1,positive,0.50
-1732,Aman Kathait,06/05/2021 15:50:23,ok blip behave good morning,2,Very positive,0.60
-1743,Aman Kathait,06/05/2021 15:50:23,sniffs sniffs crying story lame,3,negative,-0.35
-1744,Aman Kathait,06/05/2021 15:50:23,sobering stuff learned zoo weigh slightly less baby elephant sigh,3,negative,-0.17
-1749,Aman Kathait,06/05/2021 15:50:23,try hope foldin moneyquot nite johnny kemp got paidquot soul train video,0,neutral,0.00
-1752,Aman Kathait,06/05/2021 15:50:23,mvis announce financing soon wish non dilutive tave reason believe otherwise bend still long,3,negative,-0.05
-1753,Aman Kathait,06/05/2021 15:50:23,amp sorry say better th album bad artist india arie needs airplay better promotion,3,negative,-0.05
-1755,Aman Kathait,06/05/2021 15:50:23,amp kenshin sounds like cordelia sounds like ed hooray,0,neutral,0.00
-1758,Aman Kathait,06/05/2021 15:50:23,amp buck living desert amp hella hot,1,positive,0.25
-1759,Aman Kathait,06/05/2021 15:50:23,amp everyone asking srry babes goin live tonite ill try make happen sumtime tmrrw,3,negative,-0.18
-1767,Aman Kathait,06/05/2021 15:50:23,amp played shit till battery died ahaha good nite everyone,1,positive,0.25
-1776,Aman Kathait,06/05/2021 15:50:23,amp phones dead left charger back shah alam buy new one tmrw mean time twitter people,3,negative,-0.08
-1778,Aman Kathait,06/05/2021 15:50:23,amp mention blue water minute timers time sure goes fast put shampoo conditioner body wash shampamp cond sunsilk brand,1,positive,0.23
-1779,Aman Kathait,06/05/2021 15:50:23,amp im mad got go sleep lol cant hold eyes open twitter conversation b saved til marrow,1,positive,0.06
-1781,Aman Kathait,06/05/2021 15:50:23,amp kettle broken boiling water old fashion wayyyy,3,negative,-0.15
-1784,Aman Kathait,06/05/2021 15:50:23,amp kalled old lady lol,1,positive,0.45
-1789,Aman Kathait,06/05/2021 15:50:23,amp never make tunes like fake tales certain romance anymore tbh miss good old arctic monkeys,1,positive,0.13
-1793,Aman Kathait,06/05/2021 15:50:23,amp amp say say goodbye said hi clue smile,1,positive,0.30
-1795,Aman Kathait,06/05/2021 15:50:23,amp amp really bad cough cough feel like puking tummys alil weird urgh sucks missing,3,negative,-0.42
-1799,Aman Kathait,06/05/2021 15:50:23,amp amp throat hurts ehh dnt want sick excited tonite much needed,3,negative,-0.05
-1808,Aman Kathait,06/05/2021 15:50:23,amp nd things could better would trade tacos world,1,positive,0.50
-1814,Aman Kathait,06/05/2021 15:50:23,working site im tired html hate,4,Very negative,-0.60
-1816,Aman Kathait,06/05/2021 15:50:23,yawn im pretty tired start homework though,3,negative,-0.08
-1817,Aman Kathait,06/05/2021 15:50:23,yay sj come play kibum course missing teuk,3,negative,-0.20
-1821,Aman Kathait,06/05/2021 15:50:23,music dj cool newish band go audio made stories rox cos words shame cant sing,1,positive,0.35
-1822,Aman Kathait,06/05/2021 15:50:23,u vote banner people every twenty minutes,0,neutral,0.00
-1825,Aman Kathait,06/05/2021 15:50:23,wow randomly lost text messages sent received pm pm gooo blackberry curve lame,3,negative,-0.30
-1826,Aman Kathait,06/05/2021 15:50:23,eds going bike ride roving graham crackers everywhere,0,neutral,0.00
-1830,Aman Kathait,06/05/2021 15:50:23,new akjava video check make sure leave comment,1,positive,0.32
-1832,Aman Kathait,06/05/2021 15:50:23,sigh bouncers early dgeek,1,positive,0.10
-1834,Aman Kathait,06/05/2021 15:50:23,means netball next weekend,0,neutral,0.00
-1835,Aman Kathait,06/05/2021 15:50:23,correction st day sleep,0,neutral,0.00
-1856,Aman Kathait,06/05/2021 15:50:23,crying standing rain trying get brothers truck started aaaaaawwwwwww,3,negative,-0.20
-1862,Aman Kathait,06/05/2021 15:50:23,dont call phone dont anymore,0,neutral,0.00
-1867,Aman Kathait,06/05/2021 15:50:23,emo moment booo noone likes plus fernando want hug wonder hates someone avaiable give hug,0,neutral,0.00
-1869,Aman Kathait,06/05/2021 15:50:23,facepalms want seeeee,0,neutral,0.00
-1871,Aman Kathait,06/05/2021 15:50:23,flails hot inside minutes go home,1,positive,0.25
-1874,Aman Kathait,06/05/2021 15:50:23,follows surely flower may brighten day look petunias roses daisies bouquets galore,1,positive,0.50
-1879,Aman Kathait,06/05/2021 15:50:23,days til whatcha getting night alone wow miss though,1,positive,0.10
-1885,Aman Kathait,06/05/2021 15:50:23,blatantly biting homie wishes wait til end week see,3,negative,-0.50
-1893,Aman Kathait,06/05/2021 15:50:23,contd getting dumber company jus make fun brilliant best tomo love,2,Very positive,0.68
-1895,Aman Kathait,06/05/2021 15:50:23,cough cough splutter sneeze uuuurrgggh morning,0,neutral,0.00
-1898,Aman Kathait,06/05/2021 15:50:23,coughcoughcough seem right,1,positive,0.29
-1905,Aman Kathait,06/05/2021 15:50:23,downloading camron new album better worth lol,1,positive,0.43
-1916,Aman Kathait,06/05/2021 15:50:23,gasp lebron puppet dead nomore puppet commercials,3,negative,-0.20
-1919,Aman Kathait,06/05/2021 15:50:23,giggle okay dont apologize observation complaint quot,1,positive,0.10
-1933,Aman Kathait,06/05/2021 15:50:23,dont feel goooood tear tear,0,neutral,0.00
-1936,Aman Kathait,06/05/2021 15:50:23,us fat fingers iphone fail,3,negative,-0.50
-1941,Aman Kathait,06/05/2021 15:50:23,giggles seeing joans stalker list called stalkeees anyhoo see britters one secrets,0,neutral,0.00
-1944,Aman Kathait,06/05/2021 15:50:23,growns soo much pain irl go bed xx,1,positive,0.20
-1946,Aman Kathait,06/05/2021 15:50:23,happiness realized taken form sleep aid last week keep waking instead noon,1,positive,0.35
-1947,Aman Kathait,06/05/2021 15:50:23,happy finished wit h diving license today,2,Very positive,0.80
-1958,Aman Kathait,06/05/2021 15:50:23,hvnt facebook days need reply mssgs badly crazy server setia alam servicing amp company blocked argh,4,Very negative,-0.60
-1964,Aman Kathait,06/05/2021 15:50:23,still process making tough choices,3,negative,-0.39
-1966,Aman Kathait,06/05/2021 15:50:23,finished making lemon poppy seed cake thinggy lemony glaze,0,neutral,0.00
-1970,Aman Kathait,06/05/2021 15:50:23,gt poor spanish leaves completely dependent amp others tell going spain,3,negative,-0.10
-1974,Aman Kathait,06/05/2021 15:50:23,gt feeling quite downquot afternoon,0,neutral,0.00
-1976,Aman Kathait,06/05/2021 15:50:23,gt gt propel running omquot phing task gt bus error mooookaaayyyyyyy le bus magique se craque,0,neutral,0.00
-1982,Aman Kathait,06/05/2021 15:50:23,gt gt follow melt lt mwah,0,neutral,0.00
-1983,Aman Kathait,06/05/2021 15:50:23,gt gt blonde keep failing drivers license test gt gt gt gt gt everytime stopped jumped back seat,0,neutral,0.00
-1993,Aman Kathait,06/05/2021 15:50:23,lt get hit head karen song,0,neutral,0.00
-2000,Aman Kathait,06/05/2021 15:50:23,lt twitter noob btw please correct necessary,0,neutral,0.00
-2002,Aman Kathait,06/05/2021 15:50:23,lt lt neva show belly,0,neutral,0.00
-2003,Aman Kathait,06/05/2021 15:50:23,lt lt lt lmfao called cat queef gave weirdest look,0,neutral,0.00
-2004,Aman Kathait,06/05/2021 15:50:23,lt lt lt offering private close personal massages orlando area locals travelers area contact info,0,neutral,0.00
-2007,Aman Kathait,06/05/2021 15:50:23,lt lt lt early bout wake bake like usual lg lifes good,1,positive,0.18
-2008,Aman Kathait,06/05/2021 15:50:23,lt cluster emotinggt thanks humoring,1,positive,0.20
-2013,Aman Kathait,06/05/2021 15:50:23,lt felt like spreading love goodmorning,1,positive,0.50
-2015,Aman Kathait,06/05/2021 15:50:23,lt lt lt music missed yesterday,0,neutral,0.00
-2018,Aman Kathait,06/05/2021 15:50:23,lt beauty de placccceeee,0,neutral,0.00
-2019,Aman Kathait,06/05/2021 15:50:23,lt dane cook really needing proper man life one interest,1,positive,0.10
-2020,Aman Kathait,06/05/2021 15:50:23,lt hehe love knox romanian bf xp,1,positive,0.50
-2034,Aman Kathait,06/05/2021 15:50:23,lt nothing like good ol morning pash behind small cute church sun frost infested feild sweeter sounds,1,positive,0.14
-2038,Aman Kathait,06/05/2021 15:50:23,lt bgt use thing lol uses bebo need friends thing lol im immaluvanotahater bebo com lol add,2,Very positive,0.80
-2045,Aman Kathait,06/05/2021 15:50:23,lt yaaaaaaaaaawngt tired today little creature,3,negative,-0.29
-2047,Aman Kathait,06/05/2021 15:50:23,find love un expected places best friends become un familar facesquot lina reaffalli saddens,1,positive,0.47
-2048,Aman Kathait,06/05/2021 15:50:23,fortune comes smile japanese wisdom,1,positive,0.15
-2074,Aman Kathait,06/05/2021 15:50:23,put deck shawty skipper,0,neutral,0.00
-2094,Aman Kathait,06/05/2021 15:50:23,diploma spelled deplomaquot well soorrryyy mr yale made mistake would encredibly embarrassed har har,0,neutral,0.00
-2095,Aman Kathait,06/05/2021 15:50:23,hei valonkantaja viaton et ole sinkn p obviously big shoes weekend,0,neutral,0.00
-2098,Aman Kathait,06/05/2021 15:50:23,write back please,0,neutral,0.00
-2099,Aman Kathait,06/05/2021 15:50:23,e mail miley want write cant,0,neutral,0.00
-2102,Aman Kathait,06/05/2021 15:50:23,best love give e mail want write cant,2,Very positive,0.75
-2105,Aman Kathait,06/05/2021 15:50:23,riding truck need next quot,0,neutral,0.00
-2107,Aman Kathait,06/05/2021 15:50:23,ive dayquot follow members boyband ive struggle eat daily recommended intake fruit vegetables,0,neutral,0.00
-2108,Aman Kathait,06/05/2021 15:50:23,candy personal number give candy everyone number select yay ahaa,0,neutral,0.00
-2110,Aman Kathait,06/05/2021 15:50:23,hammering head stop bullet train tokyo los angelesquot hammering headquot garbage,0,neutral,0.00
-2112,Aman Kathait,06/05/2021 15:50:23,margarita day makes work like playquot,0,neutral,0.00
-2119,Aman Kathait,06/05/2021 15:50:23,sigghhh soo much paperrwork theres loong line friggon admisssion grr,3,negative,-0.25
-2120,Aman Kathait,06/05/2021 15:50:23,sigh wish take long videos compress,3,negative,-0.05
-2126,Aman Kathait,06/05/2021 15:50:23,sigh work week begins,0,neutral,0.00
-2127,Aman Kathait,06/05/2021 15:50:23,sigh animal testing depressing subject essay,3,negative,-0.38
-2129,Aman Kathait,06/05/2021 15:50:23,sigh apparently nothing changed iran today least better,1,positive,0.08
-2133,Aman Kathait,06/05/2021 15:50:23,sigh look like going tonight guess stay play sims,0,neutral,0.00
-2140,Aman Kathait,06/05/2021 15:50:23,sigh got new phone blackberry either sucks eggs,3,negative,-0.08
-2147,Aman Kathait,06/05/2021 15:50:23,sigh ronald mcdonald shroud turin would would look like poor poor upper lip,3,negative,-0.27
-2149,Aman Kathait,06/05/2021 15:50:23,sigh monday checked lol wheres joe,2,Very positive,0.80
-2153,Aman Kathait,06/05/2021 15:50:23,add reference wait wait wait,0,neutral,0.00
-2155,Aman Kathait,06/05/2021 15:50:23,adobe uses dmca protocol promised openquot slashdot rtmpdump project taken net,0,neutral,0.00
-2161,Aman Kathait,06/05/2021 15:50:23,birds wire stop onequot doesnt make sense one cd agrees,0,neutral,0.00
-2168,Aman Kathait,06/05/2021 15:50:23,everything seemed lie guiltless twisted liequot,3,negative,-0.50
-2170,Aman Kathait,06/05/2021 15:50:23,lion fell love lamb stupid lamb sick masochistic lion love lines,3,negative,-0.13
-2177,Aman Kathait,06/05/2021 15:50:23,around world teeth fall put back inquot hahahah miss,0,neutral,0.00
-2180,Aman Kathait,06/05/2021 15:50:23,sigh talked guy hes step back clear head script means last draft sucked lost interest,1,positive,0.03
-2183,Aman Kathait,06/05/2021 15:50:23,sigh feet hurt ballet yesterday yet must go dancing hour oh woe meee,0,neutral,0.00
-2192,Aman Kathait,06/05/2021 15:50:23,sigh plans tonight got complicated makes feel stressed weird,3,negative,-0.50
-2199,Aman Kathait,06/05/2021 15:50:23,sigh feels good enjoy still crappy day work wit previous listed aint make n run smooth,1,positive,0.33
-2201,Aman Kathait,06/05/2021 15:50:23,sigh get sleeping till tired going walk around boston charles,3,negative,-0.40
-2202,Aman Kathait,06/05/2021 15:50:23,sigh watching united season review thing makes sad also v worried roo without cris slashy way,3,negative,-0.50
-2205,Aman Kathait,06/05/2021 15:50:23,sigh continuously let walk good friend,2,Very positive,0.70
-2210,Aman Kathait,06/05/2021 15:50:23,aw wish friendquot poynterrrr,0,neutral,0.00
-2211,Aman Kathait,06/05/2021 15:50:23,b b stands bring bitch quot,0,neutral,0.00
-2212,Aman Kathait,06/05/2021 15:50:23,parent lifetime profession love mama papa,1,positive,0.50
-2213,Aman Kathait,06/05/2021 15:50:23,besmirchingquot studying urban dictionary great word,1,positive,0.40
-2214,Aman Kathait,06/05/2021 15:50:23,best weekquot weekly round weeks news doubles source material podcast show notes yeah,1,positive,0.40
-2220,Aman Kathait,06/05/2021 15:50:23,bohicak book month junequot fresh post check nose buried,1,positive,0.30
-2229,Aman Kathait,06/05/2021 15:50:23,bubba best good friend even know aint sumthin find around cornerquot,2,Very positive,0.85
-2241,Aman Kathait,06/05/2021 15:50:23,sighs another day stormy weather st louis,0,neutral,0.00
-2249,Aman Kathait,06/05/2021 15:50:23,sighs good able sleep last week two ish hours last night even tried counting sheep,1,positive,0.30
-2264,Aman Kathait,06/05/2021 15:50:23,sniffle house painting week painters bad weather equipment failure week behind schedual,3,negative,-0.47
-2273,Aman Kathait,06/05/2021 15:50:23,realized june lol happy june everyone,2,Very positive,0.80
-2280,Aman Kathait,06/05/2021 15:50:23,megan sorry typing one hand busy holding warm compressor jaw,1,positive,0.07
-2282,Aman Kathait,06/05/2021 15:50:23,missing lt lt lt lt go away stop looking pictures good,1,positive,0.25
-2284,Aman Kathait,06/05/2021 15:50:23,day im terrible speller even nickmileys friendship cute aww im glad friends,1,positive,0.07
-2293,Aman Kathait,06/05/2021 15:50:23,peeks ugh twitter hours sad borderline perverted,3,negative,-0.50
-2299,Aman Kathait,06/05/2021 15:50:23,rubs eyes minutes stupid called nap,4,Very negative,-0.80
-2300,Aman Kathait,06/05/2021 15:50:23,runs amp hides behind buddy amp barely peeks good tall human friend,1,positive,0.09
-2301,Aman Kathait,06/05/2021 15:50:23,sad face bikes offline notice problems brakes accidentally leaked hyd oil mtb,3,negative,-0.50
-2311,Aman Kathait,06/05/2021 15:50:23,come going catch firequot tobymac,0,neutral,0.00
-2332,Aman Kathait,06/05/2021 15:50:23,sad cls buy new flash triggers ill snap nice portraits use twitter,3,negative,-0.07
-2337,Aman Kathait,06/05/2021 15:50:23,shakes fist rain love wish would stop often least longer periods time,1,positive,0.10
-2346,Aman Kathait,06/05/2021 15:50:23,sigh awake late want get study,3,negative,-0.30
-2352,Aman Kathait,06/05/2021 15:50:23,sigh even heros need sleep guess even want sleep,0,neutral,0.00
-2353,Aman Kathait,06/05/2021 15:50:23,sigh everyone holidays home,0,neutral,0.00
-2366,Aman Kathait,06/05/2021 15:50:23,dont need haterationquot love mary j,1,positive,0.50
-2367,Aman Kathait,06/05/2021 15:50:23,dont tell sky limit footprints moon thought would share lil sumn sumn,0,neutral,0.00
-2369,Aman Kathait,06/05/2021 15:50:23,dont worry internets going alright quot,0,neutral,0.00
-2370,Aman Kathait,06/05/2021 15:50:23,dont know rome built dayquot morcheeba,0,neutral,0.00
-2372,Aman Kathait,06/05/2021 15:50:23,dr momquot sent back bed giving decongestant ibuprofen woke snuffles still achey,0,neutral,0.00
-2385,Aman Kathait,06/05/2021 15:50:23,everybodys fun sound love ugly world poor love mine deserve sadness,1,positive,0.10
-2389,Aman Kathait,06/05/2021 15:50:23,sigh hate sore throats,4,Very negative,-0.80
-2394,Aman Kathait,06/05/2021 15:50:23,sigh slept today still one day tomorrow,0,neutral,0.00
-2398,Aman Kathait,06/05/2021 15:50:23,sigh im cranky make stop cranky,0,neutral,0.00
-2399,Aman Kathait,06/05/2021 15:50:23,sigh fucking worried bby,4,Very negative,-0.60
-2419,Aman Kathait,06/05/2021 15:50:23,sigh post convention blues,0,neutral,0.00
-2420,Aman Kathait,06/05/2021 15:50:23,sigh sims cant handled comp bros much laptop,1,positive,0.20
-2425,Aman Kathait,06/05/2021 15:50:23,fall bella emmett punched werewolf facequot haha,1,positive,0.20
-2446,Aman Kathait,06/05/2021 15:50:23,give kissquot excellent,2,Very positive,1.00
-2450,Aman Kathait,06/05/2021 15:50:23,god give us handle god helps us handle given thanks dorothy,1,positive,0.20
-2456,Aman Kathait,06/05/2021 15:50:23,sigh two weeks holiday gone instant back work tomorrow,0,neutral,0.00
-2458,Aman Kathait,06/05/2021 15:50:23,sigh weekends passed fast huh,1,positive,0.20
-2464,Aman Kathait,06/05/2021 15:50:23,sigh amazing baked shrimp salad absolutely love diet like love,2,Very positive,0.53
-2480,Aman Kathait,06/05/2021 15:50:23,sings u remember u told u loved meeee baaaybeh luther truth,2,Very positive,0.70
-2482,Aman Kathait,06/05/2021 15:50:23,sings fckin best best ever u aint got ta ask twice u lt share like last slice,2,Very positive,0.67
-2495,Aman Kathait,06/05/2021 15:50:23,sucksuck u fun sucksuckstroke stroke oh cool suck howd u get suckstroke ha ha ha ha,1,positive,0.32
-2496,Aman Kathait,06/05/2021 15:50:23,kindergarden ceremony disappointing sing songs diplomas anything wtf,4,Very negative,-0.55
-2499,Aman Kathait,06/05/2021 15:50:23,thunder boom need followers hehehehe jump,0,neutral,0.00
-2503,Aman Kathait,06/05/2021 15:50:23,train lol oops nigga annoying,0,neutral,0.00
-2505,Aman Kathait,06/05/2021 15:50:23,two bare feet dashboard,1,positive,0.05
-2506,Aman Kathait,06/05/2021 15:50:23,twugs mami need one man feel like real ass right need hug pouting,1,positive,0.24
-2519,Aman Kathait,06/05/2021 15:50:23,yawn sleepover friends last night going another tonight friend canceled shes sick,3,negative,-0.36
-2521,Aman Kathait,06/05/2021 15:50:23,google tasksquot good taking notes surprised bad iphone version sucks maybe time first iphone app,1,positive,0.01
-2529,Aman Kathait,06/05/2021 15:50:24,hannah choose sex allison lots bahahahahaha,0,neutral,0.00
-2538,Aman Kathait,06/05/2021 15:50:24,heads mine tails could simple,0,neutral,0.00
-2540,Aman Kathait,06/05/2021 15:50:24,hes youquot makes want fall inlike,0,neutral,0.00
-2551,Aman Kathait,06/05/2021 15:50:24,sob free fixed premium still teh dead,1,positive,0.10
-2554,Aman Kathait,06/05/2021 15:50:24,stewie walks naked passing see anything like speak upquot,0,neutral,0.00
-2556,Aman Kathait,06/05/2021 15:50:24,still nauseous got shopping essentials cant believe sat lost almost days,0,neutral,0.00
-2567,Aman Kathait,06/05/2021 15:50:24,weather nice hello sun,2,Very positive,0.60
-2578,Aman Kathait,06/05/2021 15:50:24,warningeverythang super funny delayed responses randomness need sleep refuse dnt mind less u want mind,1,positive,0.14
-2580,Aman Kathait,06/05/2021 15:50:24,hi mac im getting upgrade today quot,0,neutral,0.00
-2584,Aman Kathait,06/05/2021 15:50:24,holy crap want see dance sing rap lol heart andrew,0,neutral,0.00
-2587,Aman Kathait,06/05/2021 15:50:24,hope u find wut ur looking amp good comes along dnt push away cuz ur scared againquot damn knows toooo well,2,Very positive,0.70
-2592,Aman Kathait,06/05/2021 15:50:24,sleep without side quot,0,neutral,0.00
-2597,Aman Kathait,06/05/2021 15:50:24,hurt mouth get slim hurt leg get fatquot khmer expression ill fat,3,negative,-0.50
-2598,Aman Kathait,06/05/2021 15:50:24,hurtquot christina aguilera dedicated grandpa passed away years ago never got meet,0,neutral,0.00
-2602,Aman Kathait,06/05/2021 15:50:24,almost see dream dreaming voice insinde head saying youll never reach love song,1,positive,0.50
-2603,Aman Kathait,06/05/2021 15:50:24,hear smile sounds wonderful quot,2,Very positive,0.65
-2607,Aman Kathait,06/05/2021 15:50:24,dont want fall sleep couse dont know ill get upquot crying someone cares,3,negative,-0.35
-2612,Aman Kathait,06/05/2021 15:50:24,throw away cell phones answer calls coming stars,0,neutral,0.00
-2623,Aman Kathait,06/05/2021 15:50:24,yawn hav study generationz software oh,0,neutral,0.00
-2629,Aman Kathait,06/05/2021 15:50:24,yawn morning peoples got listening radio disney ugh havent started studying yet even tho got stuff,0,neutral,0.00
-2630,Aman Kathait,06/05/2021 15:50:24,yawn one active least going back bed,3,negative,-0.14
-2631,Aman Kathait,06/05/2021 15:50:24,yawn omg super super tired sleepy sleep last night hmm sleep tonight boo,1,positive,0.07
-2636,Aman Kathait,06/05/2021 15:50:24,yawn bore sick go tonight,4,Very negative,-0.71
-2638,Aman Kathait,06/05/2021 15:50:24,yawnn watchin scarred jackass imma fall asleep tht tired thank nap haha,3,negative,-0.23
-2639,Aman Kathait,06/05/2021 15:50:24,yawns going bed wrap amazing weekend back proverbial grind tomorrow,1,positive,0.30
-2640,Aman Kathait,06/05/2021 15:50:24,yawns good morning twitfam,2,Very positive,0.70
-2646,Aman Kathait,06/05/2021 15:50:24,dont want loose dont want let go lyrics storm nick miley aww sweet,1,positive,0.19
-2648,Aman Kathait,06/05/2021 15:50:24,feel like hero heeeeee roinequot,0,neutral,0.00
-2650,Aman Kathait,06/05/2021 15:50:24,gave fat clotes fat friendsquot,0,neutral,0.00
-2652,Aman Kathait,06/05/2021 15:50:24,got feeling automatic zoot woman automatic gt gt love songvideo bits,1,positive,0.50
-2653,Aman Kathait,06/05/2021 15:50:24,got plenty moneyquot sounds incredible club prepping flight back nyc dont want leave,1,positive,0.45
-2654,Aman Kathait,06/05/2021 15:50:24,got feelin tonights going good good nightquot bep album drops next week yeeeeyah gots happy friday,2,Very positive,0.55
-2658,Aman Kathait,06/05/2021 15:50:24,hid porch love upquot amazing,2,Very positive,0.55
-2665,Aman Kathait,06/05/2021 15:50:24,like long hair thick red bone wayne,3,negative,-0.12
-2684,Aman Kathait,06/05/2021 15:50:24,yawn tired monday tomorrow going sleep wake bright sunny tomorrow,1,positive,0.15
-2708,Aman Kathait,06/05/2021 15:50:24,washed cars today real awesome,2,Very positive,1.00
-2710,Aman Kathait,06/05/2021 15:50:24,goes nambu application crashed second time,0,neutral,0.00
-2714,Aman Kathait,06/05/2021 15:50:24,yawns miserable outside making wish still fast asleep,3,negative,-0.27
-2724,Aman Kathait,06/05/2021 15:50:24,cuzzy called going watch movie jingyis staying home,0,neutral,0.00
-2725,Aman Kathait,06/05/2021 15:50:24,helped bobbypin insanely cool hat head laughed stupid brokeback mountain cowboy jokes,1,positive,0.08
-2727,Aman Kathait,06/05/2021 15:50:24,oh mint lounge awesome night,2,Very positive,1.00
-2732,Aman Kathait,06/05/2021 15:50:24,screwed whole thing bar unusable never mind things happen,1,positive,0.20
-2737,Aman Kathait,06/05/2021 15:50:24,tryna hoop today long,3,negative,-0.05
-2739,Aman Kathait,06/05/2021 15:50:24,thats unfortunate depeche mode show vegas night,3,negative,-0.50
-2741,Aman Kathait,06/05/2021 15:50:24,definitely intend downloading single user version reviewing system merits,3,negative,-0.04
-2742,Aman Kathait,06/05/2021 15:50:24,parents even sign letter wrote forcing dresses girls,0,neutral,0.00
-2745,Aman Kathait,06/05/2021 15:50:24,yeah think time go sleep yeah right watch back mins lol yeah adios mii twiggas,1,positive,0.36
-2747,Aman Kathait,06/05/2021 15:50:24,waitin cab outside chalk farm station seein lots yout dem rockin h tees,0,neutral,0.00
-2749,Aman Kathait,06/05/2021 15:50:24,emp definitely cool little kid friendly make check diaper bags door amp photos allowed,1,positive,0.18
-2759,Aman Kathait,06/05/2021 15:50:24,love site really yet remake announcements breaking heart watch older films,1,positive,0.29
-2770,Aman Kathait,06/05/2021 15:50:24,read moms blog want reach thru wires hug hell ya esp sis,0,neutral,0.00
-2777,Aman Kathait,06/05/2021 15:50:24,hmm would want faith btvs bit sane would love look like got tease spike,1,positive,0.50
-2785,Aman Kathait,06/05/2021 15:50:24,maybe youll get lot new euphorised crazy meezer furriends happy paw lucky nip,1,positive,0.17
-2796,Aman Kathait,06/05/2021 15:50:24,destinations choices pleasures choose one miamilacali aaa hate shuld go dis places,4,Very negative,-0.80
-2798,Aman Kathait,06/05/2021 15:50:24,promised never fall love fulfill promise fall love boy loves another girl quot,1,positive,0.50
-2806,Aman Kathait,06/05/2021 15:50:24,want nasi goreng yaudah friday aja makannyaquot already friday quot,0,neutral,0.00
-2807,Aman Kathait,06/05/2021 15:50:24,want revenge run kentucky derby due wrenched ankle quot,3,negative,-0.12
-2815,Aman Kathait,06/05/2021 15:50:24,act soon thin ice thin ice thin ice thin ice thin ice thin icequot,3,negative,-0.40
-2824,Aman Kathait,06/05/2021 15:50:24,im b boy standing b boy stance hurryamp gim microphone b bust pantsquot onyx moment apologies,0,neutral,0.00
-2828,Aman Kathait,06/05/2021 15:50:24,counting lines vines trying times exciting week,1,positive,0.30
-2830,Aman Kathait,06/05/2021 15:50:24,done chatting lub one hehe hapii mansari us ill juz go en check account bye,3,negative,-0.50
-2835,Aman Kathait,06/05/2021 15:50:24,miss boyfriend omg emotional meltdown excuse,3,negative,-0.03
-2836,Aman Kathait,06/05/2021 15:50:24,missed biggest party ever hit sa sad anyways thats life got ta stay grind school first missing b,3,negative,-0.15
-2837,Aman Kathait,06/05/2021 15:50:24,going miss auroravanerato even though days,0,neutral,0.00
-2838,Aman Kathait,06/05/2021 15:50:24,hungry hell could spare extra drama eating food eat haha,1,positive,0.10
-2839,Aman Kathait,06/05/2021 15:50:24,im seoncd glass celebratory wine allowed honor getting second job,0,neutral,0.00
-2843,Aman Kathait,06/05/2021 15:50:24,like running tv comes age shows man walking moon pquot rather know man walked fricken moon,0,neutral,0.00
-2844,Aman Kathait,06/05/2021 15:50:24,kristy allen mike shake binge type twice feel bad comparison much love,3,negative,-0.10
-2852,Aman Kathait,06/05/2021 15:50:24,recycled second got home dad said solid im happy myselff,1,positive,0.27
-2855,Aman Kathait,06/05/2021 15:50:24,really happy u send reply twitter haha thank u,1,positive,0.50
-2864,Aman Kathait,06/05/2021 15:50:24,full blown awkward conversation yay aha,3,negative,-0.12
-2873,Aman Kathait,06/05/2021 15:50:24,app app store woohooo release date screwed though june st,0,neutral,0.00
-2875,Aman Kathait,06/05/2021 15:50:24,remembers celebrated first year pro account photo community,1,positive,0.30
-2876,Aman Kathait,06/05/2021 15:50:24,anyone looking bit tlc iow festival period offering trailer bamp b bembridge site weekend,0,neutral,0.00
-2880,Aman Kathait,06/05/2021 15:50:24,anytime need friend miss good old days friends,1,positive,0.40
-2886,Aman Kathait,06/05/2021 15:50:24,im freaking might miss disney channels night premieres tonight yes quote jonas brothers talent,0,neutral,0.00
-2892,Aman Kathait,06/05/2021 15:50:24,im la bitch feels good back,1,positive,0.35
-2897,Aman Kathait,06/05/2021 15:50:24,im girlquot wicked got,0,neutral,0.00
-2899,Aman Kathait,06/05/2021 15:50:24,im confused yet know exactly want quot,3,negative,-0.08
-2907,Aman Kathait,06/05/2021 15:50:24,l sum fans surprise posters airport lol love hours ago txtquot yup hes bby,2,Very positive,0.65
-2909,Aman Kathait,06/05/2021 15:50:24,invalid friend id user either cancelled membership account deleted oh,0,neutral,0.00
-2913,Aman Kathait,06/05/2021 15:50:24,extemely tired got absolutely good rest last night need friggin sleep number bed,1,positive,0.10
-2914,Aman Kathait,06/05/2021 15:50:24,first jay havin dinner peaks surprise shane andrea gang showed,1,positive,0.25
-2915,Aman Kathait,06/05/2021 15:50:24,gets frustrated things would like guess life fair sometimes,0,neutral,0.00
-2916,Aman Kathait,06/05/2021 15:50:24,good night shame could,2,Very positive,0.70
-2921,Aman Kathait,06/05/2021 15:50:24,adjusting sleeping new house amp room upset amp want sleep without holding,1,positive,0.14
-2924,Aman Kathait,06/05/2021 15:50:24,however like woman train feeding baby chips,0,neutral,0.00
-2926,Aman Kathait,06/05/2021 15:50:24,believe fellow friends jury lost last strings drawing longer xo,0,neutral,0.00
-2927,Aman Kathait,06/05/2021 15:50:24,wished could said goodbye channels lmao,2,Very positive,0.60
-2931,Aman Kathait,06/05/2021 15:50:24,launch make break alpha phase residential real estate rental website commitment first grade,1,positive,0.23
-2932,Aman Kathait,06/05/2021 15:50:24,idk im holdin tho work da morning still sick n verii empty stomach amongst otha things,3,negative,-0.41
-2933,Aman Kathait,06/05/2021 15:50:24,things linux take hours figure,0,neutral,0.00
-2944,Aman Kathait,06/05/2021 15:50:24,big clusterfuck situationquot,0,neutral,0.00
-2948,Aman Kathait,06/05/2021 15:50:24,would early smart ones haha leaving universal,1,positive,0.13
-2959,Aman Kathait,06/05/2021 15:50:24,juggling hardest impressive way get people like great gt lt explains everything doesnt love juggling,2,Very positive,0.77
-2960,Aman Kathait,06/05/2021 15:50:24,jui shi aiquot jolin tsai,0,neutral,0.00
-2976,Aman Kathait,06/05/2021 15:50:24,didnt really concentrate math benchmark,1,positive,0.20
-2980,Aman Kathait,06/05/2021 15:50:24,weew todays tennis tournament posponed sad ck,3,negative,-0.50
-2995,Aman Kathait,06/05/2021 15:50:24,im tired good night people,1,positive,0.15
-2998,Aman Kathait,06/05/2021 15:50:24,true paint blue call xlnt,1,positive,0.17
-3005,Aman Kathait,06/05/2021 15:50:24,possibly developing swine flu,0,neutral,0.00
-3009,Aman Kathait,06/05/2021 15:50:24,worked send emails perl gmail get email headers right quite nice blog,1,positive,0.44
-3018,Aman Kathait,06/05/2021 15:50:24,outside balcony watching lightning unplugged valuable electronics inside,0,neutral,0.00
-3020,Aman Kathait,06/05/2021 15:50:24,prodigy class danced like nutter loved sad,1,positive,0.10
-3025,Aman Kathait,06/05/2021 15:50:24,classmate killed police chased several counties wow,3,negative,-0.03
-3029,Aman Kathait,06/05/2021 15:50:24,keep head though earth guys still exist hidden amongst idiots assholes jerks tools amp failuresquot,3,negative,-0.48
-3030,Aman Kathait,06/05/2021 15:50:24,kids longer interested astronauts rocket scientists theyre interested football players pop starsquot,1,positive,0.25
-3031,Aman Kathait,06/05/2021 15:50:24,kidsquot repeat absolutely amazing fatigued right leaving norway today,1,positive,0.44
-3039,Aman Kathait,06/05/2021 15:50:24,light nightquot end blipping tonight see ya tomorrow,1,positive,0.40
-3040,Aman Kathait,06/05/2021 15:50:24,like rolling stonequot great song putting eles trip playlist hope take personally,1,positive,0.40
-3043,Aman Kathait,06/05/2021 15:50:24,little red corvettequot came got little giggly,3,negative,-0.12
-3044,Aman Kathait,06/05/2021 15:50:24,lol vito quite lala land guess means argue point cogently enough,1,positive,0.40
-3046,Aman Kathait,06/05/2021 15:50:24,lostquot little disappointing last night nothing watch,3,negative,-0.26
-3049,Aman Kathait,06/05/2021 15:50:24,love hurts unbelievable allah help mom,1,positive,0.12
-3050,Aman Kathait,06/05/2021 15:50:24,love storyquot repeat wishing spicy filipina,1,positive,0.50
-3052,Aman Kathait,06/05/2021 15:50:24,love one thing want say wish never leave stay b wish could,1,positive,0.50
-3055,Aman Kathait,06/05/2021 15:50:24,make sure look befo cross street ok going miss r,1,positive,0.33
-3057,Aman Kathait,06/05/2021 15:50:24,man dude creepy haha oh casey chuck still looks longingly towards sarah went,3,negative,-0.15
-3067,Aman Kathait,06/05/2021 15:50:24,mean old daddysquot lol got ta go work calls joni mitchell carey,1,positive,0.20
-3069,Aman Kathait,06/05/2021 15:50:24,men always trade sleep sexquot jerry seinfeld live seinfeld clasically funny,1,positive,0.19
-3077,Aman Kathait,06/05/2021 15:50:24,life would suck without quot,0,neutral,0.00
-3078,Aman Kathait,06/05/2021 15:50:24,monkey babyquot wrongometers exploded,3,negative,-0.05
-3081,Aman Kathait,06/05/2021 15:50:24,nappysquot da new nquot word da way ilove nappyquot braids igot hang timequot homie lol,1,positive,0.47
-3085,Aman Kathait,06/05/2021 15:50:24,never let fear striking keep playing game cinderella story,1,positive,0.05
-3104,Aman Kathait,06/05/2021 15:50:24,sighh feelin ill wana crawl bed n knokk,3,negative,-0.50
-3105,Aman Kathait,06/05/2021 15:50:24,switched unlimited honestly much better mbit,1,positive,0.50
-3109,Aman Kathait,06/05/2021 15:50:24,wanted email address local community centre,0,neutral,0.00
-3115,Aman Kathait,06/05/2021 15:50:24,sooo much pissed see nin prague fault know,1,positive,0.20
-3116,Aman Kathait,06/05/2021 15:50:24,person stood world full spineless cunts makes sad,3,negative,-0.08
-3121,Aman Kathait,06/05/2021 15:50:24,today wil hear hr te turn pm yayyyyy tomorrow los yayy im going hear te repetit,0,neutral,0.00
-3124,Aman Kathait,06/05/2021 15:50:24,even though sadly sale,3,negative,-0.50
-3128,Aman Kathait,06/05/2021 15:50:24,first try past paper got b grr,3,negative,-0.23
-3136,Aman Kathait,06/05/2021 15:50:24,finally finished repairing broken office chair last least hour two suggestions new office chair,3,negative,-0.11
-3143,Aman Kathait,06/05/2021 15:50:24,check done days forcing checkquot thanks centos becuase thats good pm friday,1,positive,0.45
-3146,Aman Kathait,06/05/2021 15:50:24,offense hair bad today life worth living anymore nothing hurts quite like hair insults cries pillow,3,negative,-0.20
-3149,Aman Kathait,06/05/2021 15:50:24,everybody go college pizzas deliver themselvesquot haha,1,positive,0.20
-3151,Aman Kathait,06/05/2021 15:50:24,nothing tastes good thin feels thanks one buddies giving inspiring quote,1,positive,0.25
-3156,Aman Kathait,06/05/2021 15:50:24,officially missing youquot tamia always brings memories hear,3,negative,-0.20
-3159,Aman Kathait,06/05/2021 15:50:24,oh called thought david cookquot david archuleta hannah montana haha funny,1,positive,0.23
-3170,Aman Kathait,06/05/2021 15:50:24,spent last days hospital dad week,3,negative,-0.05
-3174,Aman Kathait,06/05/2021 15:50:24,thanks everybody wonderful feedback happiletter,2,Very positive,0.60
-3175,Aman Kathait,06/05/2021 15:50:24,means mor tweets laaammmeeee,0,neutral,0.00
-3183,Aman Kathait,06/05/2021 15:50:24,well goodnight twitterworld,0,neutral,0.00
-3186,Aman Kathait,06/05/2021 15:50:24,wondering sad im sad ilove u demi,3,negative,-0.50
-3194,Aman Kathait,06/05/2021 15:50:24,another episode friends,0,neutral,0.00
-3201,Aman Kathait,06/05/2021 15:50:24,feel like travelling want get away see rest world ah hate,4,Very negative,-0.80
-3204,Aman Kathait,06/05/2021 15:50:24,keep loosing followers womp womp sooo come one people want stop talkin isee goodnight folk,0,neutral,0.00
-3218,Aman Kathait,06/05/2021 15:50:24,one days think rain makes everything times worse,3,negative,-0.40
-3219,Aman Kathait,06/05/2021 15:50:24,saw downtown raleigh first time tonight awesome,2,Very positive,0.62
-3221,Aman Kathait,06/05/2021 15:50:24,kinda sad face today mimmy amp diddy going go back work today,3,negative,-0.25
-3227,Aman Kathait,06/05/2021 15:50:24,getting roof tiles cleaned cracked one replaced eaves house done exciting,1,positive,0.30
-3232,Aman Kathait,06/05/2021 15:50:24,open plans damn free look heart find love love lovequot,1,positive,0.35
-3233,Aman Kathait,06/05/2021 15:50:24,fingers still intertwined smiles mequot wish boys real,1,positive,0.20
-3244,Aman Kathait,06/05/2021 15:50:24,poland course september octoberquot love man,1,positive,0.50
-3246,Aman Kathait,06/05/2021 15:50:24,psychquot awesome,2,Very positive,1.00
-3252,Aman Kathait,06/05/2021 15:50:24,raindy dayquot portraitquot last songs whoo yay need finished taco bell mcdonalds,0,neutral,0.00
-3253,Aman Kathait,06/05/2021 15:50:24,reduced fatquot peanut butter flavor texture loss worth still g fat per serving thumbs,1,positive,0.30
-3254,Aman Kathait,06/05/2021 15:50:24,renditionquot hbo right remember chris calling came dvd asking good buy,1,positive,0.49
-3258,Aman Kathait,06/05/2021 15:50:24,rise grave finalmente consegui descolar da cama nice sunday twitting mateys,2,Very positive,0.60
-3259,Aman Kathait,06/05/2021 15:50:24,peanut butter brownies blueberry bagels chocolate ginger crisps oatmeal icecream yesssssssss things eat,0,neutral,0.00
-3268,Aman Kathait,06/05/2021 15:50:24,still reading outlining smoking mostly edifying night interruptions paranoia going walk cheers,1,positive,0.50
-3280,Aman Kathait,06/05/2021 15:50:24,trying figure phone want really confusing im sleepyyy,3,negative,-0.30
-3288,Aman Kathait,06/05/2021 15:50:24,pray air france victims,0,neutral,0.00
-3295,Aman Kathait,06/05/2021 15:50:24,sharing little sunshinequot seattle yep walking visit florida ad,3,negative,-0.19
-3298,Aman Kathait,06/05/2021 15:50:24,falling hit ground sound tale tragic storyquot idiot,3,negative,-0.38
-3305,Aman Kathait,06/05/2021 15:50:24,sighquot wish philly nyc right,1,positive,0.29
-3319,Aman Kathait,06/05/2021 15:50:24,cant get along quot,0,neutral,0.00
-3321,Aman Kathait,06/05/2021 15:50:24,positive feeling increase fold corners turned coming week roll thursday,1,positive,0.23
-3329,Aman Kathait,06/05/2021 15:50:24,amp c tin opener none worked poor doritos deprived,3,negative,-0.40
-3330,Aman Kathait,06/05/2021 15:50:24,im going night going grannys revise internet watsoever going hard,3,negative,-0.29
-3342,Aman Kathait,06/05/2021 15:50:24,free food always tastes better,1,positive,0.45
-3357,Aman Kathait,06/05/2021 15:50:24,uhhm ok dont think survive without cell phone weeks c,1,positive,0.50
-3360,Aman Kathait,06/05/2021 15:50:24,oh love awake stupid oclock everybody else land nod,3,negative,-0.15
-3361,Aman Kathait,06/05/2021 15:50:24,amp amp let watch reality show haha peace,1,positive,0.20
-3365,Aman Kathait,06/05/2021 15:50:24,myspace comlaceylynnwilliams,0,neutral,0.00
-3369,Aman Kathait,06/05/2021 15:50:24,tagging new internet finds content ignorant wondering one finds posts,1,positive,0.14
-3374,Aman Kathait,06/05/2021 15:50:24,read get coffee honest home sweet home x,1,positive,0.47
-3376,Aman Kathait,06/05/2021 15:50:24,wedding songs tonight comes bride comes bride right jennas dad,1,positive,0.29
-3377,Aman Kathait,06/05/2021 15:50:24,somebody calls answer quite slowly girl kaleidoscope eyesquot yeah im normal,3,negative,-0.08
-3378,Aman Kathait,06/05/2021 15:50:24,someday awfully low world cold feel glow thinking way look tonight quot,3,negative,-0.30
-3383,Aman Kathait,06/05/2021 15:50:24,sometimes love comes around knocks lt want watch across universe,1,positive,0.50
-3385,Aman Kathait,06/05/2021 15:50:25,sorry unexpected condition occurred preventing google reader fulfilling request quot,3,negative,-0.20
-3387,Aman Kathait,06/05/2021 15:50:25,spider manquot sorry lost geek points,3,negative,-0.50
-3388,Aman Kathait,06/05/2021 15:50:25,spin little faster world follow afterquot,3,negative,-0.19
-3389,Aman Kathait,06/05/2021 15:50:25,spiritual peoplequot say hope last life make think wow really good time sad,1,positive,0.06
-3392,Aman Kathait,06/05/2021 15:50:25,squints perving dish haha,1,positive,0.20
-3402,Aman Kathait,06/05/2021 15:50:25,sup everyone back home looong day bought veggies lazy cook,3,negative,-0.12
-3404,Aman Kathait,06/05/2021 15:50:25,swept away sweetquot,0,neutral,0.00
-3407,Aman Kathait,06/05/2021 15:50:25,takenquot un film pe care vi l recomand vazut aseara state playquot se anunta interesant cu jurnalisti de investigatie stuff,0,neutral,0.00
-3408,Aman Kathait,06/05/2021 15:50:25,takenquot good heard expected violence believe like crazy violence liam neesons wife dead,3,negative,-0.05
-3409,Aman Kathait,06/05/2021 15:50:25,taknin da world pinky jus lot brainquot makes smile,1,positive,0.30
-3410,Aman Kathait,06/05/2021 15:50:25,teachers may access blogs educational value allowed ownquot tweet class,1,positive,0.25
-3414,Aman Kathait,06/05/2021 15:50:25,thats difference professional designer name redactedquot never felt proud,1,positive,0.45
-3415,Aman Kathait,06/05/2021 15:50:25,abortionistquot makes ok guess sigh wonder reaction would dr assasiinated,1,positive,0.50
-3416,Aman Kathait,06/05/2021 15:50:25,beatles rock bandquot pide rollo,0,neutral,0.00
-3418,Aman Kathait,06/05/2021 15:50:25,cause effect natural balance disrupted yes black yin fights white yang know reason,3,negative,-0.02
-3419,Aman Kathait,06/05/2021 15:50:25,day never done writing story behind closed doors,3,negative,-0.25
-3420,Aman Kathait,06/05/2021 15:50:25,feis would submitted fta would determine whether project satisfies environmental requirements nepaquot,0,neutral,0.00
-3426,Aman Kathait,06/05/2021 15:50:25,itunes store temporarily unable process purchases apology inconvenience,3,negative,-0.50
-3429,Aman Kathait,06/05/2021 15:50:25,lighthouse made blenderquot cursilera de alto nivel,0,neutral,0.00
-3430,Aman Kathait,06/05/2021 15:50:25,love gone friendship ruined peace still hanging haha braclet talk,1,positive,0.35
-3431,Aman Kathait,06/05/2021 15:50:25,maker stars would rather die live without god via max lucado,1,positive,0.14
-3441,Aman Kathait,06/05/2021 15:50:25,trying make vista start faster system still running first success,1,positive,0.28
-3446,Aman Kathait,06/05/2021 15:50:25,bank holiday monday bank holiday monday,0,neutral,0.00
-3459,Aman Kathait,06/05/2021 15:50:25,k miles south ber berge muss ich gehn bis der pss pss pss sound kommt nich gt gt gt mussquot lt lt lt,1,positive,0.40
-3465,Aman Kathait,06/05/2021 15:50:25,showquot playing hahaha autotune pain meeeeeeeequot haha,1,positive,0.20
-3467,Aman Kathait,06/05/2021 15:50:25,sun sky amp going glorious day love summer gettin ready go darrens bbq listening lamb god odd,1,positive,0.18
-3468,Aman Kathait,06/05/2021 15:50:25,twenty game may oldies sachin rahul also showed days tooquot kumble,3,negative,-0.40
-3470,Aman Kathait,06/05/2021 15:50:25,walls world u waiting rescue late either us savedquot blo,3,negative,-0.30
-3471,Aman Kathait,06/05/2021 15:50:25,weather outside weatherquot hahah made feel better,1,positive,0.25
-3473,Aman Kathait,06/05/2021 15:50:25,sent text said baby come home sent another saying shes alone texted said lets grownquot,0,neutral,0.00
-3474,Aman Kathait,06/05/2021 15:50:25,miracles believe believe never happens,0,neutral,0.00
-3477,Aman Kathait,06/05/2021 15:50:25,even enough time love leave hate happeee friday going long buzzed weekend,3,negative,-0.09
-3478,Aman Kathait,06/05/2021 15:50:25,darkness jacob like sun imploded quot,0,neutral,0.00
-3489,Aman Kathait,06/05/2021 15:50:25,rebooting blackberry would say rebooting phonequot lmao,2,Very positive,0.60
-3496,Aman Kathait,06/05/2021 15:50:25,makes sad many reasons,0,neutral,0.00
-3498,Aman Kathait,06/05/2021 15:50:25,say u love set free amp return forever thus far socks never returned laundry,1,positive,0.33
-3499,Aman Kathait,06/05/2021 15:50:25,trying figure wordpress permissions grrrrrrrrr,0,neutral,0.00
-3503,Aman Kathait,06/05/2021 15:50:25,weather time sun starts shining psu,0,neutral,0.00
-3514,Aman Kathait,06/05/2021 15:50:25,works fine win erase sell bugger sadly quick check laptop hd reveals problems,2,Very positive,0.52
-3515,Aman Kathait,06/05/2021 15:50:25,thinkin back started lost storm ft,0,neutral,0.00
-3525,Aman Kathait,06/05/2021 15:50:25,love win best thing love lose next best william thackeray make great week,2,Very positive,0.66
-3527,Aman Kathait,06/05/2021 15:50:25,toss clutter life fears doubts use extra space thrive horoscope today,0,neutral,0.00
-3528,Aman Kathait,06/05/2021 15:50:25,trading sorrow solevites norwayquot youtube first time dance god glory hehe,1,positive,0.25
-3529,Aman Kathait,06/05/2021 15:50:25,transformers rotfquot review expected good day nerdom,1,positive,0.30
-3531,Aman Kathait,06/05/2021 15:50:25,true love asks nothing returnquot gt poor yuan da ying thiss worth,1,positive,0.19
-3534,Aman Kathait,06/05/2021 15:50:25,tweet baby one time quot,0,neutral,0.00
-3538,Aman Kathait,06/05/2021 15:50:25,two yr old doquot says reference age scotch preference evening read want,1,positive,0.10
-3542,Aman Kathait,06/05/2021 15:50:25,underdogquot jb relate song lt,0,neutral,0.00
-3544,Aman Kathait,06/05/2021 15:50:25,music photos guess going quiet,0,neutral,0.00
-3546,Aman Kathait,06/05/2021 15:50:25,ohh entertained cup quickly taro pearl milk tea carrefour next house location location location,1,positive,0.17
-3551,Aman Kathait,06/05/2021 15:50:25,sykes lose gigs gaining better ones frankly best thing rightards scream,2,Very positive,0.75
-3556,Aman Kathait,06/05/2021 15:50:25,website concept going well,0,neutral,0.00
-3582,Aman Kathait,06/05/2021 15:50:25,thinkin back started lost quot,0,neutral,0.00
-3586,Aman Kathait,06/05/2021 15:50:25,never meant baby happenedquot knock,0,neutral,0.00
-3588,Aman Kathait,06/05/2021 15:50:25,weblivz guess son trumps daughter law,0,neutral,0.00
-3589,Aman Kathait,06/05/2021 15:50:25,wed get excited would get scared laughing thinkin lifes fair graduation gusta mucho,2,Very positive,0.54
-3592,Aman Kathait,06/05/2021 15:50:25,well thats rich coming owner smelly old toothbrush lolll hermione,1,positive,0.24
-3593,Aman Kathait,06/05/2021 15:50:25,pretty bizzarre us better hiding thats allquot love breakfast club much,1,positive,0.36
-3594,Aman Kathait,06/05/2021 15:50:25,big strong work together got right stuff go wonderpets yay quot,1,positive,0.24
-3612,Aman Kathait,06/05/2021 15:50:25,prom days away lets get,0,neutral,0.00
-3614,Aman Kathait,06/05/2021 15:50:25,busy reorganizing repainting office tired,3,negative,-0.15
-3628,Aman Kathait,06/05/2021 15:50:25,found fuck oh well im still happy,1,positive,0.20
-3629,Aman Kathait,06/05/2021 15:50:25,room full laundry mine sweet un motivates cleaning,1,positive,0.35
-3630,Aman Kathait,06/05/2021 15:50:25,love sister seriously idea injured,1,positive,0.08
-3632,Aman Kathait,06/05/2021 15:50:25,going warsal means church morning dont go church think imporant see nan coz go cancer,0,neutral,0.00
-3634,Aman Kathait,06/05/2021 15:50:25,blood work makes weak goes day,3,negative,-0.38
-3647,Aman Kathait,06/05/2021 15:50:25,cooked way hope get sick says mom ha ha ha ha fkej w whatever,4,Very negative,-0.71
-3651,Aman Kathait,06/05/2021 15:50:25,despite leak found pool plumbing still need address,0,neutral,0.00
-3652,Aman Kathait,06/05/2021 15:50:25,enjoy stuck hours however,1,positive,0.40
-3653,Aman Kathait,06/05/2021 15:50:25,died afternoon far much take im away weeks cant uncle cousin dad comfort,1,positive,0.15
-3676,Aman Kathait,06/05/2021 15:50:25,global warming awareness kids,0,neutral,0.00
-3688,Aman Kathait,06/05/2021 15:50:25,hates beiing new person offically worst day ever,3,negative,-0.43
-3689,Aman Kathait,06/05/2021 15:50:25,ever seen rain dumdidum,0,neutral,0.00
-3701,Aman Kathait,06/05/2021 15:50:25,heart hurts dont know hope one know dying,0,neutral,0.00
-3703,Aman Kathait,06/05/2021 15:50:25,new post fair ladyquot musicalawakening blogspot com,1,positive,0.42
-3711,Aman Kathait,06/05/2021 15:50:25,think im already day turned good good hearty singalong annie never fails,2,Very positive,0.55
-3725,Aman Kathait,06/05/2021 15:50:25,go clean badroom omg wish luck reading third sequel harry potter book,1,positive,0.18
-3729,Aman Kathait,06/05/2021 15:50:25,really hate work tuesday morning bank holiday also stanstead airport possibly worst airport europe,4,Very negative,-0.90
-3737,Aman Kathait,06/05/2021 15:50:25,im fan eminem wrong happened guy smh,3,negative,-0.50
-3738,Aman Kathait,06/05/2021 15:50:25,im supposed question anything planned right deserve,1,positive,0.29
-3739,Aman Kathait,06/05/2021 15:50:25,im obsessing lost comes back given final season going even worse,3,negative,-0.13
-3740,Aman Kathait,06/05/2021 15:50:25,im realy tired cant sleep sum wana sing lullby read bed time story lol,1,positive,0.20
-3741,Aman Kathait,06/05/2021 15:50:25,im tired everything sigh,3,negative,-0.40
-3742,Aman Kathait,06/05/2021 15:50:25,im tellin chill expectations lol best sometimes times im high give fuck,1,positive,0.39
-3746,Aman Kathait,06/05/2021 15:50:25,getting stuff ready tour x,1,positive,0.20
-3752,Aman Kathait,06/05/2021 15:50:25,raining heartswonfrancheska hate still angry wtf like,4,Very negative,-0.60
-3756,Aman Kathait,06/05/2021 15:50:25,saw totally made night,0,neutral,0.00
-3763,Aman Kathait,06/05/2021 15:50:25,giggling tres views copeland funny great interview yet mr hopkin,2,Very positive,0.53
-3765,Aman Kathait,06/05/2021 15:50:25,course threw hissy fit like always olive garden restaurant seems good,2,Very positive,0.55
-3771,Aman Kathait,06/05/2021 15:50:25,rain ruined pawsox game,3,negative,-0.40
-3772,Aman Kathait,06/05/2021 15:50:25,turned said thats mothers day yepp best part good part youquot,2,Very positive,0.85
-3773,Aman Kathait,06/05/2021 15:50:25,goes round free drinks,1,positive,0.10
-3787,Aman Kathait,06/05/2021 15:50:25,try best succeed coldplays fix youquot always mirrors mood,2,Very positive,1.00
-3798,Aman Kathait,06/05/2021 15:50:25,would like thank awardquot believe name award acceptance speeches first believe,1,positive,0.25
-3800,Aman Kathait,06/05/2021 15:50:25,yea turn hola christina even smiley spanish como estas xdquot lmaoo xd freaking bryan hahah,0,neutral,0.00
-3809,Aman Kathait,06/05/2021 15:50:25,rude stupid hurt heartquot,4,Very negative,-0.55
-3810,Aman Kathait,06/05/2021 15:50:25,arequot spelled like yourequot yourquot,0,neutral,0.00
-3816,Aman Kathait,06/05/2021 15:50:25,awake mothers day jus want go back sleep cant happy mothers day,1,positive,0.40
-3820,Aman Kathait,06/05/2021 15:50:25,basement coming along putting wiring internet telephone today internet day killin,0,neutral,0.00
-3823,Aman Kathait,06/05/2021 15:50:25,boat cranked ready another fun day sun lake yay,1,positive,0.25
-3825,Aman Kathait,06/05/2021 15:50:25,build pot huge draw nut low wheel dr spades turn k river turns others drawing spades,1,positive,0.20
-3826,Aman Kathait,06/05/2021 15:50:25,first workathlon sets management accounts one,1,positive,0.25
-3829,Aman Kathait,06/05/2021 15:50:25,exciting match really good side unfortunately lost,1,positive,0.17
-3835,Aman Kathait,06/05/2021 15:50:25,check page lem watch say heheee wish god would open twitter real funny,1,positive,0.19
-3839,Aman Kathait,06/05/2021 15:50:25,customers bitch money insurance future hating things right,1,positive,0.14
-3841,Aman Kathait,06/05/2021 15:50:25,day vegetarianism far good many options since im allergic onions,1,positive,0.43
-3844,Aman Kathait,06/05/2021 15:50:25,rememberd usually kent airport drop offs shes barely gone heart already hurts,3,negative,-0.10
-3851,Aman Kathait,06/05/2021 15:50:25,long day today meeting feels like forever,3,negative,-0.05
-3860,Aman Kathait,06/05/2021 15:50:25,heart murmur acting tonight,0,neutral,0.00
-3862,Aman Kathait,06/05/2021 15:50:25,headbands anything athletic outfit odd decided start make tobias lindsay,3,negative,-0.17
-3868,Aman Kathait,06/05/2021 15:50:25,miss went house week went besch,0,neutral,0.00
-3874,Aman Kathait,06/05/2021 15:50:25,seem like interesting attractive geeky redheadquot even red hair muppet,1,positive,0.43
-3877,Aman Kathait,06/05/2021 15:50:25,aware outcome actions eric quot,1,positive,0.25
-3880,Aman Kathait,06/05/2021 15:50:25,know oklahoma sell cowboy hats gas station way homeee,0,neutral,0.00
-3883,Aman Kathait,06/05/2021 15:50:25,may find visiting someone confined hospital rehab center nursing home institutionquot,3,negative,-0.10
-3888,Aman Kathait,06/05/2021 15:50:25,sing better miley take place hannah montana thanks mom,1,positive,0.35
-3892,Aman Kathait,06/05/2021 15:50:25,youre obsessed like better ted femslash fic,0,neutral,0.00
-3896,Aman Kathait,06/05/2021 15:50:25,face marshmallow steroids peanut butter natalie ann stephenson,0,neutral,0.00
-3903,Aman Kathait,06/05/2021 15:50:25,digging rihanna videos morning,0,neutral,0.00
-3907,Aman Kathait,06/05/2021 15:50:25,dont want much anything today somethings,1,positive,0.20
-3910,Aman Kathait,06/05/2021 15:50:25,esto sempre surpreender medo next time remember go home pub,0,neutral,0.00
-3919,Aman Kathait,06/05/2021 15:50:25,goddamn ironing time someone invented disposable clothes iron thing,0,neutral,0.00
-3930,Aman Kathait,06/05/2021 15:50:25,headed city last photoshoot weeks series rest day back tomorrow,0,neutral,0.00
-3937,Aman Kathait,06/05/2021 15:50:25,thought would come itunes based tweet damn raising hopes,0,neutral,0.00
-3945,Aman Kathait,06/05/2021 15:50:25,return joy cos tired tired inspire weary eyed see ire irony,0,neutral,0.00
-3947,Aman Kathait,06/05/2021 15:50:25,sad true thanks weather flight time upcoming days,1,positive,0.02
-3950,Aman Kathait,06/05/2021 15:50:25,miles neon come anybody,0,neutral,0.00
-3961,Aman Kathait,06/05/2021 15:50:25,still hungry think lunch,0,neutral,0.00
-3968,Aman Kathait,06/05/2021 15:50:25,person keeps switching usernames follow getting nerves gt even know,0,neutral,0.00
-3990,Aman Kathait,06/05/2021 15:50:25,note self dont get bus get hit really enough,0,neutral,0.00
-4002,Aman Kathait,06/05/2021 15:50:26,hate randomly tells loves like dont jerk,4,Very negative,-0.65
-4003,Aman Kathait,06/05/2021 15:50:26,interview friday woohoooo wish luck,0,neutral,0.00
-4006,Aman Kathait,06/05/2021 15:50:26,got shipping confirmations xmen original game eragon wt gamerscore,3,negative,-0.01
-4011,Aman Kathait,06/05/2021 15:50:26,took sleeping pills last night still drowsy em,0,neutral,0.00
-4012,Aman Kathait,06/05/2021 15:50:26,enjoyable experience watched bob esponja forever,1,positive,0.50
-4013,Aman Kathait,06/05/2021 15:50:26,wish couldve stayed watched beacon ants friends computer wasnt acting right watching alone work,1,positive,0.14
-4020,Aman Kathait,06/05/2021 15:50:26,bee tee ful day outside im stuck inside homework done earlier,0,neutral,0.00
-4022,Aman Kathait,06/05/2021 15:50:26,system difussing quick another chase quick,1,positive,0.33
-4027,Aman Kathait,06/05/2021 15:50:26,end year school year always sad know could see anymore friends next year,3,negative,-0.25
-4029,Aman Kathait,06/05/2021 15:50:26,bams unholy unionquot makes relationship seem normal well,1,positive,0.15
-4037,Aman Kathait,06/05/2021 15:50:26,watch biggest anti talent ive ever seen movie making,0,neutral,0.00
-4040,Aman Kathait,06/05/2021 15:50:26,tougher rest op de radio das ff geleden,0,neutral,0.00
-4049,Aman Kathait,06/05/2021 15:50:26,heading take hike need get provisions ready important part ds dd,1,positive,0.30
-4054,Aman Kathait,06/05/2021 15:50:26,asking question twitter cult twit quot,0,neutral,0.00
-4060,Aman Kathait,06/05/2021 15:50:26,little church weekend things make miss always think could would done,3,negative,-0.19
-4081,Aman Kathait,06/05/2021 15:50:26,life like card house everything changing,0,neutral,0.00
-4084,Aman Kathait,06/05/2021 15:50:26,went new emperor still open nice actually walked past new samsi go sumo feast,1,positive,0.10
-4086,Aman Kathait,06/05/2021 15:50:26,happened idiot helm using wrong user name,4,Very negative,-0.65
-4087,Aman Kathait,06/05/2021 15:50:26,whats made think decision vv,0,neutral,0.00
-4089,Aman Kathait,06/05/2021 15:50:26,plus also plus know vegan cops even though officer,0,neutral,0.00
-4118,Aman Kathait,06/05/2021 15:50:26,yesterday ants pants real suckers bite,3,negative,-0.45
-4119,Aman Kathait,06/05/2021 15:50:26,went see bob dylan last night amazin going work soon put till first ever shift http,1,positive,0.12
-4126,Aman Kathait,06/05/2021 15:50:26,note self look nice today,2,Very positive,0.60
-4129,Aman Kathait,06/05/2021 15:50:26,miss bebe kitties much sad need hug,3,negative,-0.50
-4138,Aman Kathait,06/05/2021 15:50:26,anyone dont know darling girl note self visit grass stain guru else,0,neutral,0.00
-4140,Aman Kathait,06/05/2021 15:50:26,note self camerabatterij opladen,0,neutral,0.00
-4142,Aman Kathait,06/05/2021 15:50:26,needs find saxophone teacher melbourne urgently anyone knows sax teachers please message asap,0,neutral,0.00
-4146,Aman Kathait,06/05/2021 15:50:26,nothing like mini vacay lake good times great company,2,Very positive,0.75
-4147,Aman Kathait,06/05/2021 15:50:26,concerned bnp second trending topics though,0,neutral,0.00
-4148,Aman Kathait,06/05/2021 15:50:26,pay price hope get stupid heartburn,4,Very negative,-0.80
-4149,Aman Kathait,06/05/2021 15:50:26,adult factory outlet providing porn toys masses come get sexxx toys www shoptheoutlet com,1,positive,0.10
-4150,Aman Kathait,06/05/2021 15:50:26,working browsers identica session token internal server error,0,neutral,0.00
-4166,Aman Kathait,06/05/2021 15:50:26,oops watch lifetime helps get thru night,0,neutral,0.00
-4167,Aman Kathait,06/05/2021 15:50:26,actual friends people stand hv watch tweet may actually hv think b start tweeting fun,1,positive,0.10
-4172,Aman Kathait,06/05/2021 15:50:26,rainy tuesday afternoon got gimik invite tonite hmmm raincheck muna,0,neutral,0.00
-4178,Aman Kathait,06/05/2021 15:50:26,wish fuckers california would shut coachella,0,neutral,0.00
-4183,Aman Kathait,06/05/2021 15:50:26,working much need plan mini afterwork adventure coasteering pants maizy dog could good,1,positive,0.45
-4193,Aman Kathait,06/05/2021 15:50:26,still figuring stay like forever l lol,2,Very positive,0.80
-4194,Aman Kathait,06/05/2021 15:50:26,back back lozz changed song,0,neutral,0.00
-4199,Aman Kathait,06/05/2021 15:50:26,anonymoususer office hmm never seen insanity level past lol one cool cucumber friend,1,positive,0.30
-4204,Aman Kathait,06/05/2021 15:50:26,shit ready cello recital,0,neutral,0.00
-4205,Aman Kathait,06/05/2021 15:50:26,shopping p hate shopping hate looking materialistic girls important dinner go,3,negative,-0.40
-4211,Aman Kathait,06/05/2021 15:50:26,ironing cute trying sooooo hard know look great whatever wears love,1,positive,0.38
-4221,Aman Kathait,06/05/2021 15:50:26,still trying wake stayed way late slept way long go stinking grocery store yuck,3,negative,-0.17
-4224,Aman Kathait,06/05/2021 15:50:26,america wanted adam lambert american idol sadly predictable travesty goddam conservative usofa,3,negative,-0.10
-4226,Aman Kathait,06/05/2021 15:50:26,one messy hamburger ahahah read times article twitter really interesting,1,positive,0.15
-4228,Aman Kathait,06/05/2021 15:50:26,firebird wanted needed way much body work mechanical work oh well,1,positive,0.20
-4229,Aman Kathait,06/05/2021 15:50:26,first two steps happen years rd step undefined long time,1,positive,0.10
-4233,Aman Kathait,06/05/2021 15:50:26,dang havent crp twitter moment since feb im ppl cupid moments poems mostly im still dbest lol,2,Very positive,0.65
-4236,Aman Kathait,06/05/2021 15:50:26,exams haha remembrd china buffet king yesterday vair amusing,1,positive,0.40
-4238,Aman Kathait,06/05/2021 15:50:26,get mom amp feel horrible must think thats meant thought itd better brunt,3,negative,-0.25
-4244,Aman Kathait,06/05/2021 15:50:26,got come something quick yall witness cause im getting beatup lol told yall got big ego left bink,1,positive,0.28
-4251,Aman Kathait,06/05/2021 15:50:26,im inkd inkd inkd inkd inkd inkd lt remix geekd hahaha inkd inkd inkd inkd inkd love,1,positive,0.35
-4259,Aman Kathait,06/05/2021 15:50:26,lets go holland fabric market sounds like rain gone,0,neutral,0.00
-4265,Aman Kathait,06/05/2021 15:50:26,still n half hrs take title evening keep tweets witty keep um real,1,positive,0.18
-4272,Aman Kathait,06/05/2021 15:50:26,throw straight bounced foot front wall kid reached glove caught cj,1,positive,0.20
-4274,Aman Kathait,06/05/2021 15:50:26,garden go hopefully next time tweet bronzed,0,neutral,0.00
-4275,Aman Kathait,06/05/2021 15:50:26,took break tweeting day quick one say helloquot c ya tomorrow luv guys,1,positive,0.33
-4277,Aman Kathait,06/05/2021 15:50:26,trying use renoise makes feel unoriginal undereducated music area,3,negative,-0.20
-4279,Aman Kathait,06/05/2021 15:50:26,ugh want get ouuta bed,0,neutral,0.00
-4282,Aman Kathait,06/05/2021 15:50:26,wait phone misses miss dumb hoe,3,negative,-0.38
-4283,Aman Kathait,06/05/2021 15:50:26,waiting undertaker mean underwriter want houseeee,3,negative,-0.31
-4285,Aman Kathait,06/05/2021 15:50:26,well person needs programmer,0,neutral,0.00
-4286,Aman Kathait,06/05/2021 15:50:26,well going rpm vespa needs oil going anywhere,0,neutral,0.00
-4289,Aman Kathait,06/05/2021 22:34:58,what a Lovely day,1,positive, 0.50
-4290,Aman Kathait,06/05/2021 22:36:04,i completed my major project today,1,positive, 0.06
-4291,Aman Kathait,19/05/2021 12:13:13,I am very happy,2,Very positive,1.00
-4292,Aman Kathait,19/05/2021 12:18:00,I am testing a bot,0,neutral,0.00
-4293,Aman Kathait,19/05/2021 12:18:28,i am very happy,2,Very positive,1.00
-4294,Aman Kathait,19/05/2021 12:18:44,i am sad,3,negative,-0.50
-4295,Aman Kathait,19/05/2021 12:19:55,what a good day to make a vedio persentation,2,Very positive,0.70
-4296,Aman Kathait,19/05/2021 12:37:45,i am happy,2,Very positive,0.80
-4297,Aman Kathait,19/05/2021 12:37:49,i am sad,3,negative,-0.50
-4298,Aman Kathait,19/05/2021 12:38:09,what a lovel day,0,neutral,0.00
-4299,Aman Kathait,19/05/2021 12:38:32,i am tired,3,negative,-0.40
-4300,Aman Kathait,26/05/2021 10:15:15,i  happy,2,Very positive,0.80
-4301,Aman Kathait,26/05/2021 10:15:38,i am sad,3,negative,-0.50
-4302,Aman Kathait,26/05/2021 10:17:03,i love watching horror movie,1,positive,0.50
-4303,Aman Kathait,26/05/2021 10:18:07,i hate action movie because they have poor story,3,negative,-0.37
-4304,Aman Kathait,26/05/2021 10:37:28,i love you,1,positive,0.50
-4305,Aman Kathait,26/05/2021 10:38:01,i  am very happy today,2,Very positive,1.00
-4306,Aman Kathait,26/05/2021 10:40:30,i love Playing video games but my mom sad that why are you playing children games , are you still a baby that moment is very frustrating . When people in this world stop judging others,3,negative,-0.17
+index,name,date_time,message,sentiment_code,sentiment,polarity,Happy,Angry,Surprise,Sad,Fear,Emotion_code,Value
+2,Aman Kathait,31/05/2021 12:37:43,never put bong carpet picks shards broken ash catcher least main part withstood fall,3,negative,-0.18,0.0,0.0,0.33,0.33,0.33,0,0.33
+5,Aman Kathait,31/05/2021 12:37:43,sounds fun could go finishing story working,1,positive,0.30,0.5,0.0,0.0,0.0,0.5,0,0.50
+6,Aman Kathait,31/05/2021 12:37:43,whoot shamelsss plug would like,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+8,Aman Kathait,31/05/2021 12:37:43,palkhi main roads causes hr delay reaching office,1,positive,0.17,0.0,0.0,0.0,0.0,1.0,0,1.00
+10,Aman Kathait,31/05/2021 12:37:43,fuse experiments fused thing brain quot access mntother invalid argumentquot,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+13,Aman Kathait,31/05/2021 12:37:44,heart instrument would piano wish would learnt play properly chance,0,neutral,0.00,0.17,0.0,0.0,0.17,0.67,0,0.67
+14,Aman Kathait,31/05/2021 12:37:44,weeks tomorrow since giving yaaaaaayy dont want talk,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+16,Aman Kathait,31/05/2021 12:37:44,wtf happened krispy kremes philly gone,3,negative,-0.50,0.0,0.0,0.0,0.5,0.5,0,0.50
+17,Aman Kathait,31/05/2021 12:37:44,win get double th time,1,positive,0.40,0,0,0,0,0,0,0.00
+21,Aman Kathait,31/05/2021 12:37:44,anyones got iphone everyone get espn scorecenter app store awesome,2,Very positive,1.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+24,Aman Kathait,31/05/2021 12:37:45,chicks goin summer jam lookin like bout hit club wit stilettos smh concert cute n comfy,1,positive,0.50,0.4,0.2,0.2,0.2,0.0,0,0.40
+25,Aman Kathait,31/05/2021 12:37:45,antivirus let us keep download level,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+38,Aman Kathait,31/05/2021 12:37:46,good morning keep tweeting fallen th place,2,Very positive,0.70,0.5,0.0,0.0,0.0,0.5,0,0.50
+39,Aman Kathait,31/05/2021 12:37:46,could see day studied ap exams,0,neutral,0.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+46,Aman Kathait,31/05/2021 12:37:47,met someone myspace want yeah know thats shameless corny plug dont care,0,neutral,0.00,0,0,0,0,0,0,0.00
+47,Aman Kathait,31/05/2021 12:37:47,noticed people say great sense humor people never,2,Very positive,0.80,0.33,0.0,0.33,0.0,0.33,0,0.33
+48,Aman Kathait,31/05/2021 12:37:47,paid dates dinner yeah cheapskate,0,neutral,0.00,0,0,0,0,0,0,0.00
+49,Aman Kathait,31/05/2021 12:37:47,said good night twitter nighty night twugs,2,Very positive,0.70,0.33,0.0,0.33,0.33,0.0,0,0.00
+56,Aman Kathait,31/05/2021 12:37:48,wanted ditch bad sake somebody else,4,Very negative,-0.70,0.0,0.0,0.0,1.0,0.0,3,1.00
+57,Aman Kathait,31/05/2021 12:37:48,wished spouse someone else every single day,3,negative,-0.07,1.0,0.0,0.0,0.0,0.0,0,1.00
+65,Aman Kathait,31/05/2021 12:37:49,longer important swine flu,1,positive,0.40,1.0,0.0,0.0,0.0,0.0,0,1.00
+71,Aman Kathait,31/05/2021 12:37:50,think right twitter meta tagging confusing anyhoo want know whos babydaddy,3,negative,-0.01,0.0,0.0,0.25,0.25,0.5,0,0.50
+73,Aman Kathait,31/05/2021 12:37:50,thomas oh fritolay sunchips,0,neutral,0.00,0,0,0,0,0,0,0.00
+79,Aman Kathait,31/05/2021 12:37:51,quot let workers text twitterquot people text twitter far willing work vampire hours,1,positive,0.17,0.0,0.0,0.0,0.5,0.5,0,0.50
+84,Aman Kathait,31/05/2021 12:37:51,one theee greatest friends,2,Very positive,1.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+85,Aman Kathait,31/05/2021 12:37:51,clock sooo ready go home ugh im used job good things weeks,1,positive,0.45,0.33,0.0,0.17,0.33,0.17,0,0.17
+87,Aman Kathait,31/05/2021 12:37:51,quot might wrong quot semanas estar ar,3,negative,-0.50,0.0,1.0,0.0,0.0,0.0,1,1.00
+96,Aman Kathait,31/05/2021 12:37:52,let reset play count track wtf thats simple feature back itunes go,3,negative,-0.17,0.0,0.0,0.0,0.4,0.6,0,0.60
+98,Aman Kathait,31/05/2021 12:37:53,want kerrang play mr crowley ozzy osbourne tonight awesome,2,Very positive,1.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+101,Aman Kathait,31/05/2021 12:37:53,trending topic woooooooo amazing sucessful american medical drama career,1,positive,0.20,0.0,0.0,1.0,0.0,0.0,2,1.00
+102,Aman Kathait,31/05/2021 12:37:53,wondering new delhi host one,1,positive,0.14,0.0,0.0,1.0,0.0,0.0,2,1.00
+105,Aman Kathait,31/05/2021 12:37:53,shopping deals personal assistant event planning get together services jennifer git com,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+106,Aman Kathait,31/05/2021 12:37:53,non speakin followers talk ppl lol,2,Very positive,0.80,0,0,0,0,0,0,0.00
+107,Aman Kathait,31/05/2021 12:37:53,def keri hilson hair style turning video purpose im nothing,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+115,Aman Kathait,31/05/2021 12:37:54,disappointed private cloud computing session cancelled,3,negative,-0.38,0.0,0.0,0.0,1.0,0.0,3,1.00
+117,Aman Kathait,31/05/2021 12:37:55,thanks vodafone taking two lots payments account overdrawing taking week recredit,1,positive,0.20,0.0,0.0,0.5,0.25,0.25,2,0.50
+121,Aman Kathait,31/05/2021 12:37:55,little cousins talk sex fb amp myspace seriously used change diapers,3,negative,-0.26,0,0,0,0,0,0,0.00
+125,Aman Kathait,31/05/2021 12:37:55,oh cant twitter reconnect sms notifications gb populated countries usa india,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+128,Aman Kathait,31/05/2021 12:37:56,tweaked armored car k defense great lasted,2,Very positive,0.80,0.33,0.0,0.0,0.33,0.33,0,0.33
+131,Aman Kathait,31/05/2021 12:37:56,needs iphone u halp wit diz send many lolcats return fair exchange lolcats iphone,2,Very positive,0.60,0.0,0.0,0.5,0.0,0.5,0,0.50
+132,Aman Kathait,31/05/2021 12:37:56,aarrgh cant bothered woth today,0,neutral,0.00,0,0,0,0,0,0,0.00
+144,Aman Kathait,31/05/2021 12:37:57,please give free iphone desparate amp sick tweet env phone,3,negative,-0.16,0.25,0.0,0.0,0.5,0.25,3,0.50
+145,Aman Kathait,31/05/2021 12:37:57,please please pick put good use people always make fun current phone call brick,1,positive,0.33,0.29,0.0,0.0,0.71,0.0,3,0.71
+147,Aman Kathait,31/05/2021 12:37:57,sent dm win informed win,2,Very positive,0.80,0.0,0.0,0.0,0.0,1.0,0,1.00
+150,Aman Kathait,31/05/2021 12:37:58,petersburgfl gibbs high pinellas cty center arts received grade f dept fl edu school yr,1,positive,0.03,0.0,0.0,0.5,0.0,0.5,0,0.50
+154,Aman Kathait,31/05/2021 12:37:58,would wearing championship ring lol ouch,2,Very positive,0.80,0.0,0.0,0.5,0.0,0.5,0,0.50
+160,Aman Kathait,31/05/2021 12:37:59,bonking chicks head club amp dragging home would never gone style cavemen awesome,2,Very positive,1.00,0.0,0.0,0.2,0.2,0.6,0,0.60
+165,Aman Kathait,31/05/2021 12:38:00,everyone would die happy amp sleep amp would watch loved ones suffer last days,1,positive,0.50,0.43,0.0,0.14,0.0,0.43,0,0.43
+166,Aman Kathait,31/05/2021 12:38:00,final exams would exist would sleeping confy right,1,positive,0.14,0.0,0.0,0.0,0.0,1.0,0,1.00
+178,Aman Kathait,31/05/2021 12:38:01,would feel heartache amp pain im asking much,1,positive,0.20,0.0,0.0,0.0,0.33,0.67,0,0.67
+179,Aman Kathait,31/05/2021 12:38:01,wouldnt messd things w james w sanders iii lol weird,1,positive,0.15,0.0,0.0,1.0,0.0,0.0,2,1.00
+182,Aman Kathait,31/05/2021 12:38:01,show nd time around equally good first satisfied geek,1,positive,0.48,0.33,0.0,0.33,0.33,0.0,0,0.00
+188,Aman Kathait,31/05/2021 12:38:01,jumps gt cases vic singapore warns ppl travel,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+191,Aman Kathait,31/05/2021 12:38:02,totally think would send max home however kno read,0,neutral,0.00,0.0,0.0,0.4,0.2,0.4,0,0.40
+197,Aman Kathait,31/05/2021 12:38:02,recommend good taste supports amazing talent shonuff,2,Very positive,0.65,0.67,0.0,0.33,0.0,0.0,0,0.67
+200,Aman Kathait,31/05/2021 12:38:03,one renowned addictive creations brief history video games turns week long live tetris,1,positive,0.02,0.0,0.0,0.33,0.0,0.67,0,0.67
+203,Aman Kathait,31/05/2021 12:38:03,rain horizontal suan siam mango tree appears drunk plants scattered every way destructive testing,4,Very negative,-0.55,0.0,0.0,0.0,1.0,0.0,3,1.00
+209,Aman Kathait,31/05/2021 12:38:04,id sitting vip row game tonight,3,negative,-0.40,0,0,0,0,0,0,0.00
+218,Aman Kathait,31/05/2021 12:38:05,tt could bump top drama played talk ltd attn spans shame,1,positive,0.50,0.0,0.0,0.67,0.0,0.33,2,0.67
+222,Aman Kathait,31/05/2021 12:38:05,quot alivequot missing plane,3,negative,-0.20,0.0,0.0,0.0,1.0,0.0,3,1.00
+224,Aman Kathait,31/05/2021 12:38:05,began today think make past tennis stuff ill ok little interest knowledge tennis,3,negative,-0.11,0.2,0.2,0.2,0.4,0.0,3,0.40
+225,Aman Kathait,31/05/2021 12:38:05,would purchase size jeans able shop hamp,1,positive,0.50,0.0,0.0,0.0,0.0,1.0,0,1.00
+228,Aman Kathait,31/05/2021 12:38:06,ordered figured g lasted years expecting amount time new one gb atamp rocks,1,positive,0.14,1.0,0.0,0.0,0.0,0.0,0,1.00
+231,Aman Kathait,31/05/2021 12:38:06,copyamp paste someone calls number know copy number gt paste website find still,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+232,Aman Kathait,31/05/2021 12:38:06,says firmware available another day,1,positive,0.40,0.5,0.0,0.5,0.0,0.0,0,0.00
+236,Aman Kathait,31/05/2021 12:38:07,rollercoasters multi storey car parks without walls,0,neutral,0.00,0.0,0.5,0.0,0.0,0.5,0,0.50
+240,Aman Kathait,31/05/2021 12:38:07,boyfriends project pretty sweet im cliche,1,positive,0.30,1.0,0.0,0.0,0.0,0.0,0,1.00
+248,Aman Kathait,31/05/2021 12:38:08,u people talking go time see doctor get help dumb asshats grow brain thats u getfrme,3,negative,-0.38,0.0,0.0,1.0,0.0,0.0,2,1.00
+250,Aman Kathait,31/05/2021 12:38:08,dont wan na lose quot blackiequot,3,negative,-0.20,0.0,0.0,0.0,1.0,0.0,3,1.00
+256,Aman Kathait,31/05/2021 12:38:09,showed promise small bugs make annoying back,3,negative,-0.35,0.0,0.0,0.0,0.75,0.25,3,0.75
+257,Aman Kathait,31/05/2021 12:38:09,crashed back faithful tweetie loving copypaste updated sms much better,1,positive,0.37,0.33,0.0,0.67,0.0,0.0,2,0.67
+260,Aman Kathait,31/05/2021 12:38:09,updated sure changed yet wish would revert back old app icon though,1,positive,0.20,0.0,0.0,0.0,0.33,0.67,0,0.67
+268,Aman Kathait,31/05/2021 12:38:10,never iranians heard crushed,3,negative,-0.10,0,0,0,0,0,0,0.00
+270,Aman Kathait,31/05/2021 12:38:10,vote following follow follow follow reow,0,neutral,0.00,0,0,0,0,0,0,0.00
+271,Aman Kathait,31/05/2021 12:38:10,giving orange thing away becuz may never c baby,0,neutral,0.00,0.0,0.25,0.25,0.0,0.5,0,0.50
+274,Aman Kathait,31/05/2021 12:38:11,exactly early summer morning heard aaliyah died rip,1,positive,0.10,0.5,0.0,0.0,0.0,0.5,0,0.50
+276,Aman Kathait,31/05/2021 12:38:11,beggin mum let stay l watch quot space precinctquot home improvement christ feel old lol,1,positive,0.45,0.0,0.2,0.4,0.4,0.0,0,0.00
+280,Aman Kathait,31/05/2021 12:38:12,everyone microwave ponytaiil nd mah mom saiid ii kouldnt hav one moms ii really wanted ponytaiil man,1,positive,0.20,0.0,0.0,1.0,0.0,0.0,2,1.00
+281,Aman Kathait,31/05/2021 12:38:12,getting taught hw play cards flight attendnt age x,0,neutral,0.00,0.0,0.33,0.0,0.33,0.33,0,0.33
+287,Aman Kathait,31/05/2021 12:38:12,took grand prix ran best car ever goodnight gm smh,2,Very positive,0.75,0.0,0.0,1.0,0.0,0.0,2,1.00
+288,Aman Kathait,31/05/2021 12:38:12,long hot sunny days seem go forever big school summer hoilday rain rain rain amp work,1,positive,0.07,0.43,0.0,0.0,0.29,0.29,0,0.43
+294,Aman Kathait,31/05/2021 12:38:13,advice u need strategy target audience funny twtr much oops breaking rule day gw,1,positive,0.23,0.17,0.0,0.33,0.0,0.5,0,0.50
+295,Aman Kathait,31/05/2021 12:38:13,bfs revenge personal pain miss amir forrest rampage,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+302,Aman Kathait,31/05/2021 12:38:14,clubs amazing venues horrible music im lavo yet,3,negative,-0.20,0.0,0.0,0.5,0.0,0.5,0,0.50
+306,Aman Kathait,31/05/2021 12:38:14,musiqtone com make stay number one,0,neutral,0.00,0.0,0.33,0.0,0.33,0.33,0,0.33
+308,Aman Kathait,31/05/2021 12:38:14,piccy yagi antenna seen rear window back passenger seat,0,neutral,0.00,0.0,1.0,0.0,0.0,0.0,1,1.00
+310,Aman Kathait,31/05/2021 12:38:15,dress black leotard heels dance quot single ladiesquot beyonce post youtube,3,negative,-0.12,0.0,0.5,0.0,0.0,0.5,0,0.50
+313,Aman Kathait,31/05/2021 12:38:15,middle school dances oh yeah,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+314,Aman Kathait,31/05/2021 12:38:15,mtvs diary aww man get rid show miss,1,positive,0.30,0.0,0.0,0.0,1.0,0.0,3,1.00
+330,Aman Kathait,31/05/2021 12:38:17,thought could talk birds looks like still tweeting though,0,neutral,0.00,0.0,0.33,0.33,0.33,0.0,0,0.00
+333,Aman Kathait,31/05/2021 12:38:17,good girl anything wrong,1,positive,0.10,0.5,0.0,0.5,0.0,0.0,0,0.00
+334,Aman Kathait,31/05/2021 12:38:17,young uncomplicated bills boyfriends lego grilled cheese,1,positive,0.10,0.0,0.0,0.0,0.0,1.0,0,1.00
+348,Aman Kathait,31/05/2021 12:38:19,dreamed becoming professional singer workin makin dream come true,1,positive,0.30,0,0,0,0,0,0,0.00
+351,Aman Kathait,31/05/2021 12:38:19,love sexy mandingo azz yesirrrr everyday day,1,positive,0.27,1.0,0.0,0.0,0.0,0.0,0,1.00
+353,Aman Kathait,31/05/2021 12:38:19,one tree hill cancelled shows game amp everybody hates chris n dont nobody watch u n e,3,negative,-0.40,0.0,0.0,0.5,0.5,0.0,0,0.00
+355,Aman Kathait,31/05/2021 12:38:20,like think someone cares,0,neutral,0.00,0.0,0.0,0.5,0.5,0.0,0,0.00
+357,Aman Kathait,31/05/2021 12:38:20,exercise write english still lots spelling mistakes read interesting thoughts smart people,1,positive,0.24,0.25,0.0,0.0,0.5,0.25,3,0.50
+360,Aman Kathait,31/05/2021 12:38:20,close get one shot oh well ur still hero wiebe,0,neutral,0.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+362,Aman Kathait,31/05/2021 12:38:21,depressingly telling im weeks days old,3,negative,-0.25,0.33,0.0,0.0,0.67,0.0,3,0.67
+365,Aman Kathait,31/05/2021 12:38:21,still loving tweetdeck,2,Very positive,0.60,1.0,0.0,0.0,0.0,0.0,0,1.00
+369,Aman Kathait,31/05/2021 12:38:21,working computer anymore considering replacement suggestions,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+371,Aman Kathait,31/05/2021 12:38:21,hm gmt monday hm pst im mistaken see next link,0,neutral,0.00,0,0,0,0,0,0,0.00
+382,Aman Kathait,31/05/2021 12:38:22,best thirsty throat get,2,Very positive,1.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+385,Aman Kathait,31/05/2021 12:38:23,classes shifted reworking todays schedule,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+390,Aman Kathait,31/05/2021 12:38:23,even ebay helvetica moleskine looked everywhere super super need one,1,positive,0.33,0,0,0,0,0,0,0.00
+392,Aman Kathait,31/05/2021 12:38:23,wwiii everytime attack drive fight back know woah oh ill never let world war iii,3,negative,-0.25,0.0,0.0,0.0,0.67,0.33,3,0.67
+397,Aman Kathait,31/05/2021 12:38:24,uh oh made sister mad wont ride summer school tomorrow,4,Very negative,-0.62,0.33,0.33,0.0,0.33,0.0,0,0.00
+403,Aman Kathait,31/05/2021 12:38:24,went docomo shop sign get bold stock hand psyched shock,1,positive,0.33,0.0,0.0,0.2,0.0,0.8,0,0.80
+407,Aman Kathait,31/05/2021 12:38:25,gizzle gave white roses time tell,0,neutral,0.00,0.0,0.0,0.0,0.33,0.67,0,0.67
+411,Aman Kathait,31/05/2021 12:38:25,go look gives last syntax error mean duh right,3,negative,-0.08,0.0,0.0,0.0,0.33,0.67,0,0.67
+420,Aman Kathait,31/05/2021 12:38:26,gal quiktrip wanted cry,0,neutral,0.00,0,0,0,0,0,0,0.00
+421,Aman Kathait,31/05/2021 12:38:26,dollar jeans general pants bought pairs happy,1,positive,0.43,0.5,0.0,0.5,0.0,0.0,0,0.00
+423,Aman Kathait,31/05/2021 12:38:26,discount mac bad bad heater,4,Very negative,-0.70,0.0,0.0,0.0,0.5,0.5,0,0.50
+431,Aman Kathait,31/05/2021 12:38:27,rent minus car minus whatever spend san francisco weekend broke,3,negative,-0.10,0.0,0.0,1.0,0.0,0.0,2,1.00
+439,Aman Kathait,31/05/2021 12:38:28,officially gone fuck jimmy fallon,3,negative,-0.40,0.5,0.0,0.0,0.0,0.5,0,0.50
+441,Aman Kathait,31/05/2021 12:38:28,ok ndds went sleep bed crying left litle blankies car dh took car eve,1,positive,0.10,0.0,0.0,0.5,0.0,0.5,0,0.50
+442,Aman Kathait,31/05/2021 12:38:28,met friends sweet smile yeah rite,1,positive,0.32,1.0,0.0,0.0,0.0,0.0,0,1.00
+449,Aman Kathait,31/05/2021 12:38:29,relocated red sea coast giza apt friend great view pyramids internet though,1,positive,0.47,0.4,0.2,0.0,0.2,0.2,0,0.40
+458,Aman Kathait,31/05/2021 12:38:30,carl taylor grand ideas like amp agencies lack trust mobile media still,1,positive,0.50,0.0,0.0,0.5,0.0,0.5,0,0.50
+467,Aman Kathait,31/05/2021 12:38:31,amp arent going palm springs,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+475,Aman Kathait,31/05/2021 12:38:32,amp put mouthwash eye stings,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+479,Aman Kathait,31/05/2021 12:38:32,amp love katie madi amp phil grand day well world,1,positive,0.50,0.67,0.0,0.33,0.0,0.0,0,0.67
+483,Aman Kathait,31/05/2021 12:38:32,amp boobs ate lighter woe,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+484,Aman Kathait,31/05/2021 12:38:33,amp narrative character amp voice coursework collect portsmouth wait july grade,0,neutral,0.00,0.0,0.0,0.33,0.0,0.67,0,0.67
+492,Aman Kathait,31/05/2021 12:38:33,amp summer school begins business writing insanely fun,1,positive,0.30,0.67,0.0,0.0,0.0,0.33,0,0.67
+495,Aman Kathait,31/05/2021 12:38:34,monday stacykinney lt great tweeple,2,Very positive,0.80,1.0,0.0,0.0,0.0,0.0,0,1.00
+496,Aman Kathait,31/05/2021 12:38:34,monday workingmoms lt great tweeple follow,2,Very positive,0.80,1.0,0.0,0.0,0.0,0.0,0,1.00
+499,Aman Kathait,31/05/2021 12:38:34,soon xxx yay danny looks rather hot,1,positive,0.25,0.0,0.0,0.0,0.5,0.5,0,0.50
+503,Aman Kathait,31/05/2021 12:38:34,ippitypippity thanks meows,1,positive,0.20,0,0,0,0,0,0,0.00
+515,Aman Kathait,31/05/2021 12:38:35,recommend sweetest lady whole world amp jewelry shop best,2,Very positive,0.60,0.0,0.0,0.5,0.0,0.5,0,0.50
+516,Aman Kathait,31/05/2021 12:38:36,recommend lovely gut chat always funny witty interesting top tweet,1,positive,0.45,0.33,0.0,0.33,0.33,0.0,0,0.00
+518,Aman Kathait,31/05/2021 12:38:36,slide free lightning talk planned slide free went ok anyhow,1,positive,0.43,0.67,0.0,0.0,0.0,0.33,0,0.67
+520,Aman Kathait,31/05/2021 12:38:36,gt mcfly way already listened one radio times today probably annoying neighbours,4,Very negative,-0.80,0.0,0.0,0.0,0.33,0.67,0,0.67
+526,Aman Kathait,31/05/2021 12:38:37,kafu banton prakata eek mouse wa dem live amp barrington levy murdererlive,1,positive,0.14,0,0,0,0,0,0,0.00
+532,Aman Kathait,31/05/2021 12:38:37,david archuleta touch hand sweet song,1,positive,0.35,0.0,0.0,0.0,1.0,0.0,3,1.00
+533,Aman Kathait,31/05/2021 12:38:37,donny hathaway quot song youquot quot knowquot quot giving upquot yeah type day,0,neutral,0.00,0.33,0.0,0.0,0.0,0.67,0,0.67
+535,Aman Kathait,31/05/2021 12:38:37,sierra nobel possibilities,0,neutral,0.00,0,0,0,0,0,0,0.00
+538,Aman Kathait,31/05/2021 12:38:38,new york state mind really stuck chicago missing ny,1,positive,0.05,0.0,0.0,0.4,0.4,0.2,0,0.20
+541,Aman Kathait,31/05/2021 12:38:38,incomplete last goodnight,0,neutral,0.00,0,0,0,0,0,0,0.00
+548,Aman Kathait,31/05/2021 12:38:39,open happiness ultimate summer song,1,positive,0.23,0.67,0.0,0.0,0.0,0.33,0,0.67
+551,Aman Kathait,31/05/2021 12:38:39,rise going rise thanks props,1,positive,0.20,0.0,0.0,0.0,0.0,1.0,0,1.00
+564,Aman Kathait,31/05/2021 12:38:40,take home white tie affair,0,neutral,0.00,0.0,0.0,0.33,0.33,0.33,0,0.33
+568,Aman Kathait,31/05/2021 12:38:40,multiplayer videos showing new perks maps cool,1,positive,0.24,1.0,0.0,0.0,0.0,0.0,0,1.00
+576,Aman Kathait,31/05/2021 12:38:41,database gone nas server much website little girl,1,positive,0.01,0.0,0.0,0.5,0.0,0.5,0,0.50
+582,Aman Kathait,31/05/2021 12:38:42,music amp books amp romance amp music amp books amp romance amp boyfriend amp music amp fooooooood,0,neutral,0.00,0,0,0,0,0,0,0.00
+587,Aman Kathait,31/05/2021 12:38:42,good old school slow jams,1,positive,0.17,1.0,0.0,0.0,0.0,0.0,0,1.00
+590,Aman Kathait,31/05/2021 12:38:43,pretty girl bag gummy bears sunscreen,1,positive,0.25,0.33,0.0,0.33,0.33,0.0,0,0.00
+591,Aman Kathait,31/05/2021 12:38:43,asian guys think ill find another asian guy interested mexican girl cries,3,negative,-0.05,0.33,0.0,0.67,0.0,0.0,2,0.67
+594,Aman Kathait,31/05/2021 12:38:43,cuddles teddys animals,0,neutral,0.00,0,0,0,0,0,0,0.00
+598,Aman Kathait,31/05/2021 12:38:43,generic music music guitars synths,0,neutral,0.00,0,0,0,0,0,0,0.00
+602,Aman Kathait,31/05/2021 12:38:44,havin ya girl ya wife quot lovequot wit trey thongz n nothin bout,0,neutral,0.00,0.0,0.0,0.67,0.33,0.0,2,0.67
+607,Aman Kathait,31/05/2021 12:38:44,amp would explain hate relationships needs something get mind things call txt meeeeeee,4,Very negative,-0.80,0.0,0.0,0.5,0.25,0.25,2,0.50
+612,Aman Kathait,31/05/2021 12:38:45,amp amp sippin patron frames ya face get ya hands let get aye ayeeeeee,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+613,Aman Kathait,31/05/2021 12:38:45,amp amp always seems happen around eating ice cream alone,0,neutral,0.00,0.0,0.0,0.0,0.75,0.25,3,0.75
+616,Aman Kathait,31/05/2021 12:38:45,amp amp wonderin hard furh buht doesnt seem faze,3,negative,-0.29,0.0,0.33,0.33,0.33,0.0,0,0.00
+622,Aman Kathait,31/05/2021 12:38:46,amp used like concentrate exam like mins thn mind used drift guess g ugh love bad,3,negative,-0.10,0.2,0.0,0.4,0.4,0.0,0,0.00
+626,Aman Kathait,31/05/2021 12:38:46,gt personally confirmed tanks rolled tehran flash back images,1,positive,0.20,0.0,0.0,0.0,0.0,1.0,0,1.00
+636,Aman Kathait,31/05/2021 12:38:47,friends making fun clothes certain teacher school wears saw would,1,positive,0.26,0.4,0.0,0.0,0.2,0.4,0,0.40
+645,Aman Kathait,31/05/2021 12:38:48,new technology copped new phones within year sad,3,negative,-0.08,0.0,0.0,0.0,1.0,0.0,3,1.00
+650,Aman Kathait,31/05/2021 12:38:49,sex drugs shaking ass hours time techno importantly zac,1,positive,0.40,0,0,0,0,0,0,0.00
+651,Aman Kathait,31/05/2021 12:38:49,slothliness probably deadly sins,3,negative,-0.20,0.0,0.0,0.0,0.5,0.5,0,0.50
+659,Aman Kathait,31/05/2021 12:38:50,endeavour launch scrubbed engineers unable fix hydrogen leak via crud,3,negative,-0.50,0.0,0.0,0.0,0.5,0.5,0,0.50
+661,Aman Kathait,31/05/2021 12:38:50,give head advertising sorry,3,negative,-0.50,0.0,0.0,0.0,0.33,0.67,0,0.67
+669,Aman Kathait,31/05/2021 12:38:50,wooooooo new untouchable really awesome though,2,Very positive,0.57,0.0,0.0,0.67,0.33,0.0,2,0.67
+673,Aman Kathait,31/05/2021 12:38:51,time affect england ne jus twitter online ubertwitter wrk either,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+677,Aman Kathait,31/05/2021 12:38:51,shameless plug opensolaris bible nick co authored,0,neutral,0.00,0,0,0,0,0,0,0.00
+679,Aman Kathait,31/05/2021 12:38:51,heck still thats right insomiac,1,positive,0.29,0.0,0.0,0.0,0.0,1.0,0,1.00
+684,Aman Kathait,31/05/2021 12:38:52,last year fashion designer yves saint laurent died age,0,neutral,0.00,0.0,0.5,0.0,0.0,0.5,0,0.50
+686,Aman Kathait,31/05/2021 12:38:52,seems running behind reinventing quite hours past cedt still nothing,3,negative,-0.33,0.0,0.0,0.0,1.0,0.0,3,1.00
+688,Aman Kathait,31/05/2021 12:38:52,quick google search browse around auslit site reveals download lore boooo,1,positive,0.33,0.0,0.5,0.5,0.0,0.0,0,0.00
+690,Aman Kathait,31/05/2021 12:38:52,podcast full quality online awful sad,3,negative,-0.38,0.0,0.0,0.0,1.0,0.0,3,1.00
+700,Aman Kathait,31/05/2021 12:38:53,bulls saving americas dog via best friends become extinct,1,positive,0.30,0.5,0.0,0.5,0.0,0.0,0,0.00
+706,Aman Kathait,31/05/2021 12:38:54,want piece quot pairway heavenquot,0,neutral,0.00,0,0,0,0,0,0,0.00
+709,Aman Kathait,31/05/2021 12:38:54,hate people thank laugh,3,negative,-0.25,0.0,0.0,0.0,1.0,0.0,3,1.00
+710,Aman Kathait,31/05/2021 12:38:55,farmer pollution legal battle takes life sad business round,3,negative,-0.17,0.0,0.0,0.2,0.2,0.6,0,0.60
+713,Aman Kathait,31/05/2021 12:38:55,nose runs time whether sick,4,Very negative,-0.71,0.0,0.0,0.0,0.5,0.5,0,0.50
+714,Aman Kathait,31/05/2021 12:38:55,windows xp operating system say,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+720,Aman Kathait,31/05/2021 12:38:56,randall edwards okay delia really miss ilene kristen res delia one note bimbo imo,1,positive,0.35,0.0,0.0,0.5,0.5,0.0,0,0.00
+724,Aman Kathait,31/05/2021 12:38:56,really wanted folks work stopped comin,1,positive,0.20,0.0,0.0,0.5,0.0,0.5,0,0.50
+730,Aman Kathait,31/05/2021 12:38:57,day day day day day day day day day day day day day day pronto,0,neutral,0.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+735,Aman Kathait,31/05/2021 12:38:57,another hydrogen leak discovered,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+736,Aman Kathait,31/05/2021 12:38:57,inconsistencies thickness controlradius values resources,3,negative,-0.10,0,0,0,0,0,0,0.00
+743,Aman Kathait,31/05/2021 12:38:58,terribly much usual working new game playing slightly less new one,3,negative,-0.11,0.0,0.0,0.0,0.0,1.0,0,1.00
+746,Aman Kathait,31/05/2021 12:38:58,dont get worried guys love,1,positive,0.50,0.5,0.0,0.0,0.5,0.0,0,0.00
+751,Aman Kathait,31/05/2021 12:38:59,freakin brilliant great job guys,2,Very positive,0.85,0.67,0.0,0.0,0.0,0.33,0,0.67
+753,Aman Kathait,31/05/2021 12:38:59,know know random selection guys really good legit sob story,1,positive,0.10,0.33,0.0,0.33,0.33,0.0,0,0.00
+765,Aman Kathait,31/05/2021 12:39:00,gt hair cut eye brows done mani pedi feeling good feeling great,2,Very positive,0.75,0.5,0.0,0.25,0.25,0.0,0,0.50
+778,Aman Kathait,31/05/2021 12:39:01,gt dozens students still missing cadet college kidnapping,3,negative,-0.20,0.0,0.0,0.0,0.33,0.67,0,0.67
+780,Aman Kathait,31/05/2021 12:39:02,gt kingaussie unknown stupid reason reason coz sheep well mate,3,negative,-0.45,0.0,0.0,0.0,0.67,0.33,3,0.67
+783,Aman Kathait,31/05/2021 12:39:02,lt international amp equal opportunity lover,0,neutral,0.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+786,Aman Kathait,31/05/2021 12:39:02,lt fighting nwo every day,0,neutral,0.00,0.5,0.0,0.0,0.5,0.0,0,0.00
+788,Aman Kathait,31/05/2021 12:39:02,lt hates web twitter btw rp column save tweets,0,neutral,0.00,0.0,0.0,0.0,0.67,0.33,3,0.67
+789,Aman Kathait,31/05/2021 12:39:02,lt guess burrito lady go rain,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+797,Aman Kathait,31/05/2021 12:39:03,risking sick day post need phone girlfriend,4,Very negative,-0.71,0.5,0.0,0.0,0.5,0.0,0,0.00
+802,Aman Kathait,31/05/2021 12:39:04,please make week choosing running high fever days doctors find wrong,3,negative,-0.17,0.25,0.0,0.0,0.5,0.25,3,0.50
+803,Aman Kathait,31/05/2021 12:39:04,qtweeter work jailbroken yet thing sucks big iphone upgrades,3,negative,-0.15,0.0,0.0,0.5,0.0,0.5,0,0.50
+808,Aman Kathait,31/05/2021 12:39:04,wouldnt show without influence ed mcmahon ed heeeeres,0,neutral,0.00,0,0,0,0,0,0,0.00
+811,Aman Kathait,31/05/2021 12:39:05,sunday support good cause sponsoring truly,2,Very positive,0.70,1.0,0.0,0.0,0.0,0.0,0,1.00
+813,Aman Kathait,31/05/2021 12:39:05,contact big brother bb voice fantastic bb fans dream,1,positive,0.20,0.33,0.0,0.33,0.0,0.33,0,0.33
+816,Aman Kathait,31/05/2021 12:39:05,jumps gt cases vic singapore warns ppl travel,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+825,Aman Kathait,31/05/2021 12:39:06,coffee cookies strawberries set cocktails tonite,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+826,Aman Kathait,31/05/2021 12:39:06,stop slacking get moving get philly bbq come back bbq,0,neutral,0.00,0,0,0,0,0,0,0.00
+832,Aman Kathait,31/05/2021 12:39:07,first stella day feeling grand,1,positive,0.38,0.33,0.0,0.67,0.0,0.0,2,0.67
+835,Aman Kathait,31/05/2021 12:39:07,seriously cursed et al,3,negative,-0.33,0,0,0,0,0,0,0.00
+838,Aman Kathait,31/05/2021 12:39:07,tweets hilarious lol great travelers,2,Very positive,0.70,1.0,0.0,0.0,0.0,0.0,0,1.00
+841,Aman Kathait,31/05/2021 12:39:07,morning twitter broadband run,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+843,Aman Kathait,31/05/2021 12:39:08,grand prix anyone button,1,positive,0.50,0.0,0.0,1.0,0.0,0.0,2,1.00
+845,Aman Kathait,31/05/2021 12:39:08,lesbians stu deezy cant get,0,neutral,0.00,0,0,0,0,0,0,0.00
+852,Aman Kathait,31/05/2021 12:39:08,refuses remember messages marked read every time restart application unread,1,positive,0.10,0.0,0.0,0.0,1.0,0.0,3,1.00
+853,Aman Kathait,31/05/2021 12:39:09,lt one role models growing,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+856,Aman Kathait,31/05/2021 12:39:09,lt tired elementary tricks twitter shit needa unless u celeb im,3,negative,-0.10,0.0,0.0,0.5,0.25,0.25,2,0.50
+866,Aman Kathait,31/05/2021 12:39:10,lt gone beach amp brooke birmingham rearview mirror,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+868,Aman Kathait,31/05/2021 12:39:10,lt enjoyin sum quality production considers underwhelming many female vocalists heard recently r,1,positive,0.17,0.0,0.0,0.0,1.0,0.0,3,1.00
+871,Aman Kathait,31/05/2021 12:39:10,lt c u tweeters lt going c movie,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+874,Aman Kathait,31/05/2021 12:39:11,lt jill scott even though look like dike,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+875,Aman Kathait,31/05/2021 12:39:11,lt json javascript objects php time clean,1,positive,0.37,0.0,0.0,0.0,0.0,1.0,0,1.00
+882,Aman Kathait,31/05/2021 12:39:12,lt lt lt watched new episode pushing daisies sooo happy back sad soon,1,positive,0.11,0.2,0.0,0.2,0.4,0.2,3,0.40
+885,Aman Kathait,31/05/2021 12:39:12,lt franz ferdinand quot girls never know make boy feelquot quot kiss eye meet mequot lt sooo hot,1,positive,0.25,0.0,0.0,0.33,0.67,0.0,3,0.67
+894,Aman Kathait,31/05/2021 12:39:13,died yesterday could go allll,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+897,Aman Kathait,31/05/2021 12:39:13,lmao mine elvis malone bailey winnipeg hehehe,2,Very positive,0.60,0,0,0,0,0,0,0.00
+898,Aman Kathait,31/05/2021 12:39:13,think pyjama party rawks girls guys keep going get drunk,3,negative,-0.50,0.0,0.0,0.67,0.0,0.33,2,0.67
+906,Aman Kathait,31/05/2021 12:39:14,cause faith apparently lost cause,1,positive,0.05,0.0,0.0,0.5,0.5,0.0,0,0.00
+908,Aman Kathait,31/05/2021 12:39:14,today heading play kickball kids,0,neutral,0.00,0.33,0.0,0.0,0.0,0.67,0,0.67
+909,Aman Kathait,31/05/2021 12:39:14,index estonia atm grilling time,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+918,Aman Kathait,31/05/2021 12:39:16,lt dog house deep confessed boyfriend quot shopping spreequot think head made new shade red temper,1,positive,0.05,0.0,0.4,0.2,0.2,0.2,1,0.40
+924,Aman Kathait,31/05/2021 12:39:16,lt yawngt update lt yawngt maybe time lunch,0,neutral,0.00,0,0,0,0,0,0,0.00
+925,Aman Kathait,31/05/2021 12:39:16,lt yes smiling big cheeks achegt pass coffee rb wonders,0,neutral,0.00,0.33,0.0,0.33,0.33,0.0,0,0.00
+930,Aman Kathait,31/05/2021 12:39:17,quot seen like forever quot,0,neutral,0.00,0,0,0,0,0,0,0.00
+931,Aman Kathait,31/05/2021 12:39:17,quot love love till stars crumble quot luthe hero crown heart breaking story ever,1,positive,0.50,0.4,0.0,0.4,0.2,0.0,0,0.00
+932,Aman Kathait,31/05/2021 12:39:17,quot never hold contempt something made smile still moment quot via nice favorite,1,positive,0.47,0.6,0.0,0.0,0.2,0.2,0,0.60
+933,Aman Kathait,31/05/2021 12:39:17,quot want mom last forever quot repeat cant stop listening,0,neutral,0.00,0,0,0,0,0,0,0.00
+943,Aman Kathait,31/05/2021 12:39:18,quot may beauty beast quot song note twitting blipping,0,neutral,0.00,0.5,0.0,0.0,0.0,0.5,0,0.50
+945,Aman Kathait,31/05/2021 12:39:19,quot wipe smug smile michelle obamas facequot love season three,1,positive,0.40,1.0,0.0,0.0,0.0,0.0,0,1.00
+948,Aman Kathait,31/05/2021 12:39:19,coffeemachine working,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+950,Aman Kathait,31/05/2021 12:39:19,future scares need hug,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+952,Aman Kathait,31/05/2021 12:39:19,last full day ukraine lviv,1,positive,0.17,1.0,0.0,0.0,0.0,0.0,0,1.00
+955,Aman Kathait,31/05/2021 12:39:19,rain dampening happiness,2,Very positive,0.70,0.5,0.0,0.0,0.5,0.0,0,0.00
+956,Aman Kathait,31/05/2021 12:39:19,weather totally gloomsday good ol dmi,1,positive,0.35,1.0,0.0,0.0,0.0,0.0,0,1.00
+957,Aman Kathait,31/05/2021 12:39:20,weekend nearly back work another dreadfully dull week yah lol,1,positive,0.17,0.0,0.0,0.0,0.33,0.67,0,0.67
+967,Aman Kathait,31/05/2021 12:39:21,forgot put requested shot hazelnut triple shot espresso cappuccino today sigh rain sun shines,0,neutral,0.00,0.0,0.33,0.0,0.67,0.0,3,0.67
+969,Aman Kathait,31/05/2021 12:39:21,lost cant believe lebron cavs lost im sad right yo lol damn man oh well lets get lakers kobe,1,positive,0.20,0.0,0.0,0.0,0.8,0.2,3,0.80
+970,Aman Kathait,31/05/2021 12:39:21,going throw month old roses haha,1,positive,0.15,0.0,0.0,0.0,0.0,1.0,0,1.00
+972,Aman Kathait,31/05/2021 12:39:21,things might turning around knocks wood,0,neutral,0.00,0.0,0.25,0.5,0.0,0.25,2,0.50
+973,Aman Kathait,31/05/2021 12:39:21,things get better pinky promise,1,positive,0.50,0.0,0.0,0.67,0.33,0.0,2,0.67
+980,Aman Kathait,31/05/2021 12:39:22,tesco dropped bottles today props bank holiday,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+981,Aman Kathait,31/05/2021 12:39:22,would one vwllers want add event ning would much appreciate,1,positive,0.20,0.25,0.0,0.0,0.25,0.5,0,0.50
+987,Aman Kathait,31/05/2021 12:39:23,berlin next also juni heidelberg days air training interested dm,1,positive,0.12,0.67,0.0,0.0,0.0,0.33,0,0.67
+989,Aman Kathait,31/05/2021 12:39:23,featured biggest hungarian news portal thrilled,2,Very positive,0.60,0.0,0.0,1.0,0.0,0.0,2,1.00
+990,Aman Kathait,31/05/2021 12:39:23,joining bit late connection boo time warner,3,negative,-0.30,0.0,0.0,0.5,0.5,0.0,0,0.00
+993,Aman Kathait,31/05/2021 12:39:23,went dance like left la blues someday ill stop falling endlessly,3,negative,-0.21,0.0,0.0,0.0,0.33,0.67,0,0.67
+994,Aman Kathait,31/05/2021 12:39:23,jumped laptop thinking maybe phone cursing tmobile wasnt sorry tmobile,3,negative,-0.50,0.0,0.0,0.67,0.33,0.0,2,0.67
+997,Aman Kathait,31/05/2021 12:39:24,tweet let world know yummy cakes,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1003,Aman Kathait,31/05/2021 12:39:24,quot omg transformers comes tonite trying wait till weekend quot still wrk tho,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1013,Aman Kathait,31/05/2021 12:39:26,quot dog life christmasquot wish life short,0,neutral,0.00,0.0,0.33,0.0,0.0,0.67,0,0.67
+1016,Aman Kathait,31/05/2021 12:39:26,quot friend helps move best friend helps move bodies quot,2,Very positive,1.00,0.4,0.0,0.6,0.0,0.0,2,0.60
+1031,Aman Kathait,31/05/2021 12:39:28,song sucks like background music,3,negative,-0.30,0,0,0,0,0,0,0.00
+1034,Aman Kathait,31/05/2021 12:39:28,sucks never ever ever felt like,3,negative,-0.30,0.0,0.0,0.67,0.33,0.0,2,0.67
+1037,Aman Kathait,31/05/2021 12:39:28,supposed good weekend,2,Very positive,0.70,0.5,0.0,0.0,0.0,0.5,0,0.50
+1042,Aman Kathait,31/05/2021 12:39:29,time bed difficult wake zzzzzzzzzzzz,3,negative,-0.50,0,0,0,0,0,0,0.00
+1050,Aman Kathait,31/05/2021 12:39:29,today made coffee going starbucks,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+1053,Aman Kathait,31/05/2021 12:39:30,today one good friends rd bday put number new phone amp find charger old phone suck,1,positive,0.31,0.5,0.0,0.0,0.25,0.25,0,0.50
+1055,Aman Kathait,31/05/2021 12:39:30,today last day play w laptop gotto studiii hardiiiieee,0,neutral,0.00,0.5,0.0,0.0,0.0,0.5,0,0.50
+1061,Aman Kathait,31/05/2021 12:39:31,true genius strikes left uni key home,1,positive,0.12,0.0,0.0,0.5,0.5,0.0,0,0.00
+1066,Aman Kathait,31/05/2021 12:39:31,gave endorsement thank many thank individually know,1,positive,0.25,0.0,0.0,0.0,0.0,1.0,0,1.00
+1068,Aman Kathait,31/05/2021 12:39:31,want puppyyyyyyyyyyyyyyyyy,0,neutral,0.00,0,0,0,0,0,0,0.00
+1070,Aman Kathait,31/05/2021 12:39:31,follow meeeeeeeeeeeeeeeeeee please need followers,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1071,Aman Kathait,31/05/2021 12:39:31,officially last night us left getting ready head airport,1,positive,0.07,0.33,0.0,0.0,0.0,0.67,0,0.67
+1073,Aman Kathait,31/05/2021 12:39:32,error quot modify logical children node time tree walk progressquot zero google hits,1,positive,0.25,0.0,0.5,0.0,0.5,0.0,0,0.00
+1077,Aman Kathait,31/05/2021 12:39:32,kumble commentator cricinfo clue,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1097,Aman Kathait,31/05/2021 12:39:34,quot fellow power bloggerquot ehem ever read genl thinking ranking lists guess,0,neutral,0.00,0.0,0.25,0.75,0.0,0.0,2,0.75
+1099,Aman Kathait,31/05/2021 12:39:34,quot baby blow awayquot,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1101,Aman Kathait,31/05/2021 12:39:34,quot balamoryquot horrid programme ashamed scottish,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+1104,Aman Kathait,31/05/2021 12:39:35,quot batman barcelonaquot awesome miss bruce,2,Very positive,1.00,0.0,0.0,0.5,0.5,0.0,0,0.00
+1105,Aman Kathait,31/05/2021 12:39:35,quot battery state changed lowquot means minute tweeting,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1106,Aman Kathait,31/05/2021 12:39:35,quot beam upquot new shit twirled punk bar miami,3,negative,-0.03,0.33,0.33,0.33,0.0,0.0,0,0.00
+1111,Aman Kathait,31/05/2021 12:39:35,quot behind every beautiful girl dumbass guy wrong made strongquot,3,negative,-0.02,0.25,0.0,0.25,0.5,0.0,3,0.50
+1114,Aman Kathait,31/05/2021 12:39:36,quot big amp rich raising hell amazing gracequot story life,1,positive,0.33,0.0,0.0,0.33,0.0,0.67,0,0.67
+1115,Aman Kathait,31/05/2021 12:39:36,quot bitch run wont catch youquot lol know idea sad,1,positive,0.15,0.0,0.0,0.0,1.0,0.0,3,1.00
+1118,Aman Kathait,31/05/2021 12:39:36,quot bodies found tragic air france flightquot,4,Very negative,-0.75,0.0,0.0,0.0,1.0,0.0,3,1.00
+1120,Aman Kathait,31/05/2021 12:39:36,quot bring body father quot omg back back cedric killed quot,3,negative,-0.07,0.0,0.0,0.67,0.33,0.0,2,0.67
+1121,Aman Kathait,31/05/2021 12:39:36,quot mikey baby man moment quot random line trainspotting newest book yay,3,negative,-0.50,0.0,0.0,0.0,0.0,1.0,0,1.00
+1122,Aman Kathait,31/05/2021 12:39:37,quot song band quot fuck wentz iwsnt gt taasiaar take spanish final,3,negative,-0.13,0.33,0.0,0.0,0.0,0.67,0,0.67
+1124,Aman Kathait,31/05/2021 12:39:37,lucenesearch search numbers want know topics,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1129,Aman Kathait,31/05/2021 12:39:37,needed booked another caravan holiday devon october devon cliffs sounds really warm lol work later x,1,positive,0.47,0.0,0.0,0.33,0.0,0.67,0,0.67
+1132,Aman Kathait,31/05/2021 12:39:38,smarties ice cream walmart sobys better stock,1,positive,0.50,0.0,0.0,0.5,0.0,0.5,0,0.50
+1142,Aman Kathait,31/05/2021 12:39:39,park tweeter center holy crap missed cheap trick poison next def leppard,3,negative,-0.12,0.0,0.0,0.5,0.25,0.25,2,0.50
+1144,Aman Kathait,31/05/2021 12:39:39,poorer thanks audi transmission,1,positive,0.20,0,0,0,0,0,0,0.00
+1148,Aman Kathait,31/05/2021 12:39:39,per day could useful check free guide download,1,positive,0.35,0.67,0.0,0.33,0.0,0.0,0,0.67
+1153,Aman Kathait,31/05/2021 12:39:40,enmd sold running cant win suppose,2,Very positive,0.80,0.0,0.0,0.0,0.0,1.0,0,1.00
+1161,Aman Kathait,31/05/2021 12:39:41,amp christiancuero ditched steven nancy rocha miranda lol,2,Very positive,0.80,0,0,0,0,0,0,0.00
+1164,Aman Kathait,31/05/2021 12:39:41,amp fake jewelry ft fuckin l,3,negative,-0.50,0.0,0.0,0.0,1.0,0.0,3,1.00
+1172,Aman Kathait,31/05/2021 12:39:42,amp mite makeup thingy tommorow tips requesting coming soon,0,neutral,0.00,0.0,0.0,0.33,0.67,0.0,3,0.67
+1177,Aman Kathait,31/05/2021 12:39:42,amp james sick xander cold amp ear infection right ear amp zoey,3,negative,-0.34,0.0,0.0,0.33,0.33,0.33,0,0.33
+1178,Aman Kathait,31/05/2021 12:39:42,amp jm eatin breaky watchin toons good monday morning,2,Very positive,0.70,1.0,0.0,0.0,0.0,0.0,0,1.00
+1181,Aman Kathait,31/05/2021 12:39:43,amp mood gets worse go sleep want cuddles amp want,3,negative,-0.40,0.0,0.0,0.0,1.0,0.0,3,1.00
+1183,Aman Kathait,31/05/2021 12:39:43,amp dreams come truee matter,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1185,Aman Kathait,31/05/2021 12:39:43,amp today ela funked bow,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1190,Aman Kathait,31/05/2021 12:39:44,amp good feeling dumping turning sadness dont know mayb bcuz longest relationship ever,2,Very positive,0.70,0.33,0.0,0.67,0.0,0.0,2,0.67
+1195,Aman Kathait,31/05/2021 12:39:44,amp worst mom refuses send macr,4,Very negative,-1.00,0.0,0.0,0.0,0.67,0.33,3,0.67
+1197,Aman Kathait,31/05/2021 12:39:45,amp amp dykman ugh wanted stay w besties,0,neutral,0.00,0.0,0.5,0.0,0.5,0.0,0,0.00
+1198,Aman Kathait,31/05/2021 12:39:45,amp amp looks like im losing fight,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1202,Aman Kathait,31/05/2021 12:39:45,amp amp bought sandalsshoes yellow white forgot one thanks birthday money mamaauntie,1,positive,0.07,0.0,0.33,0.0,0.0,0.67,0,0.67
+1203,Aman Kathait,31/05/2021 12:39:45,amp playing outside teeeexxt,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1207,Aman Kathait,31/05/2021 12:39:46,amp deeen went tha dentist n found ima get wisdom teeth pulld day grr,4,Very negative,-0.70,0.33,0.0,0.0,0.0,0.67,0,0.67
+1208,Aman Kathait,31/05/2021 12:39:46,amp easyxtarget sooo gross outside right good summer weather lol,1,positive,0.36,0.6,0.0,0.0,0.2,0.2,0,0.60
+1209,Aman Kathait,31/05/2021 12:39:46,amp lindsays kyras list,0,neutral,0.00,0,0,0,0,0,0,0.00
+1223,Aman Kathait,31/05/2021 12:39:48,twitter updates phone want work,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+1227,Aman Kathait,31/05/2021 12:39:48,ugh week get worse packed suitcase ipod display broke hate things break,4,Very negative,-0.60,0.0,0.0,0.5,0.5,0.0,0,0.00
+1231,Aman Kathait,31/05/2021 12:39:49,uhoh jersey peeps arguing angry,3,negative,-0.50,0.0,1.0,0.0,0.0,0.0,1,1.00
+1234,Aman Kathait,31/05/2021 12:39:49,unequivocally love arms night night prince x x x x,1,positive,0.50,0.33,0.0,0.0,0.33,0.33,0,0.33
+1238,Aman Kathait,31/05/2021 12:39:50,sad half terms back school much worry trying stupid project girl hasnt sent work,3,negative,-0.25,0.0,0.0,0.2,0.4,0.4,0,0.40
+1241,Aman Kathait,31/05/2021 12:39:50,vid microwaving cellphone surprisingly cool,1,positive,0.35,1.0,0.0,0.0,0.0,0.0,0,1.00
+1246,Aman Kathait,31/05/2021 12:39:50,want new mac getting impatient,3,negative,-0.03,0.0,0.0,0.0,0.5,0.5,0,0.50
+1259,Aman Kathait,31/05/2021 12:39:52,quot chasing stars losing shadows peter pan wendy turned fine fly quot,2,Very positive,0.61,0.2,0.0,0.2,0.6,0.0,3,0.60
+1265,Aman Kathait,31/05/2021 12:39:53,quot connecting regionquot problem back matter sim connect osgrid come others listed online get,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1271,Aman Kathait,31/05/2021 12:39:53,quot diamonds arent foreverquot bring horizon lt,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1272,Aman Kathait,31/05/2021 12:39:53,quot leapfrog quot strong sell yahoo,1,positive,0.43,1.0,0.0,0.0,0.0,0.0,0,1.00
+1281,Aman Kathait,31/05/2021 12:39:55,offered good deal maybe career path take different turn guess see,1,positive,0.35,0.25,0.0,0.5,0.0,0.25,2,0.50
+1293,Aman Kathait,31/05/2021 12:39:56,recognized victims ran downstairs assist one hurt shaken complete accident,1,positive,0.10,0.0,0.0,0.0,1.0,0.0,3,1.00
+1300,Aman Kathait,31/05/2021 12:39:57,well new colts posting myspace website join us myspace,1,positive,0.14,0,0,0,0,0,0,0.00
+1302,Aman Kathait,31/05/2021 12:39:57,wet sweat pants bueno,3,negative,-0.10,0.0,0.0,0.5,0.0,0.5,0,0.50
+1303,Aman Kathait,31/05/2021 12:39:57,sunny morning going twitter,0,neutral,0.00,0.33,0.0,0.0,0.33,0.33,0,0.33
+1304,Aman Kathait,31/05/2021 12:39:57,weird dream loved hahaha,1,positive,0.13,1.0,0.0,0.0,0.0,0.0,0,1.00
+1305,Aman Kathait,31/05/2021 12:39:57,happened dj envys mixtapes miss hearing drops quot envyquot,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1309,Aman Kathait,31/05/2021 12:39:57,close eyes see bejeweled grid amp jewels quickly aligned announcer says good job,2,Very positive,0.52,0.4,0.0,0.2,0.2,0.2,0,0.40
+1316,Aman Kathait,31/05/2021 12:39:58,gt argh annoyed hate feeling like makes frustration worse grrrrrrrrrrrrr fucking shitting,4,Very negative,-0.55,0.14,0.0,0.14,0.71,0.0,3,0.71
+1317,Aman Kathait,31/05/2021 12:39:58,gt gt looks rubbish oh well content appearance right,1,positive,0.29,0.0,0.0,0.0,0.0,1.0,0,1.00
+1318,Aman Kathait,31/05/2021 12:39:58,gt gt dont like giants lot fans san francisco giants via amen,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1319,Aman Kathait,31/05/2021 12:39:58,gt lt laptop internet must settle phone internet,0,neutral,0.00,0,0,0,0,0,0,0.00
+1332,Aman Kathait,31/05/2021 12:40:00,lt head pounding much trying go tonight think imma hit bed soon,1,positive,0.20,0.0,0.25,0.25,0.0,0.5,0,0.50
+1339,Aman Kathait,31/05/2021 12:40:01,lt needs coffee someone drink coffee please,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1347,Aman Kathait,31/05/2021 12:40:01,stories got sooo long learn like sooo extraa grr,3,negative,-0.38,0.0,0.0,0.0,0.0,1.0,0,1.00
+1366,Aman Kathait,31/05/2021 12:40:03,wondering find happened plane ever find glad ones yelling terrorism yet,1,positive,0.50,0.17,0.0,0.5,0.0,0.33,2,0.50
+1369,Aman Kathait,31/05/2021 12:40:04,quot dont leave hanging city deadquot avril lavigne happy endinglt,2,Very positive,0.80,1.0,0.0,0.0,0.0,0.0,0,1.00
+1370,Aman Kathait,31/05/2021 12:40:04,quot dont stop nowquot mcfly,0,neutral,0.00,0,0,0,0,0,0,0.00
+1372,Aman Kathait,31/05/2021 12:40:04,quot drag hellquot perrrrrrfecttttt,3,negative,-0.10,0,0,0,0,0,0,0.00
+1376,Aman Kathait,31/05/2021 12:40:04,quot dude u naked pic jennifer aniston ur site im kind girl sorry quot received interesting shout,1,positive,0.15,0.33,0.0,0.5,0.17,0.0,2,0.50
+1377,Aman Kathait,31/05/2021 12:40:04,quot due long queues last entry museum pm quot dont think ill making banksy show week,3,negative,-0.17,0.0,0.0,0.33,0.33,0.33,0,0.33
+1379,Aman Kathait,31/05/2021 12:40:05,quot empire sunquot author dies grey skies befittingly persist wah,3,negative,-0.05,0.0,0.0,0.0,1.0,0.0,3,1.00
+1380,Aman Kathait,31/05/2021 12:40:05,quot enjoyingquot day laundry,0,neutral,0.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+1385,Aman Kathait,31/05/2021 12:40:06,quot every joke liequot example guys say fit magnums xl thats freakin lie,1,positive,0.40,0.67,0.0,0.33,0.0,0.0,0,0.67
+1388,Aman Kathait,31/05/2021 12:40:06,quot everyday first rest life quot soooo tired goodnight xo,3,negative,-0.12,0.0,0.0,0.5,0.0,0.5,0,0.50
+1389,Aman Kathait,31/05/2021 12:40:06,quot everyone photographic memory film quot lol via battery,2,Very positive,0.80,0,0,0,0,0,0,0.00
+1393,Aman Kathait,31/05/2021 12:40:07,quot expense claims rules full claims made mps within rules rules made mps er thats itquot private eye,1,positive,0.17,0.0,0.0,0.25,0.25,0.5,0,0.50
+1401,Aman Kathait,31/05/2021 12:40:08,working im really excited new moon clip last night awesome congrats everyone twilight awards,1,positive,0.38,0.0,0.0,0.5,0.25,0.25,2,0.50
+1402,Aman Kathait,31/05/2021 12:40:08,working late real late,3,negative,-0.38,0.0,0.0,0.0,0.75,0.25,3,0.75
+1408,Aman Kathait,31/05/2021 12:40:08,yaayyyy blair chuck oh god,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1415,Aman Kathait,31/05/2021 12:40:09,yeah cudn declined idiots mil,4,Very negative,-0.80,0,0,0,0,0,0,0.00
+1417,Aman Kathait,31/05/2021 12:40:09,yes become fed things working make better least,1,positive,0.10,0.0,0.0,0.4,0.4,0.2,0,0.20
+1418,Aman Kathait,31/05/2021 12:40:10,must kidding poor efivefoure life quot excitingquot,3,negative,-0.40,0.5,0.0,0.0,0.0,0.5,0,0.50
+1425,Aman Kathait,31/05/2021 12:40:10,lt ready exam todayamp stvpark exam much whereas parrk yes,1,positive,0.20,0.5,0.0,0.0,0.5,0.0,0,0.00
+1432,Aman Kathait,31/05/2021 12:40:11,even realise sheppey tearooms ever go tescos coastal towns,0,neutral,0.00,0.0,0.0,0.5,0.5,0.0,0,0.00
+1433,Aman Kathait,31/05/2021 12:40:11,ah right well guys definitely awesome xoco culture fantastic,2,Very positive,0.56,0.25,0.0,0.25,0.0,0.5,0,0.50
+1440,Aman Kathait,31/05/2021 12:40:12,linuxoutlaws server back thanks extra storage,1,positive,0.07,0,0,0,0,0,0,0.00
+1442,Aman Kathait,31/05/2021 12:40:12,ubuntuhu new ubuntu hu awesome,2,Very positive,0.57,0.0,0.0,1.0,0.0,0.0,2,1.00
+1444,Aman Kathait,31/05/2021 12:40:12,brokeback mountain also excellent,2,Very positive,1.00,1.0,0.0,0.0,0.0,0.0,0,1.00
+1445,Aman Kathait,31/05/2021 12:40:13,brokeback mountain terrible sentiment would mind portion amp left cream fruit hols x sentiment dark chocolate cookies oh tease writing day n dipping twitter company sentiment followfriday beckescreet almost cool man ra sentiment followfriday presentsqueen talks sense sentiment new york amazing city ive ever sentiment number times bottomed driveway hour trip mass scared sentiment nyc celebrity street vendors gt poa celebrities sentiment yay thanks matclayton sentiment hate dentist,3,negative,-0.08,0.09,0.0,0.13,0.65,0.13,3,0.65
+1446,Aman Kathait,31/05/2021 12:40:13,eddddddddddddddddddddddddddddddddddddddddddddddddddddddddddahh charactres left hope hands intact fingers,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1448,Aman Kathait,31/05/2021 12:40:13,pointcast making feel old,1,positive,0.10,0.0,0.0,0.0,1.0,0.0,3,1.00
+1459,Aman Kathait,31/05/2021 12:40:14,lt lt lt course left camera behind plus raining buckets heads saved least minutes,3,negative,-0.23,0.0,0.0,0.0,0.5,0.5,0,0.50
+1460,Aman Kathait,31/05/2021 12:40:15,lt lt lt lt wishes shower flat,3,negative,-0.03,0.0,0.0,0.0,1.0,0.0,3,1.00
+1461,Aman Kathait,31/05/2021 12:40:15,lt lt keep prayers look new apartment thanks advance folks,1,positive,0.17,0,0,0,0,0,0,0.00
+1471,Aman Kathait,31/05/2021 12:40:16,lt love robbie williams,1,positive,0.50,1.0,0.0,0.0,0.0,0.0,0,1.00
+1476,Aman Kathait,31/05/2021 12:40:16,lt u guys thanks stickin,1,positive,0.20,0,0,0,0,0,0,0.00
+1477,Aman Kathait,31/05/2021 12:40:17,lt new moon omg read hahaha november soooo freakin far away,1,positive,0.15,0.0,0.33,0.33,0.0,0.33,0,0.33
+1478,Aman Kathait,31/05/2021 12:40:17,lt asb dengg mmm said wernt gna cry balled,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1486,Aman Kathait,31/05/2021 12:40:17,stm video berlin gig last year enjoy,1,positive,0.20,1.0,0.0,0.0,0.0,0.0,0,1.00
+1487,Aman Kathait,31/05/2021 12:40:18,state survival subscribe youtube,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1502,Aman Kathait,31/05/2021 12:40:19,figgins bat angels top rd hit field rangers bat bottom rd n outfield lol,2,Very positive,0.65,0.0,0.17,0.67,0.0,0.17,2,0.67
+1505,Aman Kathait,31/05/2021 12:40:19,lt best friends jennie ashleigh teresa mimiamp danny baseball banquet tonight,2,Very positive,1.00,0.5,0.0,0.5,0.0,0.0,0,0.00
+1507,Aman Kathait,31/05/2021 12:40:20,lt hubby work saturdays still sleeping,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1509,Aman Kathait,31/05/2021 12:40:20,lt bgt miley cyrus follow love,1,positive,0.50,1.0,0.0,0.0,0.0,0.0,0,1.00
+1513,Aman Kathait,31/05/2021 12:40:20,lt happy camper right downloaded tons awesome songs ahh memories,2,Very positive,0.70,0.33,0.0,0.33,0.0,0.33,0,0.33
+1515,Aman Kathait,31/05/2021 12:40:21,lt greatest hubby world wanted share,2,Very positive,1.00,0,0,0,0,0,0,0.00
+1516,Aman Kathait,31/05/2021 12:40:21,lt come still dont one,0,neutral,0.00,0,0,0,0,0,0,0.00
+1520,Aman Kathait,31/05/2021 12:40:21,lt poor spent expected makeup show lmaoo much project pan hahaha,3,negative,-0.04,0.5,0.0,0.0,0.5,0.0,0,0.00
+1521,Aman Kathait,31/05/2021 12:40:21,lt signinout nice daynight,2,Very positive,0.60,1.0,0.0,0.0,0.0,0.0,0,1.00
+1522,Aman Kathait,31/05/2021 12:40:21,lt violinsgt quite sure going lt violinsgt,1,positive,0.50,0.0,0.0,0.0,0.0,1.0,0,1.00
+1523,Aman Kathait,31/05/2021 12:40:21,quot im going try find pictures x factor tour know loads find reason quot,0,neutral,0.00,0.0,0.0,0.25,0.25,0.5,0,0.50
+1528,Aman Kathait,31/05/2021 12:40:22,quot dont worry happy quot,2,Very positive,0.80,0.5,0.0,0.0,0.5,0.0,0,0.00
+1533,Aman Kathait,31/05/2021 12:40:23,quot wish smile favorite kind smile wish way dress favorite kind stylequot,1,positive,0.47,1.0,0.0,0.0,0.0,0.0,0,1.00
+1534,Aman Kathait,31/05/2021 12:40:23,quot family bird wordquot lt family guy,0,neutral,0.00,0.0,0.33,0.67,0.0,0.0,2,0.67
+1535,Aman Kathait,31/05/2021 12:40:23,quot feliz dia mamiiiiii te amooo dios te bendigaa gracias quot jackelin celedon mares facebook spanish better mine,1,positive,0.25,0.0,0.0,1.0,0.0,0.0,2,1.00
+1541,Aman Kathait,31/05/2021 12:40:23,quot follow u guys twitter comrandallw tell friend tell friend please n thanks quot,1,positive,0.20,0.33,0.0,0.0,0.67,0.0,3,0.67
+1544,Aman Kathait,31/05/2021 12:40:24,quot kingdom god righteousness peace joy holy spiritquot romans,2,Very positive,0.80,0.0,0.0,1.0,0.0,0.0,2,1.00
+1547,Aman Kathait,31/05/2021 12:40:24,quot fuck friendsquot made feel great,1,positive,0.20,0.67,0.0,0.0,0.33,0.0,0,0.67
+1549,Aman Kathait,31/05/2021 12:40:24,quot future pc froze quot,0,neutral,0.00,0,0,0,0,0,0,0.00
+1553,Aman Kathait,31/05/2021 12:40:25,quot give us money quot quot elmo knows youu livequot hahahalt msn sounds crack x,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1560,Aman Kathait,31/05/2021 12:40:26,quot got love killquot juliette amp licks julian wilsons section stranger fiction amazing,2,Very positive,0.55,0.5,0.0,0.5,0.0,0.0,0,0.00
+1561,Aman Kathait,31/05/2021 12:40:26,quot got super soaker pussy pop like cola coca plus tighter den choker got smilin like joker quot nicki fix,1,positive,0.33,0,0,0,0,0,0,0.00
+1562,Aman Kathait,31/05/2021 12:40:26,quot got news today doctor said wait little bit longer ill finequot awww cant listen song makes sad,3,negative,-0.20,0.0,0.0,0.5,0.5,0.0,0,0.00
+1564,Aman Kathait,31/05/2021 12:40:26,quot gravity always convenient quot mr donde lol dropped phone thought saying,2,Very positive,0.80,0.25,0.0,0.5,0.25,0.0,2,0.50
+1565,Aman Kathait,31/05/2021 12:40:27,quot ha ha quot premature psp go reveal sony must arms also looks ugly hell,4,Very negative,-0.70,0.0,0.0,0.33,0.67,0.0,3,0.67
+1567,Aman Kathait,31/05/2021 12:40:27,quot lesbian gay bisexual students times likely skip school per cent drop outquot,1,positive,0.21,0.5,0.0,0.0,0.0,0.5,0,0.50
+1571,Aman Kathait,31/05/2021 12:40:27,quot lt monicagt tenk p neophos da lt monicagt han blir jo et berg lt monicagt feit og vakkerquot,0,neutral,0.00,0,0,0,0,0,0,0.00
+1574,Aman Kathait,31/05/2021 12:40:28,quot begging begging ooh ooh ooh quot know song called sings love lol,2,Very positive,0.65,0.17,0.0,0.5,0.33,0.0,2,0.50
+1579,Aman Kathait,31/05/2021 12:40:29,quot quot best love give e mail want write cant,2,Very positive,0.75,0.33,0.0,0.33,0.0,0.33,0,0.33
+1585,Aman Kathait,31/05/2021 12:40:29,quot day without laughter wasted dayquot laughed alot day success,1,positive,0.27,0.67,0.0,0.0,0.33,0.0,0,0.67
+1587,Aman Kathait,31/05/2021 12:40:29,quot sound mind sound bodyquot anima sana corpore sano asiscs latin mommy new pair shoes,1,positive,0.31,0.0,0.0,0.5,0.0,0.5,0,0.50
+1589,Aman Kathait,31/05/2021 12:40:30,quot well spent day brings happy sleep quot leonardo da vinci good night happy land,2,Very positive,0.55,0.67,0.0,0.0,0.17,0.17,0,0.67
+1590,Aman Kathait,31/05/2021 12:40:30,quot thc tr vit nam cn thua thi lan v l oquot nghe au xt qu,0,neutral,0.00,0,0,0,0,0,0,0.00
+1598,Aman Kathait,31/05/2021 12:40:31,quot har ghadi mujhe jiska nasha hai ek bewafaa haiquot song today,0,neutral,0.00,0,0,0,0,0,0,0.00
+1601,Aman Kathait,31/05/2021 12:40:31,quot allquot babysitting sick joey amp attending webinar time computer amp joey dsi later jr scrabble,3,negative,-0.36,0.0,0.0,0.0,1.0,0.0,3,1.00
+1612,Aman Kathait,31/05/2021 12:40:33,quot hes quot lt movie,0,neutral,0.00,0,0,0,0,0,0,0.00
+1615,Aman Kathait,31/05/2021 12:40:33,quot hey girl hey doin girl quot hah hey seestar,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1618,Aman Kathait,31/05/2021 12:40:33,quot hey guess quot quot quot quot thats quot lmfao,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1622,Aman Kathait,31/05/2021 12:40:34,quot history remembers kings soldiersquot always prefer king gt,0,neutral,0.00,0.33,0.0,0.0,0.33,0.33,0,0.33
+1629,Aman Kathait,31/05/2021 12:40:35,quot ah brandon youre annoying going paint eyeballs dark color blind quot christopher thems fightin words,3,negative,-0.48,0.0,0.2,0.0,0.6,0.2,3,0.60
+1630,Aman Kathait,31/05/2021 12:40:35,quot apps datequot pfft want,0,neutral,0.00,0,0,0,0,0,0,0.00
+1633,Aman Kathait,31/05/2021 12:40:35,quot small thingsquot help get attentionquot,3,negative,-0.25,0.0,0.0,1.0,0.0,0.0,2,1.00
+1637,Aman Kathait,31/05/2021 12:40:36,quot allah kareemquot album run stores buy copy album also available wassoufbook com congrats,1,positive,0.40,0,0,0,0,0,0,0.00
+1643,Aman Kathait,31/05/2021 12:40:37,quot breathe heart pray strength stand today cause love whether wrong rightquot,0,neutral,0.00,0.17,0.0,0.0,0.17,0.67,0,0.67
+1651,Aman Kathait,31/05/2021 12:40:37,quot gun quot awesome lines week,2,Very positive,1.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+1654,Aman Kathait,31/05/2021 12:40:38,deck mufuckassssss saw cute chick today ashy toes corns pinky toe fuckeddd smh,1,positive,0.50,0.5,0.0,0.5,0.0,0.0,0,0.00
+1655,Aman Kathait,31/05/2021 12:40:38,catch abortion please,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1656,Aman Kathait,31/05/2021 12:40:38,bc america stupid adam top radio charts,3,negative,-0.15,0.0,0.0,0.5,0.0,0.5,0,0.50
+1660,Aman Kathait,31/05/2021 12:40:38,peeps next twitter milestone followers think something else posters give away,0,neutral,0.00,0.0,0.25,0.25,0.25,0.25,0,0.25
+1663,Aman Kathait,31/05/2021 12:40:39,france think got abducted aliens,0,neutral,0.00,0.0,0.0,0.5,0.0,0.5,0,0.50
+1664,Aman Kathait,31/05/2021 12:40:39,people atlantic missing,3,negative,-0.20,0.0,0.0,0.0,1.0,0.0,3,1.00
+1665,Aman Kathait,31/05/2021 12:40:39,france nothing yet fly route always afraid think fear see happening hope didnt,1,positive,0.10,0.0,0.0,0.2,0.4,0.4,0,0.40
+1678,Aman Kathait,31/05/2021 12:40:40,duno work twitter haha,1,positive,0.20,0.0,0.0,0.0,0.5,0.5,0,0.50
+1679,Aman Kathait,31/05/2021 12:40:40,odd transition anyone know video,3,negative,-0.17,0.0,1.0,0.0,0.0,0.0,1,1.00
+1680,Aman Kathait,31/05/2021 12:40:40,quot never ever let inquot woooah love song kelsey metro station,1,positive,0.50,0.33,0.0,0.33,0.33,0.0,0,0.00
+1681,Aman Kathait,31/05/2021 12:40:40,quot angels amp demonsquot current favorite movie awesome watched mami amp aunt,1,positive,0.50,0.25,0.0,0.75,0.0,0.0,2,0.75
+1683,Aman Kathait,31/05/2021 12:40:40,quot man drive safely kissing pretty girl giving kiss attention deserves quot albert einstein,1,positive,0.38,0.2,0.0,0.2,0.0,0.6,0,0.60
+1685,Aman Kathait,31/05/2021 12:40:41,quot anyone want follow tonight depressed lonely,3,negative,-0.10,0.0,0.0,0.0,1.0,0.0,3,1.00
+1690,Aman Kathait,31/05/2021 12:40:41,quot arsenic old lacequot tv one favorite old movies believe perfect bewitching hour,1,positive,0.48,0.5,0.0,0.0,0.5,0.0,0,0.00
+1691,Aman Kathait,31/05/2021 12:40:41,quot soon receive documents admission decision made little two weeks quot taken act earlier,3,negative,-0.09,0.0,0.0,0.4,0.4,0.2,0,0.20
+1693,Aman Kathait,31/05/2021 12:40:42,quot ask followers follow reach friday th june hysterical wins taquot louise,3,negative,-0.35,0.0,0.0,0.0,0.0,1.0,0,1.00
+1694,Aman Kathait,31/05/2021 12:40:42,quot fedex destination facility elmsford nyquot evil cackle laptop eod,4,Very negative,-1.00,0,0,0,0,0,0,0.00
+1702,Aman Kathait,31/05/2021 12:40:43,quot strong put hope lord never give quot psalm,1,positive,0.43,0.25,0.0,0.0,0.25,0.5,0,0.50
+1711,Aman Kathait,31/05/2021 12:40:43,quot horses assholequot hah mom best,2,Very positive,1.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1716,Aman Kathait,31/05/2021 12:40:44,quot thick quot know say,3,negative,-0.30,0.0,0.0,1.0,0.0,0.0,2,1.00
+1724,Aman Kathait,31/05/2021 12:40:45,quot hour champange dietquot sike still drinking kool aid,0,neutral,0.00,0,0,0,0,0,0,0.00
+1728,Aman Kathait,31/05/2021 12:40:45,quot givee anything loveequot daniel schuhmacher,0,neutral,0.00,0,0,0,0,0,0,0.00
+1731,Aman Kathait,31/05/2021 12:40:46,quot beeeeelieveeeee feelin unusualllll quot miss danity kane already,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1734,Aman Kathait,31/05/2021 12:40:46,quot choose stand generatiooonnquot pick planetshakers perfect moodswitcher,2,Very positive,1.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+1741,Aman Kathait,31/05/2021 12:40:47,wow quot hey boy hey girlquot mr sam mashing crap everything owning joint hardhardhard like much,3,negative,-0.17,0.0,0.0,0.8,0.2,0.0,2,0.80
+1743,Aman Kathait,31/05/2021 12:40:47,meetme like want documentation implement either,0,neutral,0.00,0,0,0,0,0,0,0.00
+1746,Aman Kathait,31/05/2021 12:40:47,im converted im jared girl,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1757,Aman Kathait,31/05/2021 12:40:48,e right live feed idiots,3,negative,-0.13,0.0,0.0,0.0,0.0,1.0,0,1.00
+1759,Aman Kathait,31/05/2021 12:40:48,u shoulda spent less time sucking speaking rob add xxx likey porno,3,negative,-0.13,0.0,0.0,0.0,0.5,0.5,0,0.50
+1762,Aman Kathait,31/05/2021 12:40:49,good massage amp sexy girl amp real photo w beijing hi,1,positive,0.47,0.33,0.0,0.33,0.33,0.0,0,0.00
+1763,Aman Kathait,31/05/2021 12:40:49,good massage amp sexy girl amp real photo w beijing hi,1,positive,0.47,0.33,0.0,0.33,0.33,0.0,0,0.00
+1766,Aman Kathait,31/05/2021 12:40:49,grand rofl help bit grandad time hilarious lol good singing girl tho good performance,2,Very positive,0.67,0.5,0.0,0.5,0.0,0.0,0,0.00
+1768,Aman Kathait,31/05/2021 12:40:49,come susan boyle hot mess,1,positive,0.04,0.0,0.5,0.0,0.5,0.0,0,0.00
+1770,Aman Kathait,31/05/2021 12:40:50,flawless good want see diversity come,2,Very positive,0.85,1.0,0.0,0.0,0.0,0.0,0,1.00
+1773,Aman Kathait,31/05/2021 12:40:50,love grand think really sweet holly amazing singer year old really love julian,1,positive,0.43,0.29,0.0,0.71,0.0,0.0,2,0.71
+1781,Aman Kathait,31/05/2021 12:40:51,sweet understanding step mom,1,positive,0.35,0,0,0,0,0,0,0.00
+1783,Aman Kathait,31/05/2021 12:40:51,demonstration bd education soon start everybody go work,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1784,Aman Kathait,31/05/2021 12:40:51,new search engine simply love google,1,positive,0.32,1.0,0.0,0.0,0.0,0.0,0,1.00
+1790,Aman Kathait,31/05/2021 12:40:52,help hit uninsured driver,0,neutral,0.00,0.0,0.5,0.5,0.0,0.0,0,0.00
+1796,Aman Kathait,31/05/2021 12:40:52,last night miami hmph wasnt leftt,0,neutral,0.00,0,0,0,0,0,0,0.00
+1797,Aman Kathait,31/05/2021 12:40:52,yr n livest yrs spotlite flex shows n older parties wen anybody died,1,positive,0.17,0.0,0.0,0.0,0.0,1.0,0,1.00
+1810,Aman Kathait,31/05/2021 12:40:54,quot high goodbyes leaves nothing blistersquot,1,positive,0.16,0.0,0.0,0.0,0.5,0.5,0,0.50
+1811,Aman Kathait,31/05/2021 12:40:54,quot want back go headquot,0,neutral,0.00,0,0,0,0,0,0,0.00
+1824,Aman Kathait,31/05/2021 12:40:56,quot pronounce second class citizensquot fresh post free second class citizen cake,1,positive,0.17,0.33,0.0,0.67,0.0,0.0,2,0.67
+1833,Aman Kathait,31/05/2021 12:40:57,news retirees protest molson brewery st johns announced cuts pension plan covered free beer,1,positive,0.40,0.5,0.0,0.0,0.0,0.5,0,0.50
+1835,Aman Kathait,31/05/2021 12:40:57,seem falling lot must mean skating extra hard tonight,3,negative,-0.20,0.0,0.33,0.0,0.67,0.0,3,0.67
+1839,Aman Kathait,31/05/2021 12:40:57,hearingdogs airambulance madecharity lt follow pls,0,neutral,0.00,0,0,0,0,0,0,0.00
+1840,Aman Kathait,31/05/2021 12:40:57,family lose mum preventable illness,0,neutral,0.00,0.0,0.0,0.67,0.33,0.0,2,0.67
+1843,Aman Kathait,31/05/2021 12:40:58,dont like fact japenese shop closed may way ages aint,3,negative,-0.10,0.33,0.33,0.0,0.0,0.33,0,0.33
+1845,Aman Kathait,31/05/2021 12:40:58,rides chicago atlantic city riders needed skokie il hello leaving,0,neutral,0.00,0,0,0,0,0,0,0.00
+1854,Aman Kathait,31/05/2021 12:40:59,patty perkins vp desktop video manager wachovia next understand many opps happening,1,positive,0.25,0,0,0,0,0,0,0.00
+1859,Aman Kathait,31/05/2021 12:41:00,fame class set new site host,1,positive,0.14,0.0,0.0,0.5,0.0,0.5,0,0.50
+1865,Aman Kathait,31/05/2021 12:41:00,sun meant cool breeze deceptive damn hate fair skinned even tan burn freckle,1,positive,0.08,0.25,0.0,0.0,0.5,0.25,3,0.50
+1866,Aman Kathait,31/05/2021 12:41:01,dch v rao vt thu bc c chim ng l dn qung co,0,neutral,0.00,0,0,0,0,0,0,0.00
+1868,Aman Kathait,31/05/2021 12:41:01,twitter woooooooo downtown enjoying last bit sunshine,1,positive,0.25,0.5,0.0,0.0,0.5,0.0,0,0.00
+1875,Aman Kathait,31/05/2021 12:41:01,finally sparked interest alan wash tudyk ftw,0,neutral,0.00,0.33,0.0,0.0,0.0,0.67,0,0.67
+1876,Aman Kathait,31/05/2021 12:41:01,around never know difference,0,neutral,0.00,0,0,0,0,0,0,0.00
+1877,Aman Kathait,31/05/2021 12:41:01,lauryn hill aint got shi gether yet miss man,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+1882,Aman Kathait,31/05/2021 12:41:02,quot block everythingquot says china,0,neutral,0.00,0.0,0.0,1.0,0.0,0.0,2,1.00
+1889,Aman Kathait,31/05/2021 12:41:03,quot boyquot prepared talk flirt everything buuuut great time,2,Very positive,0.80,0.5,0.0,0.0,0.5,0.0,0,0.00
+1894,Aman Kathait,31/05/2021 12:41:03,quot bruises become prominent time lapses quot wikipedia,1,positive,0.50,0.0,0.0,1.0,0.0,0.0,2,1.00
+1899,Aman Kathait,31/05/2021 12:41:04,quot somewhere went wrongquot song happened,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1904,Aman Kathait,31/05/2021 12:41:05,quot bye byequot cleveland sassy,0,neutral,0.00,0,0,0,0,0,0,0.00
+1908,Aman Kathait,31/05/2021 12:41:05,quot calvin amp hobbes dayquot removed igoogle rigth,0,neutral,0.00,0,0,0,0,0,0,0.00
+1911,Aman Kathait,31/05/2021 12:41:06,quot shall twitter moment quot,0,neutral,0.00,0.0,0.0,0.0,0.5,0.5,0,0.50
+1920,Aman Kathait,31/05/2021 12:41:07,quot thinking italian vamos came lets go quot rossi said rossi born us played soccer,0,neutral,0.00,0.0,0.0,0.5,0.33,0.17,2,0.50
+1922,Aman Kathait,31/05/2021 12:41:07,quot slap baby right crotch quot alvin quot im going punch beaver quot samsam help,1,positive,0.29,0.0,0.0,0.25,0.0,0.75,0,0.75
+1923,Aman Kathait,31/05/2021 12:41:07,quot wish would step back ledge friend quot third eye blind yes man inspired say,3,negative,-0.17,0.4,0.0,0.2,0.2,0.2,0,0.40
+1934,Aman Kathait,31/05/2021 12:41:08,quot customer support traffic indication django popular professional app engine developers quot pythonee,1,positive,0.35,0,0,0,0,0,0,0.00
+1937,Aman Kathait,31/05/2021 12:41:09,excited friday tired long work week even enjoy damn tired,3,negative,-0.02,0.25,0.0,0.0,0.25,0.5,0,0.50
+1940,Aman Kathait,31/05/2021 12:41:09,twitter wont tt dealing ugh,0,neutral,0.00,0.0,0.0,0.0,1.0,0.0,3,1.00
+1943,Aman Kathait,31/05/2021 12:41:09,loosing remote impossible change channels,3,negative,-0.38,0,0,0,0,0,0,0.00
+1945,Aman Kathait,31/05/2021 12:41:09,fact lot things easier said done,0,neutral,0.00,0.0,0.0,0.67,0.33,0.0,2,0.67
+1949,Aman Kathait,31/05/2021 12:41:10,goolish lookin females double take shit madd scary son like want kidnap u somethin,3,negative,-0.23,0.0,0.0,0.33,0.0,0.67,0,0.67
+1951,Aman Kathait,31/05/2021 12:41:10,u really great thought leaves ur mind sorry guys lol,1,positive,0.37,0.2,0.0,0.6,0.2,0.0,2,0.60
+1952,Aman Kathait,31/05/2021 12:41:11,u outfit mind tht u want wear last min u realize either dirty u fit anymore,3,negative,-0.07,0.33,0.33,0.33,0.0,0.0,0,0.00
+1956,Aman Kathait,31/05/2021 12:41:11,get early work saturday,1,positive,0.10,0.0,0.0,0.0,0.0,1.0,0,1.00
+1959,Aman Kathait,31/05/2021 12:41:12,finally nice days rain n u got stuck work damn day,2,Very positive,0.60,0.5,0.0,0.0,0.0,0.5,0,0.50
+1964,Aman Kathait,31/05/2021 12:41:12,discussion unitarians libertarian sitting gigantic anthill loved jesus much civil,1,positive,0.45,1.0,0.0,0.0,0.0,0.0,0,1.00
+1965,Aman Kathait,31/05/2021 12:41:12,norm coffee cups pocketbooks etc,0,neutral,0.00,0,0,0,0,0,0,0.00
+1966,Aman Kathait,31/05/2021 12:41:12,quot survivors would worlds worst aviation disaster since quot gosh,4,Very negative,-1.00,0.0,0.0,0.0,0.67,0.33,3,0.67
+1972,Aman Kathait,31/05/2021 12:41:13,quot frikkin tard prevail quot name movie,0,neutral,0.00,0,0,0,0,0,0,0.00
+1973,Aman Kathait,31/05/2021 12:41:13,quot ill fight til die say goodbye amp let pass mequot,3,negative,-0.50,0.0,0.0,0.25,0.75,0.0,3,0.75
+1982,Aman Kathait,31/05/2021 12:41:14,quot im going go withdrawals seeing youquot cutest thing heard someone,0,neutral,0.00,0.0,0.0,0.67,0.0,0.33,2,0.67
+1984,Aman Kathait,31/05/2021 12:41:15,quot im wana ride rest life wana hold u mornin hold u nightquot,0,neutral,0.00,0.0,0.0,0.0,0.0,1.0,0,1.00
+1994,Aman Kathait,31/05/2021 12:41:16,quot imma club whatever likequot,0,neutral,0.00,0,0,0,0,0,0,0.00
+1996,Aman Kathait,31/05/2021 12:41:17,quot biscuit quot quot quot quot tea quot quot quot quot lick quot quot quot aw brilliant,2,Very positive,0.90,1.0,0.0,0.0,0.0,0.0,0,1.00
+2000,Aman Kathait,31/05/2021 12:41:17,quot cant understand slow quot loving hey monday song,1,positive,0.15,0.5,0.0,0.5,0.0,0.0,0,0.00
+2002,Aman Kathait,31/05/2021 12:41:18,quot carnations haha douche bag quot lmfao amazing thumbs love zac sterlinglt want go watch,1,positive,0.43,0.25,0.0,0.75,0.0,0.0,2,0.75
+2007,Aman Kathait,31/05/2021 12:41:18,quot come back mequot david cook one creative music videos ever brilliant,1,positive,0.47,0.5,0.0,0.5,0.0,0.0,0,0.00
+2012,Aman Kathait,31/05/2021 12:41:20,quot completely dishwasher safe except pattern might come quot blue coat humour best three cheers viz,1,positive,0.40,0.2,0.2,0.2,0.4,0.0,3,0.40
+2014,Aman Kathait,31/05/2021 12:41:20,quot cookoutquot hilarious passing buds,1,positive,0.50,1.0,0.0,0.0,0.0,0.0,0,1.00
+2025,Aman Kathait,31/05/2021 15:32:43,i am happy,2,Very positive,0.80,1.0,0.0,0.0,0.0,0.0,0,1.00
+2026,Aman Kathait,31/05/2021 15:33:54,i love my friend but i hate my enemy,3,negative,-0.15,0.67,0.0,0.0,0.33,0.0,0,0.67
