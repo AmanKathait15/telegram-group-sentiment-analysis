@@ -100,7 +100,7 @@ type command in terminal : **pip install text2emotion**  check latest version [h
  
  ## Step 3 - Run in your system
  
- type command in terminal : **python3 bot.py** then **python3 app.py** then enter input using telegram app
+ type command in terminal : **python3 bot_local.py** then **python3 app.py** then enter input using telegram app
  
  ## Step 4 deploy bot in cloud
  
