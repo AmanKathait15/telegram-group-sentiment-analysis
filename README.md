@@ -79,7 +79,7 @@
  11 text2emotion\
  12 Flask
  
- ## installation
+ ## Step 1 - installation
  
 type command in terminal : **pip install -r requirement.txt**
 
@@ -90,3 +90,30 @@ type command in terminal : **pip install pyTelegramBotAPI**  check latest versio
 type command in terminal : **pip install telepot**  check latest version [here](https://pypi.org/project/telepot/)<br>
 type command in terminal : **pip install text2emotion**  check latest version [here](https://pypi.org/project/text2emotion/)<br>
 
+ ## Step 2 - Enter your bot token , telegram group id and Heroku Web App url in confi.py file
+ 
+ ![final output screen shot](https://github.com/AmanKathait15/telegram-group-sentiment-analysis/blob/main/readme_images/config.png)
+ 
+ to know how to create telegram bot check this [article](https://sendpulse.com/knowledge-base/chatbot/create-telegram-chatbot)
+ 
+ to find telegram group id check [this](https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id)
+ 
+ ## Step 3 - Run in your system
+ 
+ type command in terminal : **python3 bot.py** then **python3 app.py** then enter input using telegram app
+ 
+ ## Step 4 deploy bot in cloud
+ 
+ first create an app in [Herkou](https://dashboard.heroku.com/login) then follow their guidelines step by step.
+ 
+ ## References
+ 
+ [https://docs.python.org/3/library/tkinter.html](https://docs.python.org/3/library/tkinter.html)\
+ [https://towardsdatascience.com/twitter-sentiment-analysis-using-fasttext-9ccd04465597](https://towardsdatascience.com/twitter-sentiment-analysis-using-fasttext-9ccd04465597)\
+ [https://towardsdatascience.com/twitter-sentiment-analysis-classification-using-nltk-python-fa912578614c](https://towardsdatascience.com/twitter-sentiment-analysis-classification-using-nltk-python-fa912578614c)\
+ [https://textblob.readthedocs.io/en/dev/](https://textblob.readthedocs.io/en/dev/)\
+ [https://www.youtube.com/watch?v=eFdPGpny_hY](https://www.youtube.com/watch?v=eFdPGpny_hY)\
+ [https://pypi.org/project/googletrans/](https://pypi.org/project/googletrans/)\
+ [https://textblob.readthedocs.io/en/dev/_modules/textblob/classifiers.html](https://textblob.readthedocs.io/en/dev/_modules/textblob/classifiers.html)\
+ [https://textblob.readthedocs.io/en/dev/classifiers.html](https://textblob.readthedocs.io/en/dev/classifiers.html)\
+ [https://www.geeksforgeeks.org/saving-a-machine-learning-model/](https://www.geeksforgeeks.org/saving-a-machine-learning-model/)
